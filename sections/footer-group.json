@@ -5,37 +5,102 @@
     "footer": {
       "type": "footer",
       "blocks": {
-        "footer-0": {
-          "type": "link_list",
-          "settings": {
-            "heading": "Quick links",
-            "menu": "footer"
-          }
-        },
-        "footer-1": {
-          "type": "link_list",
-          "settings": {
-            "heading": "Info",
-            "menu": "footer"
-          }
-        },
         "footer-2": {
           "type": "text",
           "settings": {
-            "heading": "Our mission",
-            "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
+            "heading": "SUBSCRIPTIONS",
+            "subtext": "<h4><a href=\"\/collections\/subscriptions\" title=\"SUBSCRIPTIONS\">All Subscriptions<br\/><\/a><a href=\"\/products\/coffee-masterpieces\" title=\"MASTERPIECE SUBSCRIPTION\">Masterpiece<br\/><\/a><a href=\"\/products\/coffee-subscription-curated\" title=\"CURATED\">Curated<br\/><\/a><a href=\"\/products\/coffee-espresso-of-the-month\" title=\"ESPRESSO OF THE MONTH\">Espresso Of The Month<br\/><\/a><a href=\"\/products\/low-caffeine-coffee\" title=\"LOW CAF\">Low Caf<br\/><\/a><a href=\"\/products\/house-coffee-subscription\" title=\"HOUSE\">House<br\/><\/a><a href=\"\/products\/coffee-trial-subscription\" title=\"TRIAL SUBSCRIPTION\">Trial Subscription<\/a><\/h4>"
+          }
+        },
+        "text_jmGVew": {
+          "type": "text",
+          "settings": {
+            "heading": "COFFEE BEANS",
+            "subtext": "<h4><a href=\"\/collections\/espresso-coffee\" title=\"Espresso Coffee Beans | THE BARN Coffee Roasters\">Espresso<\/a><br\/><a href=\"\/collections\/filter-coffee\" title=\"Filter Coffee Beans | THE BARN Coffee Roasters\">Filter<\/a><br\/><a href=\"\/collections\/low-caf-coffee-beans\" title=\"Low Caf Coffee Beans\">Low Caf<\/a><br\/><a href=\"\/collections\/coffee-beans-specials\" title=\"Coffee Specials\">Specials<\/a><\/h4>"
+          }
+        },
+        "text_ryNmKT": {
+          "type": "text",
+          "settings": {
+            "heading": "SHOP",
+            "subtext": "<h4><a href=\"\/collections\/instant-drip\" title=\"SPECIALTY INSTANT & DRIP BAGS\">Instant & Drip Bags<br\/><\/a><a href=\"\/products\/specialty-coffee-capsules\" title=\"COFFEE CAPSULES\">Capsules<\/a><br\/><a href=\"\/collections\/equipment\" title=\"EQUIPMENT\">Equipment\u2028<br\/><\/a><a href=\"\/collections\/merchandise\" title=\"MERCHANDISE\">Merchandise<\/a>\u2028<br\/><a href=\"\/collections\/vouchers\" title=\"VOUCHERS\">Vouchers<\/a><\/h4>"
+          }
+        },
+        "text_7YVhiB": {
+          "type": "text",
+          "settings": {
+            "heading": "SUSTAINABILITY",
+            "subtext": "<h4><a href=\"\/products\/plant-a-tree\" title=\"DONATE A TREE\">Donate Trees<br\/><\/a><a href=\"\/blogs\/the-barn-blog\/sustainability\" title=\"Sustainability\">Climate Mission<\/a><a href=\"\/products\/plant-a-tree\" title=\"DONATE A TREE\"><br\/><\/a><a href=\"\/pages\/approaching-sustainability\" title=\"Approaching Sustainability\">Approaching Sustainability<\/a><\/h4>"
+          }
+        },
+        "text_A4H7YC": {
+          "type": "text",
+          "settings": {
+            "heading": "GIFTS",
+            "subtext": "<h4><a href=\"\/collections\/coffee-gifts\" title=\"Coffee Gifts\">Gift Shop<\/a><\/h4>"
+          }
+        },
+        "text_McYWMP": {
+          "type": "text",
+          "settings": {
+            "heading": "BLOG",
+            "subtext": "<h4><a href=\"\/blogs\/the-barn-blog\" title=\"BLOG\">Articles & Education\u2028<\/a><\/h4>"
+          }
+        },
+        "text_EQaTYx": {
+          "type": "text",
+          "settings": {
+            "heading": "GUIDES",
+            "subtext": "<h4><a href=\"\/pages\/brew-guides\" title=\"Brew Guides\">Brew Guides<\/a><a href=\"\/pages\/signature-drinks\" title=\"SIGNATURE DRINKS\"><br\/>Signature Drinks<\/a><\/h4>"
+          }
+        },
+        "text_K3Qjn8": {
+          "type": "text",
+          "settings": {
+            "heading": "WHOLESALE",
+            "subtext": "<h4><a href=\"\/pages\/wholesale\" title=\"Wholesale\">Contact Form<\/a><\/h4>"
+          }
+        },
+        "text_3GkJhk": {
+          "type": "text",
+          "settings": {
+            "heading": "ABOUT",
+            "subtext": "<h4><a href=\"\/pages\/aboutus\" title=\"About Us\">About Us<br\/><\/a><a href=\"\/pages\/team\" title=\"Team\">Team\u2028<\/a><br\/><a href=\"\/pages\/locations\" title=\"Locations\">Locations<br\/><\/a><a href=\"\/pages\/careers\" title=\"Careers\">Careers<\/a><\/h4>"
+          }
+        },
+        "text_PzeCRQ": {
+          "type": "text",
+          "settings": {
+            "heading": "QUICK LINKS",
+            "subtext": "<h4><a href=\"\/pages\/faq-the-barn-coffee-roasters\" title=\"Frequently Asked Questions | The Barn Coffee Roasters\">FAQ<\/a><br\/><a href=\"\/policies\/shipping-policy\" title=\"Shipping Policy\">Shipping<br\/><\/a><a href=\"\/pages\/contact\" title=\"CONTACT\">Contact<\/a><br\/><a href=\"\/pages\/press\" title=\"Press\">Press<\/a><\/h4>"
+          }
+        },
+        "text_yRyzde": {
+          "type": "text",
+          "settings": {
+            "heading": "LEGAL",
+            "subtext": "<h4><a href=\"\/policies\/legal-notice\" title=\"Legal Notice\">Imprint<\/a><br\/><a href=\"\/policies\/privacy-policy\" title=\"Privacy Policy\">Privacy Policy<\/a><br\/><a href=\"\/policies\/terms-of-service\" title=\"Terms of Service\">Terms & Conditions<\/a><br\/><a href=\"\/policies\/refund-policy\" title=\"Refund Policy\">Right of Revocation<\/a><\/h4>"
           }
         }
       },
       "block_order": [
-        "footer-0",
-        "footer-1",
-        "footer-2"
+        "footer-2",
+        "text_jmGVew",
+        "text_ryNmKT",
+        "text_7YVhiB",
+        "text_A4H7YC",
+        "text_McYWMP",
+        "text_EQaTYx",
+        "text_K3Qjn8",
+        "text_3GkJhk",
+        "text_PzeCRQ",
+        "text_yRyzde"
       ],
       "settings": {
         "color_scheme": "scheme-1",
         "newsletter_enable": true,
         "newsletter_heading": "Subscribe to our emails",
+        "enable_follow_on_shop": false,
         "show_social": true,
         "enable_country_selector": false,
         "enable_language_selector": false,

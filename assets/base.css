@@ -3442,3 +3442,39 @@ details-disclosure > details {
     --border-offset: 0px; /* Prevent the border from growing on buttons when this effect is on. */
   }
 }
+
+/* Custom Code Added from here down */
+
+.media img {
+ 
+  background-color:#1C1D1C;
+}
+
+ .rc-subscription-details {
+        display: none !important;
+    }
+
+.rc-template__button-group .rc-button-group__options .rc-radio .price-label {
+    font-size: 1em !important;
+    font-weight: 100 !important;
+}
+
+.rc-radio__label .discount-label {
+  font-size: 1.3rem !important;
+}
+
+@font-face {
+    font-family: 'Chalet Comprime';
+    src: url(https://cdn.shopify.com/s/files/1/0831/4141/files/ChaletComprime-CologneSixty.woff?v=1706207861) format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+  
+
+tagname or .classname or #id{
+
+  font-family: 'Chalet Comprime'
+
+}
+

@@ -115,7 +115,7 @@
     "show_cart_note": false,
     "cart_drawer_collection": "",
     "color_profile_balanced": "#8e7149",
-    "color_profile_terrior": "rgba(0,0,0,0)",
+    "color_profile_terrior": "#0f841e",
     "color_profile_exotic": "#b26119",
     "sections": {
       "main-password-header": {

@@ -5,7 +5,7 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
-        "announcement-bar-0": {
+        "announcement_tN6g6G": {
           "type": "announcement",
           "settings": {
             "text": "Welcome to our store",
@@ -14,7 +14,7 @@
         }
       },
       "block_order": [
-        "announcement-bar-0"
+        "announcement_tN6g6G"
       ],
       "settings": {
         "color_scheme": "",

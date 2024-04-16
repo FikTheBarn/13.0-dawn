@@ -140,7 +140,7 @@
           "button": "#804d15",
           "button_label": "#ffffff",
           "secondary_button_label": "#ffffff",
-          "shadow": "#ffffff"
+          "shadow": "rgba(0,0,0,0)"
         }
       },
       "scheme-2": {

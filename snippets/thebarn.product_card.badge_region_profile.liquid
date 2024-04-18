@@ -8,11 +8,15 @@
 {% assign profile = card_product.metafields.bean.profile | escape | downcase %}
 
 {% case profile %}
-  {% when 'exotic' %}
-    {% assign background = settings.color_profile_terrior %}
-  {% when 'terrior' %}
-    {% assign background = settings.color_profile_balanced %}
   {% when 'balanced' %}
+    {% assign background = settings.color_profile_balanced %}
+  {% when 'ausgewogen' %}
+    {% assign background = settings.color_profile_balanced %}
+  {% when 'terroir' %}
+    {% assign background = settings.color_profile_terroir %}
+  {% when 'exotic' %}
+    {% assign background = settings.color_profile_exotic %}
+  {% when 'exotisch' %}
     {% assign background = settings.color_profile_exotic %}
 {% endcase %}
 

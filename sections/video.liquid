@@ -58,7 +58,6 @@
         style="--ratio-percent: {{ 1 | divided_by: poster.aspect_ratio | times: 100 }}%;"
       {% endif %}
     >
-      <p>test</p>
       <button
         id="Deferred-Poster-Modal-{{ video_id }}"
         class="video-section__poster media deferred-media__poster media--landscape"
@@ -74,6 +73,8 @@
         {%- else -%}
           {{ 'hero-apparel-3' | placeholder_svg_tag: 'placeholder-svg placeholder' }}
         {%- endif -%}
+        <p>test</p>
+        <p>test</p>
         <span class="deferred-media__poster-button motion-reduce">
           {%- render 'icon-play' -%}
         </span>

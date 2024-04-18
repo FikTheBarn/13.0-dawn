@@ -19,7 +19,7 @@
         "caption": {
           "type": "text",
           "settings": {
-            "text": "{{ product.metafields.descriptors.subtitle.value }}",
+            "text": "{{ product.metafields.bean.tastenotes | metafield_text }}",
             "text_style": "subtitle"
           }
         },

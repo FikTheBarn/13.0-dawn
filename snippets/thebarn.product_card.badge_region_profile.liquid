@@ -10,6 +10,8 @@
 {% case profile %}
   {% when 'Terroir' %}
     {% assign background = settings.color_profile_terroir %}
+  {% when 'balanced' %}
+    {% assign background = settings.color_profile_balanced %}
 {% endcase %}
 
 {% if card_product.metafields.custom.region and card_product.metafields.bean.profile %}

@@ -8,6 +8,8 @@
 {% assign profile = card_product.metafields.bean.profile | escape | downcase %}
 
 {% case profile %}
+  {% when 'terroir' %}
+    {% assign background = settings.color_profile_terroir %}
 {% endcase %}
 
 {% if card_product.metafields.custom.region and card_product.metafields.bean.profile %}

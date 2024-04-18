@@ -73,13 +73,9 @@
         {%- else -%}
           {{ 'hero-apparel-3' | placeholder_svg_tag: 'placeholder-svg placeholder' }}
         {%- endif -%}
-        <div>
-          <h3></h3>
-          <h2>{{ section.settings.title }}</h2>
-          <span class="deferred-media__poster-button motion-reduce">
-            {%- render 'icon-play' -%}
-          </span>
-        </div>
+        <span class="deferred-media__poster-button motion-reduce">
+          {%- render 'icon-play' -%}
+        </span>
       </button>
       <template>
         {%- if section.settings.video == null and section.settings.video_url != null -%}
@@ -219,7 +215,7 @@
       "type": "header",
       "content": "t:sections.all.padding.section_padding_heading"
     },
-      {
+    {
       "type": "range",
       "id": "padding_top",
       "min": 0,
@@ -238,12 +234,6 @@
       "unit": "px",
       "label": "t:sections.all.padding.padding_bottom",
       "default": 36
-    },
-     {
-    "type": "text",
-    "id": "title",
-    "label": "Custom content heading",
-    "default": "Title"
     }
   ],
   "presets": [

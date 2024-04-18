@@ -58,6 +58,7 @@
         style="--ratio-percent: {{ 1 | divided_by: poster.aspect_ratio | times: 100 }}%;"
       {% endif %}
     >
+      <p>test</p>
       <button
         id="Deferred-Poster-Modal-{{ video_id }}"
         class="video-section__poster media deferred-media__poster media--landscape"
@@ -215,7 +216,7 @@
       "type": "header",
       "content": "t:sections.all.padding.section_padding_heading"
     },
-    {
+      {
       "type": "range",
       "id": "padding_top",
       "min": 0,

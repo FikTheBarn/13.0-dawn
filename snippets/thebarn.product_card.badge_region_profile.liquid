@@ -12,6 +12,8 @@
     {% assign background = settings.color_profile_terroir %}
   {% when 'terrior' %}
     {% assign background = settings.color_profile_balanced %}
+  {% when 'exotic' %}
+    {% assign background = settings.color_profile_exotic %}
 {% endcase %}
 
 {% if card_product.metafields.custom.region and card_product.metafields.bean.profile %}

@@ -11,9 +11,50 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "collection_list_3ymcDa": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_rWEyMh": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "coffee-beans"
+          }
+        },
+        "featured_collection_tWLmyA": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "coffee-subscription"
+          }
+        },
+        "featured_collection_xDU4BC": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "coffee-equipment"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_rWEyMh",
+        "featured_collection_tWLmyA",
+        "featured_collection_xDU4BC"
+      ],
+      "settings": {
+        "title": "DISCOVER MORE",
+        "heading_size": "h2",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "color_scheme": "",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "collection_list_3ymcDa"
   ]
 }

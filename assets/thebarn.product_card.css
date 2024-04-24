@@ -1,3 +1,9 @@
+@media screen and (min-width: 520px) {
+  .card-information .caption {
+    display: none;
+  }
+}
+
 
 .card__50_50__grid{
     display: grid;
@@ -21,7 +27,7 @@
       min-height: 24px;
 
       border: 1px #ddd solid;
-      border-radius: 2px;
+      border-radius: 40px;
     
       display: flex;
       justify-content:center;
@@ -73,12 +79,41 @@
   align-items: center;
   }
 
-
   @media only screen and (max-width: 750px) {
-  .new_release_label {
-      font-size: 1.3rem;
-      width: 5rem;
-      height: 5rem;
+    .new_release_label {
+        font-size: 1.3rem;
+        width: 5rem;
+        height: 5rem;
+    }
   }
-}
+
+
+
+  @media screen and (max-width: 520px) {
+    .card_tastnote_text {
+      display: none;
+    }
+    .card__50_50__grid {
+      padding-bottom: 0;
+      min-height: 0px;
+    }
+    .card__information {
+      width: 100%;
+      grid-row-start: 2;
+      padding: 1.3rem 0.4rem;
+      color: #fff;
+    }
+    .card__50_50__grid {
+      grid-template-columns: 1fr 1fr;
+      column-gap: 0.4rem;
+    }
+    .card--card .quick-add {
+      min-width: 140px;
+      margin: 0 0.4rem 0.4rem;
+    }
+  }
+
+
+
+
 

@@ -98,7 +98,8 @@
       ],
       "custom_css": [
         "p {font-size: 15px; line-height: 1.3;}",
-        "a {text-decoration: none; color: #FFFFFFB3;}"
+        "a {text-decoration: none; color: #ffffffb3;}",
+        "a:hover {color:rgb(255, 255, 255);}"
       ],
       "settings": {
         "color_scheme": "scheme-5",

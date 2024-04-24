@@ -16,7 +16,7 @@
           "type": "text",
           "settings": {
             "heading": "COFFEE BEANS",
-            "subtext": "<p><a href=\"\/collections\/espresso-coffee\" title=\"Espresso Coffee Beans | THE BARN Coffee Roasters\">Espresso<\/a><br\/><a href=\"\/collections\/filter-coffee\" title=\"Filter Coffee Beans | THE BARN Coffee Roasters\">Filter<\/a><br\/><a href=\"\/collections\/low-caf-coffee-beans\" title=\"Low Caf Coffee Beans\">Low Caf<\/a><br\/><a href=\"\/collections\/coffee-beans-specials\" title=\"Coffee Specials\">Specials<\/a><\/p>"
+            "subtext": "<h4><a href=\"\/collections\/espresso-coffee\" title=\"Espresso Coffee Beans | THE BARN Coffee Roasters\">Espresso<\/a><br\/><a href=\"\/collections\/filter-coffee\" title=\"Filter Coffee Beans | THE BARN Coffee Roasters\">Filter<\/a><br\/><a href=\"\/collections\/low-caf-coffee-beans\" title=\"Low Caf Coffee Beans\">Low Caf<\/a><br\/><a href=\"\/collections\/coffee-beans-specials\" title=\"Coffee Specials\">Specials<\/a><\/h4>"
           }
         },
         "text_ryNmKT": {

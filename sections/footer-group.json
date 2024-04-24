@@ -16,7 +16,7 @@
           "type": "text",
           "settings": {
             "heading": "COFFEE BEANS",
-            "subtext": "<h4><a href=\"\/collections\/espresso-coffee\" title=\"Espresso Coffee Beans | THE BARN Coffee Roasters\">Espresso<\/a><br\/><a href=\"\/collections\/filter-coffee\" title=\"Filter Coffee Beans | THE BARN Coffee Roasters\">Filter<\/a><br\/><a href=\"\/collections\/low-caf-coffee-beans\" title=\"Low Caf Coffee Beans\">Low Caf<\/a><br\/><a href=\"\/collections\/coffee-beans-specials\" title=\"Coffee Specials\">Specials<\/a><\/h4>"
+            "subtext": "<p><a href=\"\/collections\/espresso-coffee\" title=\"Espresso Coffee Beans | THE BARN Coffee Roasters\">Espresso<\/a><br\/><a href=\"\/collections\/filter-coffee\" title=\"Filter Coffee Beans | THE BARN Coffee Roasters\">Filter<\/a><br\/><a href=\"\/collections\/low-caf-coffee-beans\" title=\"Low Caf Coffee Beans\">Low Caf<\/a><br\/><a href=\"\/collections\/coffee-beans-specials\" title=\"Coffee Specials\">Specials<\/a><\/p>"
           }
         },
         "text_ryNmKT": {
@@ -95,6 +95,10 @@
         "text_3GkJhk",
         "text_PzeCRQ",
         "text_yRyzde"
+      ],
+      "custom_css": [
+        "p {font-size: 15px; line-height: 1.3;}",
+        "a {text-decoration: none;}"
       ],
       "settings": {
         "color_scheme": "scheme-5",

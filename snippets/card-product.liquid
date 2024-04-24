@@ -177,7 +177,7 @@
           <div class="card-information">
             {%- if show_vendor -%}
               <span class="visually-hidden">{{ 'accessibility.vendor' | t }}</span>
-              <div class="caption-with-letter-spacing light">{{ card_product.vendor }}</div>
+             {% comment %} Dawn 13 code removed here = <div class="caption-with-letter-spacing light">{{ card_product.vendor }}</div> {% endcomment %} <div class="caption-with-letter-spacing light">{{ card_product.metafields.custom.taste_notes }}</div>
             {%- endif -%}
 
             <span class="caption-large light">{{ block.settings.description | escape }}</span>

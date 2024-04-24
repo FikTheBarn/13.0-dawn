@@ -87,7 +87,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/LOGO-NAME.png",
             "image_width": 100,
-            "alignment": "center"
+            "alignment": ""
           }
         }
       },

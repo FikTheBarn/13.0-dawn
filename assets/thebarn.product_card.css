@@ -1,3 +1,9 @@
+@media screen and (min-width: 520px) {
+  .card-information .caption {
+    display: none;
+  }
+}
+
 
 .card__50_50__grid{
     display: grid;
@@ -107,11 +113,7 @@
     }
   }
 
-  @media screen and (min-width: 520px) {
-    .card-information .caption {
-      display: none;
-    }
-  }
+
 
 
 

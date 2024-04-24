@@ -12,8 +12,10 @@
     "custom_bean_collection_product_grid_cxEWgU": {
       "type": "custom-bean-collection-product-grid",
       "custom_css": [
+        ".facets__summary {background: #1c1d1c; padding: 10px 20px;}",
+        ".facets__summary .icon-caret {right: -5px; position: relative;}",
         ".button {background-color: #804d15;}",
-        "@media screen and (max-width: 520px) {.card_tastnote_text {display: none; } .card__50_50__grid {padding-bottom: 0; min-height: 0px; } .card__information {width: 100%; grid-row-start: 2; padding: 1.3rem 0.4rem; color: #fff; } .card__50_50__grid {grid-template-columns: 1fr 1fr; column-gap: 0.4rem; } }",
+        "@media screen and (max-width: 520px) {.card_tastnote_text {display: none; } .card__50_50__grid {padding-bottom: 0; min-height: 0px; } .card__information {width: 100%; grid-row-start: 2; padding: 1.3rem 0.4rem; color: #fff; } .card__50_50__grid {grid-template-columns: 1fr 1fr; column-gap: 0.4rem; }}",
         "@media screen and (min-width: 520px) {.card-information .caption {display: none; }}"
       ],
       "settings": {

@@ -227,7 +227,7 @@
           {% endif %}
 
             <!-- Specials -->
-            {% assign specials_products = collection.products | where: 'type', 'Special' %}
+            {% assign specials_products = collection.products | where: 'type', 'Misc' %}
             {% if specials_products.size > 0 %}
               <h3 class="product-type-header">SPECIALS</h3>
               <ul

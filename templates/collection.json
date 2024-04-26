@@ -2,6 +2,7 @@
   "sections": {
     "banner": {
       "type": "main-collection-banner",
+      "disabled": true,
       "settings": {
         "show_collection_description": false,
         "show_collection_image": false,
@@ -86,7 +87,7 @@
         "featured_collection_EFXrfr"
       ],
       "settings": {
-        "title": "The Barn Products By Category",
+        "title": "Shop By Category",
         "heading_size": "h2",
         "image_ratio": "portrait",
         "columns_desktop": 4,

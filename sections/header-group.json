@@ -38,7 +38,7 @@
       "type": "header",
       "settings": {
         "logo_position": "top-center",
-        "menu": "navigation-v13-without-mega-menu",
+        "menu": "navigation_v2",
         "menu_type_desktop": "mega",
         "sticky_header_type": "none",
         "show_line_separator": false,

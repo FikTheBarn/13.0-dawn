@@ -31,6 +31,28 @@
         "padding_bottom": 36
       }
     },
+    "rich_text_kd8XCe": {
+      "type": "rich-text",
+      "blocks": {
+        "text_gFy6XN": {
+          "type": "text",
+          "settings": {
+            "text": "<h6><a href=\"\/\" title=\"\/\">Home<\/a> &gt; Shop<\/h6>"
+          }
+        }
+      },
+      "block_order": [
+        "text_gFy6XN"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 16,
+        "padding_bottom": 0
+      }
+    },
     "collection_list_EHzxcK": {
       "type": "collection-list",
       "blocks": {
@@ -94,7 +116,7 @@
         "featured_collection_EFXrfr"
       ],
       "custom_css": [
-        "h2{font-family:'Chalet Comprime';font-size:6vh;}"
+        "h2 {font-family: \"Chalet Comprime\"; font-size: 6vh;}"
       ],
       "settings": {
         "title": "SHOP BY CATEGORY",
@@ -113,6 +135,7 @@
   "order": [
     "banner",
     "product-grid",
+    "rich_text_kd8XCe",
     "collection_list_EHzxcK"
   ]
 }

@@ -9,6 +9,35 @@
         "color_scheme": "scheme-1"
       }
     },
+    "custom_beans_cirlcle_filters_zYUc3n": {
+      "type": "Custom-Beans-Cirlcle-Filters",
+      "blocks": {
+        "custom_column_DPWgHH": {
+          "type": "custom_column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Espresso_Cirle_Filter.jpg",
+            "button_text": "Espresso",
+            "button_link": ""
+          }
+        },
+        "custom_column_C9hnJ8": {
+          "type": "custom_column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Filter_Circle_Filter_6f9c1eb2-d6e4-4c21-a4ae-31275aa603e2.jpg",
+            "button_text": "Filter",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "custom_column_DPWgHH",
+        "custom_column_C9hnJ8"
+      ],
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "custom_bean_collection_product_grid_cxEWgU": {
       "type": "custom-bean-collection-product-grid",
       "custom_css": [
@@ -65,6 +94,7 @@
   },
   "order": [
     "banner",
+    "custom_beans_cirlcle_filters_zYUc3n",
     "custom_bean_collection_product_grid_cxEWgU",
     "product-grid"
   ]

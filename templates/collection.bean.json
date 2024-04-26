@@ -9,6 +9,31 @@
         "color_scheme": "scheme-1"
       }
     },
+    "rich_text_EDAJ3x": {
+      "type": "rich-text",
+      "blocks": {
+        "text_nMpt7J": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>CHOOSE YOUR FAVOURITE<\/h2>"
+          }
+        }
+      },
+      "block_order": [
+        "text_nMpt7J"
+      ],
+      "custom_css": [
+        "h2 {font-family: \"Chalet Comprime\"; font-size: 32px;}"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "custom_beans_cirlcle_filters_zYUc3n": {
       "type": "Custom-Beans-Cirlcle-Filters",
       "blocks": {
@@ -121,6 +146,7 @@
   },
   "order": [
     "banner",
+    "rich_text_EDAJ3x",
     "custom_beans_cirlcle_filters_zYUc3n",
     "custom_bean_collection_product_grid_cxEWgU",
     "product-grid"

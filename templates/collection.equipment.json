@@ -37,7 +37,7 @@
         "text_gFy6XN": {
           "type": "text",
           "settings": {
-            "text": "<h6><a href=\"\/collections\/shop-by-category\" title=\"Shop by Category\">Shop<\/a> &gt; Equipment<\/h6>"
+            "text": "<h6><a href=\"\/collections\/shop-by-category\" title=\"Shop by Category\">Shop<\/a> &gt; Mugs & Cups<\/h6>"
           }
         }
       },
@@ -56,79 +56,28 @@
         "padding_bottom": 0
       }
     },
-    "collection_list_EHzxcK": {
-      "type": "collection-list",
-      "blocks": {
-        "featured_collection_KTrLxd": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "coffee-grinders"
-          }
-        },
-        "featured_collection_AnqJGU": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "fellow-products"
-          }
-        },
-        "featured_collection_U8BMfU": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "aeropress-equipment"
-          }
-        },
-        "featured_collection_hHUi4G": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "paper-coffee-filters"
-          }
-        },
-        "featured_collection_LcxFbi": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "coffee-filter-brewing-method"
-          }
-        },
-        "featured_collection_hLk6Ti": {
-          "type": "featured_collection",
-          "disabled": true,
-          "settings": {
-            "collection": "coffee-filter-equipment"
-          }
-        },
-        "featured_collection_6H9QPQ": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "coffee-accessories"
-          }
-        },
-        "featured_collection_Bpjh8i": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "coffee-scales"
-          }
-        }
-      },
-      "block_order": [
-        "featured_collection_KTrLxd",
-        "featured_collection_AnqJGU",
-        "featured_collection_U8BMfU",
-        "featured_collection_hHUi4G",
-        "featured_collection_LcxFbi",
-        "featured_collection_hLk6Ti",
-        "featured_collection_6H9QPQ",
-        "featured_collection_Bpjh8i"
-      ],
-      "custom_css": [
-        "h2 {font-family: \"Chalet Comprime\"; font-size: 32px;}"
-      ],
+    "featured_collection_QA7xM4": {
+      "type": "featured-collection",
       "settings": {
-        "title": "EQUIPMENT",
-        "heading_size": "h2",
-        "image_ratio": "portrait",
+        "title": "MUGS & CUPS",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "coffee-accessories",
+        "products_to_show": 4,
         "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
         "color_scheme": "",
-        "show_view_all": false,
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
         "columns_mobile": "2",
         "swipe_on_mobile": false,
         "padding_top": 36,
@@ -140,6 +89,6 @@
     "banner",
     "product-grid",
     "rich_text_kd8XCe",
-    "collection_list_EHzxcK"
+    "featured_collection_QA7xM4"
   ]
 }

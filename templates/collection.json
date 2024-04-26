@@ -93,8 +93,11 @@
         "featured_collection_arQYGA",
         "featured_collection_EFXrfr"
       ],
+      "custom_css": [
+        "h2{font-family:'Chalet Comprime';font-size:6vh;}"
+      ],
       "settings": {
-        "title": "Shop By Category",
+        "title": "SHOP BY CATEGORY",
         "heading_size": "h2",
         "image_ratio": "portrait",
         "columns_desktop": 4,

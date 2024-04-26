@@ -258,7 +258,7 @@ h5,
   font-family: 'Chalet Comprime';
   font-style: var(--font-heading-style);
   font-weight: var(--font-heading-weight);
-  letter-spacing: calc(var(--font-heading-scale) * 0.06rem);
+  letter-spacing: calc(var(--font-heading-scale) * 0.09rem);
   color: rgb(var(--color-foreground));
   line-height: calc(1 + 0.3 / max(1, var(--font-heading-scale)));
   word-break: break-word;
@@ -327,10 +327,10 @@ h4,
   font-size: calc(var(--font-heading-scale) * 1.5rem);
 }
 
-/*Increased custom font size from 1.2rem to 1.9rem */
+/*Increased custom font size from 1.2rem to 2.2rem */
 h5,
 .h5 {
-  font-size: calc(var(--font-heading-scale) * 1.9rem);
+  font-size: calc(var(--font-heading-scale) * 2.2rem);
 }
 
 /*Increased custom font size from 1.3rem to 2.2rem */

@@ -17,7 +17,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Espresso_Cirle_Filter.jpg",
             "button_text": "Espresso",
-            "button_link": ""
+            "button_link": "shopify:\/\/collections\/espresso-coffee"
           }
         },
         "custom_column_C9hnJ8": {
@@ -25,7 +25,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Filter_Circle_Filter_6f9c1eb2-d6e4-4c21-a4ae-31275aa603e2.jpg",
             "button_text": "Filter",
-            "button_link": ""
+            "button_link": "shopify:\/\/collections\/filter-coffee"
           }
         },
         "custom_column_3dQ7nh": {
@@ -33,7 +33,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Subscriptions_Circle_Filter.jpg",
             "button_text": "Subscriptions",
-            "button_link": ""
+            "button_link": "shopify:\/\/pages\/subscriptions-intro"
           }
         },
         "custom_column_NWBxrh": {

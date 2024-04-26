@@ -44,6 +44,9 @@
       "block_order": [
         "text_gFy6XN"
       ],
+      "custom_css": [
+        ".rich-text__wrapper{margin:0px;}"
+      ],
       "settings": {
         "desktop_content_position": "left",
         "content_alignment": "left",

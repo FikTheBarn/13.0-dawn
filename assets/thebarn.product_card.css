@@ -23,7 +23,7 @@
       text-align: center;
       font-size: 12px;
       width: 100%;
-      padding: 3px  6px;
+      padding: 3px 6px;
       min-height: 24px;
 
       border: 1px #ddd solid;
@@ -42,7 +42,7 @@
       background-color: #363636;
       font-size: 12px;
       width: 100%;
-      padding: 3px;
+      padding: 3px 0px;
       min-height: 24px; 
       height:fit-content;
       margin:0px; 
@@ -105,7 +105,7 @@
     }
     .card__50_50__grid {
       grid-template-columns: 1fr 1fr;
-      column-gap: 0.4rem;
+      column-gap: 0.2rem;
     }
     .card--card .quick-add {
       min-width: 140px;

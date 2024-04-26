@@ -77,6 +77,12 @@
             "collection": "aeropress-equipment"
           }
         },
+        "featured_collection_hHUi4G": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "paper-coffee-filters"
+          }
+        },
         "featured_collection_hLk6Ti": {
           "type": "featured_collection",
           "settings": {
@@ -100,6 +106,7 @@
         "featured_collection_KTrLxd",
         "featured_collection_AnqJGU",
         "featured_collection_U8BMfU",
+        "featured_collection_hHUi4G",
         "featured_collection_hLk6Ti",
         "featured_collection_6H9QPQ",
         "featured_collection_Bpjh8i"

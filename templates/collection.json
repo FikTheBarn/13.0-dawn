@@ -56,13 +56,20 @@
           "settings": {
             "collection": "instant-coffee"
           }
+        },
+        "featured_collection_6H9QPQ": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "coffee-capsules"
+          }
         }
       },
       "block_order": [
         "featured_collection_KTrLxd",
         "featured_collection_AnqJGU",
         "featured_collection_U8BMfU",
-        "featured_collection_hLk6Ti"
+        "featured_collection_hLk6Ti",
+        "featured_collection_6H9QPQ"
       ],
       "settings": {
         "title": "Collections",

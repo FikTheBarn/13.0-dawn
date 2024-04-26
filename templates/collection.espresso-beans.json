@@ -9,28 +9,6 @@
         "color_scheme": "scheme-1"
       }
     },
-    "product-grid": {
-      "type": "main-collection-product-grid",
-      "disabled": true,
-      "settings": {
-        "products_per_page": 16,
-        "columns_desktop": 4,
-        "color_scheme": "",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_tastenotes": false,
-        "show_rating": false,
-        "quick_add": "none",
-        "enable_filtering": true,
-        "filter_type": "horizontal",
-        "enable_sorting": true,
-        "columns_mobile": "2",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "rich_text_kd8XCe": {
       "type": "rich-text",
       "blocks": {
@@ -61,7 +39,6 @@
       "blocks": {
         "text_RYQzfE": {
           "type": "text",
-          "disabled": true,
           "settings": {
             "text": "<h2>ESPRESSO COFFEE BEANS<\/h2>"
           }
@@ -80,6 +57,27 @@
         "full_width": true,
         "padding_top": 16,
         "padding_bottom": 16
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "products_per_page": 16,
+        "columns_desktop": 4,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_tastenotes": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "enable_filtering": true,
+        "filter_type": "horizontal",
+        "enable_sorting": true,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "custom_espresso_beans_QQmcB4": {
@@ -106,42 +104,13 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "featured_collection_B9F8yB": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "ESPRESSO COFFEE BEANS",
-        "heading_size": "h1",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "espresso-coffee",
-        "products_to_show": 25,
-        "columns_desktop": 3,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "scheme-1",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": true,
-        "show_vendor": true,
-        "show_rating": true,
-        "quick_add": "bulk",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
     "banner",
-    "product-grid",
     "rich_text_kd8XCe",
     "rich_text_UFreHp",
-    "custom_espresso_beans_QQmcB4",
-    "featured_collection_B9F8yB"
+    "product-grid",
+    "custom_espresso_beans_QQmcB4"
   ]
 }

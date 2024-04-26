@@ -37,7 +37,7 @@
         "text_gFy6XN": {
           "type": "text",
           "settings": {
-            "text": "<h6><a href=\"\/collections\/shop-by-category\" title=\"Shop by Category\">Shop<\/a> &gt; Books<\/h6>"
+            "text": "<h6><a href=\"\/collections\/shop-by-category\" title=\"Shop by Category\">Shop<\/a> &gt; Vouchers<\/h6>"
           }
         }
       },
@@ -59,12 +59,12 @@
     "featured_collection_iUHT7V": {
       "type": "featured-collection",
       "settings": {
-        "title": "BOOKS",
+        "title": "VOUCHERS",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "coffee-books",
+        "collection": "coffee-vouchers",
         "products_to_show": 25,
         "columns_desktop": 4,
         "full_width": false,

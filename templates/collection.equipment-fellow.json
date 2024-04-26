@@ -37,7 +37,7 @@
         "text_gFy6XN": {
           "type": "text",
           "settings": {
-            "text": "<h6><a href=\"\/collections\/coffee-equipment\" title=\"EQUIPMENT\">Equipment<\/a> &gt; Grinders<\/h6>"
+            "text": "<h6><a href=\"\/collections\/coffee-grinders\" title=\"Coffee Grinders\">Coffe Grinders <\/a>&gt; Fellow<\/h6>"
           }
         }
       },
@@ -59,12 +59,12 @@
     "featured_collection_iUHT7V": {
       "type": "featured-collection",
       "settings": {
-        "title": "COFFEE GRINDERS",
+        "title": "COFFEE FELLOW",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "coffee-grinders",
+        "collection": "fellow-products",
         "products_to_show": 25,
         "columns_desktop": 4,
         "full_width": false,

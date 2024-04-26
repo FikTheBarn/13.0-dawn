@@ -68,6 +68,12 @@
           "settings": {
             "collection": "merchandise"
           }
+        },
+        "featured_collection_EFXrfr": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "coffee-vouchers"
+          }
         }
       },
       "block_order": [
@@ -76,7 +82,8 @@
         "featured_collection_U8BMfU",
         "featured_collection_hLk6Ti",
         "featured_collection_6H9QPQ",
-        "featured_collection_Bpjh8i"
+        "featured_collection_Bpjh8i",
+        "featured_collection_EFXrfr"
       ],
       "settings": {
         "title": "Collections",

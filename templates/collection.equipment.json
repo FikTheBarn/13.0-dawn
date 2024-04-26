@@ -2,6 +2,7 @@
   "sections": {
     "banner": {
       "type": "main-collection-banner",
+      "disabled": true,
       "settings": {
         "show_collection_description": false,
         "show_collection_image": false,
@@ -107,7 +108,7 @@
         "h2 {font-family: \"Chalet Comprime\"; font-size: 6vh;}"
       ],
       "settings": {
-        "title": "SHOP BY CATEGORY",
+        "title": "EQUIPMENT",
         "heading_size": "h2",
         "image_ratio": "portrait",
         "columns_desktop": 4,

@@ -9,6 +9,28 @@
         "color_scheme": "scheme-1"
       }
     },
+    "rich_text_GyHDqz": {
+      "type": "rich-text",
+      "blocks": {
+        "text_HaV6N4": {
+          "type": "text",
+          "settings": {
+            "text": "<h6><a href=\"\/collections\/shop-by-category\" title=\"Shop by Category\">Shop<\/a> &gt; Coffee Beans<\/h6>"
+          }
+        }
+      },
+      "block_order": [
+        "text_HaV6N4"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "rich_text_EDAJ3x": {
       "type": "rich-text",
       "blocks": {
@@ -146,6 +168,7 @@
   },
   "order": [
     "banner",
+    "rich_text_GyHDqz",
     "rich_text_EDAJ3x",
     "custom_beans_cirlcle_filters_zYUc3n",
     "custom_bean_collection_product_grid_cxEWgU",

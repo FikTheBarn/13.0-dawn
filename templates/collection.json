@@ -50,12 +50,19 @@
           "settings": {
             "collection": "coffee-equipment"
           }
+        },
+        "featured_collection_hLk6Ti": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "instant-coffee"
+          }
         }
       },
       "block_order": [
         "featured_collection_KTrLxd",
         "featured_collection_AnqJGU",
-        "featured_collection_U8BMfU"
+        "featured_collection_U8BMfU",
+        "featured_collection_hLk6Ti"
       ],
       "settings": {
         "title": "Collections",

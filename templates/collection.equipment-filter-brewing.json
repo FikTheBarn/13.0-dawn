@@ -37,7 +37,7 @@
         "text_gFy6XN": {
           "type": "text",
           "settings": {
-            "text": "<h6><a href=\"\/collections\/coffee-equipment\" title=\"EQUIPMENT\">Equipment<\/a> &gt; Grinders<\/h6>"
+            "text": "<h6><a href=\"\/collections\/coffee-equipment\" title=\"EQUIPMENT\">Equipment<\/a> &gt; Filter Brewing Method<\/h6>"
           }
         }
       },
@@ -59,12 +59,12 @@
     "featured_collection_iUHT7V": {
       "type": "featured-collection",
       "settings": {
-        "title": "COFFEE GRINDERS",
+        "title": "FILTER BREWING METHODS",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "coffee-grinders",
+        "collection": "coffee-filter-brewing-method",
         "products_to_show": 25,
         "columns_desktop": 4,
         "full_width": false,

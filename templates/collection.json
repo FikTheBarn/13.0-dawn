@@ -75,6 +75,12 @@
           "settings": {
             "collection": "coffee-vouchers"
           }
+        },
+        "featured_collection_arQYGA": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "coffee-books"
+          }
         }
       },
       "block_order": [
@@ -84,7 +90,8 @@
         "featured_collection_hLk6Ti",
         "featured_collection_6H9QPQ",
         "featured_collection_Bpjh8i",
-        "featured_collection_EFXrfr"
+        "featured_collection_EFXrfr",
+        "featured_collection_arQYGA"
       ],
       "settings": {
         "title": "Shop By Category",

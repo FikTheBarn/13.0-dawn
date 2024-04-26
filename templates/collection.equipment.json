@@ -67,13 +67,13 @@
         "featured_collection_AnqJGU": {
           "type": "featured_collection",
           "settings": {
-            "collection": "coffee-subscription"
+            "collection": "fellow-products"
           }
         },
         "featured_collection_U8BMfU": {
           "type": "featured_collection",
           "settings": {
-            "collection": "coffee-equipment"
+            "collection": "aeropress-equipment"
           }
         },
         "featured_collection_hLk6Ti": {
@@ -117,7 +117,6 @@
         "featured_collection_arQYGA",
         "featured_collection_EFXrfr"
       ],
-      "disabled": true,
       "custom_css": [
         "h2 {font-family: \"Chalet Comprime\"; font-size: 6vh;}"
       ],

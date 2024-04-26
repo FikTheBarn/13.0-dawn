@@ -255,7 +255,7 @@ h5,
 .h3,
 .h4,
 .h5 {
-  font-family: var(--font-heading-family);
+  font-family: 'Chalet Comprime';
   font-style: var(--font-heading-style);
   font-weight: var(--font-heading-weight);
   letter-spacing: calc(var(--font-heading-scale) * 0.06rem);
@@ -327,15 +327,17 @@ h4,
   font-size: calc(var(--font-heading-scale) * 1.5rem);
 }
 
+/*Increased custom font size from 1.2rem to 1.9rem */
 h5,
 .h5 {
-  font-size: calc(var(--font-heading-scale) * 1.2rem);
+  font-size: calc(var(--font-heading-scale) * 1.9rem);
 }
 
+/*Increased custom font size from 1.3rem to 2.2rem */
 @media only screen and (min-width: 750px) {
   h5,
   .h5 {
-    font-size: calc(var(--font-heading-scale) * 1.3rem);
+    font-size: calc(var(--font-heading-scale) * 2.2rem);
   }
 }
 
@@ -3469,12 +3471,13 @@ details-disclosure > details {
     font-weight: bold;
     font-style: normal;
     font-display: swap;
+    letter-spacing: ;
 }
   
 
 tagname or .classname or #id{
 
-  font-family: 'Chalet Comprime'
+  font-family: 'Chalet Comprime';
 
 }
 

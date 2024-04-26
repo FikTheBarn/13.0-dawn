@@ -27,11 +27,20 @@
             "button_text": "Filter",
             "button_link": ""
           }
+        },
+        "custom_column_3dQ7nh": {
+          "type": "custom_column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Subscriptions_Circle_Filter.jpg",
+            "button_text": "Subscriptions",
+            "button_link": ""
+          }
         }
       },
       "block_order": [
         "custom_column_DPWgHH",
-        "custom_column_C9hnJ8"
+        "custom_column_C9hnJ8",
+        "custom_column_3dQ7nh"
       ],
       "settings": {
         "padding_top": 36,

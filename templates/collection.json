@@ -62,6 +62,12 @@
           "settings": {
             "collection": "coffee-capsules"
           }
+        },
+        "featured_collection_Bpjh8i": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "merchandise"
+          }
         }
       },
       "block_order": [
@@ -69,7 +75,8 @@
         "featured_collection_AnqJGU",
         "featured_collection_U8BMfU",
         "featured_collection_hLk6Ti",
-        "featured_collection_6H9QPQ"
+        "featured_collection_6H9QPQ",
+        "featured_collection_Bpjh8i"
       ],
       "settings": {
         "title": "Collections",

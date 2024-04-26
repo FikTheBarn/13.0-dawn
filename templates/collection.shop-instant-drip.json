@@ -37,7 +37,7 @@
         "text_gFy6XN": {
           "type": "text",
           "settings": {
-            "text": "<h6><a href=\"\/collections\/shop-by-category\" title=\"Shop by Category\">Shop<\/a> &gt; Speciality Instant & Drip<\/h6>"
+            "text": "<h6><a href=\"\/collections\/shop-by-category\" title=\"Shop by Category\">Shop<\/a> &gt; Speciality Instant & Drip Bags<\/h6>"
           }
         }
       },
@@ -59,7 +59,7 @@
     "featured_collection_iUHT7V": {
       "type": "featured-collection",
       "settings": {
-        "title": "COFFEE GRINDERS",
+        "title": "SPECIALTY INSTANT & DRIP BAGS",
         "heading_size": "h1",
         "description": "",
         "show_description": false,

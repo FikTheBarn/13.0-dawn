@@ -105,7 +105,7 @@
     }
     .card__50_50__grid {
       grid-template-columns: 1fr 1fr;
-      /*column-gap: 0.4rem;*/
+      column-gap: 0.2rem;
     }
     .card--card .quick-add {
       min-width: 140px;

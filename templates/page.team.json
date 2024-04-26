@@ -64,6 +64,7 @@
         },
         "e3f98a11-e0c3-4152-b682-d00b5c5fdd2c": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/TEAM_JAX.webp",
             "title": "JAX",

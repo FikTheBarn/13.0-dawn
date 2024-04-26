@@ -2,7 +2,6 @@
   "sections": {
     "banner": {
       "type": "main-collection-banner",
-      "disabled": true,
       "settings": {
         "show_collection_description": false,
         "show_collection_image": false,
@@ -45,7 +44,7 @@
         "text_gFy6XN"
       ],
       "custom_css": [
-        ".rich-text__wrapper{margin:0px;}"
+        ".rich-text__wrapper {margin: 0px;}"
       ],
       "settings": {
         "desktop_content_position": "left",
@@ -118,6 +117,7 @@
         "featured_collection_arQYGA",
         "featured_collection_EFXrfr"
       ],
+      "disabled": true,
       "custom_css": [
         "h2 {font-family: \"Chalet Comprime\"; font-size: 6vh;}"
       ],

@@ -77,6 +77,7 @@
         },
         "custom_column_3dQ7nh": {
           "type": "custom_column",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Subscriptions_Circle_Filter.jpg",
             "button_text": "Subscriptions",

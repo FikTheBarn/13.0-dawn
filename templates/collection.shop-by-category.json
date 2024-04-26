@@ -119,7 +119,7 @@
         "featured_collection_EFXrfr"
       ],
       "custom_css": [
-        "h2 {font-family: \"Chalet Comprime\"; font-size: 6vh;}"
+        "h2 {font-family: \"Chalet Comprime\"; font-size: 32px;}"
       ],
       "settings": {
         "title": "SHOP BY CATEGORY",

@@ -43,13 +43,22 @@
             "button_text": "Specials",
             "button_link": ""
           }
+        },
+        "custom_column_E6PAgk": {
+          "type": "custom_column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/laurinacover_2.jpg",
+            "button_text": "Low Caf",
+            "button_link": ""
+          }
         }
       },
       "block_order": [
         "custom_column_DPWgHH",
         "custom_column_C9hnJ8",
         "custom_column_3dQ7nh",
-        "custom_column_NWBxrh"
+        "custom_column_NWBxrh",
+        "custom_column_E6PAgk"
       ],
       "settings": {
         "padding_top": 36,

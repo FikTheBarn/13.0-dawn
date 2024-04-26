@@ -35,12 +35,21 @@
             "button_text": "Subscriptions",
             "button_link": ""
           }
+        },
+        "custom_column_NWBxrh": {
+          "type": "custom_column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Coffee_Specials_Circle_Filter_e09438f6-e62e-432d-8206-6d035ed0e116.jpg",
+            "button_text": "Specials",
+            "button_link": ""
+          }
         }
       },
       "block_order": [
         "custom_column_DPWgHH",
         "custom_column_C9hnJ8",
-        "custom_column_3dQ7nh"
+        "custom_column_3dQ7nh",
+        "custom_column_NWBxrh"
       ],
       "settings": {
         "padding_top": 36,

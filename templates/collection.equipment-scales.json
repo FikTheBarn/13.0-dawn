@@ -37,7 +37,7 @@
         "text_gFy6XN": {
           "type": "text",
           "settings": {
-            "text": "<h6><a href=\"\/collections\/coffee-equipment\" title=\"EQUIPMENT\">Equipment<\/a> &gt; Aeropress<\/h6>"
+            "text": "<h6><a href=\"\/collections\/coffee-equipment\" title=\"EQUIPMENT\">Equipment<\/a> &gt; Scales<\/h6>"
           }
         }
       },
@@ -59,12 +59,12 @@
     "featured_collection_iUHT7V": {
       "type": "featured-collection",
       "settings": {
-        "title": "COFFEE AEROPRESS",
+        "title": "COFFEE SCALES",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "aeropress-equipment",
+        "collection": "coffee-scales-1",
         "products_to_show": 25,
         "columns_desktop": 4,
         "full_width": false,

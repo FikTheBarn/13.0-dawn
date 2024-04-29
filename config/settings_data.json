@@ -114,7 +114,7 @@
     "cart_type": "drawer",
     "show_vendor": false,
     "show_cart_note": false,
-    "cart_drawer_collection": "",
+    "cart_drawer_collection": "new-releases",
     "color_profile_balanced": "#8e7149",
     "color_profile_terroir": "#0f841e",
     "color_profile_exotic": "#b26119",

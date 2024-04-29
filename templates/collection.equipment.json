@@ -94,6 +94,12 @@
           "settings": {
             "collection": "coffee-scales"
           }
+        },
+        "featured_collection_mm8HeL": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "coffee-filter-brewing-method"
+          }
         }
       },
       "block_order": [
@@ -102,7 +108,8 @@
         "featured_collection_nnJJ4A",
         "featured_collection_fxQU7b",
         "featured_collection_GHhyxz",
-        "featured_collection_Ejy9wj"
+        "featured_collection_Ejy9wj",
+        "featured_collection_mm8HeL"
       ],
       "settings": {
         "title": "",

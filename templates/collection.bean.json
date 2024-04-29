@@ -15,7 +15,7 @@
         "text_HaV6N4": {
           "type": "text",
           "settings": {
-            "text": "<h6><a href=\"\/collections\/shop\" title=\"SHOP\">Shop<\/a> &gt; Coffee Beans<\/h6>"
+            "text": "<h6><a href=\"\/collections\/shop\" title=\"SHOP\">Shop<\/a> &gt; {{ collection.title }}<\/h6>"
           }
         }
       },

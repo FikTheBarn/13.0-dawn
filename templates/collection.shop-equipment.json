@@ -92,19 +92,7 @@
         "featured_collection_Bpjh8i": {
           "type": "featured_collection",
           "settings": {
-            "collection": "merchandise"
-          }
-        },
-        "featured_collection_arQYGA": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "coffee-books"
-          }
-        },
-        "featured_collection_EFXrfr": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "coffee-vouchers"
+            "collection": "coffee-scales"
           }
         }
       },
@@ -114,9 +102,7 @@
         "featured_collection_U8BMfU",
         "featured_collection_hLk6Ti",
         "featured_collection_6H9QPQ",
-        "featured_collection_Bpjh8i",
-        "featured_collection_arQYGA",
-        "featured_collection_EFXrfr"
+        "featured_collection_Bpjh8i"
       ],
       "custom_css": [
         "h2 {font-family: \"Chalet Comprime\"; font-size: 32px;}"

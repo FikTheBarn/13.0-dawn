@@ -94,6 +94,12 @@
           "settings": {
             "collection": "coffee-scales"
           }
+        },
+        "featured_collection_gA3DLE": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "paper-coffee-filters"
+          }
         }
       },
       "block_order": [
@@ -102,7 +108,8 @@
         "featured_collection_U8BMfU",
         "featured_collection_hLk6Ti",
         "featured_collection_6H9QPQ",
-        "featured_collection_Bpjh8i"
+        "featured_collection_Bpjh8i",
+        "featured_collection_gA3DLE"
       ],
       "custom_css": [
         "h2 {font-family: \"Chalet Comprime\"; font-size: 32px;}"

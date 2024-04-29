@@ -59,10 +59,16 @@
     "collection_list_rVNct9": {
       "type": "collection-list",
       "blocks": {
-        "featured_collection_tdEbn7": {
+        "featured_collection_nnJJ4A": {
           "type": "featured_collection",
           "settings": {
-            "collection": "aeropress-equipment"
+            "collection": "coffee-grinders"
+          }
+        },
+        "featured_collection_mm8HeL": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "coffee-filter-brewing-method"
           }
         },
         "featured_collection_We8gaA": {
@@ -71,10 +77,10 @@
             "collection": "fellow-products"
           }
         },
-        "featured_collection_nnJJ4A": {
+        "featured_collection_Ejy9wj": {
           "type": "featured_collection",
           "settings": {
-            "collection": "coffee-grinders"
+            "collection": "coffee-scales"
           }
         },
         "featured_collection_fxQU7b": {
@@ -83,33 +89,27 @@
             "collection": "paper-coffee-filters"
           }
         },
+        "featured_collection_tdEbn7": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "aeropress-equipment"
+          }
+        },
         "featured_collection_GHhyxz": {
           "type": "featured_collection",
           "settings": {
             "collection": "coffee-accessories"
           }
-        },
-        "featured_collection_Ejy9wj": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "coffee-scales"
-          }
-        },
-        "featured_collection_mm8HeL": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "coffee-filter-brewing-method"
-          }
         }
       },
       "block_order": [
-        "featured_collection_tdEbn7",
-        "featured_collection_We8gaA",
         "featured_collection_nnJJ4A",
-        "featured_collection_fxQU7b",
-        "featured_collection_GHhyxz",
+        "featured_collection_mm8HeL",
+        "featured_collection_We8gaA",
         "featured_collection_Ejy9wj",
-        "featured_collection_mm8HeL"
+        "featured_collection_fxQU7b",
+        "featured_collection_tdEbn7",
+        "featured_collection_GHhyxz"
       ],
       "settings": {
         "title": "",

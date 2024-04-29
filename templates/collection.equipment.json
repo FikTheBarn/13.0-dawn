@@ -55,11 +55,52 @@
         "padding_top": 16,
         "padding_bottom": 0
       }
+    },
+    "collection_list_rVNct9": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_tdEbn7": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "aeropress-equipment"
+          }
+        },
+        "featured_collection_We8gaA": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "fellow-products"
+          }
+        },
+        "featured_collection_nnJJ4A": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_tdEbn7",
+        "featured_collection_We8gaA",
+        "featured_collection_nnJJ4A"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_ratio": "portrait",
+        "columns_desktop": 4,
+        "color_scheme": "",
+        "show_view_all": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "banner",
     "product-grid",
-    "rich_text_kd8XCe"
+    "rich_text_kd8XCe",
+    "collection_list_rVNct9"
   ]
 }

@@ -76,12 +76,19 @@
           "settings": {
             "collection": "coffee-capsules"
           }
+        },
+        "featured_collection_8CCGXR": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "merchandise"
+          }
         }
       },
       "block_order": [
         "featured_collection_nrfW3M",
         "featured_collection_Jthy3D",
-        "featured_collection_jmWatT"
+        "featured_collection_jmWatT",
+        "featured_collection_8CCGXR"
       ],
       "settings": {
         "title": "SHOP BY CATEGORY",

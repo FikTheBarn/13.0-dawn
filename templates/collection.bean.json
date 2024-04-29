@@ -116,38 +116,8 @@
         "padding_bottom": 0
       }
     },
-    "custom_bean_collection_product_grid_cxEWgU": {
-      "type": "custom-bean-collection-product-grid",
-      "disabled": true,
-      "custom_css": [
-        ".facets__disclosure {margin-right: 10px;}",
-        ".facets__summary {background: #1c1d1c; padding: 10px 20px; border-radius: 5px;}",
-        ".facets__summary .icon-caret {right: -5px; position: relative;}",
-        ".button {background-color: #804d15;}",
-        "@media screen and (min-width: 750px) {.facets .disclosure-has-popup[open] > summary + * {z-index: 2; background: #1c1d1c; border-radius: 5px; }}"
-      ],
-      "settings": {
-        "products_per_page": 64,
-        "columns_desktop": 3,
-        "color_scheme": "",
-        "image_ratio": "square",
-        "image_shape": "default",
-        "show_secondary_image": true,
-        "show_vendor": true,
-        "show_tastenotes": false,
-        "show_rating": false,
-        "quick_add": "standard",
-        "enable_filtering": true,
-        "filter_type": "horizontal",
-        "enable_sorting": false,
-        "columns_mobile": "2",
-        "padding_top": 0,
-        "padding_bottom": 36
-      }
-    },
     "product-grid": {
       "type": "main-collection-product-grid",
-      "disabled": true,
       "custom_css": [
 
       ],
@@ -169,6 +139,11 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "custom_beans_main_seo_F3Mrt8": {
+      "type": "custom-beans-main-SEO",
+      "settings": {
+      }
     }
   },
   "order": [
@@ -176,7 +151,7 @@
     "rich_text_GyHDqz",
     "rich_text_EDAJ3x",
     "custom_beans_cirlcle_filters_zYUc3n",
-    "custom_bean_collection_product_grid_cxEWgU",
-    "product-grid"
+    "product-grid",
+    "custom_beans_main_seo_F3Mrt8"
   ]
 }

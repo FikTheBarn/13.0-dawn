@@ -10,6 +10,7 @@
     },
     "product-grid": {
       "type": "main-collection-product-grid",
+      "disabled": true,
       "settings": {
         "products_per_page": 16,
         "columns_desktop": 4,
@@ -53,11 +54,52 @@
         "padding_top": 16,
         "padding_bottom": 0
       }
+    },
+    "collection_list_fHFfxQ": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_nrfW3M": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "coffee-grinders"
+          }
+        },
+        "featured_collection_EXDRTW": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "fellow-products"
+          }
+        },
+        "featured_collection_NEd8Ah": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_nrfW3M",
+        "featured_collection_EXDRTW",
+        "featured_collection_NEd8Ah"
+      ],
+      "settings": {
+        "title": "SHOP BY CATEGORY",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "color_scheme": "",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "banner",
     "product-grid",
-    "rich_text_kd8XCe"
+    "rich_text_kd8XCe",
+    "collection_list_fHFfxQ"
   ]
 }

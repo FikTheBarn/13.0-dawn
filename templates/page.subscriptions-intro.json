@@ -8,28 +8,6 @@
         "padding_bottom": 28
       }
     },
-    "rich_text_bygLAg": {
-      "type": "rich-text",
-      "blocks": {
-        "text_zmVGDw": {
-          "type": "text",
-          "settings": {
-            "text": "<h6><a href=\"\/collections\/shop\" title=\"SHOP\">Shop <\/a>&gt; {{ page.title }}<\/h6>"
-          }
-        }
-      },
-      "block_order": [
-        "text_zmVGDw"
-      ],
-      "settings": {
-        "desktop_content_position": "left",
-        "content_alignment": "left",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 16,
-        "padding_bottom": 16
-      }
-    },
     "custom_subscription_intro_3BGcyW": {
       "type": "custom-subscription-intro",
       "settings": {
@@ -115,7 +93,6 @@
   },
   "order": [
     "main",
-    "rich_text_bygLAg",
     "custom_subscription_intro_3BGcyW"
   ]
 }

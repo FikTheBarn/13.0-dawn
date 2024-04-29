@@ -1,14 +1,107 @@
 {
   "sections": {
+    "image_banner_9mHeB8": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_e4kHgN": {
+          "type": "heading",
+          "settings": {
+            "heading": "BECOME OUR WHOLESALE PARTNER",
+            "heading_size": "h1"
+          }
+        },
+        "text_KCYwgg": {
+          "type": "text",
+          "settings": {
+            "text": "WE DELIVER AS QUICK AS YOUR LOCAL",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_e4kHgN",
+        "text_KCYwgg"
+      ],
+      "custom_css": [
+        "p {color: white;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/LOCATIONS_ROSENTHALERPLATZ_55.jpg",
+        "image_overlay_opacity": 20,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    },
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "1714379866680f7976": {
+      "type": "apps",
+      "blocks": {
+        "forms_inline_BpVaLT": {
+          "type": "shopify:\/\/apps\/forms\/blocks\/inline\/8744a304-fcb1-4347-b211-bb6b4759a76a",
+          "settings": {
+            "form_id": "49803",
+            "text_color": "#ffffff",
+            "button_background_color": "#804d15",
+            "button_label_color": "#FFFFFF",
+            "links_color": "#1878B9",
+            "errors_color": "#E02229",
+            "text_alignment": "center",
+            "form_alignment": "center",
+            "padding_top": 0,
+            "padding_bottom": 0,
+            "padding_right": 0,
+            "padding_left": 0
+          }
+        }
+      },
+      "block_order": [
+        "forms_inline_BpVaLT"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "rich_text_YWHTEm": {
+      "type": "rich-text",
+      "blocks": {
+        "text_DM6Wea": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We love working with people that appreciate quality coffee as much as we do.<br\/><br\/>Since 2012 we have been enjoying great relationships with other cafés, restaurants and offices around the globe. We dispatch fresh after roast and reach you in a reliable way.  <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_DM6Wea"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
-    "main"
+    "image_banner_9mHeB8",
+    "main",
+    "1714379866680f7976",
+    "rich_text_YWHTEm"
   ]
 }

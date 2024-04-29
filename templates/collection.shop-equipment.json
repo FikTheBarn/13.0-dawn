@@ -37,7 +37,7 @@
         "text_gFy6XN": {
           "type": "text",
           "settings": {
-            "text": "<h6>Shop &gt; {{ collection.title }}<\/h6>"
+            "text": "<h6><a href=\"\/collections\/shop-by-category\" title=\"Shop by Category\">Shop<\/a> &gt; {{ collection.title }}<\/h6>"
           }
         }
       },

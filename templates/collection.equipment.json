@@ -82,13 +82,20 @@
           "settings": {
             "collection": "paper-coffee-filters"
           }
+        },
+        "featured_collection_GHhyxz": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "coffee-accessories"
+          }
         }
       },
       "block_order": [
         "featured_collection_tdEbn7",
         "featured_collection_We8gaA",
         "featured_collection_nnJJ4A",
-        "featured_collection_fxQU7b"
+        "featured_collection_fxQU7b",
+        "featured_collection_GHhyxz"
       ],
       "settings": {
         "title": "",

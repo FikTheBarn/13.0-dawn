@@ -59,6 +59,12 @@
     "collection_list_fHFfxQ": {
       "type": "collection-list",
       "blocks": {
+        "featured_collection_Rb3xDj": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "coffee-beans"
+          }
+        },
         "featured_collection_nrfW3M": {
           "type": "featured_collection",
           "settings": {
@@ -95,21 +101,22 @@
             "collection": "coffee-vouchers"
           }
         },
-        "featured_collection_Rb3xDj": {
+        "featured_collection_NcAhax": {
           "type": "featured_collection",
           "settings": {
-            "collection": "coffee-beans"
+            "collection": "coffee-subscription"
           }
         }
       },
       "block_order": [
+        "featured_collection_Rb3xDj",
         "featured_collection_nrfW3M",
         "featured_collection_Jthy3D",
         "featured_collection_jmWatT",
         "featured_collection_8CCGXR",
         "featured_collection_k9pjpJ",
         "featured_collection_BPkMfU",
-        "featured_collection_Rb3xDj"
+        "featured_collection_NcAhax"
       ],
       "settings": {
         "title": "SHOP BY CATEGORY",

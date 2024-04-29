@@ -88,6 +88,12 @@
           "settings": {
             "collection": "coffee-accessories"
           }
+        },
+        "featured_collection_Ejy9wj": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "coffee-scales"
+          }
         }
       },
       "block_order": [
@@ -95,7 +101,8 @@
         "featured_collection_We8gaA",
         "featured_collection_nnJJ4A",
         "featured_collection_fxQU7b",
-        "featured_collection_GHhyxz"
+        "featured_collection_GHhyxz",
+        "featured_collection_Ejy9wj"
       ],
       "settings": {
         "title": "",

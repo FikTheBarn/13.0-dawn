@@ -65,18 +65,6 @@
             "collection": "coffee-grinders"
           }
         },
-        "featured_collection_EXDRTW": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "fellow-products"
-          }
-        },
-        "featured_collection_NEd8Ah": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "aeropress-equipment"
-          }
-        },
         "featured_collection_Jthy3D": {
           "type": "featured_collection",
           "settings": {
@@ -87,6 +75,12 @@
           "type": "featured_collection",
           "settings": {
             "collection": "coffee-filter-brewing-method"
+          }
+        },
+        "featured_collection_NEd8Ah": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "aeropress-equipment"
           }
         },
         "featured_collection_BjJAad": {
@@ -100,16 +94,22 @@
           "settings": {
             "collection": "coffee-scales"
           }
+        },
+        "featured_collection_EXDRTW": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "fellow-products"
+          }
         }
       },
       "block_order": [
         "featured_collection_nrfW3M",
-        "featured_collection_EXDRTW",
-        "featured_collection_NEd8Ah",
         "featured_collection_Jthy3D",
         "featured_collection_jmWatT",
+        "featured_collection_NEd8Ah",
         "featured_collection_BjJAad",
-        "featured_collection_LghgCq"
+        "featured_collection_LghgCq",
+        "featured_collection_EXDRTW"
       ],
       "settings": {
         "title": "SHOP BY CATEGORY",

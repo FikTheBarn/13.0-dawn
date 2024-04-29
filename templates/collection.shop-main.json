@@ -75,12 +75,40 @@
           "settings": {
             "collection": "aeropress-equipment"
           }
+        },
+        "featured_collection_Jthy3D": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "paper-coffee-filters"
+          }
+        },
+        "featured_collection_jmWatT": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "coffee-filter-brewing-method"
+          }
+        },
+        "featured_collection_BjJAad": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "coffee-accessories"
+          }
+        },
+        "featured_collection_LghgCq": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "coffee-scales"
+          }
         }
       },
       "block_order": [
         "featured_collection_nrfW3M",
         "featured_collection_EXDRTW",
-        "featured_collection_NEd8Ah"
+        "featured_collection_NEd8Ah",
+        "featured_collection_Jthy3D",
+        "featured_collection_jmWatT",
+        "featured_collection_BjJAad",
+        "featured_collection_LghgCq"
       ],
       "settings": {
         "title": "SHOP BY CATEGORY",

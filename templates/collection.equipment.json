@@ -76,12 +76,19 @@
           "settings": {
             "collection": "coffee-grinders"
           }
+        },
+        "featured_collection_fxQU7b": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "paper-coffee-filters"
+          }
         }
       },
       "block_order": [
         "featured_collection_tdEbn7",
         "featured_collection_We8gaA",
-        "featured_collection_nnJJ4A"
+        "featured_collection_nnJJ4A",
+        "featured_collection_fxQU7b"
       ],
       "settings": {
         "title": "",

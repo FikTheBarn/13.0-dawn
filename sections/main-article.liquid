@@ -1,3 +1,62 @@
+{% comment %} Adding custom code for the styling of the blog  {% endcomment %}
+<style>
+ 
+  .blog-grid{
+    display: grid;
+    grid-template-columns: 48% 48%;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    column-gap: 25px;
+    row-gap: 25px;
+  }
+
+  .blog-grid div{
+  	background-color:#1C1D1C;
+    height:100%;
+    width:100%;  
+    padding:20px;
+    display:flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+  }
+  
+  
+  h1 {
+  text-align:center;
+  }
+  
+  img{
+      height: 100%;
+      object-fit: cover;
+      overflow: hidden;
+      width: 100%;
+  }
+  
+  .btn{
+  	padding:20px;
+    border: 2px solid rgba(255,255,255,0.5);
+    text-decoration:none;
+    color:white;
+  }
+  
+  .btn:hover{
+      border: 2px solid white;
+  }
+  
+  @media only screen and (max-width: 800px) {
+   .blog-grid{
+  justify-items: center;
+  display: flex;
+  flex-direction: column;    
+	}
+
+  }
+
+</style>
+{% comment %} Adding custom code for the styling of the blog  {% endcomment %}
+
 {{ 'section-blog-post.css' | asset_url | stylesheet_tag }}
 
 <article class="article-template" itemscope itemtype="http://schema.org/BlogPosting">

@@ -10,7 +10,6 @@
     },
     "product-grid": {
       "type": "main-collection-product-grid",
-      "disabled": true,
       "settings": {
         "products_per_page": 16,
         "columns_desktop": 4,
@@ -54,91 +53,11 @@
         "padding_top": 16,
         "padding_bottom": 0
       }
-    },
-    "collection_list_EHzxcK": {
-      "type": "collection-list",
-      "blocks": {
-        "featured_collection_KTrLxd": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "coffee-beans"
-          }
-        },
-        "featured_collection_AnqJGU": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "coffee-subscription"
-          }
-        },
-        "featured_collection_U8BMfU": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "coffee-equipment"
-          }
-        },
-        "featured_collection_hLk6Ti": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "instant-coffee"
-          }
-        },
-        "featured_collection_6H9QPQ": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "coffee-capsules"
-          }
-        },
-        "featured_collection_Bpjh8i": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "merchandise"
-          }
-        },
-        "featured_collection_arQYGA": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "coffee-books"
-          }
-        },
-        "featured_collection_EFXrfr": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "coffee-vouchers"
-          }
-        }
-      },
-      "block_order": [
-        "featured_collection_KTrLxd",
-        "featured_collection_AnqJGU",
-        "featured_collection_U8BMfU",
-        "featured_collection_hLk6Ti",
-        "featured_collection_6H9QPQ",
-        "featured_collection_Bpjh8i",
-        "featured_collection_arQYGA",
-        "featured_collection_EFXrfr"
-      ],
-      "disabled": true,
-      "custom_css": [
-        "h2 {font-family: \"Chalet Comprime\"; font-size: 32vh;}"
-      ],
-      "settings": {
-        "title": "SHOP BY CATEGORY",
-        "heading_size": "h2",
-        "image_ratio": "portrait",
-        "columns_desktop": 4,
-        "color_scheme": "",
-        "show_view_all": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
     "banner",
     "product-grid",
-    "rich_text_kd8XCe",
-    "collection_list_EHzxcK"
+    "rich_text_kd8XCe"
   ]
 }

@@ -118,6 +118,7 @@
     },
     "custom_bean_collection_product_grid_cxEWgU": {
       "type": "custom-bean-collection-product-grid",
+      "disabled": true,
       "custom_css": [
         ".facets__disclosure {margin-right: 10px;}",
         ".facets__summary {background: #1c1d1c; padding: 10px 20px; border-radius: 5px;}",

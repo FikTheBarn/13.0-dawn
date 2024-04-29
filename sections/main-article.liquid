@@ -130,7 +130,11 @@
           itemprop="articleBody"
           {{ block.shopify_attributes }}
         >
+        {% comment %} Adding custom code for the styling of the blog  {% endcomment %}
+        <div class="blog-grid"> 
           {{ article.content }}
+        </div>  
+        {% comment %} Adding custom code for the styling of the blog  {% endcomment %}
         </div>
 
       {%- when 'share' -%}

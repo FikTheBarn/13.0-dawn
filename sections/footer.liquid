@@ -208,7 +208,7 @@ input[type="radio"] {
       color:black;
   }
   .panel p {
-    padding:5rem;
+    padding-left:2rem;
   }
   @media (max-width: 1100px) {
 
@@ -263,9 +263,7 @@ input[type="radio"] {
 
 }
   
-.footer-subtitle-mobile a {
-  color:red !important;
-}
+
 {%- endstyle -%}
 
 
@@ -353,6 +351,7 @@ input[type="radio"] {
           <p class="footer-subtitle-mobile">{{ section.settings.footer_subtitle_1_1}}</p>
           <p class="footer-subtitle-mobile">{{ section.settings.footer_subtitle_1_2}}</p>
           <p class="footer-subtitle-mobile">{{ section.settings.footer_subtitle_1_3}}</p>
+          <p class="footer-subtitle-mobile">{{ section.settings.footer_subtitle_1_4}}</p>
 
       </div>
       <div class="accordion-button">{{ section.settings.faq_question_2}}<span class="arrow">&#9660;</span></div>
@@ -924,6 +923,12 @@ document.addEventListener('DOMContentLoaded', function() {
   "type": "richtext",
   "id": "footer_subtitle_1_3",
   "default": "<p>Lowcaf</p>",
+  "label": "subtitle"
+},
+{
+  "type": "richtext",
+  "id": "footer_subtitle_1_4",
+  "default": "<p>All Beans</p>",
   "label": "subtitle"
 },
     {

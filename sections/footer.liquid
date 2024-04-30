@@ -25,7 +25,237 @@
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
   }
+
+
+  .newsletter-container{
+  position:relative;
+  height:auto;
+  margin-top:0rem;
+
+
+}
+.newsletter-content-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  position:absolute;
+  top:1%;
+  width:100%;
+  height:700px;
+
+
+  
+}
+.newsletter-text-container{
+
+  padding-right:2rem;
+  text-align:end;
+  color:white;
+
+}
+.newsletter-title {
+font-size:42px;
+color:white;
+
+}
+.text-newsletter{
+  margin-top:5rem;
+}
+
+
+.newsletter-buttons-container{
+
+  padding-right:2rem;
+  color:white;
+
+}
+.newsletter-form-container{
+  display:flex;
+  flex-direction:column;
+  align-items:flex-end;
+  width:100%;
+  
+  
+}
+.newsletter-buttons-container form {
+  display:flex;
+  flex-direction:row;
+  justify-content:flex-end;
+}
+input[type="radio"] + label {
+  cursor: pointer;
+}
+
+input[type="radio"] {
+  accent-color: black; /* Change this to your desired color */
+}
+
+
+
+.newsletter-image-container{
+  width:100%;
+  height:700px;
+}
+
+.newsletter-image-container::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50%; /* Shadow covers 20% of the image height from the top */
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), transparent); /* 90% black to transparent */
+    pointer-events: none;
+}
+
+.image-newsletter{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  object-position: right 20px;
+
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 1);
+    
+
+
+}
+
+.languageSelectionForm{
+    width:400px;
+  }
+
+ {%comment%} Small screen {%endcomment%}
+ @media screen and (max-width: 750px) {
+
+   .newsletter-content-container{
+     position:absolute;
+     top:40px;
+     right:0;
+     left:0;
+ 
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+
+     padding-left: 2rem;
+     padding-right: 2rem;
+   }
+   .newsletter-title{
+    font-size:32px;
+   }
+   .image-newsletter {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center top; /* Adjusts the position to be at the top center */
+
+} 
+ .newsletter-text-container {
+    padding-right:0rem;
+    text-align:center;
+    margin-top:2rem;
+  }
+  .text-newsletter{
+    margin-top:5rem;
+  }
+  .newsletter-buttons-container form {
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+  }
+  .newsletter-buttons-container{
+
+  padding-right:0rem;
+
+}
+  .newsletter-form-container{
+    padding:0;
+
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+
+  }
+
+  .languageSelectionForm{
+
+    width:100%;
+  }
+}
 {%- endstyle -%}
+<section class="newsletter-container">
+
+  <div class="newsletter-image-container">
+    {%- if section.settings.image_newsletter != blank -%}
+      <img
+        srcset="{%- if section.settings.image_newsletter.width >= 165 -%}{{ section.settings.image_newsletter | image_url: width: 165 }} 165w,{%- endif -%}
+          {%- if section.settings.image_newsletter.width >= 360 -%}{{ section.settings.image_newsletter | image_url: width: 360 }} 360w,{%- endif -%}
+          {%- if section.settings.image_newsletter.width >= 535 -%}{{ section.settings.image_newsletter | image_url: width: 535 }} 535w,{%- endif -%}
+          {%- if section.settings.image_newsletter.width >= 750 -%}{{ section.settings.image_newsletter | image_url: width: 750 }} 750w,{%- endif -%}
+          {%- if section.settings.image_newsletter.width >= 1070 -%}{{ section.settings.image_newsletter | image_url: width: 1070 }} 1070w,{%- endif -%}
+          {%- if section.settings.image_newsletter.width >= 1500 -%}{{ section.settings.image_newsletter | image_url: width: 1500 }} 1500w,{%- endif -%}
+          {{ section.settings.image_newsletter | image_url }} {{ section.settings.image_newsletter.width }}w"
+        src="{{ section.settings.image_newsletter | image_url: width: 150 }}"
+        sizes=""
+        alt="{{ section.settings.image_newsletter.alt | escape }}"
+        loading="lazy"
+        width="{{ 300}}"
+        height="{{ 300}}"
+        class="image-newsletter"
+      >
+    {%- else -%}
+      {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+    {%- endif -%}
+  </div>
+
+  <section class="newsletter-content-container page-width">
+
+  
+    <section class="newsletter-text-container">
+      
+      {%- if section.settings.heading_newsletter != blank -%}
+        <h2 class="newsletter-title">{{- section.settings.heading_newsletter -}}</h2>
+      {%- endif -%}
+    
+      {%- if section.settings.perks_newsletter != blank -%}
+        <div class="">{{- section.settings.perks_newsletter  -}}</div>
+      {%- endif -%}
+
+      {%- if section.settings.text_newsletter != blank -%}
+        <div class="text-newsletter">{{- section.settings.text_newsletter  -}}</div>
+      {%- endif -%}
+    
+    </section>
+
+
+    
+    <section class="newsletter-buttons-container">
+      <form  id="languageSelectionForm">
+        <div style="margin-right: 2rem;">
+          <input  type="radio" id="englishOption" name="language" value="English" checked>
+          <label for="englishOption">English</label>
+        </div>
+        <div style="margin-right: 2rem;">
+          <input  type="radio" id="germanOption" name="language" value="German">
+          <label for="germanOption">German</label>
+        </div>
+      </form>
+    </section>
+    
+
+    <section class="newsletter-form-container">
+      <div class="languageSelectionForm">
+      
+        <div id="germanForm" class="klaviyo-form-Y9AGrt"style="display:none;" ></div>
+        <div id="englishForm" class="klaviyo-form-TTe8CY" ></div>
+      </div>
+    </section>
+
+  </section>
+
+  
+</section>
 
 <footer class="footer color-{{ section.settings.color_scheme }} gradient section-{{ section.id }}-padding">
   {%- liquid
@@ -44,8 +274,7 @@
   -%}
   {%- if section.blocks.size > 0
     or section.settings.newsletter_enable
-    or section.settings.show_social
-    and has_social_icons == true
+    or section.settings.show_social and has_social_icons == true
     or section.settings.enable_follow_on_shop
   -%}
     {%- unless only_empty_brand -%}
@@ -256,9 +485,35 @@
     <div class="footer__content-bottom-wrapper page-width">
       <div class="footer__column footer__localization isolate">
         {%- if section.settings.enable_country_selector and localization.available_countries.size > 1 -%}
+          <noscript>
+            {%- form 'localization', id: 'FooterCountryFormNoScript', class: 'localization-form' -%}
+              <div class="localization-form__select">
+                <h2 class="visually-hidden" id="FooterCountryLabelNoScript">{{ 'localization.country_label' | t }}</h2>
+                <select
+                  class="localization-selector link"
+                  name="country_code"
+                  aria-labelledby="FooterCountryLabelNoScript"
+                >
+                  {%- for country in localization.available_countries -%}
+                    <option
+                      value="{{ country.iso_code }}"
+                      {%- if country.iso_code == localization.country.iso_code %}
+                        selected
+                      {% endif %}
+                    >
+                      {{ country.name }} ({{ country.currency.iso_code }}
+                      {{ country.currency.symbol }})
+                    </option>
+                  {%- endfor -%}
+                </select>
+                {% render 'icon-caret' %}
+              </div>
+              <button class="button button--tertiary">{{ 'localization.update_country' | t }}</button>
+            {%- endform -%}
+          </noscript>
           <localization-form>
             {%- form 'localization', id: 'FooterCountryForm', class: 'localization-form' -%}
-              <div>
+              <div class="no-js-hidden">
                 <h2 class="caption-large text-body" id="FooterCountryLabel">{{ 'localization.country_label' | t }}</h2>
                 {%- render 'country-localization', localPosition: 'FooterCountry' -%}
               </div>
@@ -267,9 +522,38 @@
         {%- endif -%}
 
         {%- if section.settings.enable_language_selector and localization.available_languages.size > 1 -%}
+          <noscript>
+            {%- form 'localization', id: 'FooterLanguageFormNoScript', class: 'localization-form' -%}
+              <div class="localization-form__select">
+                <h2 class="visually-hidden" id="FooterLanguageLabelNoScript">
+                  {{ 'localization.language_label' | t }}
+                </h2>
+                <select
+                  class="localization-selector link"
+                  name="locale_code"
+                  aria-labelledby="FooterLanguageLabelNoScript"
+                >
+                  {%- for language in localization.available_languages -%}
+                    <option
+                      value="{{ language.iso_code }}"
+                      lang="{{ language.iso_code }}"
+                      {%- if language.iso_code == localization.language.iso_code %}
+                        selected
+                      {% endif %}
+                    >
+                      {{ language.endonym_name | capitalize }}
+                    </option>
+                  {%- endfor -%}
+                </select>
+                {% render 'icon-caret' %}
+              </div>
+              <button class="button button--tertiary">{{ 'localization.update_language' | t }}</button>
+            {%- endform -%}
+          </noscript>
+
           <localization-form>
             {%- form 'localization', id: 'FooterLanguageForm', class: 'localization-form' -%}
-              <div>
+              <div class="no-js-hidden">
                 <h2 class="caption-large text-body" id="FooterLanguageLabel">
                   {{ 'localization.language_label' | t }}
                 </h2>
@@ -317,7 +601,32 @@
     </div>
   </div>
 </footer>
+{%javascript%}
+// NEWSLETTER LOGIC
 
+document.addEventListener('DOMContentLoaded', function() {
+  // Function to show one form and hide the other based on radio button selection
+  function toggleForms() {
+    // Check which radio button is selected
+    const selectedLanguage = document.querySelector('input[name="language"]:checked').value;
+    if (selectedLanguage === 'English') {
+      document.getElementById('englishForm').style.display = 'block'; // Show the English form
+      document.getElementById('germanForm').style.display = 'none'; // Hide the German form
+    } else if (selectedLanguage === 'German') {
+      document.getElementById('germanForm').style.display = 'block'; // Show the German form
+      document.getElementById('englishForm').style.display = 'none'; // Hide the English form
+    }
+  }
+
+  // Add change event listeners to the radio buttons
+  document.querySelectorAll('input[name="language"]').forEach(radio => {
+    radio.addEventListener('change', toggleForms);
+  });
+
+  // Call toggleForms function initially to set the correct form visibility on page load
+  toggleForms();
+});
+{%endjavascript%}
 {% schema %}
 {
   "name": "t:sections.footer.name",
@@ -427,10 +736,30 @@
   ],
   "settings": [
     {
+      "type": "image_picker",
+      "id": "image_newsletter",
+      "label": "newsletter image"
+    },
+    {
+          "type": "text",
+          "id": "heading_newsletter",
+          "label": "heading newsletter"
+        },
+        {
+        "type": "richtext",
+        "id": "perks_newsletter",
+        "label": "perks newsletter"
+      },
+      {
+        "type": "richtext",
+        "id": "text_newsletter",
+        "label": "text newsletter"
+      },
+    {
       "type": "color_scheme",
       "id": "color_scheme",
       "label": "t:sections.all.colors.label",
-      "default": "scheme-1"
+      "default": "background-1"
     },
     {
       "type": "header",

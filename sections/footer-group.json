@@ -111,11 +111,12 @@
         "a:hover {color: rgb(255, 255, 255);}"
       ],
       "settings": {
-        "footer_title_1": "<p><a href=\"\/collections\/coffee-beans\" title=\"COFFEE BEANS\">COFFEE BEANS<\/a><\/p>",
+        "footer_title_1": "<p>COFFEE BEANS<\/p>",
         "footer_subtitle_1": "<p><a href=\"\/collections\/espresso-coffee\" title=\"Espresso Coffee Beans\">Espresso<\/a><\/p>",
         "footer_subtitle_1_1": "<p><a href=\"\/collections\/filter-coffee\" title=\"Filter Coffee Beans\">Filter<\/a><\/p>",
         "footer_subtitle_1_2": "<p><a href=\"\/collections\/coffee-beans-specials\" title=\"Coffee Specials\">Specials<\/a><\/p>",
         "footer_subtitle_1_3": "<p><a href=\"\/collections\/low-caf-coffee-beans\" title=\"Low Caf Coffee Beans\">Lowcaf<\/a><\/p>",
+        "footer_subtitle_1_4": "<p><a href=\"\/collections\/coffee-beans\" title=\"COFFEE BEANS\">All Beans<\/a><\/p>",
         "image_newsletter": "shopify:\/\/shop_images\/34A0659_1.jpg",
         "heading_newsletter": "Join our Newsletter today and enjoy the perks",
         "perks_newsletter": "<p>• 10% off your first coffee order<br\/>• Insights into sourcing, roasting & production<br\/>• Brew Guides, tips & tricks<br\/>•  Early access to limited coffee drops<br\/>• Monthly giveaway for subscribers only<\/p>",

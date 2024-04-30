@@ -185,7 +185,7 @@ input[type="radio"] {
 }
 
 
-{% comment %} //////////////////ACCORDION FOOTER SECTION///////////////////// {% endcomment %}
+{% comment %} //////////////////ACCORDION  SECTION///////////////////// {% endcomment %}
 
   .master-section-container-accordion{
     display: flex;
@@ -269,60 +269,7 @@ input[type="radio"] {
 {%- endstyle -%}
 
 
-<section class="master-section-container-accordion">
-  <div class="master-title-subtitle-button-container">
-    <div class="master-title-subtitle-container">
-      <h2>about</h2>
-    </div>
-    <button class="button-main button-desktop">{{ section.settings.cta-main }} </button>
-  </div>
-  <div class="accordion">
-    <div class="accordion-button">{{ section.settings.faq_question_1}} <span class="arrow">&#9660;</span></div>
-    <div class="panel">
-        <p>{{ section.settings.faq_answer_1}}</p>
-    </div>
-    <div class="accordion-button">{{ section.settings.faq_question_2}}<span class="arrow">&#9660;</span></div>
-    <div class="panel">
-        <p>{{ section.settings.faq_answer_2}}</p>
-    </div>
-    <div class="accordion-button">{{ section.settings.faq_question_3}}<span class="arrow">&#9660;</span></div>
-    <div class="panel">
-        <p>{{ section.settings.faq_answer_3}}</p>
-    </div>
-    <div class="accordion-button">{{ section.settings.faq_question_4}}<span class="arrow">&#9660;</span></div>
-    <div class="panel">
-        <p>{{ section.settings.faq_answer_4}}</p>
-    </div>
-    <div class="accordion-button">{{ section.settings.faq_question_5}}<span class="arrow">&#9660;</span></div>
-    <div class="panel">
-        <p>{{ section.settings.faq_answer_5}}</p>
-    </div>
-    <div class="accordion-button">{{ section.settings.faq_question_6}}<span class="arrow">&#9660;</span></div>
-    <div class="panel">
-        <p>{{ section.settings.faq_answer_6}}</p>
-    </div>
-    <div class="accordion-button">{{ section.settings.faq_question_7}}<span class="arrow">&#9660;</span></div>
-    <div class="panel">
-        <p>{{ section.settings.faq_answer_7}}</p>
-    </div>
-    <div class="accordion-button">{{ section.settings.faq_question_8}}<span class="arrow">&#9660;</span></div>
-    <div class="panel">
-        <p>{{ section.settings.faq_answer_8}}</p>
-    </div>
-    <div class="accordion-button">{{ section.settings.faq_question_9}}<span class="arrow">&#9660;</span></div>
-    <div class="panel">
-        <p>{{ section.settings.faq_answer_9}}</p>
-    </div>
-    <div class="accordion-button">{{ section.settings.faq_question_10}}<span class="arrow">&#9660;</span></div>
-    <div class="panel">
-        <p>{{ section.settings.faq_answer_10}}</p>
-    </div>
-  </div>
 
-  <div class="master-container-button-mobile-accordion">
-    <button class="button-main button-mobile"> {{ section.settings.cta-main }}  </button>
-  </div>
-</section>
 
 
 
@@ -768,82 +715,7 @@ document.addEventListener('DOMContentLoaded', function() {
   // Call toggleForms function initially to set the correct form visibility on page load
   toggleForms();
 });
-  document.addEventListener('DOMContentLoaded', function() {
-
-
-    
-
-      // Accordion functionality
-      var accButtons = document.querySelectorAll('.accordion-button');
-      accButtons.forEach(function(btn) {
-          btn.addEventListener('click', function() {
-              var panel = this.nextElementSibling;
-              var arrow = this.querySelector('.arrow');
-              if (panel.style.maxHeight) {
-                  panel.style.maxHeight = null;
-                  arrow.innerHTML = '&#9660;';
-              } else {
-                  document.querySelectorAll('.panel').forEach(p => p.style.maxHeight = null);
-                  document.querySelectorAll('.accordion-button .arrow').forEach(a => a.innerHTML = '&#9660;');
-                  panel.style.maxHeight = panel.scrollHeight + "px";
-                  arrow.innerHTML = '&#9650;';
-              }
-          });
-      });
-
-      // Icon and text update functionality
-      const items = document.querySelectorAll('.text-item-perks');
-      const iconDisplay = document.querySelector('.icon-display-perks');
-      let lastHoveredItem = null;
-
-      function setIconAndText(item) {
-          iconDisplay.innerHTML = '';
-
-          const icon = document.createElement('lord-icon');
-          icon.setAttribute('src', item.getAttribute('data-icon-perks'));
-          icon.setAttribute('trigger', 'loop');
-          icon.setAttribute('colors', 'primary:#FFFFFF,secondary:#FFFFFF');
-          icon.setAttribute('style', 'width:250px;height:250px');
-          icon.setAttribute('delay', '2000');
-
-          const text = document.createElement('div');
-          text.textContent = stripHtml(item.getAttribute('data-text-perks'));
-          text.style.color = '#fff';
-          text.style.fontSize = '20px';
-          text.style.textAlign = 'center';
-          text.style.marginTop = '20px';
-
-          iconDisplay.appendChild(icon);
-          iconDisplay.appendChild(text);
-          iconDisplay.style.visibility = 'visible';
-          
-          lastHoveredItem = item;
-      }
-
-      if (items.length > 0) {
-          setIconAndText(items[0]);
-          lastHoveredItem = items[0];
-      }
-
-      items.forEach(item => {
-          item.addEventListener('mouseenter', function() {
-              setIconAndText(this);
-          });
-          item.addEventListener('mouseleave', function() {
-              if (lastHoveredItem) {
-                  setIconAndText(lastHoveredItem);
-              }
-          });
-      });
-
-  });
 {%endjavascript%}
-
-
-
-
-
-
 {% schema %}
 {
   "name": "t:sections.footer.name",

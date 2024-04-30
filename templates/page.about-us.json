@@ -2,13 +2,263 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "custom_liquid_ezUrUi": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{% render | \"awards-snippet\" %}",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "custom_liquid_zxxpmV": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<style>\n  video {\n    width: 100%;\n    height: auto;\n    display: block;\n    margin: 0 auto;\n  }\n<\/style>\n\n<video controls muted autoplay playsinline loop>\n  <source src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/257e62f96dd5423db8586c5569c42431.mp4\" type=\"video\/mp4\">\n  Your browser does not support the video tag.\n<\/video>",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "rich_text_NahyMj": {
+      "type": "rich-text",
+      "blocks": {
+        "text_fQcWQg": {
+          "type": "text",
+          "settings": {
+            "text": "<p>THE BARN is a leading coffee roaster in Europe and represents the Specialty Coffee Movement at the highest level since 2010. Our beans are served by many coffee shops and home brewers across the globe.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_fQcWQg"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "scheme-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "rich_text_knXJF4": {
+      "type": "rich-text",
+      "blocks": {
+        "text_9Pi8Qq": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our vision has been very clear from the start: We focus on making our coffees better and better. No compromise - just great coffee. We would never blend our coffees in order to showcase specific flavour profiles and to present each farm we work with. This makes our farmers proud and the product fully traceable.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_9Pi8Qq"
+      ],
+      "settings": {
+        "desktop_content_position": "right",
+        "content_alignment": "right",
+        "color_scheme": "scheme-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "slideshow_yj6iCf": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_FgNRPR": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/THE_BARN_Booklet_Page_0.png",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_iGPfRD": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/THE_BARN_Booklet_Page_1.png",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_peUHjD": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/THE_BARN_Booklet_Page_2.png",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_UX9WM6": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/THE_BARN_Booklet_Page_3.png",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_xepijj": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/THE_BARN_Booklet_Page_5.png",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_FgNRPR",
+        "slide_iGPfRD",
+        "slide_peUHjD",
+        "slide_UX9WM6",
+        "slide_xepijj"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "adapt_image",
+        "slider_visual": "dots",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "image_with_text_WLf3Ft": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_qAkcKF": {
+          "type": "heading",
+          "settings": {
+            "heading": "Highlighting flavour",
+            "heading_size": "h1"
+          }
+        },
+        "text_FtD3zE": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We choose our beans for quality, cleanliness, sustainability and traceability. We only buy fresh, seasonal crop. It is one of our principles to treasure the value chain from crop to cup.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_qAkcKF",
+        "text_FtD3zE"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/wheeeeel.bez_kola_czarnego.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "right",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 64,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_t4MBCD": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_XzkNDV": {
+          "type": "heading",
+          "settings": {
+            "heading": "Roast Style",
+            "heading_size": "h1"
+          }
+        },
+        "text_fqUGyj": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our roast style is fully developed but light and clean. We bring out the full flavour potential of each coffee. Working with Single Origin Beans is a lot easier than using Blends - all beans are uniform and of highest grading.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_XzkNDV",
+        "text_fqUGyj"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "custom_liquid_ezUrUi",
+    "custom_liquid_zxxpmV",
+    "rich_text_NahyMj",
+    "rich_text_knXJF4",
+    "slideshow_yj6iCf",
+    "image_with_text_WLf3Ft",
+    "rich_text_t4MBCD"
   ]
 }

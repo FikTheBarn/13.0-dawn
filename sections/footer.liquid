@@ -279,7 +279,7 @@ input[type="radio"] {
   <div class="accordion">
     <div class="accordion-button">{{ section.settings.faq_question_1}} <span class="arrow">&#9660;</span></div>
     <div class="panel">
-        <p>hello</p>
+        <p>{{ section.settings.faq_answer_1}}</p>
     </div>
     <div class="accordion-button">{{ section.settings.faq_question_2}}<span class="arrow">&#9660;</span></div>
     <div class="panel">
@@ -768,7 +768,6 @@ document.addEventListener('DOMContentLoaded', function() {
   // Call toggleForms function initially to set the correct form visibility on page load
   toggleForms();
 });
-{%endjavascript%}
   document.addEventListener('DOMContentLoaded', function() {
 
 
@@ -838,6 +837,7 @@ document.addEventListener('DOMContentLoaded', function() {
       });
 
   });
+{%endjavascript%}
 
 
 

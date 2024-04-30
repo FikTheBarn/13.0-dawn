@@ -183,7 +183,209 @@ input[type="radio"] {
     width:100%;
   }
 }
+
+
+
+
+.accordianNav {
+    /*  this width is arbitrary and here for display only */
+    max-width: 300px;
+    background: #222;
+    margin: 5em 2em 0 5em;
+    padding: 1em 0;
+    border-radius: 4px;
+}
+
+.accordianNav a,
+.accordianNav h3 {
+    display: block;
+    line-height: 2.5em;
+    color: #757575;
+    letter-spacing: 2px;
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+    padding-left: 1em;
+    font-size: 1em;
+    font-weight: 100;
+}
+
+.accordianNav a {
+    text-decoration: none;
+    padding-left: 0;
+}
+
+
+
+
+
+/* Background hover animation. */
+
+.accordianNav h3:before {
+    content: "";
+    position: absolute;
+    z-index: 0;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 100%;
+    background-color: #444;
+    background: rgba(244, 244, 244, .3);
+    transition: all 0.3s ease-out;
+}
+
+.accordianNav h3:hover:before,
+.accordianNav .dropArrow.active:before {
+    width: 2%;
+}
+
+.accordianNav .dropArrow span {
+    z-index: 2;
+    position: relative;
+}
+
+.accordianNav .dropArrow:after {
+    content: "";
+    width: 6px;
+    height: 6px;
+    border-bottom: 2px solid #757575;
+    border-right: 2px solid #757575;
+    float: right;
+    position: relative;
+    top: 12px;
+    right: 25px;
+    transform: rotate(45deg);
+    transform-origin: center;
+}
+
+.accordianNav .dropArrow.active {
+    color: white;
+}
+
+.accordianNav .dropArrow.active:after {
+    transform: rotate(-135deg);
+    border-color: #fff;
+}
+
+
+
+
+
+/* +Hover and Touch effect */
+
+.accordianNav a:hover,
+.accordianNav a:active,
+.accordianNav h3:hover,
+.accordianNav h3:active,
+.accordianNav h3.dropArrow:hover:after,
+.accordianNav h3.dropArrow:active:after {
+    color: white;
+    border-color: #fff;
+    -webkit-transition: all 0.5s cubic-bezier(0.36, 1.64, 0.29, 0.88);
+    transition: all 0.5s cubic-bezier(0.36, 1.64, 0.29, 0.88);
+}
+
+.accordianNav li {
+    list-style-type: none;
+}
+
+.accordianNav a {
+    transform: translate(0px, 0px);
+    transition: all 0.4s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+
+/*Drop links*/
+
+.accordianNav ul ul li a {
+    padding: 0 0 0 2.5em;
+}
+
+
+/*hover effect on links*/
+
+.accordianNav ul ul li a:hover {
+    transform: translate(8px, 0px);
+}
+
+
+/*Hide and show the drops*/
+
+.accordianNav ul ul {
+    display: none;
+}
+
+.accordianNav li.active ul {
+    display: block;
+}
+
+
+
+/* --------------------------------------------------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #111;
+    background: radial-gradient(#121212, #000) no-repeat;
+    height: 100vh;
+    background-size: cover;
+    /*Font size here sets all font-sizes and paddings */
+    font-size: 16px;
+}
+
+
+  
 {%- endstyle -%}
+
+
+<div class="accordianNav">
+	<ul>
+
+		<li>
+			<h3><a href="#">Normal Link</a></h3></li>
+		<li> 
+			<h3><a href="#">Normal Link</a></h3></li>
+
+		<li>
+    <h3 class="dropArrow"><span>Dropdown</span></h3>
+			<ul>
+				<li><a href="#">Dropped Link</a></li>
+				<li><a href="#">Dropped Link</a></li> 
+				<li><a href="#">Dropped Link</a></li>
+				<li><a href="#">Dropped Link</a></li>
+			</ul>
+		</li>
+
+		<li>
+			<h3 class="dropArrow"><span>Dropdown</span></h3>
+			<ul>
+				<li><a href="#">Dropped Link</a></li>
+				<li><a href="#">Dropped Link</a></li>
+			</ul>
+		</li>
+
+		<li>
+			<h3 class="dropArrow"><span>Dropdown</span></h3>
+			<ul>
+				<li><a href="#">Dropped Link</a></li>
+				<li><a href="#">Dropped Link</a></li>
+				<li><a href="#">Dropped Link</a></li>
+			</ul>
+		</li>
+
+		<li>
+			<h3><a href="#">Normal Link</a></h3></li>
+	</ul>
+</div>
+
+
+
 <section class="newsletter-container">
 
   <div class="newsletter-image-container">

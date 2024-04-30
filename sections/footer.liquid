@@ -368,14 +368,16 @@ input[type="radio"] {
         <p class="footer-subtitle-mobile">{{ section.settings.footer_subtitle_3_1}}</p>
         <p class="footer-subtitle-mobile">{{ section.settings.footer_subtitle_3_2}}</p>
         <p class="footer-subtitle-mobile">{{ section.settings.footer_subtitle_3_3}}</p>
-        <p class="footer-subtitle-mobile">{{ section.settings.footer_subtitle_3_3_1}}</p>
+        <p class="footer-subtitle-mobile">{{ section.settings.footer_subtitle_3_3}}</p>
         <p class="footer-subtitle-mobile">{{ section.settings.footer_subtitle_3_4}}</p>
         <p class="footer-subtitle-mobile">{{ section.settings.footer_subtitle_3_5}}</p>
         <p class="footer-subtitle-mobile">{{ section.settings.footer_subtitle_3_6}}</p>
         <p class="footer-subtitle-mobile">{{ section.settings.footer_subtitle_3_7}}</p>      </div>
-      <div class="accordion-button">{{ section.settings.faq_question_4}}<span class="arrow">&#9660;</span></div>
+      <div class="accordion-button">{{ section.settings.footer_title_4}}<span class="arrow">&#9660;</span></div>
       <div class="panel">
-          <p>{{ section.settings.faq_answer_4}}</p>
+        <p class="footer-subtitle-mobile">{{ section.settings.footer_subtitle_4_1}}</p>
+        <p class="footer-subtitle-mobile">{{ section.settings.footer_subtitle_4_2}}</p>
+        <p class="footer-subtitle-mobile">{{ section.settings.footer_subtitle_4_3}}</p>
       </div>
       <div class="accordion-button">{{ section.settings.faq_question_5}}<span class="arrow">&#9660;</span></div>
       <div class="panel">
@@ -906,11 +908,11 @@ document.addEventListener('DOMContentLoaded', function() {
   ],
   "settings": [
 
-    {
-      "type": "richtext",
-      "id": "footer_title_1",
-      "default": "<p>COFFEE BEANS</p>",
-      "label": "Title"
+  {
+    "type": "richtext",
+    "id": "footer_title_1",
+    "default": "<p>COFFEE BEANS</p>",
+    "label": "Title"
   },{
         "type": "richtext",
         "id": "footer_subtitle_1",
@@ -944,98 +946,134 @@ document.addEventListener('DOMContentLoaded', function() {
     "id": "footer_title_2",
     "default": "<p>COFFEE BEANS</p>",
     "label": "Title"
-},
+  },
   {
     "type": "richtext",
     "id": "footer_subtitle_2_1",
     "default": "<p>Masterpiece</p>",
     "label": "subtitle"
-},
-{
-  "type": "richtext",
-  "id": "footer_subtitle_2_2",
-  "default": "<p>Curated</p>",
-  "label": "subtitle"
-},
-{
-  "type": "richtext",
-  "id": "footer_subtitle_2_3",
-  "default": "<p>Espresso Of The Month</p>",
-  "label": "subtitle"
-},
-{
-  "type": "richtext",
-  "id": "footer_subtitle_2_4",
-  "default": "<p>Low Caf</p>",
-  "label": "subtitle"
-},
-{
-  "type": "richtext",
-  "id": "footer_subtitle_2_5",
-  "default": "<p>House</p>",
-  "label": "subtitle"
-},
-{
-  "type": "richtext",
-  "id": "footer_subtitle_2_6",
-  "default": "<p>Trial Subscription</p>",
-  "label": "subtitle"
-},
-{
-  "type": "richtext",
-  "id": "footer_subtitle_2_7",
-  "default": "<p>All Subscriptions</p>",
-  "label": "subtitle"
-},
-
-{
-  "type": "richtext",
-  "id": "footer_title_3",
-  "default": "<p>SHOP</p>",
-  "label": "Title"
-},
-{
-  "type": "richtext",
-  "id": "footer_subtitle_3_1",
-  "default": "<p>Equipment</p>",
-  "label": "subtitle"
-},
-{
-"type": "richtext",
-"id": "footer_subtitle_3_2",
-"default": "<p>Instant & Drip Bags</p>",
-"label": "subtitle"
-},
-{
-"type": "richtext",
-"id": "footer_subtitle_3_3",
-"default": "<p>Capsules</p>",
-"label": "subtitle"
-},
-{
-  "type": "richtext",
-  "id": "footer_subtitle_3_3_1",
-  "default": "<p>Books</p>",
-  "label": "subtitle"
   },
-{
-"type": "richtext",
-"id": "footer_subtitle_3_4",
-"default": "<p>Merchandise</p>",
-"label": "subtitle"
-},
-{
-"type": "richtext",
-"id": "footer_subtitle_3_5",
-"default": "<p>Vouchers</p>",
-"label": "subtitle"
-},
-{
-"type": "richtext",
-"id": "footer_subtitle_3_6",
-"default": "<p>Paper Filters</p>",
-"label": "subtitle"
-},
+  {
+    "type": "richtext",
+    "id": "footer_subtitle_2_2",
+    "default": "<p>Curated</p>",
+    "label": "subtitle"
+  },
+  {
+    "type": "richtext",
+    "id": "footer_subtitle_2_3",
+    "default": "<p>Espresso Of The Month</p>",
+    "label": "subtitle"
+  },
+  {
+    "type": "richtext",
+    "id": "footer_subtitle_2_4",
+    "default": "<p>Low Caf</p>",
+    "label": "subtitle"
+  },
+  {
+    "type": "richtext",
+    "id": "footer_subtitle_2_5",
+    "default": "<p>House</p>",
+    "label": "subtitle"
+  },
+  {
+    "type": "richtext",
+    "id": "footer_subtitle_2_6",
+    "default": "<p>Trial Subscription</p>",
+    "label": "subtitle"
+  },
+  {
+    "type": "richtext",
+    "id": "footer_subtitle_2_7",
+    "default": "<p>All Subscriptions</p>",
+    "label": "subtitle"
+  },
+
+  {
+    "type": "richtext",
+    "id": "footer_title_3",
+    "default": "<p>SHOP</p>",
+    "label": "Title"
+  },
+  {
+    "type": "richtext",
+    "id": "footer_subtitle_3_1",
+    "default": "<p>Equipment</p>",
+    "label": "subtitle"
+  },
+  {
+    "type": "richtext",
+    "id": "footer_subtitle_3_2",
+    "default": "<p>Instant & Drip Bags</p>",
+    "label": "subtitle"
+  },
+  {
+    "type": "richtext",
+    "id": "footer_subtitle_3_3",
+    "default": "<p>Capsules</p>",
+    "label": "subtitle"
+  },
+  {
+    "type": "richtext",
+    "id": "footer_subtitle_3_3_1",
+    "default": "<p>Books</p>",
+    "label": "subtitle"
+  },
+  {
+    "type": "richtext",
+    "id": "footer_subtitle_3_4",
+    "default": "<p>Merchandise</p>",
+    "label": "subtitle"
+  },
+  {
+    "type": "richtext",
+    "id": "footer_subtitle_3_5",
+    "default": "<p>Vouchers</p>",
+    "label": "subtitle"
+  },
+  {
+    "type": "richtext",
+    "id": "footer_subtitle_3_6",
+    "default": "<p>Paper Filters</p>",
+    "label": "subtitle"
+  },
+
+  {
+    "type": "richtext",
+    "id": "footer_title_4",
+    "default": "<p>SUSTAINABILITY</p>",
+    "label": "Title"
+  },
+  {
+    "type": "richtext",
+    "id": "footer_subtitle_4_1",
+    "default": "<p>Donate Trees</p>",
+    "label": "subtitle"
+  },
+  {
+    "type": "richtext",
+    "id": "footer_subtitle_4_2",
+    "default": "<p>Climate Mission</p>",
+    "label": "subtitle"
+  },
+  {
+    "type": "richtext",
+    "id": "footer_subtitle_4_3",
+    "default": "<p>Approaching Sustainability</p>",
+    "label": "subtitle"
+  },
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -26,7 +26,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/CHEMEX-BREW-GUIDE.jpg",
             "title": "Chemex",
-            "text": "<p>The Chemex was invented by Peter Schlumbohm in 1941 in Chicago, USA. Being a chemist, Peter understood extraction of flavor and caffeine very well. This resulted in the Chemex being not only a beautiful piece of design, but functional too.<br\/><br\/>The paper used for Chemex filters is slightly thicker than most, which creates incredibly clean brews.<\/p>",
+            "text": "<p>The Chemex was invented by Peter Schlumbohm in 1941 in Chicago, USA. Being a chemist, Peter understood extraction of flavor and caffeine very well. <\/p><p><br\/>This resulted in the Chemex being not only a beautiful piece of design, but functional too. The paper used for Chemex filters is slightly thicker than most, which creates incredibly clean brews.<\/p>",
             "link_label": "Chemex Recipe",
             "link": "shopify:\/\/blogs\/the-barn-blog\/chemex"
           }
@@ -36,7 +36,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/AEROPRESS-BREW-GUIDE.jpg",
             "title": "Aeropress",
-            "text": "<p>Invented in 2005 by Alan Adler (USA), the AeroPress has quickly gained popularity for its brew times and versatility – it delivers everything from Mokka to Filtercoffee.<br\/><br\/>AeroPress is based on the mechanics of the French Press. The addition of paper filters and a rubber seal results in excellent extraction and a fantastic mouthfeel.<\/p>",
+            "text": "<p>Invented in 2005 by Alan Adler (USA), the AeroPress has quickly gained popularity for its brew times and versatility – it delivers everything from Mokka to Filter coffee.<br\/><br\/>AeroPress is based on the mechanics of the French Press. The addition of paper filters and a rubber seal results in excellent extraction and a fantastic mouthfeel.<\/p>",
             "link_label": "Aeropress Recipe",
             "link": "shopify:\/\/blogs\/the-barn-blog\/aeropress"
           }

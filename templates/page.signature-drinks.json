@@ -51,9 +51,37 @@
             "link": ""
           }
         },
+        "column_4ME8HP": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_rFEMwE": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_pxwRfU": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
         "column_CXf7mp": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Shakerato_e44e5c4a-0590-420f-bd54-46fc6e0a14b8.jpg",
             "title": "Column",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",
@@ -63,6 +91,7 @@
         "column_4YpdCh": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Aeropress_Goji.jpg",
             "title": "Column",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",
@@ -72,6 +101,7 @@
         "column_PR66KQ": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Sherbet_75f2c522-e436-4635-b4f9-455ccc7d4fe0.jpg",
             "title": "Column",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",
@@ -134,6 +164,9 @@
         "column_mYEED9",
         "column_P6jbbh",
         "column_BKYpzr",
+        "column_4ME8HP",
+        "column_rFEMwE",
+        "column_pxwRfU",
         "column_CXf7mp",
         "column_4YpdCh",
         "column_PR66KQ",

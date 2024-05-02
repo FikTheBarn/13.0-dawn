@@ -81,7 +81,7 @@ input[type="radio"] + label {
   cursor: pointer;
 }
 input[type="radio"] {
-  accent-color: black; /* Change this to your desired color */
+  accent-color: black; 
 }
 .newsletter-image-container{
   width:100%;
@@ -177,7 +177,7 @@ input[type="radio"] {
       padding: 18px;
       width: 100%;
       height:calc(70vh / 9);
-      background-color: black;
+      background-color: #141414;
       font-size:20px !important;
       color: white;
       border: none;
@@ -202,7 +202,7 @@ input[type="radio"] {
   }
   .panel {
       padding: 0 18px;
-      background-color: grey;
+      background-color: #222222;
       max-height: 0;
       overflow: hidden;
       transition: max-height 0.2s ease-out;
@@ -245,6 +245,7 @@ input[type="radio"] {
 
     .footer-mobile {
       display:block;
+      margin-top:3rem;
     }
     .footer-desktop {
       display:none;
@@ -344,7 +345,9 @@ input[type="radio"] {
 
   <section class="master-section-container-accordion">
     <div class="accordion">
-      <div class="accordion-button">{{ section.settings.footer_title_1}} <span class="arrow">&#9660;</span></div>
+      <div class="accordion-button">{{ section.settings.footer_title_1}} <span class="arrow"> <svg width="32" height="10" viewBox="0 0 52 30" fill="none"   xmlns="http://www.w3.org/2000/svg">
+        <path d="M23.5251 28.4749C24.892 29.8417 27.108 29.8417 28.4749 28.4749L50.7487 6.20101C52.1156 4.83417 52.1156 2.6181 50.7487 1.25126C49.3819 -0.115573 47.1658 -0.115573 45.799 1.25126L26 21.0503L6.20101 1.25126C4.83417 -0.115571 2.6181 -0.115571 1.25126 1.25126C-0.115573 2.6181 -0.115573 4.83418 1.25126 6.20101L23.5251 28.4749ZM22.5 23L22.5 26L29.5 26L29.5 23L22.5 23Z" fill="white"/>
+        </svg></span></div>
       <div class="panel">
           <p class="footer-subtitle-mobile"> {{ section.settings.footer_subtitle_1}}</p>
           <p class="footer-subtitle-mobile">{{ section.settings.footer_subtitle_1_1}}</p>
@@ -352,7 +355,9 @@ input[type="radio"] {
           <p class="footer-subtitle-mobile">{{ section.settings.footer_subtitle_1_3}}</p>
           <p class="footer-subtitle-mobile">{{ section.settings.footer_subtitle_1_4}}</p>
       </div>
-      <div class="accordion-button">{{ section.settings.footer_title_2}}<span class="arrow">&#9660;</span></div>
+      <div class="accordion-button">{{ section.settings.footer_title_2}}<span class="arrow"> <svg width="32" height="10" viewBox="0 0 52 30" fill="none"   xmlns="http://www.w3.org/2000/svg">
+        <path d="M23.5251 28.4749C24.892 29.8417 27.108 29.8417 28.4749 28.4749L50.7487 6.20101C52.1156 4.83417 52.1156 2.6181 50.7487 1.25126C49.3819 -0.115573 47.1658 -0.115573 45.799 1.25126L26 21.0503L6.20101 1.25126C4.83417 -0.115571 2.6181 -0.115571 1.25126 1.25126C-0.115573 2.6181 -0.115573 4.83418 1.25126 6.20101L23.5251 28.4749ZM22.5 23L22.5 26L29.5 26L29.5 23L22.5 23Z" fill="white"/>
+        </svg></span></div>
       <div class="panel">
           <p class="footer-subtitle-mobile">{{ section.settings.footer_subtitle_2_1}}</p>
           <p class="footer-subtitle-mobile">{{ section.settings.footer_subtitle_2_2}}</p>
@@ -362,7 +367,9 @@ input[type="radio"] {
           <p class="footer-subtitle-mobile">{{ section.settings.footer_subtitle_2_6}}</p>
           <p class="footer-subtitle-mobile">{{ section.settings.footer_subtitle_2_7}}</p>
       </div>
-      <div class="accordion-button">{{ section.settings.footer_title_3}}<span class="arrow">&#9660;</span></div>
+      <div class="accordion-button">{{ section.settings.footer_title_3}}<span class="arrow"> <svg width="32" height="10" viewBox="0 0 52 30" fill="none"   xmlns="http://www.w3.org/2000/svg">
+        <path d="M23.5251 28.4749C24.892 29.8417 27.108 29.8417 28.4749 28.4749L50.7487 6.20101C52.1156 4.83417 52.1156 2.6181 50.7487 1.25126C49.3819 -0.115573 47.1658 -0.115573 45.799 1.25126L26 21.0503L6.20101 1.25126C4.83417 -0.115571 2.6181 -0.115571 1.25126 1.25126C-0.115573 2.6181 -0.115573 4.83418 1.25126 6.20101L23.5251 28.4749ZM22.5 23L22.5 26L29.5 26L29.5 23L22.5 23Z" fill="white"/>
+        </svg></span></div>
       <div class="panel">
         <p class="footer-subtitle-mobile">{{ section.settings.footer_subtitle_3_1}}</p>
         <p class="footer-subtitle-mobile">{{ section.settings.footer_subtitle_3_2}}</p>
@@ -372,40 +379,52 @@ input[type="radio"] {
         <p class="footer-subtitle-mobile">{{ section.settings.footer_subtitle_3_5}}</p>
         <p class="footer-subtitle-mobile">{{ section.settings.footer_subtitle_3_6}}</p>
         <p class="footer-subtitle-mobile">{{ section.settings.footer_subtitle_3_7}}</p>      </div>
-      <div class="accordion-button">{{ section.settings.footer_title_4}}<span class="arrow">&#9660;</span></div>
+      <div class="accordion-button">{{ section.settings.footer_title_4}}<span class="arrow"> <svg width="32" height="10" viewBox="0 0 52 30" fill="none"   xmlns="http://www.w3.org/2000/svg">
+        <path d="M23.5251 28.4749C24.892 29.8417 27.108 29.8417 28.4749 28.4749L50.7487 6.20101C52.1156 4.83417 52.1156 2.6181 50.7487 1.25126C49.3819 -0.115573 47.1658 -0.115573 45.799 1.25126L26 21.0503L6.20101 1.25126C4.83417 -0.115571 2.6181 -0.115571 1.25126 1.25126C-0.115573 2.6181 -0.115573 4.83418 1.25126 6.20101L23.5251 28.4749ZM22.5 23L22.5 26L29.5 26L29.5 23L22.5 23Z" fill="white"/>
+        </svg></span></div>
       <div class="panel">
         <p class="footer-subtitle-mobile">{{ section.settings.footer_subtitle_4_1}}</p>
         <p class="footer-subtitle-mobile">{{ section.settings.footer_subtitle_4_2}}</p>
         <p class="footer-subtitle-mobile">{{ section.settings.footer_subtitle_4_3}}</p>
       </div>
-      <div class="accordion-button">{{ section.settings.footer_title_5}}<span class="arrow">&#9660;</span></div>
+      <div class="accordion-button">{{ section.settings.footer_title_5}}<span class="arrow"> <svg width="32" height="10" viewBox="0 0 52 30" fill="none"   xmlns="http://www.w3.org/2000/svg">
+        <path d="M23.5251 28.4749C24.892 29.8417 27.108 29.8417 28.4749 28.4749L50.7487 6.20101C52.1156 4.83417 52.1156 2.6181 50.7487 1.25126C49.3819 -0.115573 47.1658 -0.115573 45.799 1.25126L26 21.0503L6.20101 1.25126C4.83417 -0.115571 2.6181 -0.115571 1.25126 1.25126C-0.115573 2.6181 -0.115573 4.83418 1.25126 6.20101L23.5251 28.4749ZM22.5 23L22.5 26L29.5 26L29.5 23L22.5 23Z" fill="white"/>
+        </svg></span></div>
       <div class="panel">
           <p>{{ section.settings.footer_subtitle_5_1}}</p>
           <p>{{ section.settings.footer_subtitle_5_2}}</p>
           <p>{{ section.settings.footer_subtitle_5_3}}</p>
       </div>
-      <div class="accordion-button">{{ section.settings.footer_title_6}}<span class="arrow">&#9660;</span></div>
+      <div class="accordion-button">{{ section.settings.footer_title_6}}<span class="arrow"> <svg width="32" height="10" viewBox="0 0 52 30" fill="none"   xmlns="http://www.w3.org/2000/svg">
+        <path d="M23.5251 28.4749C24.892 29.8417 27.108 29.8417 28.4749 28.4749L50.7487 6.20101C52.1156 4.83417 52.1156 2.6181 50.7487 1.25126C49.3819 -0.115573 47.1658 -0.115573 45.799 1.25126L26 21.0503L6.20101 1.25126C4.83417 -0.115571 2.6181 -0.115571 1.25126 1.25126C-0.115573 2.6181 -0.115573 4.83418 1.25126 6.20101L23.5251 28.4749ZM22.5 23L22.5 26L29.5 26L29.5 23L22.5 23Z" fill="white"/>
+        </svg></span></div>
       <div class="panel">
         <p>{{ section.settings.footer_subtitle_6_1}}</p>
         <p>{{ section.settings.footer_subtitle_6_2}}</p>
         <p>{{ section.settings.footer_subtitle_6_3}}</p>
         <p>{{ section.settings.footer_subtitle_6_4}}</p>
       </div>
-      <div class="accordion-button">{{ section.settings.footer_title_7}}<span class="arrow">&#9660;</span></div>
+      <div class="accordion-button">{{ section.settings.footer_title_7}}<span class="arrow"> <svg width="32" height="10" viewBox="0 0 52 30" fill="none"   xmlns="http://www.w3.org/2000/svg">
+        <path d="M23.5251 28.4749C24.892 29.8417 27.108 29.8417 28.4749 28.4749L50.7487 6.20101C52.1156 4.83417 52.1156 2.6181 50.7487 1.25126C49.3819 -0.115573 47.1658 -0.115573 45.799 1.25126L26 21.0503L6.20101 1.25126C4.83417 -0.115571 2.6181 -0.115571 1.25126 1.25126C-0.115573 2.6181 -0.115573 4.83418 1.25126 6.20101L23.5251 28.4749ZM22.5 23L22.5 26L29.5 26L29.5 23L22.5 23Z" fill="white"/>
+        </svg></span></div>
       <div class="panel">
         <p>{{ section.settings.footer_subtitle_7_1}}</p>
         <p>{{ section.settings.footer_subtitle_7_2}}</p>
         <p>{{ section.settings.footer_subtitle_7_3}}</p>
         <p>{{ section.settings.footer_subtitle_7_4}}</p>
       </div>
-      <div class="accordion-button">{{ section.settings.footer_title_8}}<span class="arrow">&#9660;</span></div>
+      <div class="accordion-button">{{ section.settings.footer_title_8}}<span class="arrow"> <svg width="32" height="10" viewBox="0 0 52 30" fill="none"   xmlns="http://www.w3.org/2000/svg">
+        <path d="M23.5251 28.4749C24.892 29.8417 27.108 29.8417 28.4749 28.4749L50.7487 6.20101C52.1156 4.83417 52.1156 2.6181 50.7487 1.25126C49.3819 -0.115573 47.1658 -0.115573 45.799 1.25126L26 21.0503L6.20101 1.25126C4.83417 -0.115571 2.6181 -0.115571 1.25126 1.25126C-0.115573 2.6181 -0.115573 4.83418 1.25126 6.20101L23.5251 28.4749ZM22.5 23L22.5 26L29.5 26L29.5 23L22.5 23Z" fill="white"/>
+        </svg></span></div>
       <div class="panel">
         <p>{{ section.settings.footer_subtitle_8_1}}</p>
         <p>{{ section.settings.footer_subtitle_8_2}}</p>
         <p>{{ section.settings.footer_subtitle_8_3}}</p>
         <p>{{ section.settings.footer_subtitle_8_4}}</p>
       </div>
-      <div class="accordion-button">{{ section.settings.footer_title_9}}<span class="arrow">&#9660;</span></div>
+      <div class="accordion-button">{{ section.settings.footer_title_9}}<span class="arrow"> <svg width="32" height="10" viewBox="0 0 52 30" fill="none"   xmlns="http://www.w3.org/2000/svg">
+        <path d="M23.5251 28.4749C24.892 29.8417 27.108 29.8417 28.4749 28.4749L50.7487 6.20101C52.1156 4.83417 52.1156 2.6181 50.7487 1.25126C49.3819 -0.115573 47.1658 -0.115573 45.799 1.25126L26 21.0503L6.20101 1.25126C4.83417 -0.115571 2.6181 -0.115571 1.25126 1.25126C-0.115573 2.6181 -0.115573 4.83418 1.25126 6.20101L23.5251 28.4749ZM22.5 23L22.5 26L29.5 26L29.5 23L22.5 23Z" fill="white"/>
+        </svg></span></div>
       <div class="panel">
         <p>{{ section.settings.footer_subtitle_9_1}}</p>
       </div>
@@ -784,22 +803,24 @@ document.addEventListener('DOMContentLoaded', function() {
   toggleForms();
 
 
-  var accButtons = document.querySelectorAll('.accordion-button');
-      accButtons.forEach(function(btn) {
-          btn.addEventListener('click', function() {
-              var panel = this.nextElementSibling;
-              var arrow = this.querySelector('.arrow');
-              if (panel.style.maxHeight) {
-                  panel.style.maxHeight = null;
-                  arrow.innerHTML = '&#9660;';
-              } else {
-                  document.querySelectorAll('.panel').forEach(p => p.style.maxHeight = null);
-                  document.querySelectorAll('.accordion-button .arrow').forEach(a => a.innerHTML = '&#9660;');
-                  panel.style.maxHeight = panel.scrollHeight + "px";
-                  arrow.innerHTML = '&#9650;';
-              }
-          });
+    var accButtons = document.querySelectorAll('.accordion-button');
+    accButtons.forEach(function(btn) {
+      btn.addEventListener('click', function() {
+          var panel = this.nextElementSibling;
+          var arrow = this.querySelector('.arrow');
+          if (panel.style.maxHeight) {
+              panel.style.maxHeight = null;
+              arrow.classList.remove('up'); // Remove 'up' class to rotate down
+          } else {
+              // Before opening a new panel, close all others and reset their arrows
+              document.querySelectorAll('.panel').forEach(p => p.style.maxHeight = null);
+              document.querySelectorAll('.accordion-button .arrow').forEach(a => a.classList.remove('up')); // Remove 'up' class from all arrows
+              panel.style.maxHeight = panel.scrollHeight + "px";
+              arrow.classList.add('up'); // Add 'up' class to rotate up
+          }
       });
+  });
+
 });
 {%endjavascript%}
 

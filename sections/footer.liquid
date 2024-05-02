@@ -236,30 +236,28 @@ input[type="radio"] {
     padding-top:3rem;
   }
 
-.footer-subtitle-mobile{
-  color:blue;
-}
+  .footer-subtitle-mobile{
+      color:blue;
+  }
 
   {% comment %} //////////////////MOBILE///////////////////// {% endcomment %}
   @media (max-width: 1100px) {
 
     .footer-mobile {
-  display:block;
-}
-.footer-desktop {
+      display:block;
+    }
+    .footer-desktop {
       display:none;
     }
-
   }
 
   {% comment %} //////////////////DESK///////////////////// {% endcomment %}
   @media (min-width: 1100px) {
-.footer-mobile {
-  display:none;
-}
-
-.footer-desktop {
-      display:block;
+    .footer-mobile {
+      display:none;
+    }
+    .footer-desktop {
+          display:block;
     }
 
 }
@@ -382,7 +380,9 @@ input[type="radio"] {
       </div>
       <div class="accordion-button">{{ section.settings.faq_question_5}}<span class="arrow">&#9660;</span></div>
       <div class="panel">
-          <p>{{ section.settings.faq_answer_5}}</p>
+          <p>{{ section.settings.faq_answer_5_1}}</p>
+          <p>{{ section.settings.faq_answer_5_2}}</p>
+          <p>{{ section.settings.faq_answer_5_3}}</p>
       </div>
       <div class="accordion-button">{{ section.settings.faq_question_6}}<span class="arrow">&#9660;</span></div>
       <div class="panel">
@@ -1062,6 +1062,31 @@ document.addEventListener('DOMContentLoaded', function() {
     "type": "richtext",
     "id": "footer_subtitle_4_3",
     "default": "<p>Approaching Sustainability</p>",
+    "label": "subtitle"
+  },
+
+  {
+    "type": "richtext",
+    "id": "footer_title_5",
+    "default": "<p>BLOG & GUIDES</p>",
+    "label": "Title"
+  },
+  {
+    "type": "richtext",
+    "id": "footer_subtitle_5_1",
+    "default": "<p>Articles & Education</p>",
+    "label": "subtitle"
+  },
+  {
+    "type": "richtext",
+    "id": "footer_subtitle_5_2",
+    "default": "<p>Brew Guides</p>",
+    "label": "subtitle"
+  },
+  {
+    "type": "richtext",
+    "id": "footer_subtitle_5_3",
+    "default": "<p>Signature Drinks</p>",
     "label": "subtitle"
   },
 

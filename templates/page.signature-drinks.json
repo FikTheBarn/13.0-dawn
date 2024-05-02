@@ -51,6 +51,15 @@
             "link": ""
           }
         },
+        "column_CXf7mp": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
         "column_4YpdCh": {
           "type": "column",
           "settings": {
@@ -69,9 +78,19 @@
             "link": ""
           }
         },
+        "column_BacaML": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
         "column_8CJGnQ": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Rose_Brew_a51f4f60-2628-49e1-b5fd-c796f5d72615.jpg",
             "title": "Column",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",
@@ -81,6 +100,7 @@
         "column_JxUbgq": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Caffe_Crudo.jpg",
             "title": "Column",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",
@@ -90,6 +110,7 @@
         "column_QkbFNM": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Beetroot_Flat_White.jpg",
             "title": "Column",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",
@@ -99,6 +120,7 @@
         "column_A6MdRC": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Russian_Flat_White_d2b567c1-f865-4156-8b03-e61c4e2ba0e8.jpg",
             "title": "Column",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",
@@ -111,8 +133,10 @@
         "column_mYEED9",
         "column_P6jbbh",
         "column_BKYpzr",
+        "column_CXf7mp",
         "column_4YpdCh",
         "column_PR66KQ",
+        "column_BacaML",
         "column_8CJGnQ",
         "column_JxUbgq",
         "column_QkbFNM",

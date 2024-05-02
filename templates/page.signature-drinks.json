@@ -135,8 +135,8 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/Rose_Brew_a51f4f60-2628-49e1-b5fd-c796f5d72615.jpg",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "Rose Brew",
+            "text": "",
             "link_label": "",
             "link": ""
           }
@@ -145,8 +145,8 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/Caffe_Crudo.jpg",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "Caffe Crudo",
+            "text": "",
             "link_label": "",
             "link": ""
           }

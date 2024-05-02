@@ -2,13 +2,68 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "multicolumn_Y7MXKN": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_jjR6ym": {
+          "type": "column",
+          "settings": {
+            "title": "Hario V60",
+            "text": "<p>The Hario V60 is one of the most iconic drip brewers. The V60 is named after the angle that form its V-shape. The grooves on the inside the dripper support extraction along the side of the filter.<br\/><br\/>This full filtration creates extremely clean flavours while the paper filter also allows some of the coffee oils to pass through.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_dn7M7V": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_UdkRyb": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_jjR6ym",
+        "column_dn7M7V",
+        "column_UdkRyb"
+      ],
+      "settings": {
+        "title": "Multicolumn",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "multicolumn_Y7MXKN"
   ]
 }

@@ -6,9 +6,7 @@
 {{ 'component-list-social.css' | asset_url | stylesheet_tag }}
 
 {%- style -%}
-  .footer {
-    margin-top: {{ section.settings.margin_top | times: 0.75 | round: 0 }}px;
-  }
+
 
   .section-{{ section.id }}-padding {
     padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
@@ -16,16 +14,16 @@
   }
 
   @media screen and (min-width: 750px) {
-    .footer {
-      margin-top: {{ section.settings.margin_top }}px;
-    }
+  
 
     .section-{{ section.id }}-padding {
       padding-top: {{ section.settings.padding_top }}px;
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
   }
-
+.newsletter-text-button-form-container{
+  background-color:transparent;
+}
 
 .newsletter-container{
   position:relative;
@@ -36,32 +34,34 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items:flex-start;
   position:absolute;
   top:0%;
   width:100%;
-  height:500px;
+  height:455px;
 
 }
 .newsletter-text-container{
-  text-align:end;
+
   color:white;
 }
 .klaviyo-form{
-  padding-right:0px !important;
-  padding-left:0px !important;
+  padding:0px !important;
 }
 .newsletter-title {
   font-size:42px;
   color:white;
   letter-spacing: 2px;
+  margin:0px !important;
 
 }
+
 .text-newsletter{
   margin-top:5rem;
 }
 .newsletter-buttons-container{
 
-
+  padding-bottom:1rem;
   color:white;
 
 }
@@ -75,7 +75,8 @@
 .newsletter-buttons-container form {
   display:flex;
   flex-direction:row;
-  justify-content:flex-end;
+  padding:0px;
+
 }
 input[type="radio"] + label {
   cursor: pointer;
@@ -85,7 +86,7 @@ input[type="radio"] {
 }
 .newsletter-image-container{
   width:100%;
-  height:500px;
+  height:455px;
 }
 .newsletter-image-container::after {
     content: '';
@@ -119,8 +120,7 @@ input[type="radio"] {
      display: flex;
      flex-direction: column;
      align-items: center;
-     padding-left: 2rem;
-     padding-right: 2rem;
+
    }
   .newsletter-title{
     font-size:32px;
@@ -164,6 +164,7 @@ input[type="radio"] {
 
 {% comment %} //////////////////ACCORDION  SECTION///////////////////// {% endcomment %}
 
+
   .master-section-container-accordion{
     display: flex;
     flex-direction: column;
@@ -186,6 +187,12 @@ input[type="radio"] {
       cursor: pointer;
       border-bottom: 2px solid var(--padding-sections);
       text-align:left;
+      font-family:'Chalet Comprime';
+
+  }
+  .accordion-button p {
+    font-size:2.8rem !important;
+
   }
   .button-text {
       flex-grow: 1; /* Ensures text takes up available space, pushing the arrow to the right */
@@ -337,46 +344,50 @@ input[type="radio"] {
 
   <section class="newsletter-content-container page-width">
 
+  <section class="newsletter-title-container"> 
+    {%- if section.settings.heading_newsletter != blank -%}
+      <h2 class="newsletter-title">{{- section.settings.heading_newsletter -}}</h2>
+    {%- endif -%}
+  </section>
+
+  <section class="newsletter-text-button-form-container">
+    
+        <section class="newsletter-text-container">
+    
+          {%- if section.settings.perks_newsletter != blank -%}
+            <div class="">{{- section.settings.perks_newsletter  -}}</div>
+          {%- endif -%}
+    
+          {%- if section.settings.text_newsletter != blank -%}
+            <div class="text-newsletter">{{- section.settings.text_newsletter  -}}</div>
+          {%- endif -%}
+    
+        </section>
+    
+        <section class="newsletter-buttons-container">
+          <form  id="languageSelectionForm">
+            <div style="margin-right: 2rem;">
+              <input  type="radio" id="englishOption" name="language" value="English" checked>
+              <label for="englishOption">English</label>
+            </div>
+            <div>
+              <input  type="radio" id="germanOption" name="language" value="German">
+              <label for="germanOption">German</label>
+            </div>
+          </form>
+        </section>
+        
+        <section class="newsletter-form-container">
+          <div class="languageSelectionForm">
+          
+            <div id="germanForm" class="klaviyo-form-Y9AGrt"style="display:none;" ></div>
+            <div id="englishForm" class="klaviyo-form-TTe8CY" ></div>
+          </div>
+        </section>
   
-    <section class="newsletter-text-container">
-      
-      {%- if section.settings.heading_newsletter != blank -%}
-        <h2 class="newsletter-title">{{- section.settings.heading_newsletter -}}</h2>
-      {%- endif -%}
-    
-      {%- if section.settings.perks_newsletter != blank -%}
-        <div class="">{{- section.settings.perks_newsletter  -}}</div>
-      {%- endif -%}
-
-      {%- if section.settings.text_newsletter != blank -%}
-        <div class="text-newsletter">{{- section.settings.text_newsletter  -}}</div>
-      {%- endif -%}
-    
-    </section>
+  </section>
 
 
-    
-    <section class="newsletter-buttons-container">
-      <form  id="languageSelectionForm">
-        <div style="margin-right: 2rem;">
-          <input  type="radio" id="englishOption" name="language" value="English" checked>
-          <label for="englishOption">English</label>
-        </div>
-        <div>
-          <input  type="radio" id="germanOption" name="language" value="German">
-          <label for="germanOption">German</label>
-        </div>
-      </form>
-    </section>
-    
-
-    <section class="newsletter-form-container">
-      <div class="languageSelectionForm">
-      
-        <div id="germanForm" class="klaviyo-form-Y9AGrt"style="display:none;" ></div>
-        <div id="englishForm" class="klaviyo-form-TTe8CY" ></div>
-      </div>
-    </section>
 
   </section>
 

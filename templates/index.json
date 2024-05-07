@@ -31,6 +31,7 @@
         "text_LRNGrf",
         "button_KhUXcV"
       ],
+      "disabled": true,
       "custom_css": [
         "h2 {font-size: 72px;}"
       ],

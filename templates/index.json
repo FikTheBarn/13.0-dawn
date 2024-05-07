@@ -40,34 +40,6 @@
         "accessibility_info": "Slideshow about our brand"
       }
     },
-    "featured_collection_JydVqP": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "SUBSCRIPTION PLANS",
-        "heading_size": "h2",
-        "description": "<p>The worlds best coffees on repeat<\/p>",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "main-coffee-subscriptions",
-        "products_to_show": 3,
-        "columns_desktop": 3,
-        "full_width": false,
-        "show_view_all": false,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "",
-        "image_ratio": "square",
-        "image_shape": "default",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "quick_add": "none",
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_top": 80,
-        "padding_bottom": 40
-      }
-    },
     "featured_collection_Y8ga6P": {
       "type": "featured-collection",
       "custom_css": [
@@ -98,11 +70,57 @@
         "padding_top": 40,
         "padding_bottom": 40
       }
+    },
+    "image_with_text_cnrt9z": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_zD3Bxt": {
+          "type": "heading",
+          "settings": {
+            "heading": "COFFEE SUBSCRIPTIONS",
+            "heading_size": "h1"
+          }
+        },
+        "text_TQFC99": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Explore the best Single Origin flavour out there with our Seasonal Coffee Subscriptions.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_jizyen": {
+          "type": "button",
+          "settings": {
+            "button_label": "EXPLORE",
+            "button_link": "shopify:\/\/pages\/subscriptions-intro",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_zD3Bxt",
+        "text_TQFC99",
+        "button_jizyen"
+      ],
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "custom_slideshow_hero_hgd3h3",
-    "featured_collection_JydVqP",
-    "featured_collection_Y8ga6P"
+    "featured_collection_Y8ga6P",
+    "image_with_text_cnrt9z"
   ]
 }

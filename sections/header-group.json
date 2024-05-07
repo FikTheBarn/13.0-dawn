@@ -119,6 +119,9 @@
         "row_AnGxLc",
         "row_DXryAb"
       ],
+      "custom_css": [
+        "ul a {color:white;}"
+      ],
       "settings": {
         "menu": "navigation_v12_top",
         "menu_1": "main-menu",
@@ -129,7 +132,7 @@
       "type": "custom-header",
       "custom_css": [
         "header {padding-bottom: 8px;}",
-        "ul a{color:white; font-family:'Chalet Comprime'; font-size:24px;}"
+        "ul a {color: white; font-family: \"Chalet Comprime\"; font-size: 24px;}"
       ],
       "settings": {
         "title_image": "Talk about the image",

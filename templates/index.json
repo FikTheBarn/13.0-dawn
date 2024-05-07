@@ -71,7 +71,7 @@
     "featured_collection_Y8ga6P": {
       "type": "featured-collection",
       "custom_css": [
-        ".quick-add__submit {color: white; background-color: #804d15;}"
+        ".quick-add__submit {color: white; background-color: #804d15; --color-secondary-button: #804d15;}"
       ],
       "settings": {
         "title": "LATEST RELEASES",

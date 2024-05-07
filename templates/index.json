@@ -82,7 +82,7 @@
         "blog": "the-barn-blog",
         "post_limit": 4,
         "columns_desktop": 4,
-        "color_scheme": "",
+        "color_scheme": "scheme-1",
         "show_image": true,
         "show_date": true,
         "show_author": false,

@@ -8,7 +8,7 @@
         "announcement_tN6g6G": {
           "type": "announcement",
           "settings": {
-            "text": "This is your time to have an impact: Check out our Earth Coffee 🌳",
+            "text": "🌳",
             "link": ""
           }
         },
@@ -23,6 +23,9 @@
       "block_order": [
         "announcement_tN6g6G",
         "announcement_AWLbmY"
+      ],
+      "custom_css": [
+        "p {color: red; font-size: 16px; font-family:'Raleway';}"
       ],
       "settings": {
         "color_scheme": "",

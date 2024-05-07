@@ -74,17 +74,18 @@
     "featured_blog_ReFHyG": {
       "type": "featured-blog",
       "custom_css": [
+        "@media screen and (min-width: 750px) {.grid {column-gap: 16px; row-gap: var(--grid-desktop-vertical-spacing); }}",
         ".card__information {padding-left: 0rem; padding-right: 0rem; text-align: justify; text-justify: inter-word;}",
         "h3 {text-transform: uppercase; font-size: 28px;}",
         ".article-card__info {font-family: \"Raleway\"; font-size: 12px;}",
-        "p{font-size:12px;}"
+        "p {font-size: 12px;}"
       ],
       "settings": {
         "heading": "NEWS & BREWS",
         "heading_size": "h1",
         "blog": "the-barn-blog",
-        "post_limit": 4,
-        "columns_desktop": 4,
+        "post_limit": 3,
+        "columns_desktop": 3,
         "color_scheme": "scheme-1",
         "show_image": true,
         "show_date": true,

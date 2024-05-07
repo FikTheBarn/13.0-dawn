@@ -77,10 +77,11 @@
         "slide_jTgTUC": {
           "type": "slide",
           "settings": {
+            "image": "shopify:\/\/shop_images\/F215_Checkpoint_Charlie_1_2e042be0-a44b-4f8d-a1d3-f62a2fe41a5a.jpg",
             "heading": "CHECKPOINT CHARLIE",
             "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
+            "subheading": "Our new coffee shop in Berlin",
+            "button_label": "EXPLORE COFFEE SHOP",
             "link": "",
             "button_style_secondary": true,
             "box_align": "middle-left",
@@ -124,7 +125,7 @@
         "change_slides_speed": 5,
         "image_behavior": "none",
         "show_text_below": true,
-        "accessibility_info": "Slideshow about our brand"
+        "accessibility_info": "the barn coffee shops"
       }
     },
     "featured_blog_ReFHyG": {

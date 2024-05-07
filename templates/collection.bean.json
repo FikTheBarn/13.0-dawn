@@ -116,8 +116,30 @@
         "padding_bottom": 0
       }
     },
+    "custom_bean_collection_product_grid_qzccQL": {
+      "type": "custom-bean-collection-product-grid",
+      "settings": {
+        "products_per_page": 48,
+        "columns_desktop": 3,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": true,
+        "show_tastenotes": false,
+        "show_rating": false,
+        "quick_add": "standard",
+        "enable_filtering": true,
+        "filter_type": "horizontal",
+        "enable_sorting": true,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "product-grid": {
       "type": "main-collection-product-grid",
+      "disabled": true,
       "custom_css": [
 
       ],
@@ -151,6 +173,7 @@
     "rich_text_GyHDqz",
     "rich_text_EDAJ3x",
     "custom_beans_cirlcle_filters_zYUc3n",
+    "custom_bean_collection_product_grid_qzccQL",
     "product-grid",
     "custom_beans_main_seo_F3Mrt8"
   ]

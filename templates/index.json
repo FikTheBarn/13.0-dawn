@@ -126,6 +126,12 @@
           "settings": {
             "collection": "merchandise"
           }
+        },
+        "featured_collection_QA7aVU": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "instant-coffee"
+          }
         }
       },
       "block_order": [
@@ -135,7 +141,8 @@
         "featured_collection_qC8jLM",
         "featured_collection_gzV7jL",
         "featured_collection_UEHAjE",
-        "featured_collection_akNPL9"
+        "featured_collection_akNPL9",
+        "featured_collection_QA7aVU"
       ],
       "custom_css": [
         "h3 {text-transform: uppercase; font-size: 32px;}"

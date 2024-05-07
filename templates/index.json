@@ -120,7 +120,7 @@
         "featured_collection_UEHAjE"
       ],
       "custom_css": [
-        "h3{text-transform:uppercase; font-size:32px;}"
+        "h3 {text-transform: uppercase; font-size: 32px;}"
       ],
       "settings": {
         "title": "SHOP BY CATEGORY",
@@ -131,8 +131,8 @@
         "show_view_all": false,
         "columns_mobile": "2",
         "swipe_on_mobile": true,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 100,
+        "padding_bottom": 100
       }
     },
     "featured_blog_ReFHyG": {

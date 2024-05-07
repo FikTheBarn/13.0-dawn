@@ -1,45 +1,50 @@
 {
   "sections": {
-    "custom_slideshow_hero_hgd3h3": {
-      "type": "custom-slideshow-hero",
+    "image_with_text_Fx77i4": {
+      "type": "image-with-text",
       "blocks": {
-        "slide_aJLVWf": {
-          "type": "slide",
+        "heading_wVRAXM": {
+          "type": "heading",
           "settings": {
-            "image": "shopify:\/\/shop_images\/central_triple_box_cb2a9ca8-92f7-407c-a2f7-9018bedb6073.jpg",
-            "heading": "CENTRAL AMERICA",
-            "heading_1": "TRIPLE BOX",
-            "heading_2": "",
-            "heading_size": "h0",
-            "subheading": "3 Origins. 3 Varietals. 3 Processes.",
-            "subheading_2": "Taste our journey through Central America!",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "link_2": "",
-            "button_style_secondary_2": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
+            "heading": "CENTRAL AMERICA TRIPLE BOX",
+            "heading_size": "h1"
+          }
+        },
+        "text_LRNGrf": {
+          "type": "text",
+          "settings": {
+            "text": "<p>3 Origins. 3 Varietals. 3 Processes.Taste our journey through Central America!<\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_KhUXcV": {
+          "type": "button",
+          "settings": {
+            "button_label": "ORDER NOW",
+            "button_link": "shopify:\/\/products\/triple-box-central-america",
+            "button_style_secondary": false
           }
         }
       },
       "block_order": [
-        "slide_aJLVWf"
+        "heading_wVRAXM",
+        "text_LRNGrf",
+        "button_KhUXcV"
       ],
-      "disabled": true,
       "settings": {
-        "layout": "full_bleed",
-        "slide_height": "adapt_image",
-        "slider_visual": "counter",
-        "auto_rotate": false,
-        "change_slides_speed": 5,
-        "show_text_below": true,
-        "accessibility_info": "Slideshow about our brand"
+        "image": "shopify:\/\/shop_images\/central_triple_box_cb2a9ca8-92f7-407c-a2f7-9018bedb6073.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "featured_collection_Y8ga6P": {
@@ -133,8 +138,8 @@
         "show_view_all": false,
         "columns_mobile": "2",
         "swipe_on_mobile": true,
-        "padding_top": 100,
-        "padding_bottom": 100
+        "padding_top": 52,
+        "padding_bottom": 52
       }
     },
     "featured_blog_ReFHyG": {
@@ -160,60 +165,12 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "image_with_text_Fx77i4": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_wVRAXM": {
-          "type": "heading",
-          "settings": {
-            "heading": "CENTRAL AMERICA TRIPLE BOX",
-            "heading_size": "h1"
-          }
-        },
-        "text_LRNGrf": {
-          "type": "text",
-          "settings": {
-            "text": "<p>3 Origins. 3 Varietals. 3 Processes.Taste our journey through Central America!<\/p>",
-            "text_style": "body"
-          }
-        },
-        "button_KhUXcV": {
-          "type": "button",
-          "settings": {
-            "button_label": "ORDER NOW",
-            "button_link": "shopify:\/\/products\/triple-box-central-america",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_wVRAXM",
-        "text_LRNGrf",
-        "button_KhUXcV"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/central_triple_box_cb2a9ca8-92f7-407c-a2f7-9018bedb6073.jpg",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
-    "custom_slideshow_hero_hgd3h3",
+    "image_with_text_Fx77i4",
     "featured_collection_Y8ga6P",
     "collection_list_c4HEKH",
-    "featured_blog_ReFHyG",
-    "image_with_text_Fx77i4"
+    "featured_blog_ReFHyG"
   ]
 }

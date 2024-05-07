@@ -40,34 +40,6 @@
         "accessibility_info": "Slideshow about our brand"
       }
     },
-    "featured_collection_JydVqP": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "SUBSCRIPTION PLANS",
-        "heading_size": "h2",
-        "description": "<p>The worlds best coffees on repeat<\/p>",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "main-coffee-subscriptions",
-        "products_to_show": 3,
-        "columns_desktop": 3,
-        "full_width": false,
-        "show_view_all": false,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "",
-        "image_ratio": "square",
-        "image_shape": "default",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "quick_add": "none",
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_top": 80,
-        "padding_bottom": 40
-      }
-    },
     "featured_collection_Y8ga6P": {
       "type": "featured-collection",
       "custom_css": [
@@ -75,7 +47,7 @@
       ],
       "settings": {
         "title": "LATEST RELEASES",
-        "heading_size": "h2",
+        "heading_size": "h1",
         "description": "<p>Savor the new flavors: freshly roasted<\/p>",
         "show_description": false,
         "description_style": "body",
@@ -89,7 +61,7 @@
         "color_scheme": "scheme-1",
         "image_ratio": "square",
         "image_shape": "default",
-        "show_secondary_image": false,
+        "show_secondary_image": true,
         "show_vendor": false,
         "show_rating": false,
         "quick_add": "standard",
@@ -98,11 +70,100 @@
         "padding_top": 40,
         "padding_bottom": 40
       }
+    },
+    "collection_list_c4HEKH": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_KyhY6J": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "coffee-beans"
+          }
+        },
+        "featured_collection_pdqiKP": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "coffee-subscription"
+          }
+        },
+        "featured_collection_AVyPQP": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "coffee-equipment"
+          }
+        },
+        "featured_collection_qC8jLM": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "fellow-products"
+          }
+        },
+        "featured_collection_gzV7jL": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "coffee-books"
+          }
+        },
+        "featured_collection_UEHAjE": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "coffee-filter-brewing-method"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_KyhY6J",
+        "featured_collection_pdqiKP",
+        "featured_collection_AVyPQP",
+        "featured_collection_qC8jLM",
+        "featured_collection_gzV7jL",
+        "featured_collection_UEHAjE"
+      ],
+      "custom_css": [
+        "h3 {text-transform: uppercase; font-size: 32px;}"
+      ],
+      "settings": {
+        "title": "SHOP BY CATEGORY",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "color_scheme": "",
+        "show_view_all": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "featured_blog_ReFHyG": {
+      "type": "featured-blog",
+      "custom_css": [
+        "@media screen and (min-width: 750px) {.grid {column-gap: 16px; row-gap: var(--grid-desktop-vertical-spacing); }}",
+        ".card__information {padding-left: 0rem; padding-right: 0rem; text-align: justify; text-justify: inter-word;}",
+        "h3 {text-transform: uppercase; font-size: 28px;}",
+        ".article-card__info {font-family: \"Raleway\"; font-size: 12px;}",
+        "p {font-size: 12px;}"
+      ],
+      "settings": {
+        "heading": "NEWS & BREWS",
+        "heading_size": "h1",
+        "blog": "the-barn-blog",
+        "post_limit": 4,
+        "columns_desktop": 4,
+        "color_scheme": "scheme-1",
+        "show_image": true,
+        "show_date": true,
+        "show_author": false,
+        "show_view_all": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "custom_slideshow_hero_hgd3h3",
-    "featured_collection_JydVqP",
-    "featured_collection_Y8ga6P"
+    "featured_collection_Y8ga6P",
+    "collection_list_c4HEKH",
+    "featured_blog_ReFHyG"
   ]
 }

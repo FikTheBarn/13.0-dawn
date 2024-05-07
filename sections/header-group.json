@@ -8,14 +8,14 @@
         "announcement_tN6g6G": {
           "type": "announcement",
           "settings": {
-            "text": "🌳",
+            "text": "Welcome to our store 🌳",
             "link": ""
           }
         },
         "announcement_AWLbmY": {
           "type": "announcement",
           "settings": {
-            "text": "Welcome to our store",
+            "text": "Brew Sip Remember",
             "link": ""
           }
         }
@@ -25,10 +25,10 @@
         "announcement_AWLbmY"
       ],
       "custom_css": [
-        "p {color: red; font-size: 16px; font-family:'Raleway';}"
+        "p {font-size: 12px; font-family: \"Raleway\";}"
       ],
       "settings": {
-        "color_scheme": "",
+        "color_scheme": "scheme-1",
         "show_line_separator": true,
         "show_social": false,
         "auto_rotate": false,
@@ -39,6 +39,7 @@
     },
     "header": {
       "type": "header",
+      "disabled": true,
       "settings": {
         "logo_position": "top-center",
         "menu": "navigation-v13-without-mega-menu",
@@ -78,10 +79,89 @@
         "blog_link_3": "",
         "blog_label_3": "Label"
       }
+    },
+    "custom_top_navigation_igQ6V9": {
+      "type": "custom-top-navigation",
+      "blocks": {
+        "row_eQBcdJ": {
+          "type": "row",
+          "settings": {
+            "caption": "Caption",
+            "heading": "Row",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        },
+        "row_AnGxLc": {
+          "type": "row",
+          "settings": {
+            "caption": "Caption",
+            "heading": "Row",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        },
+        "row_DXryAb": {
+          "type": "row",
+          "settings": {
+            "caption": "Caption",
+            "heading": "Row",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_eQBcdJ",
+        "row_AnGxLc",
+        "row_DXryAb"
+      ],
+      "settings": {
+        "menu": "navigation_v12_top",
+        "menu_1": "main-menu",
+        "menu_type_desktop": "dropdown"
+      }
+    },
+    "custom_header_DGJWfJ": {
+      "type": "custom-header",
+      "settings": {
+        "title_image": "Talk about the image",
+        "heading": "Talk about the image",
+        "button_label_image": "image",
+        "button_link_image": "",
+        "title_image_1": "Talk about the image",
+        "heading_1": "Talk about the image 1",
+        "button_label_image_1": "image 1",
+        "button_link_image_1": "",
+        "menu_equipment_01": "main-menu",
+        "menu_equipment_02": "main-menu",
+        "menu_equipment_03": "main-menu",
+        "height": "adapt",
+        "button_label": "Subscription Plans",
+        "button_link": "",
+        "logo_position": "middle-left",
+        "menu": "navigation_v12",
+        "menu_type_desktop": "mega",
+        "sticky_header_type": "always",
+        "show_line_separator": true,
+        "color_scheme": "scheme-1",
+        "menu_color_scheme": "",
+        "enable_country_selector": false,
+        "enable_language_selector": false,
+        "mobile_logo_position": "center",
+        "margin_bottom": 0,
+        "padding_top": 8,
+        "padding_bottom": 20
+      }
     }
   },
   "order": [
     "announcement-bar",
-    "header"
+    "header",
+    "custom_top_navigation_igQ6V9",
+    "custom_header_DGJWfJ"
   ]
 }

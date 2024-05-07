@@ -120,6 +120,12 @@
           "settings": {
             "collection": "coffee-filter-brewing-method"
           }
+        },
+        "featured_collection_akNPL9": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "merchandise"
+          }
         }
       },
       "block_order": [
@@ -128,7 +134,8 @@
         "featured_collection_AVyPQP",
         "featured_collection_qC8jLM",
         "featured_collection_gzV7jL",
-        "featured_collection_UEHAjE"
+        "featured_collection_UEHAjE",
+        "featured_collection_akNPL9"
       ],
       "custom_css": [
         "h3 {text-transform: uppercase; font-size: 32px;}"
@@ -137,7 +144,7 @@
         "title": "SHOP BY CATEGORY",
         "heading_size": "h1",
         "image_ratio": "square",
-        "columns_desktop": 3,
+        "columns_desktop": 4,
         "color_scheme": "",
         "show_view_all": false,
         "columns_mobile": "1",

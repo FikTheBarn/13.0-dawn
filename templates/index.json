@@ -47,7 +47,7 @@
       ],
       "settings": {
         "title": "LATEST RELEASES",
-        "heading_size": "h2",
+        "heading_size": "h1",
         "description": "<p>Savor the new flavors: freshly roasted<\/p>",
         "show_description": false,
         "description_style": "body",

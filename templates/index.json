@@ -71,52 +71,22 @@
         "padding_bottom": 40
       }
     },
-    "image_with_text_cnrt9z": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_zD3Bxt": {
-          "type": "heading",
-          "settings": {
-            "heading": "COFFEE SUBSCRIPTIONS",
-            "heading_size": "h0"
-          }
-        },
-        "text_TQFC99": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Explore the best Single Origin flavour out there with our Seasonal Coffee Subscriptions.<\/p>",
-            "text_style": "body"
-          }
-        },
-        "button_jizyen": {
-          "type": "button",
-          "settings": {
-            "button_label": "EXPLORE",
-            "button_link": "shopify:\/\/pages\/subscriptions-intro",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_zD3Bxt",
-        "text_TQFC99",
-        "button_jizyen"
-      ],
+    "featured_blog_ReFHyG": {
+      "type": "featured-blog",
       "custom_css": [
-        "@media screen and (min-width: 1100px) {h2 {font-size: 72px;}}"
+
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/CuratedSubscriptionCoffeeJan24_9008e125-bf38-4d56-a43e-79a15324740c.jpg",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "center",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "",
+        "heading": "NEWS & BREWS",
+        "heading_size": "h1",
+        "blog": "the-barn-blog",
+        "post_limit": 4,
+        "columns_desktop": 4,
         "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
+        "show_image": true,
+        "show_date": true,
+        "show_author": false,
+        "show_view_all": false,
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -125,6 +95,6 @@
   "order": [
     "custom_slideshow_hero_hgd3h3",
     "featured_collection_Y8ga6P",
-    "image_with_text_cnrt9z"
+    "featured_blog_ReFHyG"
   ]
 }

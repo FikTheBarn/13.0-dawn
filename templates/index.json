@@ -102,6 +102,9 @@
         "text_TQFC99",
         "button_jizyen"
       ],
+      "custom_css": [
+        "@media screen and (min-width: 1100px) {h2 {font-size: 72px;}}"
+      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/CuratedSubscriptionCoffeeJan24_9008e125-bf38-4d56-a43e-79a15324740c.jpg",
         "height": "adapt",

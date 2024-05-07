@@ -127,6 +127,9 @@
     },
     "custom_header_DGJWfJ": {
       "type": "custom-header",
+      "custom_css": [
+        "header{padding-bottom: 8px;}"
+      ],
       "settings": {
         "title_image": "Talk about the image",
         "heading": "Talk about the image",

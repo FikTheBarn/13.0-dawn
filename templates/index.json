@@ -171,7 +171,7 @@
       ],
       "settings": {
         "heading": "NEWS & BREWS",
-        "heading_size": "h2",
+        "heading_size": "h1",
         "blog": "the-barn-blog",
         "post_limit": 3,
         "columns_desktop": 3,

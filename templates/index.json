@@ -113,6 +113,9 @@
         "slide_jTgTUC",
         "slide_tcreEY"
       ],
+      "custom_css": [
+        "@media screen and (min-width: 1100px) {.slideshow__text-wrapper.banner__content {width: 100%; }}"
+      ],
       "settings": {
         "layout": "grid",
         "slide_height": "small",

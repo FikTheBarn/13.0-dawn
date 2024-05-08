@@ -208,7 +208,6 @@
   object-fit:cover;
 }
 .text-content-container{
-  height:200px;
   background-color:black;
   padding:20px;
 
@@ -217,6 +216,11 @@
   justify-content:start;
   text-align:center;
   align-items:center;
+}
+.text-content-container h3{
+font-size:var(--font-size-medium);
+padding:0px;
+margin:0px;
 }
 .arrow-right-container{
   background-color:black;
@@ -238,7 +242,6 @@
 @media (max-width: 1100px) {
   .master-content-container{
     background-color:var(--padding-sections);
-    height: calc(100vh - 30vh - 40px );
 
   }
   .master-title-subtitle-button-container{
@@ -260,13 +263,12 @@
     align-items: flex-start;
     justify-content:start;
     text-align:start;
-    height:40%;
 
 
   }
   .content-box-triple{
     height:100%;
-    min-width:calc(100vw - 60px);
+    min-width:calc(100% - 60px);
     padding:0px;
     justify-content:flex-start;
 

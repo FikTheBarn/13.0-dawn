@@ -35,6 +35,9 @@
     },
     "product-grid": {
       "type": "main-collection-product-grid",
+      "custom_css": [
+        "h3 {font-size: 36px;}"
+      ],
       "settings": {
         "products_per_page": 8,
         "columns_desktop": 3,

@@ -109,7 +109,12 @@
     "custom_bean_collection_product_grid_qzccQL": {
       "type": "custom-bean-collection-product-grid",
       "custom_css": [
-        "h3 {font-size: 36px;}"
+        "h3 {font-size: 36px;}",
+        ".facets__disclosure {margin-right: 10px;}",
+        ".facets__summary {background: #1c1d1c; padding: 10px 20px; border-radius: 5px;}",
+        ".facets__summary .icon-caret {right: -5px; position: relative;}",
+        ".button {background-color: #804d15;}",
+        "@media screen and (min-width: 750px) {.facets .disclosure-has-popup[open] > summary + * {z-index: 2; background: #1c1d1c; border-radius: 5px; }}"
       ],
       "settings": {
         "products_per_page": 64,

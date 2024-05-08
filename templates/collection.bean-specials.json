@@ -75,11 +75,20 @@
             "button_text": "FILTER",
             "button_link": "shopify:\/\/collections\/filter-coffee"
           }
+        },
+        "custom_column_CThatV": {
+          "type": "custom_column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Coffee_Specials_Circle_Filter_e09438f6-e62e-432d-8206-6d035ed0e116.jpg",
+            "button_text": "SPECIALS",
+            "button_link": "shopify:\/\/collections\/coffee-beans-specials"
+          }
         }
       },
       "block_order": [
         "custom_column_9QQGyj",
-        "custom_column_6ajaGa"
+        "custom_column_6ajaGa",
+        "custom_column_CThatV"
       ],
       "custom_css": [
         "h3 {font-size: 24px;}"

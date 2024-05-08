@@ -3,15 +3,34 @@
     "rich_text_zda7MH": {
       "type": "rich-text",
       "blocks": {
-        "text_xGHMdR": {
+        "text_khiCE9": {
           "type": "text",
           "settings": {
             "text": "<p><a href=\"\/collections\/coffee-beans\" title=\"COFFEE BEANS\">COFFEE BEANS<\/a> &gt; <\/p>"
           }
+        },
+        "button_LxmfWW": {
+          "type": "button",
+          "settings": {
+            "button_label": "Espresso Coffee Beans",
+            "button_link": "shopify:\/\/collections\/filter-coffee",
+            "button_style_secondary": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        },
+        "text_MPtz63": {
+          "type": "text",
+          "settings": {
+            "text": "<p>{{ product.title }}<\/p>"
+          }
         }
       },
       "block_order": [
-        "text_xGHMdR"
+        "text_khiCE9",
+        "button_LxmfWW",
+        "text_MPtz63"
       ],
       "settings": {
         "desktop_content_position": "center",

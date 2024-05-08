@@ -122,7 +122,7 @@
         "h3 {font-size: 36px;}"
       ],
       "settings": {
-        "products_per_page": 8,
+        "products_per_page": 64,
         "columns_desktop": 3,
         "color_scheme": "",
         "image_ratio": "square",

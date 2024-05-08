@@ -25,6 +25,26 @@
         "padding_bottom": 0
       }
     },
+    "custom_beans_cirlcle_filters_agcdtB": {
+      "type": "Custom-Beans-Cirlcle-Filters",
+      "blocks": {
+        "custom_column_nLTdHN": {
+          "type": "custom_column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Espresso_Cirle_Filter.jpg",
+            "button_text": "ESPRESSO",
+            "button_link": "shopify:\/\/collections\/espresso-coffee"
+          }
+        }
+      },
+      "block_order": [
+        "custom_column_nLTdHN"
+      ],
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "banner": {
       "type": "main-collection-banner",
       "settings": {
@@ -60,6 +80,7 @@
   },
   "order": [
     "rich_text_kd8XCe",
+    "custom_beans_cirlcle_filters_agcdtB",
     "banner",
     "product-grid"
   ]

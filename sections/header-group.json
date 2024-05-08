@@ -123,6 +123,7 @@
         "ul a {color: white;}"
       ],
       "settings": {
+        "enable_language_selector": true,
         "menu": "navigation_v12_top",
         "menu_1": "main-menu",
         "menu_type_desktop": "dropdown"

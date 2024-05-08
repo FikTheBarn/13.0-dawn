@@ -32,6 +32,9 @@
         "button_LxmfWW",
         "text_MPtz63"
       ],
+      "custom_css": [
+        ".button {all: none !important;}"
+      ],
       "settings": {
         "desktop_content_position": "left",
         "content_alignment": "left",

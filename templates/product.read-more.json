@@ -47,6 +47,7 @@
       ],
       "custom_css": [
         ".rich-text__blocks {display: flex; align-items: flex-end;}",
+        ".rich-text__wrapper {width: auto;}",
         ".rich-text__buttons {margin-top: 0px; width: auto;}",
         ".button {all: unset; --buttons-border-opacity: 0px; font-size: 0.67em;}"
       ],
@@ -55,8 +56,8 @@
         "content_alignment": "left",
         "color_scheme": "",
         "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "main": {

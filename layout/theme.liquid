@@ -283,6 +283,20 @@
         document.documentElement.classList.add('shopify-design-mode');
       }
     </script>
+
+    <script>
+      {% comment %}bee clever script for Klaviyo tracking{% endcomment %}
+        (() => {
+      
+        const scriptSrc = "https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=PBgMC8"; 
+      
+        ((d, t, s, n) => {
+          ((n = d.createElement(t)).src = s).async = true;
+          d.head.appendChild(n);
+        })(document, "script", scriptSrc);
+        })();
+       </script>
+    <script src="https://cdn.lordicon.com/lordicon.js" defer ></script>
   </head>
 
   <body class="gradient{% if settings.animations_hover_elements != 'none' %} animate--hover-{{ settings.animations_hover_elements }}{% endif %}">

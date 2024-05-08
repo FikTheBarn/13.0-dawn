@@ -6,7 +6,7 @@
         "text_khiCE9": {
           "type": "text",
           "settings": {
-            "text": "<p><a href=\"\/collections\/coffee-beans\" title=\"COFFEE BEANS\">COFFEE BEANS<\/a> &gt; <\/p>"
+            "text": "<h6><a href=\"\/collections\/coffee-beans\" title=\"COFFEE BEANS\">Coffee Beans<\/a> &gt; <\/h6>"
           }
         },
         "button_LxmfWW": {
@@ -23,7 +23,7 @@
         "text_MPtz63": {
           "type": "text",
           "settings": {
-            "text": "<p>{{ product.title }}<\/p>"
+            "text": "<h6>{{ product.title }}<\/h6>"
           }
         }
       },
@@ -33,8 +33,8 @@
         "text_MPtz63"
       ],
       "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
+        "desktop_content_position": "left",
+        "content_alignment": "left",
         "color_scheme": "",
         "full_width": true,
         "padding_top": 40,

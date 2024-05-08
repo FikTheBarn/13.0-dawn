@@ -41,7 +41,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Filter_Circle_Filter_6f9c1eb2-d6e4-4c21-a4ae-31275aa603e2.jpg",
             "button_text": "FILTER",
-            "button_link": ""
+            "button_link": "shopify:\/\/collections\/filter-coffee"
           }
         }
       },

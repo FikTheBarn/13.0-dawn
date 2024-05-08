@@ -67,6 +67,9 @@
         "custom_column_VqaceF",
         "custom_column_KHNDRL"
       ],
+      "custom_css": [
+        "h3{font-size:24px;}"
+      ],
       "settings": {
         "padding_top": 36,
         "padding_bottom": 36

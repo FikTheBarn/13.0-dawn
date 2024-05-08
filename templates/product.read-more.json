@@ -1,5 +1,27 @@
 {
   "sections": {
+    "rich_text_zda7MH": {
+      "type": "rich-text",
+      "blocks": {
+        "text_xGHMdR": {
+          "type": "text",
+          "settings": {
+            "text": "<p><a href=\"\/collections\/coffee-beans\" title=\"COFFEE BEANS\">COFFEE BEANS<\/a> &gt; <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_xGHMdR"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "main": {
       "type": "main-product",
       "blocks": {
@@ -247,6 +269,7 @@
     }
   },
   "order": [
+    "rich_text_zda7MH",
     "main",
     "image-with-text",
     "multicolumn",

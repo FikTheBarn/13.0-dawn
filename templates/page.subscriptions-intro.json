@@ -8,26 +8,8 @@
         "padding_bottom": 28
       }
     },
-    "17151877040132c3e2": {
-      "type": "apps",
-      "blocks": {
-        "judge_me_reviews_featured_carousel_6ntyW9": {
-          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/featured_carousel\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "disabled": true,
-          "settings": {
-            "maxwidth": 1080
-          }
-        }
-      },
-      "block_order": [
-        "judge_me_reviews_featured_carousel_6ntyW9"
-      ],
-      "settings": {
-        "include_margins": true
-      }
-    },
     "custom_subscription_intro_3BGcyW": {
-      "type": "custom-subscription-intro",
+      "type": "custom-subscription-intro-01",
       "settings": {
         "text_title_primary": "<h1>OUR COFFEE SUBSCRIPTIONS<\/h1>",
         "text_subtitle_primary": "<p>Explore the best Single Origin flavour out there with our Seasonal Coffee Subscriptions.<\/p>",
@@ -111,7 +93,6 @@
   },
   "order": [
     "main",
-    "17151877040132c3e2",
     "custom_subscription_intro_3BGcyW"
   ]
 }

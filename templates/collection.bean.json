@@ -63,7 +63,7 @@
           "type": "custom_column",
           "settings": {
             "image": "shopify:\/\/shop_images\/Espresso_Cirle_Filter.jpg",
-            "button_text": "Espresso",
+            "button_text": "ESPRESSO",
             "button_link": "shopify:\/\/collections\/espresso-coffee"
           }
         },
@@ -71,24 +71,15 @@
           "type": "custom_column",
           "settings": {
             "image": "shopify:\/\/shop_images\/Filter_Circle_Filter_6f9c1eb2-d6e4-4c21-a4ae-31275aa603e2.jpg",
-            "button_text": "Filter",
+            "button_text": "FILTER",
             "button_link": "shopify:\/\/collections\/filter-coffee"
-          }
-        },
-        "custom_column_3dQ7nh": {
-          "type": "custom_column",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Subscriptions_Circle_Filter.jpg",
-            "button_text": "Subscriptions",
-            "button_link": "shopify:\/\/pages\/subscriptions-intro"
           }
         },
         "custom_column_NWBxrh": {
           "type": "custom_column",
           "settings": {
             "image": "shopify:\/\/shop_images\/Coffee_Specials_Circle_Filter_e09438f6-e62e-432d-8206-6d035ed0e116.jpg",
-            "button_text": "Specials",
+            "button_text": "SPECIALS",
             "button_link": "shopify:\/\/collections\/coffee-beans-specials"
           }
         },
@@ -96,7 +87,7 @@
           "type": "custom_column",
           "settings": {
             "image": "shopify:\/\/shop_images\/laurinacover_2.jpg",
-            "button_text": "Low Caf",
+            "button_text": "LOW CAF",
             "button_link": "shopify:\/\/collections\/low-caf-coffee-beans"
           }
         }
@@ -104,12 +95,11 @@
       "block_order": [
         "custom_column_DPWgHH",
         "custom_column_C9hnJ8",
-        "custom_column_3dQ7nh",
         "custom_column_NWBxrh",
         "custom_column_E6PAgk"
       ],
       "custom_css": [
-
+        "h3 {font-size: 24px;}"
       ],
       "settings": {
         "padding_top": 0,

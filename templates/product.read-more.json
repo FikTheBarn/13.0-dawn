@@ -11,6 +11,7 @@
         },
         "button_DAb4hK": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "button_label": "Coffee Beans >",
             "button_link": "shopify:\/\/collections\/coffee-beans",
@@ -45,8 +46,8 @@
         "text_MPtz63"
       ],
       "custom_css": [
-        ".rich-text__blocks {display: flex; align-items: flex-end; justify-content: space-between;}",
-        ".rich-text__buttons {margin-top: 0px;}",
+        ".rich-text__blocks {display: flex; align-items: flex-end;}",
+        ".rich-text__buttons {margin-top: 0px; width: auto;}",
         ".button {all: unset; --buttons-border-opacity: 0px; font-size: 0.67em;}"
       ],
       "settings": {

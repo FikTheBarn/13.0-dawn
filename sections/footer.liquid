@@ -29,6 +29,7 @@
   position:relative;
   height:auto;
   margin-top:0rem;
+  padding: 0px;
 }
 .newsletter-content-container{
   display: flex;
@@ -353,9 +354,9 @@ margin:0px;
 
 
 
-<section class="newsletter-container ">
+<section class="newsletter-container page-width ">
 
-  <div class="newsletter-image-container">
+  <div class="newsletter-image-container ">
     {%- if section.settings.image_newsletter != blank -%}
       <img
         srcset="{%- if section.settings.image_newsletter.width >= 165 -%}{{ section.settings.image_newsletter | image_url: width: 165 }} 165w,{%- endif -%}

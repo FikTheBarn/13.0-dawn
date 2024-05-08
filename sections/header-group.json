@@ -34,7 +34,7 @@
         "auto_rotate": false,
         "change_slides_speed": 5,
         "enable_country_selector": false,
-        "enable_language_selector": false
+        "enable_language_selector": true
       }
     },
     "header": {
@@ -120,7 +120,7 @@
         "row_DXryAb"
       ],
       "custom_css": [
-        "ul a {color:white;}"
+        "ul a {color: white;}"
       ],
       "settings": {
         "menu": "navigation_v12_top",

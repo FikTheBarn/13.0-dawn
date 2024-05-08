@@ -118,6 +118,9 @@
     },
     "custom_bean_collection_product_grid_qzccQL": {
       "type": "custom-bean-collection-product-grid",
+      "custom_css": [
+        "h3{font-size:36px;}"
+      ],
       "settings": {
         "products_per_page": 48,
         "columns_desktop": 3,

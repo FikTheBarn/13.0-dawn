@@ -35,10 +35,19 @@
             "button_text": "ESPRESSO",
             "button_link": "shopify:\/\/collections\/espresso-coffee"
           }
+        },
+        "custom_column_cephLb": {
+          "type": "custom_column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Filter_Circle_Filter_6f9c1eb2-d6e4-4c21-a4ae-31275aa603e2.jpg",
+            "button_text": "FILTER",
+            "button_link": ""
+          }
         }
       },
       "block_order": [
-        "custom_column_mkgYHX"
+        "custom_column_mkgYHX",
+        "custom_column_cephLb"
       ],
       "custom_css": [
         "h3 {font-size: 24px;}"

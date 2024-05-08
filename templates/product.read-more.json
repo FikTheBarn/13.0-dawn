@@ -34,7 +34,7 @@
       ],
       "custom_css": [
         ".rich-text__blocks {display: flex;}",
-        ".button {all: unset;}"
+        ".button {all: unset; --buttons-border-opacity: 0px;}"
       ],
       "settings": {
         "desktop_content_position": "left",

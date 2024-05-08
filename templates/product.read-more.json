@@ -33,7 +33,7 @@
         "text_MPtz63"
       ],
       "custom_css": [
-        ".button {all: none !important;}"
+        ".button .button--secondary {all: unset !important;}"
       ],
       "settings": {
         "desktop_content_position": "left",

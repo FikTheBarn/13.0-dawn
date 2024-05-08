@@ -83,12 +83,21 @@
             "button_text": "SPECIALS",
             "button_link": "shopify:\/\/collections\/coffee-beans-specials"
           }
+        },
+        "custom_column_eahbDe": {
+          "type": "custom_column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Low_Caf_Circle_Filter.jpg",
+            "button_text": "LOW CAF",
+            "button_link": "shopify:\/\/collections\/low-caf-coffee-beans"
+          }
         }
       },
       "block_order": [
         "custom_column_9QQGyj",
         "custom_column_6ajaGa",
-        "custom_column_CThatV"
+        "custom_column_CThatV",
+        "custom_column_eahbDe"
       ],
       "custom_css": [
         "h3 {font-size: 24px;}"

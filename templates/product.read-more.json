@@ -9,6 +9,17 @@
             "text": "<h6><a href=\"\/collections\/coffee-beans\" title=\"COFFEE BEANS\">Coffee Beans<\/a> &gt; <\/h6>"
           }
         },
+        "button_DAb4hK": {
+          "type": "button",
+          "settings": {
+            "button_label": "Coffee Beans >",
+            "button_link": "shopify:\/\/collections\/coffee-beans",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        },
         "button_LxmfWW": {
           "type": "button",
           "settings": {
@@ -29,11 +40,12 @@
       },
       "block_order": [
         "text_khiCE9",
+        "button_DAb4hK",
         "button_LxmfWW",
         "text_MPtz63"
       ],
       "custom_css": [
-        ".rich-text__blocks {display: flex;align-items: flex-end;justify-content: space-between;}",
+        ".rich-text__blocks {display: flex; align-items: flex-end; justify-content: space-between;}",
         ".rich-text__buttons {margin-top: 0px;}",
         ".button {all: unset; --buttons-border-opacity: 0px; font-size: 0.67em;}"
       ],

@@ -95,22 +95,22 @@
 
 {% comment %} ///////////////////SECOND SECTION///////////////////// {% endcomment %}
 .master-section-container{
-  height:100vh;
   border:20px solid var(--padding-sections);
 }
-.master-title-subtitle-button-container{
-  height:20vh;
+.master-title-subtitle-button-container-intro{
+  height:30vh;
   display:flex;
   flex-direction:row;
   justify-content:space-between;
   align-items:center;
   padding:20px;
+  background-color:black;
 
 }
 .master-title-subtitle-container{
   width:50%;
 }
-.master-content-container{
+.master-content-container-intro-02{
 
 
   overflow-x: auto;
@@ -125,7 +125,6 @@
 
   background-color:var(--padding-sections);
   width:100%;
-  height: calc(100vh - 20vh - 40px );
 }
 .content-box-triple{
   max-width:33.33%;
@@ -147,7 +146,7 @@
   height:60%;
   object-fit:cover;
 }
-.text-content-container{
+.text-content-container-intro{
   background-color:black;
   padding:20px;
 
@@ -156,8 +155,14 @@
   justify-content:start;
   text-align:center;
   align-items:center;
+  width:100%;
 }
-.text-content-container h3{
+.text-content-container-intro p{
+  height:100px;
+
+
+  }
+.text-content-container-intro h3{
 font-size:var(--font-size-medium);
 padding:0px;
 margin:0px;
@@ -184,7 +189,7 @@ margin:0px;
     background-color:var(--padding-sections);
 
   }
-  .master-title-subtitle-button-container{
+  .master-title-subtitle-button-container-intro{
     height:20vh;
     display:flex;
     flex-direction:row;
@@ -197,15 +202,17 @@ margin:0px;
   .master-image{
     height:50%; 
   }
-  .text-content-container{
+  .text-content-container-intro{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content:start;
     text-align:start;
+    width:100%;
 
 
   }
+
   .content-box-triple{
     height:100%;
     min-width:calc(100% - 60px);
@@ -220,15 +227,16 @@ margin:0px;
     text-align:center;
     width:100%;
   }
-  .master-container-button-mobile{
+  .master-container-button-mobile-intro-02{
     display:flex;
     flex-direction:column;
     justify-content:center;
     text-align:center;
     align-items:center;
-    height:10%;
-
+    height:10vh;
     background-color:black;
+
+
 
   }
 }
@@ -258,7 +266,6 @@ margin:0px;
         border-top:20px solid var(--padding-sections);
         border-bottom:20px solid var(--padding-sections);
         padding:40px;
-        background-color:black;
     
       }
   }
@@ -290,8 +297,8 @@ margin:0px;
     </video>
   </section>
   
-  <section class="master-section-container ">
-    <div class="master-title-subtitle-button-container">
+  <section class="master-section-container-intro-02 ">
+    <div class="master-title-subtitle-button-container-intro">
       <div class="master-title-subtitle-container">
         <h2>{{ section.settings.text_title_secondary }}</h2>
         <p>{{ section.settings.text_subtitle_secondary }}</p>
@@ -299,10 +306,10 @@ margin:0px;
       <button class="button-main button-desktop"> {{ section.settings.cta-main }} </button>
     </div>
   
-    <div class="master-content-container">
+    <div class="master-content-container-intro-02">
       <div class="content-box-triple"> 
-        <img src="https://cdn.shopify.com/s/files/1/0831/4141/files/Clayton_and_the_beans.jpg?v=1680785005" class="master-image" width=""; height=""; alt="">
-        <div class="text-content-container">
+        <img src="https://cdn.shopify.com/s/files/1/0831/4141/files/Clayton_and_the_beans_1.jpg?v=1715272904" class="master-image" width=""; height=""; alt="">
+        <div class="text-content-container-intro">
           <h3>{{ section.settings.ROASTERY_HEADING_2 }}</h3>
           <br>
           <p>{{ section.settings.ROASTERY_OPENING_2 }}</p>
@@ -312,7 +319,7 @@ margin:0px;
   
       <div class="content-box-triple">
         <img src="https://cdn.shopify.com/s/files/1/0831/4141/files/ralf_roastery_a8082eac-5c87-4689-8242-1ead45739a4a.jpg?v=1713252184" class="master-image" width=""; height=""; alt="">
-        <div class="text-content-container">
+        <div class="text-content-container-intro">
           <h3>{{ section.settings.ROASTERY_HEADING_1 }}</h3>
           <br>
           <p>{{ section.settings.ROASTERY_OPENING_1 }}</p>
@@ -322,7 +329,7 @@ margin:0px;
       
       <div class="content-box-triple">
         <img src="https://cdn.shopify.com/s/files/1/0831/4141/files/Subscriptions_1.jpg?v=1713252186" class="master-image" width=""; height=""; alt="">
-        <div class="text-content-container">
+        <div class="text-content-container-intro">
           <h3>{{ section.settings.TITLE_003 }}</h3>
           <br>
           <p>{{ section.settings.SUBTITLE_003 }}</p>
@@ -332,20 +339,22 @@ margin:0px;
       </div>
       
     </div>
-  
-    <div class="master-container-button-mobile">
-      <button class="button-main button-mobile"> {{ section.settings.cta-main }}</button>
-    </div>
     
   </section>
+  
+
   
   
   
   
 
 </div>
+<div class="page-width">
+  <div class="master-container-button-mobile-intro-02 ">
+    <button class="button-main button-mobile h"> {{ section.settings.cta-main }}</button>
+  </div>
 
-
+</div>
 
 
 {% schema %}

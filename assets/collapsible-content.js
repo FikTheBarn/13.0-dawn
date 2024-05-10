@@ -1,4 +1,3 @@
-
 class Accordion {
 constructor(el) {
 // Store the <details> element

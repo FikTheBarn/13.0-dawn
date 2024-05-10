@@ -108,7 +108,7 @@
         "share"
       ],
       "custom_css": [
-
+        ".accordion__title{}"
       ],
       "settings": {
         "enable_sticky_info": true,

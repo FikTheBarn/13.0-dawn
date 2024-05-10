@@ -18,6 +18,12 @@
             "product": "{{product}}"
           }
         },
+        "custom_liquid_3wcTbw": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<style>\n.rc_container_wrapper{}\n<\/style>"
+          }
+        },
         "title": {
           "type": "title",
           "settings": {
@@ -96,6 +102,7 @@
       "block_order": [
         "vendor",
         "recharge_subscriptions_subscription_widget_wymmWC",
+        "custom_liquid_3wcTbw",
         "title",
         "caption",
         "price",
@@ -108,7 +115,7 @@
         "share"
       ],
       "custom_css": [
-        ".accordion__title{}"
+
       ],
       "settings": {
         "enable_sticky_info": true,

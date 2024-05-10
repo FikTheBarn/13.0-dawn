@@ -53,9 +53,9 @@
 
 
 {% comment %} ///////////////////HERO SECTION///////////////////// {% endcomment %}
-.master-section-container-hero {
+.master-section-container-hero-intro {
   position: relative; 
-  height: calc(100vh - 168.688px);  
+  height: calc(100vh - 218.68px);  
   display: flex; 
   flex-direction: column; 
   align-items: center; 
@@ -190,7 +190,7 @@ margin:0px;
 
   }
   .master-title-subtitle-button-container-intro{
-    height:20vh;
+    height:30vh;
     display:flex;
     flex-direction:row;
     justify-content:center;
@@ -279,113 +279,48 @@ margin:0px;
   }
 
 
-  {% comment %} //////////////////PERKS SECTION///////////////////// {% endcomment %}
-.master-section-container-perks{
-  display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    min-height:100vh;
-    border:20px solid var(--padding-sections);
-}
-.master-title-subtitle-button-container-perks{
-  height:20vh;
+
+.carouselText {
   display:flex;
-  flex-direction:row;
-  justify-content:space-between;
-  align-items:center;
-  padding:20px;
-  background-color:black;
-
-
-}
-.container-perks {
-    display: flex;
-    flex-direction: row; /* Ensures side-by-side layout */
-    height: calc(100vh - 20vh - 40px);
-    width: 100%; /* Full viewport width */
-    justify-content: stretch; /* Ensures that each child expands as needed */
-    align-items: stretch; /* Aligns children to stretch to fill the container height */
-    background-color:black;
-
-}
-.text-list-perks {
-    height:100%;
-    width: 50%; /* Half of the container */
-    display: flex;
-    flex-direction: column;
-    justify-content: center; /* Vertically center content in this column */
-    align-items: flex-start; /* Align items to the start (left side) of the column */
-    border-right: 20px solid var(--padding-sections); /* Adds a border between the columns */
-    box-sizing: border-box; /* Includes padding and border in the element's width */
-
-}
-.icon-display-perks {
-    width: 50%; /* Half of the container */
-    display: flex;
-    align-items: center; /* Centers content vertically */
-    justify-content: center; /* Centers content horizontally */
-    font-size: 48px;
-    visibility: visible; /* Always visible */
-    box-sizing: border-box; /* Includes padding and border in the element's width */
-    padding: 20px; /* Optional padding for aesthetics */
-
-}
-.text-item-perks{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    background-color: black;
-    height: calc(80vh / 8);
-    width: 100%;
-    padding-left:20px;
-    border-bottom:4px solid var(--padding-sections);
-    color:white;
-    font-size:16px;
-
+  overflow: hidden;
+  position: relative;
+  height: 50px;  /* Adjust height as necessary */
+  background: #141414;
 }
 
-
-.text-item-perks:hover {
-  background-color:var(--padding-sections); 
+.carouselText--inner {
+  display: flex;
+  gap: 20px;
+  white-space: nowrap;
+  animation: scrollText 80s linear infinite;
 }
-.icon-display-perks {
-    width: 50%;
-    display: flex;
-    flex-direction: column; // To stack icon and text vertically
-    align-items: center; // Center-align the content horizontally
-    justify-content: center; // Center-align the content vertically
-    visibility: hidden; // Initially hidden, shown on hover
-    transition: visibility 0.3s ease-in-out; // Smooth visibility transition
+.carouselText--inner p {
+  color:white;
+  margin:0px;
+  padding:0px;
 }
 
-
-@media (max-width: 1100px) {
-    .master-title-subtitle-button-container-perks{
-        background-color:black;
-
-      }
-      .text-item-perks{
-        justify-content:center;
-          text-align:center;
-      }
-    .container-perks {
-        flex-direction: column; /* Stacks the containers vertically on smaller screens */
-    }
-    .text-list-perks, .icon-display-perks {
-        width: 100%; /* Full width of the container */
-        border-right: none; /* Removes the border-right in stacked layout */
-        border-bottom: 2px solid #000; /* Adds a border below the text list */
-    }
-    .icon-display-perks {
-        display: none; /* Optionally hide the icon display on smaller screens */
-    }
+@keyframes scrollText {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-100%); }
 }
+
+.carouselText--inner > * {
+  align-self: center;
+}
+
+.carouselText--inner:hover {
+  animation-play-state: paused;
+}
+
 {%- endstyle -%}
 
 <div class="page-width">
 
+
   
-  <section class="master-section-container-hero page-width">
+  
+  <section class="master-section-container-hero-intro page-width">
     <div class="content-overlay ">
       <h1>{{ section.settings.text_title_primary }}</h1>
       <p>{{ section.settings.text_subtitle_primary }}</p>
@@ -399,7 +334,38 @@ margin:0px;
   
     </video>
   </section>
-  
+  <div class="carouselText js__carouselText">
+    
+    <div class="carouselText--inner">
+      
+      <p>&#x2714{{ section.settings.what_do_i_get_one}} </p>
+      <p>&#x2714{{ section.settings.what_do_i_get_two}} </p>
+      <p>&#x2714{{ section.settings.what_do_i_get_three}} </p>
+      <p>&#x2714{{ section.settings.what_do_i_get_four}} </p>
+      <p>&#x2714{{ section.settings.what_do_i_get_five}} </p>
+      <p>&#x2714{{ section.settings.what_do_i_get_six}} </p>
+      <p>&#x2714{{ section.settings.what_do_i_get_seven}} </p>
+      <p>&#x2714{{ section.settings.what_do_i_get_eight}} </p> 
+      <p>&#x2714{{ section.settings.what_do_i_get_one}} </p>
+      <p>&#x2714{{ section.settings.what_do_i_get_two}} </p>
+      <p>&#x2714{{ section.settings.what_do_i_get_three}} </p>
+      <p>&#x2714{{ section.settings.what_do_i_get_four}} </p>
+      <p>&#x2714{{ section.settings.what_do_i_get_five}} </p>
+      <p>&#x2714{{ section.settings.what_do_i_get_six}} </p>
+      <p>&#x2714{{ section.settings.what_do_i_get_seven}} </p>
+      <p>&#x2714{{ section.settings.what_do_i_get_eight}} </p>
+      <p>&#x2714{{ section.settings.what_do_i_get_one}} </p>
+      <p>&#x2714{{ section.settings.what_do_i_get_two}} </p>
+      <p>&#x2714{{ section.settings.what_do_i_get_three}} </p>
+      <p>&#x2714{{ section.settings.what_do_i_get_four}} </p>
+      <p>&#x2714{{ section.settings.what_do_i_get_five}} </p>
+      <p>&#x2714{{ section.settings.what_do_i_get_six}} </p>
+      <p>&#x2714{{ section.settings.what_do_i_get_seven}} </p>
+      <p>&#x2714{{ section.settings.what_do_i_get_eight}} </p> 
+    
+    </div>
+</div>
+
   <section class="master-section-container-intro-02 ">
     <div class="master-title-subtitle-button-container-intro">
       <div class="master-title-subtitle-container">
@@ -445,66 +411,10 @@ margin:0px;
     
   </section>
   
-  <section class="">
-  
-    <div class="master-title-subtitle-button-container-perks">
-      <div class="master-title-subtitle-container">
-        <h2>{{ section.settings.what_do_i_get_title}}</h2>
-      </div>
-      <button class="button-main button-desktop"> {{ section.settings.cta-main }} </button>
-    </div>
-    <div class="container-perks">
-      <div class="text-list-perks">
-          <div class="text-item-perks" 
-            data-icon-perks="https://cdn.lordicon.com/hffrpcip.json"
-            data-text-perks="{{ section.settings.what_do_i_get_one_description}}">
-            {{ section.settings.what_do_i_get_one}} 
-          </div>
-          <div class="text-item-perks" 
-            data-icon-perks="https://cdn.lordicon.com/uzfnnbnm.json"
-            data-text-perks="{{ section.settings.what_do_i_get_two_description}}">
-            {{ section.settings.what_do_i_get_two}} 
-          </div>
-          <div class="text-item-perks" 
-            data-icon-perks="https://cdn.lordicon.com/pchraidq.json"
-            data-text-perks="{{ section.settings.what_do_i_get_three_description}}">
-            {{ section.settings.what_do_i_get_three}} 
-          </div>
-          <div class="text-item-perks" 
-            data-icon-perks="https://cdn.lordicon.com/lfxfmfjq.json"
-            data-text-perks="{{ section.settings.what_do_i_get_four_description}}">
-            {{ section.settings.what_do_i_get_four}} 
-          </div>
-          <div class="text-item-perks" 
-            data-icon-perks="https://cdn.lordicon.com/zzjjvkam.json"
-            data-text-perks="{{ section.settings.what_do_i_get_five_description}}">
-            {{ section.settings.what_do_i_get_five}} 
-          </div>
-          <div class="text-item-perks" 
-            data-icon-perks="https://cdn.lordicon.com/ixsfhsol.json"
-            data-text-perks="{{ section.settings.what_do_i_get_six_description}}">
-            {{ section.settings.what_do_i_get_six}} 
-          </div>
-          <div class="text-item-perks" 
-            data-icon-perks="https://cdn.lordicon.com/dndbceuc.json"
-            data-text-perks="{{ section.settings.what_do_i_get_seven_description}}">
-            {{ section.settings.what_do_i_get_seven}} 
-          </div>
-          <div class="text-item-perks" 
-            data-icon-perks="https://cdn.lordicon.com/gqjpawbc.json"
-            data-text-perks="{{ section.settings.what_do_i_get_eight_description}}">
-            {{ section.settings.what_do_i_get_eight}} 
-          </div>
-      </div>
-      <div class="icon-display-perks"></div>
-    </div>
-  </section>
+
 
   
   
-  
-  
-
 </div>
 <div class="page-width">
   <div class="master-container-button-mobile-intro-02 ">
@@ -513,8 +423,11 @@ margin:0px;
 
 </div>
 
+
+
 {% javascript %}
   document.addEventListener('DOMContentLoaded', function() {
+
       // Function to strip HTML tags from strings
       function stripHtml(html) {
           var tempDiv = document.createElement("div");
@@ -563,50 +476,7 @@ margin:0px;
           });
       });
 
-      // Icon and text update functionality
-      const items = document.querySelectorAll('.text-item-perks');
-      const iconDisplay = document.querySelector('.icon-display-perks');
-      let lastHoveredItem = null;
-
-      function setIconAndText(item) {
-          iconDisplay.innerHTML = '';
-
-          const icon = document.createElement('lord-icon');
-          icon.setAttribute('src', item.getAttribute('data-icon-perks'));
-          icon.setAttribute('trigger', 'loop');
-          icon.setAttribute('colors', 'primary:#FFFFFF,secondary:#FFFFFF');
-          icon.setAttribute('style', 'width:250px;height:250px');
-          icon.setAttribute('delay', '2000');
-
-          const text = document.createElement('div');
-          text.textContent = stripHtml(item.getAttribute('data-text-perks'));
-          text.style.color = '#fff';
-          text.style.fontSize = '20px';
-          text.style.textAlign = 'center';
-          text.style.marginTop = '20px';
-
-          iconDisplay.appendChild(icon);
-          iconDisplay.appendChild(text);
-          iconDisplay.style.visibility = 'visible';
-          
-          lastHoveredItem = item;
-      }
-
-      if (items.length > 0) {
-          setIconAndText(items[0]);
-          lastHoveredItem = items[0];
-      }
-
-      items.forEach(item => {
-          item.addEventListener('mouseenter', function() {
-              setIconAndText(this);
-          });
-          item.addEventListener('mouseleave', function() {
-              if (lastHoveredItem) {
-                  setIconAndText(lastHoveredItem);
-              }
-          });
-      });
+      
 
   });
 {% endjavascript %}
@@ -702,24 +572,10 @@ margin:0px;
     },
     {
       "type": "richtext",
-      "id": "what_do_i_get_one_description",
-      "default": "<p>link your location</p>",
-      "label": "What Do I Get 1 description"
-    },
-
-    {
-      "type": "richtext",
       "id": "what_do_i_get_two",
       "default": "<p>link your location</p>",
       "label": "What Do I Get 2?"
     },
-    {
-      "type": "richtext",
-      "id": "what_do_i_get_two_description",
-      "default": "<p>link your location</p>",
-      "label": "What Do I Get 2 description"
-    },
-
     {
       "type": "richtext",
       "id": "what_do_i_get_three",
@@ -728,22 +584,9 @@ margin:0px;
     },
     {
       "type": "richtext",
-      "id": "what_do_i_get_three_description",
-      "default": "<p>link your location</p>",
-      "label": "What Do I Get 3 description"
-    },
-
-    {
-      "type": "richtext",
       "id": "what_do_i_get_four",
       "default": "<p>link your location</p>",
       "label": "What Do I Get 4?"
-    },
-    {
-      "type": "richtext",
-      "id": "what_do_i_get_four_description",
-      "default": "<p>link your location</p>",
-      "label": "What Do I Get 4 description"
     },
     {
       "type": "richtext",
@@ -753,23 +596,10 @@ margin:0px;
     },
     {
       "type": "richtext",
-      "id": "what_do_i_get_five_description",
-      "default": "<p>link your location</p>",
-      "label": "What Do I Get 5 description"
-    },
-    {
-      "type": "richtext",
       "id": "what_do_i_get_six",
       "default": "<p>link your location</p>",
       "label": "What Do I Get 6?"
     },
-    {
-      "type": "richtext",
-      "id": "what_do_i_get_six_description",
-      "default": "<p>link your location</p>",
-      "label": "What Do I Get 6 description"
-    },
-
     {
       "type": "richtext",
       "id": "what_do_i_get_seven",
@@ -778,22 +608,9 @@ margin:0px;
     },
     {
       "type": "richtext",
-      "id": "what_do_i_get_seven_description",
-      "default": "<p>link your location</p>",
-      "label": "What Do I Get 7 description"
-    },
-
-    {
-      "type": "richtext",
       "id": "what_do_i_get_eight",
       "default": "<p>link your location</p>",
       "label": "What Do I Get 8?"
-    },
-    {
-      "type": "richtext",
-      "id": "what_do_i_get_eight_description",
-      "default": "<p>link your location</p>",
-      "label": "What Do I Get 8 description"
     }
 
 

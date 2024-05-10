@@ -24,8 +24,8 @@
         "button_LxmfWW": {
           "type": "button",
           "settings": {
-            "button_label": "{{ product.metafields.product.coffee_type | metafield_text }}",
-            "button_link": "{{ product.metafields.custom.test_url.value }}",
+            "button_label": "{{ product.metafields.product.coffee_type | metafield_text }} >",
+            "button_link": "{{ product.metafields.beans.collection_url_link.value }}",
             "button_style_secondary": true,
             "button_label_2": "",
             "button_link_2": "",

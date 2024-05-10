@@ -60,7 +60,7 @@
       "type": "custom-subscriptions-collection-filter",
       "settings": {
         "title_subscription": "<h2>SUBSCRIPTIONS BY CATEGORY <\/h2>",
-        "products_per_page": 8,
+        "products_per_page": 16,
         "columns_desktop": 3,
         "image_ratio": "portrait",
         "show_secondary_image": false,

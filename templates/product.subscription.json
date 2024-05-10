@@ -11,17 +11,10 @@
             "text_style": "uppercase"
           }
         },
-        "recharge_subscriptions_subscription_widget_wymmWC": {
-          "type": "shopify:\/\/apps\/recharge-subscriptions\/blocks\/subscription-widget\/371eed76-0b44-4869-9813-730372ea378e",
-          "disabled": true,
-          "settings": {
-            "product": "{{product}}"
-          }
-        },
         "custom_liquid_3wcTbw": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<style>\n.rc_container_wrapper{}\n<\/style>"
+            "custom_liquid": "<style>\n.installment .caption-large{\ndisplay:none;}\n<\/style>"
           }
         },
         "title": {
@@ -101,7 +94,6 @@
       },
       "block_order": [
         "vendor",
-        "recharge_subscriptions_subscription_widget_wymmWC",
         "custom_liquid_3wcTbw",
         "title",
         "caption",

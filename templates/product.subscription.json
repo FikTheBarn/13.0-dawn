@@ -107,9 +107,7 @@
         "share"
       ],
       "custom_css": [
-        ".rc-container-wrapper {display: none;}",
-        "h3 {font-size: calc(var(--font-heading-scale) * 2rem);}",
-        ".card__heading{font-size: calc(var(--font-heading-scale) * 1.7rem);}"
+
       ],
       "settings": {
         "enable_sticky_info": true,

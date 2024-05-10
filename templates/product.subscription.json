@@ -107,7 +107,8 @@
         "share"
       ],
       "custom_css": [
-        ".rc-container-wrapper {display: none;}"
+        ".rc-container-wrapper {display: none;}",
+        "h3 {font-size: calc(var(--font-heading-scale) * 2rem); }"
       ],
       "settings": {
         "enable_sticky_info": true,

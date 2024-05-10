@@ -11,6 +11,13 @@
             "text_style": "uppercase"
           }
         },
+        "recharge_subscriptions_subscription_widget_wymmWC": {
+          "type": "shopify:\/\/apps\/recharge-subscriptions\/blocks\/subscription-widget\/371eed76-0b44-4869-9813-730372ea378e",
+          "disabled": true,
+          "settings": {
+            "product": "{{product}}"
+          }
+        },
         "title": {
           "type": "title",
           "settings": {
@@ -33,11 +40,6 @@
           "settings": {
             "picker_type": "button",
             "swatch_shape": "circle"
-          }
-        },
-        "quantity_selector": {
-          "type": "quantity_selector",
-          "settings": {
           }
         },
         "complementary_FG8RKq": {
@@ -65,43 +67,21 @@
           "settings": {
           }
         },
-        "collapsible-row-0": {
-          "type": "collapsible_tab",
-          "disabled": true,
-          "settings": {
-            "heading": "Materials",
-            "icon": "leather",
-            "content": "",
-            "page": ""
-          }
-        },
         "collapsible-row-1": {
           "type": "collapsible_tab",
-          "disabled": true,
           "settings": {
-            "heading": "Shipping & Returns",
-            "icon": "truck",
-            "content": "",
+            "heading": "Stay in Control",
+            "icon": "stopwatch",
+            "content": "<p>{{ product.metafields.Subscription.Infomation | metafield_tag }}<\/p>",
             "page": ""
           }
         },
         "collapsible-row-2": {
           "type": "collapsible_tab",
-          "disabled": true,
           "settings": {
-            "heading": "Dimensions",
-            "icon": "ruler",
-            "content": "",
-            "page": ""
-          }
-        },
-        "collapsible-row-3": {
-          "type": "collapsible_tab",
-          "disabled": true,
-          "settings": {
-            "heading": "Care Instructions",
-            "icon": "heart",
-            "content": "",
+            "heading": "Shipping Information",
+            "icon": "truck",
+            "content": "<p>{{ product.metafields.Subscription.Shipping_Information | metafield_tag }}<\/p>",
             "page": ""
           }
         },
@@ -115,18 +95,16 @@
       },
       "block_order": [
         "vendor",
+        "recharge_subscriptions_subscription_widget_wymmWC",
         "title",
         "caption",
         "price",
         "variant_picker",
-        "quantity_selector",
         "complementary_FG8RKq",
         "buy_buttons",
         "description",
-        "collapsible-row-0",
         "collapsible-row-1",
         "collapsible-row-2",
-        "collapsible-row-3",
         "share"
       ],
       "settings": {

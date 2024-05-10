@@ -14,7 +14,7 @@
         "custom_liquid_3wcTbw": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<style>\n.installment .caption-large{\ndisplay:none;}\n<\/style>"
+            "custom_liquid": "<style>\n.rc-subscription-details{\ndisplay:none;}\n<\/style>"
           }
         },
         "title": {

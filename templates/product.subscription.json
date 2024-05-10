@@ -14,7 +14,7 @@
         "custom_liquid_3wcTbw": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<style>\n.rc-container-wrapper{\ndisplay:none;}\n<\/style>"
+            "custom_liquid": ""
           }
         },
         "title": {
@@ -107,7 +107,7 @@
         "share"
       ],
       "custom_css": [
-
+        ".rc-container-wrapper {display: none;}"
       ],
       "settings": {
         "enable_sticky_info": true,

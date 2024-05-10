@@ -33,7 +33,6 @@
   margin:0px;
   padding:0px;
 }
-
 .button-main {
   background-color: var(--brown);
   padding: 1.6rem;
@@ -45,13 +44,10 @@
   transition: box-shadow 0.3s ease-in-out; /* Smooth transition for the shadow */
   cursor: pointer; /* Ensures the cursor changes to a pointer when hovered */
 }
-
 .button-main:hover {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
   transform: scale(1.05); /* Slightly enlarges the button */
 }
-
-
 {% comment %} ///////////////////HERO SECTION///////////////////// {% endcomment %}
 .master-section-container-hero-intro {
   position: relative; 
@@ -92,7 +88,6 @@
 .button-hero{
   margin-top:2rem;
 }
-
 {% comment %} ///////////////////SECOND SECTION///////////////////// {% endcomment %}
 .master-section-container{
   border:20px solid var(--padding-sections);
@@ -104,25 +99,20 @@
   justify-content:space-between;
   align-items:center;
   padding:20px;
-  background-color:black;
+  background-color:#141414;
 
 }
 .master-title-subtitle-container{
   width:50%;
 }
 .master-content-container-intro-02{
-
-
   overflow-x: auto;
   -webkit-overflow-scrolling: touch; /* Enables momentum-based scrolling on iOS devices */
   scroll-snap-type: x mandatory; 
-
-
   display:flex;
   flex-direction:row;
   justify-content:space-between;
   align-items:center;
-
   background-color:var(--padding-sections);
   width:100%;
 }
@@ -147,7 +137,7 @@
   object-fit:cover;
 }
 .text-content-container-intro{
-  background-color:black;
+  background-color:#141414;
   padding:20px;
 
   display:flex;
@@ -159,16 +149,14 @@
 }
 .text-content-container-intro p{
   height:100px;
-
-
-  }
+}
 .text-content-container-intro h3{
-font-size:var(--font-size-medium);
-padding:0px;
-margin:0px;
+  font-size:var(--font-size-medium);
+  padding:0px;
+  margin:0px;
 }
 .arrow-right-container{
-  background-color:black;
+  background-color:#141414;
   width:100%;
 
   display:flex;
@@ -183,93 +171,86 @@ margin:0px;
   
 }
 
+  @media (max-width: 1100px) {
+    .master-content-container{
+      background-color:var(--padding-sections);
 
-@media (max-width: 1100px) {
-  .master-content-container{
-    background-color:var(--padding-sections);
+    }
+    .master-title-subtitle-button-container-intro{
+      height:30vh;
+      display:flex;
+      flex-direction:row;
+      justify-content:center;
+      align-items:center;
+      padding:20shpx;
+      background-color:#141414;
+
+    }
+    .master-image{
+      height:50%; 
+    }
+    .text-content-container-intro{
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content:start;
+      text-align:start;
+      width:100%;
+
+
+    }
+    .content-box-triple{
+      height:100%;
+      min-width:calc(100% - 60px);
+      padding:0px;
+      justify-content:flex-start;
+
+    }
+    .button-desktop{
+      display:none;
+    }
+    .master-title-subtitle-container{
+      text-align:center;
+      width:100%;
+    }
+    .master-container-button-mobile-intro-02{
+      display:flex;
+      flex-direction:column;
+      justify-content:center;
+      text-align:center;
+      align-items:center;
+      height:20vh;
+      background-color:#141414;
+
+
+
+    }
+  }
+  @media (min-width: 1100px) {
+
+    .button-mobile{
+      display:none;
+    }
+    .arrow-right-container{
+      display:none;
+    }
 
   }
-  .master-title-subtitle-button-container-intro{
-    height:30vh;
-    display:flex;
-    flex-direction:row;
-    justify-content:center;
-    align-items:center;
-    padding:20shpx;
-    background-color:black;
-
-  }
-  .master-image{
-    height:50%; 
-  }
-  .text-content-container-intro{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content:start;
-    text-align:start;
-    width:100%;
-
-
-  }
-
-  .content-box-triple{
-    height:100%;
-    min-width:calc(100% - 60px);
-    padding:0px;
-    justify-content:flex-start;
-
-  }
-  .button-desktop{
-    display:none;
-  }
-  .master-title-subtitle-container{
-    text-align:center;
-    width:100%;
-  }
-  .master-container-button-mobile-intro-02{
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-    text-align:center;
-    align-items:center;
-    height:10vh;
-    background-color:black;
-
-
-
-  }
-}
-@media (min-width: 1100px) {
-
-  .button-mobile{
-    display:none;
-  }
-  .arrow-right-container{
-    display:none;
-  }
-
-}
-
-
 
   @media (max-width: 1100px) {
-
-
     .master-container-button-mobile-accordion{
-        display:flex;
-        flex-direction:column;
-        justify-content:center;
-        text-align:center;
-        align-items:center;
-        height:10%;
-        border-top:20px solid var(--padding-sections);
-        border-bottom:20px solid var(--padding-sections);
-        padding:40px;
-    
-      }
+          display:flex;
+          flex-direction:column;
+          justify-content:center;
+          text-align:center;
+          align-items:center;
+          height:10%;
+          border-top:20px solid var(--padding-sections);
+          border-bottom:20px solid var(--padding-sections);
+          padding:40px;
+      
+        }
   }
-
   .cta-bottom-container-desktop{
     display:flex;
     flex-direction:column;
@@ -277,49 +258,46 @@ margin:0px;
     align-items:center;
     padding-top:3rem;
   }
+{% comment %} ///////////////////CARROUSEL///////////////////// {% endcomment %}
 
 
+  .carouselText {
+    display:flex;
+    overflow: hidden;
+    position: relative;
+    height: 50px;  /* Adjust height as necessary */
+    background: #141414;
+    border-top:2px solid grey;
+    border-bottom:2px solid grey;
 
-.carouselText {
-  display:flex;
-  overflow: hidden;
-  position: relative;
-  height: 50px;  /* Adjust height as necessary */
-  background: #141414;
-}
-
-.carouselText--inner {
+  }
+  .carouselText--inner {
   display: flex;
   gap: 20px;
   white-space: nowrap;
   animation: scrollText 80s linear infinite;
-}
-.carouselText--inner p {
+  }
+  .carouselText--inner p {
   color:white;
   margin:0px;
   padding:0px;
-}
-
-@keyframes scrollText {
-  0% { transform: translateX(0); }
-  100% { transform: translateX(-100%); }
-}
-
-.carouselText--inner > * {
-  align-self: center;
-}
-
-.carouselText--inner:hover {
-  animation-play-state: paused;
-}
+  }
+  @keyframes scrollText {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-100%); }
+  }
+  .carouselText--inner > * {
+    align-self: center;
+  }
+  .carouselText--inner:hover {
+    animation-play-state: paused;
+  }
 
 {%- endstyle -%}
 
 <div class="page-width">
 
 
-  
-  
   <section class="master-section-container-hero-intro page-width">
     <div class="content-overlay ">
       <h1>{{ section.settings.text_title_primary }}</h1>
@@ -364,7 +342,7 @@ margin:0px;
       <p>&#x2714{{ section.settings.what_do_i_get_eight}} </p> 
     
     </div>
-</div>
+  </div>
 
   <section class="master-section-container-intro-02 ">
     <div class="master-title-subtitle-button-container-intro">
@@ -410,10 +388,6 @@ margin:0px;
     </div>
     
   </section>
-  
-
-
-  
   
 </div>
 <div class="page-width">

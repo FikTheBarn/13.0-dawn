@@ -112,46 +112,7 @@
 }
 
 
-{% comment %} ///////////////////HERO SECTION///////////////////// {% endcomment %}
-.master-section-container-hero {
-  position: relative; 
-  height: calc(100vh - 168.688px);  
-  display: flex; 
-  flex-direction: column; 
-  align-items: center; 
-  text-align: center;
-  justify-content: center; 
-  overflow: hidden; 
-}
-.content-overlay p{
 
-  font-weight:bold;
-}
-.content-overlay {
-  position: absolute;
-  top: 0; 
-  left: 0; 
-  width: 100%; 
-  height: 100%; 
-  z-index: 2; 
-  display: flex; 
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 20px; 
-}
-.background-video {
-  position: absolute; 
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover; 
-  z-index: 1; 
-}
-.button-hero{
-  margin-top:2rem;
-}
 
 {% comment %} ///////////////////SECOND SECTION///////////////////// {% endcomment %}
 .master-section-container{
@@ -165,7 +126,7 @@
   justify-content:space-between;
   align-items:center;
   padding:20px;
-  background-color:black;
+  background-color:#141414;
 
 }
 .master-title-subtitle-container{
@@ -186,7 +147,7 @@
 
   background-color:var(--padding-sections);
   width:100%;
-  height: calc(100vh - 20vh - 40px );
+  height: calc(80vh - 10vh - 40px );
 }
 .content-box-triple{
   max-width:33.33%;
@@ -208,7 +169,7 @@
   object-fit:cover;
 }
 .text-content-container{
-  background-color:black;
+  background-color:#141414;
   padding:20px;
 
   display:flex;
@@ -218,12 +179,12 @@
   align-items:center;
 }
 .text-content-container h3{
-font-size:var(--font-size-medium);
-padding:0px;
-margin:0px;
+  font-size:var(--font-size-medium);
+  padding:0px;
+  margin:0px;
 }
 .arrow-right-container{
-  background-color:black;
+  background-color:#141414;
   width:100%;
 
   display:flex;
@@ -245,13 +206,13 @@ margin:0px;
 
   }
   .master-title-subtitle-button-container{
-    height:30vh;
+    height:20vh;
     display:flex;
     flex-direction:row;
     justify-content:center;
     align-items:center;
-    padding:20shpx;
-    background-color:black;
+    padding:20px;
+    background-color:#141414;
 
   }
   .master-image{
@@ -288,7 +249,7 @@ margin:0px;
     align-items:center;
     height:10%;
 
-    background-color:black;
+    background-color:#141414;
 
   }
 }
@@ -302,341 +263,7 @@ margin:0px;
   }
 
 }
-{% comment %} ///////////////////REVIEWS SECTION///////////////////// {% endcomment %}
-.text-content-container-reviews h3{
-  color:black;
-}
-.text-content-container-reviews{
-  height:400px;
-  background-color:white;
-  padding:20px;
-  color:black;
 
-  display:flex;
-  flex-direction:column;
-  justify-content:start;
-  text-align:start;
-  align-items:start;
-  padding-top:20%;
-}
-.arrow-right-container-reviews h4{
-  color:black;
-
-}
-.arrow-right-container-reviews{
-  background-color:white;
-  width:100%;
-
-  display:flex;
-  flex-direction:row;
-  justify-content:flex-end;
-  align-items:center;
-
-  padding-right:1rem; 
-  padding-bottom:1rem;
-  color:black;
-
-
-  
-}
-@media (max-width: 1100px) {
-
-  .text-content-container-reviews{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content:start;
-    text-align:start;
-    height:73%;
-    width:100%;
-    margin-top:20%;
-
-
-  }
-  
-}
-{% comment %} ///////////////////PAST SECTION///////////////////// {% endcomment %}
-.img-past-coffees {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  transition: opacity 0.5s ease-in-out;
-}
-.hover-image {
-  display: block;
-  opacity: 0;
-}
-.text-content-container-past h3{
-  color:white;
-}
-.text-content-container-past{
-  height:100%;
-  background-color:black;
-  padding:20px;
-  color:white;
-
-  display:flex;
-  flex-direction:column;
-  justify-content:center;
-  text-align:center;
-  align-items:center;
-}
-.text-content-container-past_image {
-  position: relative;
-  width: 100%;
-  height: 100%;
-}
-.text-content-container-past_noimage{
-
-  display:flex;
-  flex-direction:column;
-  justify-content:space-around;
-  text-align:center;
-  align-items:center;
-  min-height:180px;
-  max-height:180px;
-  width:100%;
-}
-.arrow-right-container-past h4{
-  color:white;
-
-}
-.arrow-right-container-past{
-  background-color:black;
-  width:100%;
-
-  display:flex;
-  flex-direction:row;
-  justify-content:flex-end;
-  align-items:center;
-
-  padding-right:1rem; 
-  padding-bottom:1rem;
-  color:white;
-
-}
-.content-box-triple-past{
-  height:100%;
-  max-width:25%;
-  min-width:400px;
-  border-right:2px solid var(--padding-sections);
-  border-left:2px solid var(--padding-sections);
-
-  padding:0px;
-
-
-  display:flex;
-  flex-direction:column;
-  justify-content:space-between;
-  text-align:center;
-  align-items:center;
-  scroll-snap-align: start; 
-}
-.content-box-triple-past:first-child{
- 
-  border-left:0px solid var(--padding-sections);
-
-
-}
-.content-box-triple-past:last-child{
- 
- border-right:0px solid var(--padding-sections);
-
-
-}
-@media (max-width: 1100px) {
-
-  .text-content-container-past{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content:flex-end;
-    text-align:center;
-    height:100%;
-    width:100%;
-
-
-  }
-  .content-box-triple-past{
-    height:100%;
-    min-width:calc(100vw - 65px);
-    padding:0px;
-    justify-content:flex-start;
-
-  }
-}
-{% comment %} ///////////////////HOW IT WORKS SECTION///////////////////// {% endcomment %}
-  .master-section-container-works{
-    border:20px solid var(--padding-sections)
-  }
-  .master-content-container-works{
-
-    display:flex;
-    flex-direction:row;
-    justify-content:space-between;
-    align-items:center;
-
-    background-color:var(--padding-sections);
-    width:100%;
-    height: calc(100vh - 20vh - 40px );
-  }
-  .number-how-it-works{
-    font-size:120px;
-  }
-  .text-content-container-works{
-
-    background-color:black;
-    padding:20px;
-    color:white;
-    height:100%;
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-    text-align:center;
-    align-items:center;
-  }
-
-  .border-middle-works{
-    margin-left:4px;
-    margin-right:4px;
-  }
-  .hide-in-desktop-works{
-    display:none;
-  }
-  .hide-in-mobile-works{
-    display:block;
-  }
-
-  @media (min-width: 1100px) {
-    .works-without-number-container-right p{
-      margin-top:3rem;
-  }
-  .works-without-number-container-left p{
-  margin-top:3rem;
-  }
-  .text-content-container-works h1{
-    font-size:46px !important;
-    margin:0px;
-    padding:0px;
-  }
-  .text-content-container-works p{
-
-    margin:0px;
-    padding:0px;
-  }
-
-  }
-@media (max-width: 3000px) {
-
-  .master-content-container-works{
-
-    display:flex;
-    flex-direction:column;
-    justify-content:space-between;
-    align-items:center;
-
-    background-color:black;
-    width:100%;
-  }
-  .text-content-container-works{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content:space-around;
-    text-align:center;
-    width:100%;
-    padding:0px;
-    height:33.33%;
-  }
-  .border-middle-works{
-    border-top:4px solid var(--padding-sections);
-    border-bottom:4px solid var(--padding-sections);
-  }
-  .content-box-triple-works{
-    height:0;
-    max-width:33.33%;
-    min-width:400px;
-
-
-    padding:0px;
-
-
-    display:flex;
-    flex-direction:column;
-    justify-content:space-between;
-    text-align:center;
-    align-items:center;
-    scroll-snap-align: start; 
-    background-color:white;
-    height:50%;
-  }
-  .content-box-triple-works{
-    height:100px;
-    min-width:calc(100vw - 65px);
-    padding:0px;
-    justify-content:flex-start;
-
-  }
-  .works-without-number-container-right{
-    display: flex;
-    flex-direction:column;
-    text-align:left;
-    width:70%;
-  }
-  .works-without-number-container-left{
-    display: flex;
-    flex-direction:column;
-    text-align:left;
-    width:70%;
-  }
-  .hide-in-mobile-works{
-    display:none;
-  }
-  .hide-in-desktop-works{
-    display:block;
-  }
-  .works-without-number-container-right h1{
-    font-family: var(--font-main);
-    font-size: var(--font-size-medium);
-    margin:0px;
-    padding:0px;
-    line-height: normal;
-    letter-spacing: 2px;
-  }
-  .works-without-number-container-left h1{
-    font-family: var(--font-main);
-    font-size: var(--font-size-medium);
-    margin:0px;
-    padding:0px;
-    line-height: normal;
-    letter-spacing: 2px;
-  }
-  .master-title-subtitle-button-container-works{
-      height:20vh;
-      display:flex;
-      flex-direction:row;
-      justify-content:center;
-      align-items:center;
-      padding:20px;
-      background-color:black;
-
-  }
-  .master-container-button-mobile-works{
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-    text-align:center;
-    align-items:center;
-    height:10%;
-    padding:20px;
-    background-color:black;
-    border:20px solid var(--padding-sections);
-    border-top:0px;
-  }
-}
 
 
 {% comment %} //////////////////ACCORDION  SECTION///////////////////// {% endcomment %}
@@ -705,7 +332,7 @@ margin:0px;
         border-top:20px solid var(--padding-sections);
         border-bottom:20px solid var(--padding-sections);
         padding:40px;
-        background-color:black;
+        background-color:#141414;
     
       }
   }
@@ -731,8 +358,7 @@ margin:0px;
       align-items: center;
       padding: 18px;
       width: 100%;
-      background-color: black;
-      font-size:12px !important;
+      font-size:16px !important;
       color: white;
       border: none;
       outline: none;
@@ -756,11 +382,10 @@ margin:0px;
   }
   .panel {
       padding: 0 18px;
-      background-color: white;
+      background-color: white !important;
       max-height: 0;
       overflow: hidden;
       transition: max-height 0.2s ease-out;
-      color:black;
   }
   .panel p {
     padding:5rem;
@@ -777,7 +402,6 @@ margin:0px;
         border-top:20px solid var(--padding-sections);
         border-bottom:20px solid var(--padding-sections);
         padding:40px;
-        background-color:black;
     
     }
   }
@@ -792,15 +416,8 @@ margin:0px;
 {%- endstyle -%}
 
 <div class="page-width">
-
-
-  <div class="master-container-button-mobile">
-    <button class="button-main button-mobile"> {{ section.settings.cta-main }} </button>
-  </div>
-
-  
-  <section class="">
-    <div class="master-title-subtitle-button-container">
+  <section class="master-section-container-intro-02 ">
+    <div class="master-title-subtitle-button-container-intro">
       <div class="master-title-subtitle-container">
         <h2>{{ section.settings.past_title }}</h2>
         <p>{{ section.settings.past_subtitle }}</p>
@@ -808,137 +425,48 @@ margin:0px;
       <button class="button-main button-desktop"> {{ section.settings.cta-main }} </button>
     </div>
   
-    <div class="master-content-container">
-      <div class="content-box-triple-past"> 
-        <div class="text-content-container-past">
-          <div class="text-content-container-past_image">
-          
-            <img class="img-past-coffees hover-image" src="https://cdn.shopify.com/s/files/1/0831/4141/files/VolcanAzulCaturra.png?v=1707315999" width="" height="">
-            <img class="img-past-coffees default-image " src="https://cdn.shopify.com/s/files/1/0831/4141/files/DSCF42004_a25b0f61-efb7-4a4e-95f6-6bb8f8e744aa.jpg?v=1713875284" width="" height="">
-  
-          </div>
-          <br>
-          <div class="text-content-container-past_noimage">
-            <h2>VOLCAN AZUL CATURRA</h2>
-            <br>
-            <p>{{ section.settings.past_coffee_1 }}</p>
-            <br>
-            <p> -- Silvio</p>
-            <div class="arrow-right-container-past" ><h4>1/4</h4></div>
-          </div>
+    <div class="master-content-container-intro-02">
+      <div class="content-box-triple"> 
+        <img src="https://cdn.shopify.com/s/files/1/0831/4141/files/VolcanAzulCaturra.png?v=1707315999" class="master-image" width=""; height=""; alt="">
+        <div class="text-content-container-intro">
+          <h3>VOLCAN AZUL CATURRA</h3>
         </div>
+        <div class="arrow-right-container" ><h4>1/4</h4></div>
       </div>
   
-      <div class="content-box-triple-past">
-        <div class="text-content-container-past">
-          <div class="text-content-container-past_image">
-  
-            <img class="img-past-coffees hover-image" src="https://cdn.shopify.com/s/files/1/0831/4141/files/Caballero2023.png?v=1690288668" width="" height="">
-            <img class="img-past-coffees  default-image" src="https://cdn.shopify.com/s/files/1/0831/4141/files/Bildschirmfoto2021-08-09um12.16.50_73771fc9-bce4-4dca-b7db-e66db8fc2e4c.png?v=1703750951" width="" height="">
-  
-          </div>
-          <br>
-          <div class="text-content-container-past_noimage">
-            <h2>CABALLERO</h2>
-            <br>
-            <p>{{ section.settings.past_coffee_2 }}</p>
-            <br>
-            <p> -- Carsten</p>
-            <div class="arrow-right-container-past" ><h4>2/4</h4></div>    
-          </div>
+      <div class="content-box-triple">
+        <img src="https://cdn.shopify.com/s/files/1/0831/4141/files/Caballero2023.png?v=1690288668" class="master-image" width=""; height=""; alt="">
+        <div class="text-content-container-intro">
+          <h3>CABALLERO</h3>
+
         </div>
+        <div class="arrow-right-container" ><h4>2/4</h4></div>    
       </div>
       
-      <div class="content-box-triple-past">
-        <div class="text-content-container-past">
-          <div class="text-content-container-past_image" >
-            <img class="img-past-coffees default-image  " src="https://cdn.shopify.com/s/files/1/0831/4141/files/napoleon-250-sticker.jpg?v=1614331047" width="" height="">
-            <img class="img-past-coffees hover-image  " src="https://cdn.shopify.com/s/files/1/0831/4141/files/Image20.04.23at09.32.jpg?v=1708603380" width="" height="">
-          </div>
-          <br>
-          <div class="text-content-container-past_noimage">
-            <h2>CERRO AZUL GEISHA</h2>
-            <br>
-            <p>{{ section.settings.past_coffee_3 }}</p>
-            <br>
-            <p> -- Oleg</p>
-            <div class="arrow-right-container-past" ><h4>3/4</h4></div>
-          </div>
+      <div class="content-box-triple">
+        <img src="https://cdn.shopify.com/s/files/1/0831/4141/files/Image20.04.23at09.32.jpg?v=1708603380" class="master-image" width=""; height=""; alt="">
+        <div class="text-content-container-intro">
+          <h3>CERRO AZUL</h3>
+      
         </div>
+        <div class="arrow-right-container" ><h4>3/4</h4></div>
   
       </div>
-  
-      <div class="content-box-triple-past">
-        <div class="text-content-container-past">
-          <div class="text-content-container-past_image" >
-            <img class="img-past-coffees hover-image " src="https://cdn.shopify.com/s/files/1/0831/4141/products/DBF086E9-0520-4E3C-B8BA-151E1261CE52.png?v=1674207883" width="" height="">
-            <img class="img-past-coffees default-image " src="https://cdn.shopify.com/s/files/1/0831/4141/products/IMG_9674_7454d410-e238-45b8-bfc3-dff0079dddfe.jpg?v=1674207882" width="" height="">
-          </div>
-          <br>
-          <div class="text-content-container-past_noimage">
-            <h2>VOLCAN AZUL GEISHA </h2>
-            <br>
-            <p>{{ section.settings.past_coffee_4 }}</p>
-            <br>
-            <p> -- Charlie</p>
-            <div class="arrow-right-container-past" ><h4>4/4</h4></div>
-          </div>
+
+      <div class="content-box-triple">
+        <img src="https://cdn.shopify.com/s/files/1/0831/4141/files/napoleon-250-sticker.jpg?v=1614331047" class="master-image" width=""; height=""; alt="">
+        <div class="text-content-container-intro">
+          <h3>CERRO AZUL GEISHA</h3>
+      
         </div>
+        <div class="arrow-right-container" ><h4>4/4</h4></div>
   
       </div>
-  
+      
     </div>
-    
-  
+ 
   </section>
 
-  
-  
-  <section class="">
-    <div style="padding-top:20rem; padding-bottom:10rem;" class="master-title-subtitle-button-container">
-      <div class="master-title-subtitle-container">
-        <h2>{{ section.settings.how_it_work_title}}</h2>
-        <p>{{ section.settings.how_it_work_subtitle}}</p>
-      </div>
-      <button class="button-main button-desktop"> {{ section.settings.cta-main }} </button>
-    </div>
-  
-    <div class="master-content-container-works">
-     
-        <div class="text-content-container-works">
-          <h3 class="number-how-it-works">1</h3>
-          <div class="works-without-number-container-right"> 
-            <h1>{{ section.settings.how_it_work_title_one}}</h1>
-            <p>{{ section.settings.how_it_work_subtitle_one}}</p>
-          </div>
-  
-      </div>
-  
-        <div class="text-content-container-works border-middle-works">
-          <h3 class="number-how-it-works hide-in-mobile-works">2</h3>
-          <h3 class="number-how-it-works hide-in-desktop-works">2</h3>
-          <div class="works-without-number-container-right">
-            <h1>{{ section.settings.how_it_work_title_two}}</h1>
-            <p>{{ section.settings.how_it_work_subtitle_two}}</p>
-          </div>
-      </div>
-      
-        <div class="text-content-container-works">
-          <h3 class="number-how-it-works">3</h3>
-          <div class="works-without-number-container-right">
-            <h1>{{ section.settings.how_it_work_title_three}}</h1>
-            <p>{{ section.settings.how_it_work_subtitle_three}}</p>
-          </div>
-      </div>
-      
-    </div>
-  
-    
-    
-  </section>
-  
-
-  
   <section class="">
     <div class="master-title-subtitle-button-container">
       <div class="master-title-subtitle-container">

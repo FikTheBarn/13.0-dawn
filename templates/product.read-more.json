@@ -129,7 +129,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "The Cup",
-            "icon": "dairy_free",
+            "icon": "cup",
             "content": "<p>{{ product.metafields.products.metafileld_the_cup | metafield_tag }}<\/p>",
             "page": ""
           }
@@ -292,67 +292,6 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
-    },
-    "collapsible_content_X97hDm": {
-      "type": "collapsible-content",
-      "blocks": {
-        "collapsible_row_NbAtp4": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Collapsible row",
-            "icon": "cup",
-            "row_content": "",
-            "page": ""
-          }
-        },
-        "collapsible_row_NU7Gz4": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
-            "page": ""
-          }
-        },
-        "collapsible_row_qXkKb6": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
-            "page": ""
-          }
-        },
-        "collapsible_row_dtW4xm": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
-            "page": ""
-          }
-        }
-      },
-      "block_order": [
-        "collapsible_row_NbAtp4",
-        "collapsible_row_NU7Gz4",
-        "collapsible_row_qXkKb6",
-        "collapsible_row_dtW4xm"
-      ],
-      "settings": {
-        "caption": "",
-        "heading": "Collapsible content",
-        "heading_size": "h1",
-        "heading_alignment": "center",
-        "layout": "none",
-        "color_scheme": "",
-        "container_color_scheme": "",
-        "open_first_collapsible_row": false,
-        "image_ratio": "adapt",
-        "desktop_layout": "image_second",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
@@ -360,7 +299,6 @@
     "main",
     "image-with-text",
     "multicolumn",
-    "related-products",
-    "collapsible_content_X97hDm"
+    "related-products"
   ]
 }

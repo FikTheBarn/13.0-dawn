@@ -129,7 +129,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "The Cup",
-            "icon": "dairy_free",
+            "icon": "cup",
             "content": "<p>{{ product.metafields.products.metafileld_the_cup | metafield_tag }}<\/p>",
             "page": ""
           }

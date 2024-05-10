@@ -1,5 +1,27 @@
 {
   "sections": {
+    "rich_text_TnkzhW": {
+      "type": "rich-text",
+      "blocks": {
+        "text_LCM7bD": {
+          "type": "text",
+          "settings": {
+            "text": "<h6><a href=\"\/pages\/locations\" title=\"THE BARN Specialty Coffee Cafés\">CAFÉS<\/a> - {{ metaobject.title_cafe.value }}<\/h6>"
+          }
+        }
+      },
+      "block_order": [
+        "text_LCM7bD"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "multicolumn_EhPmQU": {
       "type": "multicolumn",
       "blocks": {
@@ -145,6 +167,7 @@
     }
   },
   "order": [
+    "rich_text_TnkzhW",
     "multicolumn_EhPmQU",
     "multicolumn_yTgHtb",
     "multicolumn_bDN8py"

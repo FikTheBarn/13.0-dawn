@@ -107,6 +107,9 @@
         "collapsible-row-2",
         "share"
       ],
+      "custom_css": [
+
+      ],
       "settings": {
         "enable_sticky_info": true,
         "color_scheme": "",

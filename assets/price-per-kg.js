@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', function() {
+    document.addEventListener('DOMContentLoaded', function() {
     var variantInfo250g = document.getElementById('250g-info');
     var variantInfo1000g = document.getElementById('1000g-info');
     var radioButtons = document.querySelectorAll('input[type="radio"]');

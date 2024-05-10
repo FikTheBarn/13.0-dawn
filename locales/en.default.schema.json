@@ -2213,6 +2213,9 @@
               },
               "options__44": {
                 "label": "Washing"
+              },
+              "options__45": {
+                "label": "Cup"
               }
             }
           }
@@ -3349,6 +3352,9 @@
               },
               "options__44": {
                 "label": "Washing"
+              },
+              "options__45": {
+                "label": "Cup"
               }
             }
           }

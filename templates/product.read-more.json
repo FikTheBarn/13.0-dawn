@@ -1,5 +1,53 @@
 {
   "sections": {
+    "rich_text_zda7MH": {
+      "type": "rich-text",
+      "blocks": {
+        "text_khiCE9": {
+          "type": "text",
+          "settings": {
+            "text": "<h6><a href=\"\/collections\/coffee-beans\" title=\"COFFEE BEANS\">Coffee Beans<\/a> &gt; <\/h6>"
+          }
+        },
+        "button_LxmfWW": {
+          "type": "button",
+          "settings": {
+            "button_label": "{{ product.metafields.product.coffee_type | metafield_text }} >",
+            "button_link": "{{ product.metafields.beans.collection_url_link.value }}",
+            "button_style_secondary": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        },
+        "text_MPtz63": {
+          "type": "text",
+          "settings": {
+            "text": "<h6>{{ product.title }}<\/h6>"
+          }
+        }
+      },
+      "block_order": [
+        "text_khiCE9",
+        "button_LxmfWW",
+        "text_MPtz63"
+      ],
+      "custom_css": [
+        ".rich-text__blocks {display: flex; align-items: flex-end; gap: 10px; flex-wrap: wrap;}",
+        ".rich-text__wrapper {width: auto;}",
+        ".rich-text__buttons {width: auto;}",
+        ".rich-text__text {margin-top: 0px;}",
+        ".button {all: unset; --buttons-border-opacity: 0px; font-size: 0.67em; font-weight: bold; cursor: pointer;}"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "main": {
       "type": "main-product",
       "blocks": {
@@ -28,6 +76,12 @@
           "settings": {
           }
         },
+        "recharge_subscriptions_subscription_widget_RMeEDe": {
+          "type": "shopify:\/\/apps\/recharge-subscriptions\/blocks\/subscription-widget\/371eed76-0b44-4869-9813-730372ea378e",
+          "settings": {
+            "product": "{{product}}"
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -47,58 +101,6 @@
             "show_gift_card_recipient": true
           }
         },
-        "description": {
-          "type": "description",
-          "settings": {
-          }
-        },
-        "collapsible-row-0": {
-          "type": "collapsible_tab",
-          "disabled": true,
-          "settings": {
-            "heading": "Materials",
-            "icon": "leather",
-            "content": "",
-            "page": ""
-          }
-        },
-        "collapsible-row-1": {
-          "type": "collapsible_tab",
-          "disabled": true,
-          "settings": {
-            "heading": "Shipping & Returns",
-            "icon": "truck",
-            "content": "",
-            "page": ""
-          }
-        },
-        "collapsible-row-2": {
-          "type": "collapsible_tab",
-          "disabled": true,
-          "settings": {
-            "heading": "Dimensions",
-            "icon": "ruler",
-            "content": "",
-            "page": ""
-          }
-        },
-        "collapsible-row-3": {
-          "type": "collapsible_tab",
-          "disabled": true,
-          "settings": {
-            "heading": "Care Instructions",
-            "icon": "heart",
-            "content": "",
-            "page": ""
-          }
-        },
-        "share": {
-          "type": "share",
-          "disabled": true,
-          "settings": {
-            "share_label": "Share"
-          }
-        },
         "complementary_FG8RKq": {
           "type": "complementary",
           "settings": {
@@ -111,6 +113,57 @@
             "image_ratio": "square",
             "enable_quick_add": false
           }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "custom_liquid_EjYHGg": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{% if product.metafields.custom.video %}\n<div class=\"iframe-container\">\n  <iframe width=\"555\" height=\"620\" src=\"{{ product.metafields.custom.video }}\" frameborder=\"0\" allowfullscreen><\/iframe>\n<\/div>\n\n<style>\n.iframe-container{\n  position: relative;\n  width: 100%;\n  padding-bottom: 56.25%; \n}\n\n.iframe-container iframe{\n  position: absolute;\n  top:0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}\n<\/style>\n\n{% endif %}"
+          }
+        },
+        "custom_liquid_aT8nLA": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<style>\n    .rc-subscription-details {\n        display: none;\n    }\n<\/style>"
+          }
+        },
+        "collapsible-row-1": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "The Cup",
+            "icon": "cup",
+            "content": "<p>{{ product.metafields.products.metafileld_the_cup | metafield_tag }}<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible-row-2": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "About The Farm",
+            "icon": "plant",
+            "content": "<p>{{ product.metafields.product.metafields_about_the_farm | metafield_tag }}<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible-row-3": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "The Process",
+            "icon": "clipboard",
+            "content": "<p>{{ product.metafields.product.metafield_the_process | metafield_tag }}<\/p>",
+            "page": ""
+          }
+        },
+        "share": {
+          "type": "share",
+          "disabled": true,
+          "settings": {
+            "share_label": "Share"
+          }
         }
       },
       "block_order": [
@@ -118,16 +171,18 @@
         "title",
         "caption",
         "price",
+        "recharge_subscriptions_subscription_widget_RMeEDe",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
+        "complementary_FG8RKq",
         "description",
-        "collapsible-row-0",
+        "custom_liquid_EjYHGg",
+        "custom_liquid_aT8nLA",
         "collapsible-row-1",
         "collapsible-row-2",
         "collapsible-row-3",
-        "share",
-        "complementary_FG8RKq"
+        "share"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -247,6 +302,7 @@
     }
   },
   "order": [
+    "rich_text_zda7MH",
     "main",
     "image-with-text",
     "multicolumn",

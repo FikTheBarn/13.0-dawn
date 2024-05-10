@@ -11,6 +11,12 @@
             "text_style": "uppercase"
           }
         },
+        "custom_liquid_3wcTbw": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": ""
+          }
+        },
         "title": {
           "type": "title",
           "settings": {
@@ -33,11 +39,6 @@
           "settings": {
             "picker_type": "button",
             "swatch_shape": "circle"
-          }
-        },
-        "quantity_selector": {
-          "type": "quantity_selector",
-          "settings": {
           }
         },
         "complementary_FG8RKq": {
@@ -65,43 +66,21 @@
           "settings": {
           }
         },
-        "collapsible-row-0": {
-          "type": "collapsible_tab",
-          "disabled": true,
-          "settings": {
-            "heading": "Materials",
-            "icon": "leather",
-            "content": "",
-            "page": ""
-          }
-        },
         "collapsible-row-1": {
           "type": "collapsible_tab",
-          "disabled": true,
           "settings": {
-            "heading": "Shipping & Returns",
-            "icon": "truck",
-            "content": "",
+            "heading": "Stay in Control",
+            "icon": "stopwatch",
+            "content": "<p>{{ product.metafields.Subscription.Infomation | metafield_tag }}<\/p>",
             "page": ""
           }
         },
         "collapsible-row-2": {
           "type": "collapsible_tab",
-          "disabled": true,
           "settings": {
-            "heading": "Dimensions",
-            "icon": "ruler",
-            "content": "",
-            "page": ""
-          }
-        },
-        "collapsible-row-3": {
-          "type": "collapsible_tab",
-          "disabled": true,
-          "settings": {
-            "heading": "Care Instructions",
-            "icon": "heart",
-            "content": "",
+            "heading": "Shipping Information",
+            "icon": "truck",
+            "content": "<p>{{ product.metafields.Subscription.Shipping_Information | metafield_tag }}<\/p>",
             "page": ""
           }
         },
@@ -115,19 +94,22 @@
       },
       "block_order": [
         "vendor",
+        "custom_liquid_3wcTbw",
         "title",
         "caption",
         "price",
         "variant_picker",
-        "quantity_selector",
         "complementary_FG8RKq",
         "buy_buttons",
         "description",
-        "collapsible-row-0",
         "collapsible-row-1",
         "collapsible-row-2",
-        "collapsible-row-3",
         "share"
+      ],
+      "custom_css": [
+        ".rc-container-wrapper {display: none;}",
+        "h3,.card__heading {font-size: calc(var(--font-heading-scale) * 2rem);}",
+        "@media only screen and (min-width: 750px) {.card__heading {font-size: calc(var(--font-heading-scale) * 1.7rem); }}"
       ],
       "settings": {
         "enable_sticky_info": true,

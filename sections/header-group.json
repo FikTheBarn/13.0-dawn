@@ -149,7 +149,7 @@
         "menu_equipment_03": "main-menu",
         "height": "adapt",
         "button_label": "Subscription Plans",
-        "button_link": "shopify:\/\/pages\/coffee-subscription",
+        "button_link": "shopify:\/\/collections\/coffee-subscription",
         "logo_position": "middle-left",
         "menu": "navigation_v12",
         "menu_type_desktop": "mega",

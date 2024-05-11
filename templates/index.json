@@ -86,7 +86,7 @@
         "buttons_Adxe4j"
       ],
       "custom_css": [
-        "h2 {color: whitesmoke; font-size: 8vw;}"
+        "@media screen and (min-width: 480px) {h2 {color: whitesmoke; font-size: 8vw;}}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/central_triple_box_cb2a9ca8-92f7-407c-a2f7-9018bedb6073.jpg",

@@ -14,7 +14,7 @@
         "text_7HKD7T": {
           "type": "text",
           "settings": {
-            "text": "<h6>Careers &gt; {{ page.title }}<\/h6>"
+            "text": "<h6><a href=\"\/pages\/careers\" title=\"Careers – THE BARN Coffee Roasters Berlin\">Careers<\/a> &gt; {{ page.title }}<\/h6>"
           }
         }
       },

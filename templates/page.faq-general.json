@@ -439,9 +439,9 @@
         "collapsible_row_dwJXmT": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
+            "heading": "Are your coffees Organic?",
+            "icon": "plant",
+            "row_content": "<p>All our farm relationships are personal and we visit them regularly. Working in a sustainable way is our priority.<\/p><p>This includes sustainability, no negative environmental impact, preserving pristine forests and wildlife, water recycling, fair treatment of labour, ethical rules and, most of all, high cup quality. Most farms are small estates with no financial means to certify.<\/p><p>They have one thing in common: Their land is all they have and they treat it well for future generations to come.<\/p>",
             "page": ""
           }
         },

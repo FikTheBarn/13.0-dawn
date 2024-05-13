@@ -125,8 +125,9 @@
         </header>
 
       {%- when 'content' -%}
+        {% comment  %}removing this css classes from below: article-template__content page-width--narrow rte {% endcomment %} 
         <div
-          class="article-template__content page-width page-width--narrow rte{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+          class="page-width {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
           itemprop="articleBody"
           {{ block.shopify_attributes }}
         >

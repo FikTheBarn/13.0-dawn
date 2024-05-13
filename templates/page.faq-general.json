@@ -50,21 +50,12 @@
             "page": ""
           }
         },
-        "collapsible_row_wBT6EE": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
-            "page": ""
-          }
-        },
         "collapsible_row_J8HUqn": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
+            "heading": "Which coffees will I be receiving?",
+            "icon": "box",
+            "row_content": "<p>Our roast team selects the subscriber coffees every month. They are typically our latest releases and often microlots. When you are starting your subscription you can chose between espresso and filter roasts.<\/p>",
             "page": ""
           }
         },
@@ -80,7 +71,6 @@
       },
       "block_order": [
         "collapsible_row_UiFYqP",
-        "collapsible_row_wBT6EE",
         "collapsible_row_J8HUqn",
         "collapsible_row_VdBDA3"
       ],

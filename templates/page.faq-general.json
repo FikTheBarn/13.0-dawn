@@ -502,7 +502,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "I want to serve THE BARN coffee. How do I get started?",
-            "icon": "check_mark",
+            "icon": "heart",
             "row_content": "<p>We love to partner with quality people that appreciate our coffees as much as we do. Please get in touch with our wholesale team via <a href=\"\/pages\/wholesale-coffee-beans\" title=\"wholesale-coffee-beans\">this<\/a> contact form.<\/p>",
             "page": ""
           }

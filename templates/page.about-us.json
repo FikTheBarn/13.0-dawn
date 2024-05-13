@@ -212,12 +212,62 @@
             "color_scheme": "background-1",
             "text_alignment_mobile": "center"
           }
+        },
+        "slide_PykeRq": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Kirsche_rot.jpg",
+            "heading": "OUR ROAST STYLE",
+            "heading_1": "",
+            "heading_2": "",
+            "heading_size": "h1",
+            "subheading": "We roast all our coffees manually on a tailormade drum roaster by Probat. By gently applying heat we fully develop our beans on the inside whilst keeping the roast light and clean outside. This way we can showcase terroir and the individual taste of each coffee farm. Next to our quality control work we fully integrate our baristas to evaluate the performance of each of our roasts on our own coffee bars.",
+            "subheading_2": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "link_2": "",
+            "button_style_secondary_2": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "left",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_TghF4p": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Kirsche_rot.jpg",
+            "heading": "A DIFFERENT",
+            "heading_1": "",
+            "heading_2": "COFFEE EXPERIENCE",
+            "heading_size": "h1",
+            "subheading": "A great coffee should speak for itself. In principle we never blend our coffees to honour the dedicated farm work and to share knowledge about coffee through taste. Our coffees are memorable - you will remember that cup you had this morning, or last summer when Nano Challa arrived from Ethiopia.",
+            "subheading_2": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "link_2": "",
+            "button_style_secondary_2": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "left",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
         }
       },
       "block_order": [
         "slide_4TrYpV",
         "slide_4qRfjC",
-        "slide_b6EYcR"
+        "slide_b6EYcR",
+        "slide_PykeRq",
+        "slide_TghF4p"
       ],
       "settings": {
         "layout": "full_bleed",

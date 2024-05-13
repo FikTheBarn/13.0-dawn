@@ -264,6 +264,7 @@
         "heading": "ABOUT US",
         "heading_size": "h1",
         "enable_video_looping": false,
+        "video": "shopify:\/\/files\/videos\/THE_BARN_Roastery.mp4",
         "video_url": "",
         "description": "",
         "full_width": false,

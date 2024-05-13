@@ -41,6 +41,10 @@
 
 .video-section__media video {
   background: #000000;
+  /*added custom css*/
+  object-fit: cover;
+  height: 624px;
+  /*added custom css*/
 }
 
 .video-section__media.media-fit-cover video {

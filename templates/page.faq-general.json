@@ -366,9 +366,9 @@
         "collapsible_row_jD8Jc6": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
+            "heading": "What brew equipment do you offer?",
+            "icon": "question_mark",
+            "row_content": "<p>We have a selection of brew equipment that we also use on our own bars. Check out our <a href=\"\/collections\/coffee-equipment\" title=\"EQUIPMENT\">equipment <\/a>section?<\/p>",
             "page": ""
           }
         },

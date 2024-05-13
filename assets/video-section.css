@@ -1,8 +1,7 @@
 .video-section__media {
   --ratio-percent: 56.25%;
   position: relative;
-  padding-bottom: calc(var(--ratio-percent) - var(--media-border-width)); ;
- 
+  padding-bottom: 544px;
   /*
   padding-bottom: calc(var(--ratio-percent) - var(--media-border-width));
   */

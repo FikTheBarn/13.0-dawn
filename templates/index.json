@@ -241,28 +241,29 @@
     "video_UBGnKT": {
       "type": "video",
       "blocks": {
-        "text_C8xPHF": {
-          "type": "text",
-          "settings": {
-            "text": "How it All Started",
-            "text_style": "body"
-          }
-        },
         "heading_CEjH94": {
           "type": "heading",
           "settings": {
             "heading": "THE BARN",
             "heading_size": "h1"
           }
+        },
+        "text_C8xPHF": {
+          "type": "text",
+          "settings": {
+            "text": "OUR MISSION",
+            "text_style": "body"
+          }
         }
       },
       "block_order": [
-        "text_C8xPHF",
-        "heading_CEjH94"
+        "heading_CEjH94",
+        "text_C8xPHF"
       ],
       "custom_css": [
         ".deferred-media__poster {max-height: 544pxx;}",
-        ".video-section__media video {object-fit: cover; height: 544px;}"
+        ".video-section__media video {object-fit: cover; height: 544px;}",
+        "p {color: WHITE;}"
       ],
       "settings": {
         "heading": "ABOUT US",

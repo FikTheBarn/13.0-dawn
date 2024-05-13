@@ -3,7 +3,7 @@
  
   .blog-grid{
     display: grid;
-    grid-template-columns: 48% 48%;
+    grid-template-columns: auto;
     align-items: center;
     width: 100%;
     height: 100%;
@@ -127,7 +127,7 @@
       {%- when 'content' -%}
         {% comment  %}removing this css classes from below: article-template__content page-width--narrow rte {% endcomment %} 
         <div
-          class="page-width {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+          class="page-width article-template__content{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
           itemprop="articleBody"
           {{ block.shopify_attributes }}
         >

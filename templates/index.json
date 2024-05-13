@@ -260,6 +260,10 @@
         "text_C8xPHF",
         "heading_CEjH94"
       ],
+      "custom_css": [
+        ".deferred-media__poster .video-section__media video {height: 560px;}",
+        " {object-fit: cover; height: 560px;}"
+      ],
       "settings": {
         "heading": "ABOUT US",
         "heading_size": "h1",

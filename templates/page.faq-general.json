@@ -448,9 +448,9 @@
         "collapsible_row_xRwhxr": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
+            "heading": "Are your coffees Fair Trade?",
+            "icon": "plant",
+            "row_content": "<p>We believe in long-term relationships and fair pricing. We pay for quality: all our coffee prices are far higher than Fair Trade Pricing.<\/p>",
             "page": ""
           }
         },

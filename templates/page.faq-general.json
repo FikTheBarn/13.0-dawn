@@ -59,6 +59,15 @@
             "page": ""
           }
         },
+        "collapsible_row_W9Pciw": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What is the price advantage compared to single web orders?",
+            "icon": "box",
+            "row_content": "<p>The price advantages of our subscription vary because we pick different coffees every month and they have different pricing. The average price advantage can be as much as 25% compared to purchasing individual coffees on our website.<br\/><br\/>The best pricing can be achieved by booking a pre-paid term subscription.<\/p>",
+            "page": ""
+          }
+        },
         "collapsible_row_VdBDA3": {
           "type": "collapsible_row",
           "settings": {
@@ -68,12 +77,12 @@
             "page": ""
           }
         },
-        "collapsible_row_W9Pciw": {
+        "collapsible_row_BdJxaT": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "What is the price advantage compared to single web orders?",
+            "heading": "How can I adjust my coffee subscription?",
             "icon": "box",
-            "row_content": "<p>The price advantages of our subscription vary because we pick different coffees every month and they have different pricing. The average price advantage can be as much as 25% compared to purchasing individual coffees on our website.<br\/><br\/>The best pricing can be achieved by booking a pre-paid term subscription.<\/p>",
+            "row_content": "<p>Navigate to the \"menu\" and select \"login\" to access your account information. On the left, choose \"manage subscription\" to make any necessary edits. If you'd like to avoid waiting, you can utilize the Send Now feature. Additionally, you have the flexibility to reschedule or skip a delivery according to your preferences<\/p>",
             "page": ""
           }
         }
@@ -81,8 +90,9 @@
       "block_order": [
         "collapsible_row_UiFYqP",
         "collapsible_row_J8HUqn",
+        "collapsible_row_W9Pciw",
         "collapsible_row_VdBDA3",
-        "collapsible_row_W9Pciw"
+        "collapsible_row_BdJxaT"
       ],
       "settings": {
         "caption": "",

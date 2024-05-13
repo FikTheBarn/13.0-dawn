@@ -75,22 +75,7 @@
         style="--ratio-percent: {{ 1 | divided_by: poster.aspect_ratio | times: 100 }}%;"
       {% endif %}
     >
-    <div class="banner__content-overlay">
-    {%- for block in section.blocks -%}
-      {%- case block.type -%}
-        {%- when 'heading' -%}
-          <h2
-            class="banner__heading inline-richtext {{ block.settings.heading_size }}"
-            {{ block.shopify_attributes }}
-          >
-            {{ block.settings.heading }}
-          </h2>
-        {%- when 'text' -%}
-          <div class="banner__text rte {{ block.settings.text_style }}" {{ block.shopify_attributes }}>
-            <p>{{ block.settings.text }}</p>
-          </div>
-        {%- endcase -%}
-      {%- endfor -%}  
+    
       <button
         id="Deferred-Poster-Modal-{{ video_id }}"
         class="video-section__poster media deferred-media__poster media--landscape"
@@ -110,7 +95,7 @@
           {%- render 'icon-play' -%}
         </span>
       </button>
-      </div>
+    
       <template>
         {%- if section.settings.video == null and section.settings.video_url != null -%}
           {%- liquid

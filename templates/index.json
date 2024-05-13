@@ -261,8 +261,8 @@
         "heading_CEjH94"
       ],
       "custom_css": [
-        ".deferred-media__poster {max-height: 560px;}",
-        ".video-section__media video {object-fit: cover; height: 560px;}"
+        ".deferred-media__poster {max-height: 544pxx;}",
+        ".video-section__media video {object-fit: cover; height: 544px;}"
       ],
       "settings": {
         "heading": "ABOUT US",

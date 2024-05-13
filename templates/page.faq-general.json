@@ -192,9 +192,9 @@
         "collapsible_row_UNBHFQ": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
+            "heading": "What does “default address” mean?",
+            "icon": "question_mark",
+            "row_content": "<p>Your default address is your main shipping address.<\/p>",
             "page": ""
           }
         }

@@ -7,6 +7,22 @@
     padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
   }
 
+  .video-section-relative {
+    position: relative;
+  }
+
+  .banner__content-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+  }
+
   @media screen and (min-width: 750px) {
     .section-{{ section.id }}-padding {
       padding-top: {{ section.settings.padding_top }}px;
@@ -38,6 +54,8 @@
   {%- endif %}
 {%- endcapture -%}
 
+<section class="video-section-relative">
+<div class="banner__content-overlay">
 <div class="color-{{ section.settings.color_scheme }} gradient">
   <div class="video-section isolate{% unless section.settings.full_width %} page-width{% endunless %} section-{{ section.id }}-padding">
     <div
@@ -132,6 +150,8 @@
     </deferred-media>
   </div>
 </div>
+</div>
+</section>
 
 {% schema %}
 {
@@ -251,7 +271,7 @@
       "default": 36
     }
   ],
-  
+
   "blocks": [
     {
       "type": "heading",

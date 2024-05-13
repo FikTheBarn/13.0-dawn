@@ -168,7 +168,7 @@
         "slide_4qRfjC": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Kirsche_rot.jpg",
+            "image": "shopify:\/\/shop_images\/MG_5922.jpg",
             "heading": "QUALITY AND ",
             "heading_1": "SUSTAINABILITY",
             "heading_2": "",
@@ -268,6 +268,9 @@
         "slide_b6EYcR",
         "slide_PykeRq",
         "slide_TghF4p"
+      ],
+      "custom_css": [
+        ".slideshow__text {padding-left: 0px;}"
       ],
       "settings": {
         "layout": "full_bleed",

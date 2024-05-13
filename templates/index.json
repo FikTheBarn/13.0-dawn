@@ -262,7 +262,8 @@
       ],
       "custom_css": [
         "@media screen and (min-width: 750px) {.deferred-media__poster {max-height: 544px; } .video-section__media video {object-fit: cover; height: 544px; }}",
-        "p {color: WHITE;}"
+        "p {color: white;}",
+        "@media screen and (max-width: 750px) {.video-section__media {padding-bottom: calc(var(--ratio-percent) - var(--media-border-width)); }}"
       ],
       "settings": {
         "heading": "ABOUT US",
@@ -274,7 +275,7 @@
         "full_width": false,
         "color_scheme": "",
         "padding_top": 36,
-        "padding_bottom": 100
+        "padding_bottom": 28
       }
     }
   },

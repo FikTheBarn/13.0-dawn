@@ -68,7 +68,6 @@
         </div>
       {%- endunless -%}
     </div>
-    <div class="banner__content-overlay">
     <deferred-media
       class="video-section__media deferred-media gradient global-media-settings{% if section.settings.full_width %} global-media-settings--full-width{% endif %}{% if fix_ratio %} media-fit-cover{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
       data-media-id="{{ video_id }}"
@@ -76,7 +75,7 @@
         style="--ratio-percent: {{ 1 | divided_by: poster.aspect_ratio | times: 100 }}%;"
       {% endif %}
     >
-    
+    <div class="banner__content-overlay">
     {%- for block in section.blocks -%}
       {%- case block.type -%}
         {%- when 'heading' -%}
@@ -92,6 +91,7 @@
           </div>
         {%- endcase -%}
       {%- endfor -%}  
+      </div>
       <button
         id="Deferred-Poster-Modal-{{ video_id }}"
         class="video-section__poster media deferred-media__poster media--landscape"
@@ -151,7 +151,6 @@
     </deferred-media>
     </div>
   </div>
-</div>
 </section>
 
 {% schema %}

@@ -2,12 +2,12 @@
   .careers-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: flex-start;
     padding: 2rem;
   }
   .career-container {
 
-    max-width: 400px;
+    max-width: 33.33%;
     background-color: #f6f6f;
     padding: 3rem;
     margin-bottom: 2rem;
@@ -83,7 +83,7 @@
   }
 </style>
 
-<div class="careers-container">
+<div class="careers-container page-width">
     {% assign sorted_careers = shop.metaobjects.career.values | sort: 'order' %}
     {% for career in sorted_careers %}
     <div class="career-container">
@@ -100,6 +100,7 @@
       </div>
     </div>
   {% endfor %}
+
 </div>
 <script>
 document.addEventListener('DOMContentLoaded', function(){

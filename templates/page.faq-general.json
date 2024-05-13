@@ -375,9 +375,9 @@
         "collapsible_row_CMW3HG": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
+            "heading": "Do you sell pre-ground coffee?",
+            "icon": "question_mark",
+            "row_content": "<p>We offer a selection of coffees as Drip Bag or Instant Coffee, which are pre-ground and perfect for on-the-go. All you need is hot water! All other coffees are available as whole beans only to have the full flavour experience. We recommend that you grind the beans fresh just before brewing.<\/p>",
             "page": ""
           }
         }

@@ -91,19 +91,21 @@
           {%- else -%}
             {{ 'hero-apparel-3' | placeholder_svg_tag: 'placeholder-svg placeholder' }}
           {%- endif -%}
+          <div class="banner__content-overlay">
+          {%- for block in section.blocks -%}
+            {%- case block.type -%}
+              {%- when 'heading' -%}
+                <h2 class="banner__heading inline-richtext {{ block.settings.heading_size }}" {{ block.shopify_attributes }}>
+                  {{ block.settings.heading }}
+                </h2>
+              {%- when 'text' -%}
+                <div class="banner__text rte {{ block.settings.text_style }}" {{ block.shopify_attributes }}>
+                  <p>{{ block.settings.text }}</p>
+                </div>
+              {%- endcase -%}
+          {%- endfor -%} 
+          </div>
           <span class="deferred-media__poster-button motion-reduce">
-            {%- for block in section.blocks -%}
-              {%- case block.type -%}
-                {%- when 'heading' -%}
-                  <h2 class="banner__heading inline-richtext {{ block.settings.heading_size }}" {{ block.shopify_attributes }}>
-                    {{ block.settings.heading }}
-                  </h2>
-                {%- when 'text' -%}
-                  <div class="banner__text rte {{ block.settings.text_style }}" {{ block.shopify_attributes }}>
-                    <p>{{ block.settings.text }}</p>
-                  </div>
-                {%- endcase -%}
-            {%- endfor -%} 
             {%- render 'icon-play' -%}
           </span>
         </button>

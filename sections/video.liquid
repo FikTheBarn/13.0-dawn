@@ -55,7 +55,6 @@
 {%- endcapture -%}
 
 <section class="video-section-relative">
-<div class="banner__content-overlay">
 <div class="color-{{ section.settings.color_scheme }} gradient">
   <div class="video-section isolate{% unless section.settings.full_width %} page-width{% endunless %} section-{{ section.id }}-padding">
     <div
@@ -69,6 +68,7 @@
         </div>
       {%- endunless -%}
     </div>
+    <div class="banner__content-overlay">
     <deferred-media
       class="video-section__media deferred-media gradient global-media-settings{% if section.settings.full_width %} global-media-settings--full-width{% endif %}{% if fix_ratio %} media-fit-cover{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
       data-media-id="{{ video_id }}"
@@ -76,6 +76,7 @@
         style="--ratio-percent: {{ 1 | divided_by: poster.aspect_ratio | times: 100 }}%;"
       {% endif %}
     >
+    
     {%- for block in section.blocks -%}
       {%- case block.type -%}
         {%- when 'heading' -%}
@@ -148,8 +149,8 @@
         {%- endif -%}
       </template>
     </deferred-media>
+    </div>
   </div>
-</div>
 </div>
 </section>
 

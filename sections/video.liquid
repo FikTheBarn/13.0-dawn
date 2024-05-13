@@ -78,22 +78,10 @@
       >
         <button
           id="Deferred-Poster-Modal-{{ video_id }}"
-          class="banner__content-overlay video-section__poster media deferred-media__poster media--landscape"
+          class="video-section__poster media deferred-media__poster media--landscape"
           type="button"
           aria-label="{{ alt }}"
         >
-        {%- for block in section.blocks -%}
-          {%- case block.type -%}
-            {%- when 'heading' -%}
-              <h2 class="banner__heading inline-richtext {{ block.settings.heading_size }}" {{ block.shopify_attributes }}>
-                {{ block.settings.heading }}
-              </h2>
-            {%- when 'text' -%}
-              <div class="banner__text rte {{ block.settings.text_style }}" {{ block.shopify_attributes }}>
-                <p>{{ block.settings.text }}</p>
-              </div>
-            {%- endcase -%}
-        {%- endfor -%} 
           {%- if poster != null -%}
             {{
               poster
@@ -104,6 +92,18 @@
             {{ 'hero-apparel-3' | placeholder_svg_tag: 'placeholder-svg placeholder' }}
           {%- endif -%}
           <span class="deferred-media__poster-button motion-reduce">
+            {%- for block in section.blocks -%}
+              {%- case block.type -%}
+                {%- when 'heading' -%}
+                  <h2 class="banner__heading inline-richtext {{ block.settings.heading_size }}" {{ block.shopify_attributes }}>
+                    {{ block.settings.heading }}
+                  </h2>
+                {%- when 'text' -%}
+                  <div class="banner__text rte {{ block.settings.text_style }}" {{ block.shopify_attributes }}>
+                    <p>{{ block.settings.text }}</p>
+                  </div>
+                {%- endcase -%}
+            {%- endfor -%} 
             {%- render 'icon-play' -%}
           </span>
         </button>

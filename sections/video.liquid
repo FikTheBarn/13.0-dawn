@@ -91,7 +91,6 @@
           </div>
         {%- endcase -%}
       {%- endfor -%}  
-      </div>
       <button
         id="Deferred-Poster-Modal-{{ video_id }}"
         class="video-section__poster media deferred-media__poster media--landscape"
@@ -111,6 +110,7 @@
           {%- render 'icon-play' -%}
         </span>
       </button>
+      </div>
       <template>
         {%- if section.settings.video == null and section.settings.video_url != null -%}
           {%- liquid

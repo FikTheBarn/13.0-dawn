@@ -8,6 +8,28 @@
         "padding_bottom": 28
       }
     },
+    "rich_text_DP9BVq": {
+      "type": "rich-text",
+      "blocks": {
+        "text_7HKD7T": {
+          "type": "text",
+          "settings": {
+            "text": "<h6>Careers &gt; {{ page.title }}<\/h6>"
+          }
+        }
+      },
+      "block_order": [
+        "text_7HKD7T"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 16,
+        "padding_bottom": 0
+      }
+    },
     "custom_career_detail_7Vh8tX": {
       "type": "custom-career-detail",
       "settings": {
@@ -16,6 +38,7 @@
   },
   "order": [
     "main",
+    "rich_text_DP9BVq",
     "custom_career_detail_7Vh8tX"
   ]
 }

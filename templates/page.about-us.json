@@ -70,119 +70,6 @@
         "padding_bottom": 52
       }
     },
-    "slideshow_yj6iCf": {
-      "type": "slideshow",
-      "blocks": {
-        "slide_FgNRPR": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/THE_BARN_Booklet_Page_0.png",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "slide_iGPfRD": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/THE_BARN_Booklet_Page_1.png",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "slide_peUHjD": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/THE_BARN_Booklet_Page_2.png",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "slide_UX9WM6": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/THE_BARN_Booklet_Page_3.png",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "slide_xepijj": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/THE_BARN_Booklet_Page_5.png",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "",
-            "text_alignment_mobile": "center"
-          }
-        }
-      },
-      "block_order": [
-        "slide_FgNRPR",
-        "slide_iGPfRD",
-        "slide_peUHjD",
-        "slide_UX9WM6",
-        "slide_xepijj"
-      ],
-      "disabled": true,
-      "settings": {
-        "layout": "full_bleed",
-        "slide_height": "adapt_image",
-        "slider_visual": "dots",
-        "auto_rotate": false,
-        "change_slides_speed": 5,
-        "image_behavior": "none",
-        "show_text_below": true,
-        "accessibility_info": "Slideshow about our brand"
-      }
-    },
     "image_with_text_WLf3Ft": {
       "type": "image-with-text",
       "blocks": {
@@ -257,7 +144,7 @@
         "slide_AKGwq4": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Kirsche_rot.jpg",
+            "image": "shopify:\/\/shop_images\/RadiophareFilter2024.png",
             "heading": "OUR COFFEE SOURCING",
             "heading_1": "",
             "heading_2": "",
@@ -323,7 +210,6 @@
     "custom_liquid_zxxpmV",
     "rich_text_NahyMj",
     "rich_text_knXJF4",
-    "slideshow_yj6iCf",
     "image_with_text_WLf3Ft",
     "rich_text_t4MBCD",
     "custom_slideshow_hero_kgnDNY"

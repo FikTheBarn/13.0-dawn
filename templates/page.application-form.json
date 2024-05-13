@@ -6,9 +6,19 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "custom_liquid_yFE6R6": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"powr-form-builder\" id=\"26862820_1550568370\"><\/div><script src=\"https:\/\/www.powr.io\/powr.js?platform=shopify\"><\/script>",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "custom_liquid_yFE6R6"
   ]
 }

@@ -240,6 +240,26 @@
     },
     "video_UBGnKT": {
       "type": "video",
+      "blocks": {
+        "heading_CEjH94": {
+          "type": "heading",
+          "settings": {
+            "heading": "THE BARN",
+            "heading_size": "h1"
+          }
+        },
+        "text_C8xPHF": {
+          "type": "text",
+          "settings": {
+            "text": "How it All Started",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_CEjH94",
+        "text_C8xPHF"
+      ],
       "settings": {
         "heading": "ABOUT US",
         "heading_size": "h1",

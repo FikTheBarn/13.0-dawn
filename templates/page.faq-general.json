@@ -457,9 +457,9 @@
         "collapsible_row_6KTCMc": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
+            "heading": "Do you offer all coffees all year around?",
+            "icon": "plant",
+            "row_content": "<p>Our specialty is seasonality, small estates and microlots. All coffees are available for limited times but they come back every year. <\/p>",
             "page": ""
           }
         }

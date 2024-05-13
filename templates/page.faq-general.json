@@ -345,6 +345,15 @@
             "page": ""
           }
         },
+        "collapsible_row_aY77Xp": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How do I store my coffee beans?",
+            "icon": "question_mark",
+            "row_content": "<p>All our coffee bags have a one-sided valve and a zip-seal, so the beans can breathe out and no oxygen is getting in. Store your beans at room temperature. Once you opened the bag, enjoy our coffee within 7 days for full flavour experience.<\/p>",
+            "page": ""
+          }
+        },
         "collapsible_row_RTrH99": {
           "type": "collapsible_row",
           "settings": {
@@ -375,6 +384,7 @@
       },
       "block_order": [
         "collapsible_row_xXfy4Q",
+        "collapsible_row_aY77Xp",
         "collapsible_row_RTrH99",
         "collapsible_row_jD8Jc6",
         "collapsible_row_CMW3HG"

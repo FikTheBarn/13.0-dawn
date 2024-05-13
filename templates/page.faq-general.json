@@ -357,9 +357,9 @@
         "collapsible_row_RTrH99": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
+            "heading": "How much coffee can I make with 250g of beans?",
+            "icon": "question_mark",
+            "row_content": "<p>The golden brew ratio is 65-70g per litre. From 250g of beans you can brew up 15x 250ml.<\/p>",
             "page": ""
           }
         },

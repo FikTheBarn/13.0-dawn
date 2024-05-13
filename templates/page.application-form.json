@@ -2,9 +2,32 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
+      }
+    },
+    "rich_text_8KthJE": {
+      "type": "rich-text",
+      "blocks": {
+        "text_FpayzU": {
+          "type": "text",
+          "settings": {
+            "text": "<h6><a href=\"\/pages\/career\/barista-m-w-d\" title=\"BARISTA \">Barista<\/a> &gt; Application Form<\/h6>"
+          }
+        }
+      },
+      "block_order": [
+        "text_FpayzU"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 16,
+        "padding_bottom": 0
       }
     },
     "custom_liquid_yFE6R6": {
@@ -19,6 +42,7 @@
   },
   "order": [
     "main",
+    "rich_text_8KthJE",
     "custom_liquid_yFE6R6"
   ]
 }

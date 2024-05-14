@@ -84,7 +84,7 @@
       max-height: 544px;
     }
     .video-section__media video {
-      object-fit: unset;
+      object-fit: cover;
       height: 544px;
     }
   }

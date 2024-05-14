@@ -240,6 +240,18 @@
     },
     "custom_video_ayartr": {
       "type": "custom-video",
+      "blocks": {
+        "heading_d7UXYa": {
+          "type": "heading",
+          "settings": {
+            "heading": "A DIFFERENT COFFEE EXPERIENCE",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_d7UXYa"
+      ],
       "settings": {
         "heading": "ABOUT US",
         "heading_size": "h1",

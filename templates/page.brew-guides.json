@@ -30,7 +30,7 @@
         "heading_d734ew"
       ],
       "custom_css": [
-        "h2{color:whitesmoke !important;}"
+        "h2 {color: whitesmoke !important;}"
       ],
       "settings": {
         "desktop_content_position": "left",
@@ -44,6 +44,16 @@
     "multicolumn_Y7MXKN": {
       "type": "multicolumn",
       "blocks": {
+        "column_UdkRyb": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/aeropress.jpg",
+            "title": "Aeropress",
+            "text": "",
+            "link_label": "GUIDE",
+            "link": "shopify:\/\/pages\/agua-del-caffe-crudo"
+          }
+        },
         "column_jjR6ym": {
           "type": "column",
           "settings": {
@@ -63,22 +73,12 @@
             "link_label": "GUIDE",
             "link": "shopify:\/\/pages\/brewguide-chemex"
           }
-        },
-        "column_UdkRyb": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/aeropress.jpg",
-            "title": "Aeropress",
-            "text": "",
-            "link_label": "GUIDE",
-            "link": "shopify:\/\/pages\/agua-del-caffe-crudo"
-          }
         }
       },
       "block_order": [
+        "column_UdkRyb",
         "column_jjR6ym",
-        "column_dn7M7V",
-        "column_UdkRyb"
+        "column_dn7M7V"
       ],
       "custom_css": [
         "h3 {color: whitesmoke; font-size: 32px;}"

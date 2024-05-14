@@ -70,7 +70,8 @@
     "featured_collection_nrFN6k": {
       "type": "featured-collection",
       "custom_css": [
-        "h3 {color: red !important; font-size: 24px !important;}"
+        "h3 {font-size: 24px !important;}",
+        ".card-information .light {font-size: 12px !important;}"
       ],
       "settings": {
         "title": "BREW TOOLS AND ACCESORIES IN OUR SHOP",
@@ -84,12 +85,12 @@
         "full_width": false,
         "show_view_all": true,
         "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "",
-        "image_ratio": "adapt",
+        "enable_desktop_slider": true,
+        "color_scheme": "scheme-5",
+        "image_ratio": "square",
         "image_shape": "default",
-        "show_secondary_image": false,
-        "show_vendor": false,
+        "show_secondary_image": true,
+        "show_vendor": true,
         "show_rating": false,
         "quick_add": "none",
         "columns_mobile": "2",

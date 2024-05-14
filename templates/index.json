@@ -214,30 +214,6 @@
         "padding_bottom": 16
       }
     },
-    "featured_blog_ReFHyG": {
-      "type": "featured-blog",
-      "custom_css": [
-        "@media screen and (min-width: 750px) {.grid {column-gap: 16px; row-gap: var(--grid-desktop-vertical-spacing); }}",
-        ".card__information {padding-left: 0rem; padding-right: 0rem; text-align: justify; text-justify: inter-word;}",
-        "h3 {text-transform: uppercase; font-size: 28px;}",
-        ".article-card__info {font-family: \"Raleway\"; font-size: 12px;}",
-        "p {font-size: 12px;}"
-      ],
-      "settings": {
-        "heading": "NEWS & BREWS",
-        "heading_size": "h1",
-        "blog": "the-barn-blog",
-        "post_limit": 3,
-        "columns_desktop": 3,
-        "color_scheme": "scheme-1",
-        "show_image": true,
-        "show_date": true,
-        "show_author": false,
-        "show_view_all": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "custom_video_Wcjhpt": {
       "type": "custom-video",
       "blocks": {
@@ -268,6 +244,30 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "featured_blog_ReFHyG": {
+      "type": "featured-blog",
+      "custom_css": [
+        "@media screen and (min-width: 750px) {.grid {column-gap: 16px; row-gap: var(--grid-desktop-vertical-spacing); }}",
+        ".card__information {padding-left: 0rem; padding-right: 0rem; text-align: justify; text-justify: inter-word;}",
+        "h3 {text-transform: uppercase; font-size: 28px;}",
+        ".article-card__info {font-family: \"Raleway\"; font-size: 12px;}",
+        "p {font-size: 12px;}"
+      ],
+      "settings": {
+        "heading": "NEWS & BREWS",
+        "heading_size": "h1",
+        "blog": "the-barn-blog",
+        "post_limit": 3,
+        "columns_desktop": 3,
+        "color_scheme": "scheme-1",
+        "show_image": true,
+        "show_date": true,
+        "show_author": false,
+        "show_view_all": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -275,7 +275,7 @@
     "image_banner_BMHTdx",
     "featured_collection_Y8ga6P",
     "collection_list_c4HEKH",
-    "featured_blog_ReFHyG",
-    "custom_video_Wcjhpt"
+    "custom_video_Wcjhpt",
+    "featured_blog_ReFHyG"
   ]
 }

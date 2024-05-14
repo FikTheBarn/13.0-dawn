@@ -16,10 +16,21 @@
           "settings": {
             "text": "<h6><a href=\"\/\" title=\"\/\">Home<\/a> &gt; Brew Guides<\/h6>"
           }
+        },
+        "heading_d734ew": {
+          "type": "heading",
+          "settings": {
+            "heading": "BREW GUIDES",
+            "heading_size": "h1"
+          }
         }
       },
       "block_order": [
-        "text_r3JeJf"
+        "text_r3JeJf",
+        "heading_d734ew"
+      ],
+      "custom_css": [
+        "h2{color:whitesmoke !important;}"
       ],
       "settings": {
         "desktop_content_position": "left",
@@ -73,7 +84,7 @@
         "h3 {color: whitesmoke; font-size: 32px;}"
       ],
       "settings": {
-        "title": "BREW GUIDES",
+        "title": "",
         "heading_size": "h1",
         "image_width": "half",
         "image_ratio": "adapt",

@@ -34,10 +34,11 @@
         "column_UdkRyb": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/aeropress.jpg",
             "title": "Aeropress",
-            "text": "<p>Invented in 2005 by Alan Adler (USA), the AeroPress has quickly gained popularity for its brew times and versatility – it delivers everything from Mokka to Filtercoffee.<br\/><br\/>The The AeroPress is based on the mechanics of the French Press. The addition of paper filters and a rubber seal results in excellent extraction and a fantastic mouthfeel.<\/p>",
-            "link_label": "",
-            "link": ""
+            "text": "",
+            "link_label": "GUIDE",
+            "link": "shopify:\/\/pages\/agua-del-caffe-crudo"
           }
         }
       },

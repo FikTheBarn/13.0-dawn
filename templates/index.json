@@ -230,7 +230,7 @@
       ],
       "custom_css": [
         ".icon {color: black;}",
-        "@media screen and (min-width: 750px) {.deferred-media__poster {max-height: 544px; } .video-section__media video {object-fit: cover; height: 544px; }}"
+        "@media screen and (min-width: 750px) {.deferred-media__poster {max-height: 544px; } .video-section__media video {object-fit: unset; height: 544px; }}"
       ],
       "settings": {
         "heading": "ABOUT US",

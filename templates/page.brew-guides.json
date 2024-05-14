@@ -14,19 +14,21 @@
         "column_jjR6ym": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/v60.jpg",
             "title": "Hario V60",
-            "text": "<p>The Hario V60 is one of the most iconic drip brewers. The V60 is named after the angle that form its V-shape. The grooves on the inside the dripper support extraction along the side of the filter.<br\/><br\/>This full filtration creates extremely clean flavours while the paper filter also allows some of the coffee oils to pass through.<\/p>",
-            "link_label": "",
-            "link": ""
+            "text": "",
+            "link_label": "GUIDE",
+            "link": "shopify:\/\/pages\/brewguide-drip"
           }
         },
         "column_dn7M7V": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/chemex_121b5e70-97f1-4bb7-9e1a-2c5daff0d11c.jpg",
             "title": "Chemex",
-            "text": "<p>The Chemex was invented by Peter Schlumbohm in 1941 in Chicago, USA. Being a chemist, Peter understood extraction of flavor and caffeine very well. This resulted in the Chemex being not only a beautiful piece of design, but functional too.<br\/><br\/>The paper used for Chemex filters is slightly thicker than most, which creates incredibly clean brews.<\/p>",
-            "link_label": "",
-            "link": ""
+            "text": "",
+            "link_label": "GUIDE",
+            "link": "shopify:\/\/pages\/brewguide-chemex"
           }
         },
         "column_UdkRyb": {
@@ -45,7 +47,7 @@
         "column_UdkRyb"
       ],
       "settings": {
-        "title": "Brew Guides",
+        "title": "Brew Guides By Categories",
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",

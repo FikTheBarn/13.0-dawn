@@ -70,7 +70,7 @@
     "featured_collection_nrFN6k": {
       "type": "featured-collection",
       "custom_css": [
-        "h3 {color: red !important; font-size:16px !important;}"
+        "h3 {color: red !important; font-size: 24px !important;}"
       ],
       "settings": {
         "title": "BREW TOOLS AND ACCESORIES IN OUR SHOP",

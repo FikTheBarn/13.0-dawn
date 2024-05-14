@@ -254,13 +254,12 @@
       ],
       "custom_css": [
         "@media screen and (min-width: 750px) {.deferred-media__poster {max-height: 544px; } .video-section__media video {object-fit: cover; height: 544px; }}",
-        "p {color: white;}",
         "@media screen and (max-width: 750px) {.video-section__media {padding-bottom: calc(var(--ratio-percent) - var(--media-border-width)); } .video-section__media video {object-fit: cover; }}"
       ],
       "settings": {
         "heading": "ABOUT US",
         "heading_size": "h1",
-        "enable_video_looping": false,
+        "enable_video_looping": true,
         "video": "shopify:\/\/files\/videos\/THE BARN Coffee Roasters Berlin - About Us.mov",
         "video_url": "",
         "description": "",

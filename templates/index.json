@@ -252,6 +252,9 @@
       "block_order": [
         "heading_EzDMfW"
       ],
+      "custom_css": [
+        ".icon {color:black;}"
+      ],
       "settings": {
         "heading": "ABOUT US",
         "heading_size": "h1",

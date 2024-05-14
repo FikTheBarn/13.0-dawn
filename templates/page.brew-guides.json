@@ -51,7 +51,7 @@
         "h3 {color: whitesmoke; font-size: 32px;}"
       ],
       "settings": {
-        "title": "Brew Guides By Categories",
+        "title": "BREW GUIDES",
         "heading_size": "h1",
         "image_width": "half",
         "image_ratio": "adapt",
@@ -69,6 +69,7 @@
     },
     "featured_collection_nrFN6k": {
       "type": "featured-collection",
+      "disabled": true,
       "custom_css": [
         "h3 {font-size: 24px !important;}",
         ".card-information .light {font-size: 12px !important;}"
@@ -80,13 +81,13 @@
         "show_description": false,
         "description_style": "body",
         "collection": "brew-guide",
-        "products_to_show": 25,
+        "products_to_show": 10,
         "columns_desktop": 4,
         "full_width": false,
         "show_view_all": true,
         "view_all_style": "solid",
         "enable_desktop_slider": true,
-        "color_scheme": "scheme-5",
+        "color_scheme": "scheme-1",
         "image_ratio": "square",
         "image_shape": "default",
         "show_secondary_image": true,
@@ -94,7 +95,7 @@
         "show_rating": false,
         "quick_add": "none",
         "columns_mobile": "2",
-        "swipe_on_mobile": false,
+        "swipe_on_mobile": true,
         "padding_top": 36,
         "padding_bottom": 36
       }

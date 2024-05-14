@@ -285,6 +285,7 @@
 .card__heading {
   margin-top: 0;
   margin-bottom: 0;
+  font-size: 42px;
 }
 
 .card__heading:last-child {
@@ -452,7 +453,8 @@
 
 .card-information>* {
   line-height: calc(1 + 0.4 / var(--font-body-scale));
-  color: rgb(var(--color-foreground));
+color:whitesmoke;
+font-size: 16px;
 }
 
 .card-information>.price {

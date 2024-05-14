@@ -237,36 +237,6 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "custom_video_X6jCkm": {
-      "type": "custom-video",
-      "blocks": {
-        "heading_EzDMfW": {
-          "type": "heading",
-          "settings": {
-            "heading": "A DIFFERENT COFFEE EXPEREINCE",
-            "heading_size": "h1"
-          }
-        }
-      },
-      "block_order": [
-        "heading_EzDMfW"
-      ],
-      "custom_css": [
-        ".icon {color:black;}"
-      ],
-      "settings": {
-        "heading": "ABOUT US",
-        "heading_size": "h1",
-        "enable_video_looping": true,
-        "video": "shopify:\/\/files\/videos\/THE BARN Coffee Roasters Berlin - About Us.mov",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "description": "",
-        "full_width": false,
-        "color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
@@ -274,7 +244,6 @@
     "image_banner_BMHTdx",
     "featured_collection_Y8ga6P",
     "collection_list_c4HEKH",
-    "featured_blog_ReFHyG",
-    "custom_video_X6jCkm"
+    "featured_blog_ReFHyG"
   ]
 }

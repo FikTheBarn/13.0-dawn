@@ -73,7 +73,6 @@
     .video-section__media video {
       object-fit: cover;
       height: 544px;
-      padding-bottom: 544px;
     }
   }
 

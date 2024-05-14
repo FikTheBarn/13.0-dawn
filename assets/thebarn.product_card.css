@@ -52,6 +52,9 @@
       margin-top: 10px !important;
       margin-bottom: 0;
   }
+  .custom-title-main-product{
+    color:red !important;
+  }
 
     .card-information {
       width: 100%;

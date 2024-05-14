@@ -240,6 +240,18 @@
     },
     "custom_video_Wcjhpt": {
       "type": "custom-video",
+      "blocks": {
+        "heading_LBqK3V": {
+          "type": "heading",
+          "settings": {
+            "heading": "A DIFFERENT COFFEE EXPEREINCE",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_LBqK3V"
+      ],
       "custom_css": [
         ".icon {color: black;}"
       ],

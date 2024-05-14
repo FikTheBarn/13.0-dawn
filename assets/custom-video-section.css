@@ -15,13 +15,10 @@
   }
 
 .video-section__media {
-  --ratio-percent: 56.25%;
-  position: relative;
-  padding-bottom: 544px;
-  /*
-  padding-bottom: calc(var(--ratio-percent) - var(--media-border-width));
-  */
-}
+    --ratio-percent: 56.25%;
+    position: relative;
+    padding-bottom: calc(var(--ratio-percent) - var(--media-border-width));
+  }
   
   /* Needed for gradient continuity with or without animation so that transparent PNG images come up as we would expect */
   .scroll-trigger:where(.gradient.video-section__media) {
@@ -69,6 +66,15 @@
     object-fit: cover;
   }
 
+@media screen and (max-width: 750px) {
+  .video-section__media {
+    padding-bottom: calc(var(--ratio-percent) - var(--media-border-width));
+  }
+  .video-section__media video {
+    object-fit: cover;
+  }
+}
+
   @media screen and (min-width: 750px) {
     .deferred-media__poster {
       max-height: 544px;
@@ -76,8 +82,10 @@
     .video-section__media video {
       object-fit: cover;
       height: 544px;
+      padding-bottom: 544px;
     }
+    .video-section__media {
+        padding-bottom: 544px;
+      }
   }
-
-
   

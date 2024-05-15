@@ -155,15 +155,7 @@
                   <section style="display: flex;">
                     <div style="height: 100px; min-width:100px;  display: flex; flex-direction:column; text-align:center; justify-content: center;">
                       
-                    {% if link.title == "Christmas" %}
-                      {%- if section.settings.image_drawer_christmas != blank -%}
-                        {{
-                          section.settings.image_drawer_christmas
-                          | image_url: width: 100
-                          | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority
-                        }}
-                      {%- endif -%}
-                    {% endif %}
+             
                         
                     {% if link.title == "Coffee Beans" %}
                       {%- if section.settings.image_drawer_beans != blank -%}

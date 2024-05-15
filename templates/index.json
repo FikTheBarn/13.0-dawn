@@ -157,7 +157,7 @@
         ".banner__box {max-width: 398px;}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Farm.jpg",
+        "image": "shopify:\/\/shop_images\/bg-hero.jpg",
         "image_2": "shopify:\/\/shop_images\/Subscriptions.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",

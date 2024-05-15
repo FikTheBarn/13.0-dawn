@@ -152,7 +152,70 @@
                   {%- else -%}
                   {% comment %} START OF MAIN LINK {% endcomment %}
 
-           
+                  <section style="display: flex;">
+                    <div style="height: 100px; min-width:100px;  display: flex; flex-direction:column; text-align:center; justify-content: center;">
+                      
+                    {% if link.title == "Christmas" %}
+                      {%- if section.settings.image_drawer_christmas != blank -%}
+                        {{
+                          section.settings.image_drawer_christmas
+                          | image_url: width: 100
+                          | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority
+                        }}
+                      {%- endif -%}
+                    {% endif %}
+                        
+                    {% if link.title == "Coffee Beans" %}
+                      {%- if section.settings.image_drawer_beans != blank -%}
+                        {{
+                          section.settings.image_drawer_beans
+                          | image_url: width: 100
+                          | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority
+                        }}
+                      {%- endif -%}
+                    {% endif %}
+
+                    {% if link.title == "Subscriptions" %}
+                      {%- if section.settings.image_drawer_subscriptions != blank -%}
+                        {{
+                          section.settings.image_drawer_subscriptions
+                          | image_url: width: 100
+                          | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority
+                        }}
+                      {%- endif -%}
+                    {% endif %}
+
+                    {% if link.title == "Shop" %}
+                      {%- if section.settings.image_drawer_gifts != blank -%}
+                        {{
+                          section.settings.image_drawer_gifts
+                          | image_url: width: 100
+                          | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority
+                        }}
+                      {%- endif -%}
+                    {% endif %}
+                         {% if link.title == "Donate a tree" %}
+                      {%- if section.settings.image_drawer_equipment != blank -%}
+                        {{
+                          section.settings.image_drawer_equipment
+                          | image_url: width: 100
+                          | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority
+                        }}
+                      {%- endif -%}
+                    {% endif %}
+
+                    </div>
+                    <a
+                      id="HeaderDrawer-{{ link.handle }}"
+                      href="{{ link.url }}"
+                      class="menu-drawer__menu-item list-menu__item link link--text focus-inset{% if link.current %} menu-drawer__menu-item--active{% endif %}"
+                      {% if link.current %}
+                        aria-current="page"
+                      {% endif %}
+                    >
+                      {{ link.title | escape }}
+                    </a>
+                  </section>
                   {% comment %} END OF MAIN LINK {% endcomment %}
                   {%- endif -%}
                 </li>

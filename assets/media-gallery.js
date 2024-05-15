@@ -33,8 +33,6 @@ if (!customElements.get('media-gallery')) {
           this.elements.viewer.querySelector(`[data-media-id="${mediaId}"]`) ||
           this.elements.viewer.querySelector('[data-media-id]');
         if (!activeMedia) {
-                    console.error('Active media is null:', mediaId);
-
           return;
         }
         this.elements.viewer.querySelectorAll('[data-media-id]').forEach((element) => {
@@ -58,7 +56,6 @@ if (!customElements.get('media-gallery')) {
         if (!this.elements.thumbnails) return;
         const activeThumbnail = this.elements.thumbnails.querySelector(`[data-target="${mediaId}"]`);
         this.setActiveThumbnail(activeThumbnail);
-        this.announceLiveRegion(activeMedia, activeThumbnail.dataset.mediaPosition);
       }
 
       setActiveThumbnail(thumbnail) {

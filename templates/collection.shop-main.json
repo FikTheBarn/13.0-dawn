@@ -118,6 +118,9 @@
         "featured_collection_k9pjpJ",
         "featured_collection_BPkMfU"
       ],
+      "custom_css": [
+        "h3{color:whitesmoke; font-size:22px;}"
+      ],
       "settings": {
         "title": "SHOP BY CATEGORY",
         "heading_size": "h1",

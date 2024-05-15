@@ -1,5 +1,109 @@
 {
   "sections": {
+    "image_with_text_Fx77i4": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_wVRAXM": {
+          "type": "heading",
+          "settings": {
+            "heading": "CENTRAL AMERICA TRIPLE BOX",
+            "heading_size": "h1"
+          }
+        },
+        "text_LRNGrf": {
+          "type": "text",
+          "settings": {
+            "text": "<p>3 Origins. 3 Varietals. 3 Processes.Taste our journey through Central America!<\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_KhUXcV": {
+          "type": "button",
+          "settings": {
+            "button_label": "ORDER NOW",
+            "button_link": "shopify:\/\/products\/triple-box-central-america",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_wVRAXM",
+        "text_LRNGrf",
+        "button_KhUXcV"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "h2 {font-size: 72px;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/central_triple_box_cb2a9ca8-92f7-407c-a2f7-9018bedb6073.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_banner_BMHTdx": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_66UN9z": {
+          "type": "heading",
+          "settings": {
+            "heading": "CENTRAL AMERICA",
+            "heading_size": "h0"
+          }
+        },
+        "text_qbVJLJ": {
+          "type": "text",
+          "settings": {
+            "text": "<strong>TRIPLE BOX<\/strong>",
+            "text_style": "subtitle"
+          }
+        },
+        "buttons_Adxe4j": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "ORDER NOWW",
+            "button_link_1": "shopify:\/\/products\/triple-box-central-america",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_66UN9z",
+        "text_qbVJLJ",
+        "buttons_Adxe4j"
+      ],
+      "custom_css": [
+        "@media screen and (min-width: 480px) {h2 {color: whitesmoke; font-size: 8vw; margin-bottom: 0px; padding-bottom: 0px; }}",
+        "@media screen and (max-width: 481px) {h2 {color: whitesmoke; font-size: 16vw; margin-bottom: 0px; padding-bottom: 0px; }}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/central_triple_box_cb2a9ca8-92f7-407c-a2f7-9018bedb6073.jpg",
+        "image_2": "shopify:\/\/shop_images\/CerroAzulGesha_fec21019-39ef-4778-9793-7ec77005a12f.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-right",
+        "show_text_box": true,
+        "desktop_content_alignment": "right",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "featured_collection_Y8ga6P": {
       "type": "featured-collection",
       "custom_css": [
@@ -167,6 +271,8 @@
     }
   },
   "order": [
+    "image_with_text_Fx77i4",
+    "image_banner_BMHTdx",
     "featured_collection_Y8ga6P",
     "collection_list_c4HEKH",
     "custom_video_Wcjhpt",

@@ -33,6 +33,8 @@ if (!customElements.get('media-gallery')) {
           this.elements.viewer.querySelector(`[data-media-id="${mediaId}"]`) ||
           this.elements.viewer.querySelector('[data-media-id]');
         if (!activeMedia) {
+                    console.error('Active media is null:', mediaId);
+
           return;
         }
         this.elements.viewer.querySelectorAll('[data-media-id]').forEach((element) => {

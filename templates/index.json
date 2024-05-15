@@ -156,13 +156,13 @@
         "@media screen and (max-width: 481px) {h2 {color: whitesmoke; font-size: 16vw; margin-bottom: 0px; padding-bottom: 0px; }}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Subscriptions.jpg",
-        "image_2": "shopify:\/\/shop_images\/Farm.jpg",
+        "image": "shopify:\/\/shop_images\/Farm.jpg",
+        "image_2": "shopify:\/\/shop_images\/Subscriptions.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
-        "desktop_content_position": "middle-right",
+        "desktop_content_position": "middle-left",
         "show_text_box": true,
-        "desktop_content_alignment": "right",
+        "desktop_content_alignment": "left",
         "color_scheme": "",
         "image_behavior": "none",
         "mobile_content_alignment": "center",

@@ -153,7 +153,8 @@
       ],
       "custom_css": [
         "@media screen and (min-width: 480px) {h2 {color: whitesmoke; font-size: 8vw; margin-bottom: 0px; padding-bottom: 0px; }}",
-        "@media screen and (max-width: 481px) {h2 {color: whitesmoke; font-size: 16vw; margin-bottom: 0px; padding-bottom: 0px; }}"
+        "@media screen and (max-width: 481px) {h2 {color: whitesmoke; font-size: 16vw; margin-bottom: 0px; padding-bottom: 0px; }}",
+        ".banner__box {max-width: 380px;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Farm.jpg",

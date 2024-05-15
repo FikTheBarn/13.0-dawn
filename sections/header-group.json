@@ -136,6 +136,12 @@
         "ul a {color: white; font-family: \"Chalet Comprime\"; font-size: 24px;}"
       ],
       "settings": {
+        "title-00-nav-stripe": "<a href=\"\/collections\/coffee-beans\" title=\"COFFEE BEANS\">COFFEE BEANS<\/a>",
+        "title-01-nav-stripe": "<a href=\"\/collections\/coffee-subscription\" title=\"SUBSCRIPTIONS\">SUBSCRIPTIONS<\/a>",
+        "title-02-nav-stripe": "<a href=\"\/collections\/shop\" title=\"SHOP\">SHOP ALL<\/a>",
+        "title-03-nav-stripe": "<a href=\"\/pages\/locations\" title=\"THE BARN Specialty Coffee Cafés\">CAFÉS<\/a>",
+        "title-04-nav-stripe": "<a href=\"\/pages\/wholesale-coffee-beans\" title=\"wholesale-coffee-beans\">WHOLESALE<\/a>",
+        "title-05-nav-stripe": "<a href=\"\/pages\/aboutus\" title=\"About Us\">ABOUT US<\/a>",
         "title_image": "Talk about the image",
         "heading": "Talk about the image",
         "button_label_image": "image",

@@ -184,7 +184,7 @@
           "app_container": 1350,
           "app_vertical_padding": 32,
           "images_aspect_ratio": "1\/1.33",
-          "cards_background": "#ffffff",
+          "cards_background": "#f5f5f5",
           "cards_border_color": "rgba(0,0,0,0)"
         }
       }

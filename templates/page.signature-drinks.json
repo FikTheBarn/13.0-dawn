@@ -201,6 +201,7 @@
       "blocks": {
         "slide_GqDQkf": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/DSC_5377.jpg",
             "heading": "Image slide",
@@ -209,16 +210,17 @@
             "button_label": "Button label",
             "link": "",
             "button_style_secondary": false,
-            "box_align": "middle-center",
+            "box_align": "middle-left",
             "show_text_box": true,
             "text_alignment": "center",
-            "image_overlay_opacity": 100,
-            "color_scheme": "",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
             "text_alignment_mobile": "center"
           }
         },
         "slide_icmt3y": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/MG_5922.jpg",
             "heading": "Image slide",
@@ -234,11 +236,30 @@
             "color_scheme": "",
             "text_alignment_mobile": "center"
           }
+        },
+        "slide_UAxCHk": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Subscriptions_1.jpg",
+            "heading": "OUR SUBSCRIPTIONS",
+            "heading_size": "h0",
+            "subheading": "A unique flavour experience, every month.",
+            "button_label": "EXPLORE",
+            "link": "shopify:\/\/pages\/subscriptions-intro",
+            "button_style_secondary": false,
+            "box_align": "middle-left",
+            "show_text_box": true,
+            "text_alignment": "left",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
         }
       },
       "block_order": [
         "slide_GqDQkf",
-        "slide_icmt3y"
+        "slide_icmt3y",
+        "slide_UAxCHk"
       ],
       "settings": {
         "layout": "grid",

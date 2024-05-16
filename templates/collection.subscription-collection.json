@@ -36,7 +36,7 @@
         "text_86UXHa"
       ],
       "custom_css": [
-
+        ".rich-text__wrapper {padding-left: 0px;}"
       ],
       "settings": {
         "desktop_content_position": "left",
@@ -44,7 +44,7 @@
         "color_scheme": "",
         "full_width": true,
         "padding_top": 16,
-        "padding_bottom": 16
+        "padding_bottom": 0
       }
     },
     "banner": {
@@ -72,7 +72,7 @@
         "enable_quick_add": false,
         "quick_add_button_color": "",
         "columns_mobile": "1",
-        "padding_top": 36,
+        "padding_top": 0,
         "padding_bottom": 0
       }
     },

@@ -177,7 +177,7 @@
         "disabled": false,
         "settings": {
           "color_brand": "#804d15",
-          "contrast_color": "#ffffff",
+          "contrast_color": "#f5f5f5",
           "color_brand_secondary": "#1878B9",
           "corners": "0px",
           "app_background": "#141414",

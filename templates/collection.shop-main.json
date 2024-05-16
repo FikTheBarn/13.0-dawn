@@ -106,6 +106,12 @@
           "settings": {
             "collection": "coffee-vouchers"
           }
+        },
+        "featured_collection_KhzVUB": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "coffee-filter-brewing-method"
+          }
         }
       },
       "block_order": [
@@ -116,10 +122,11 @@
         "featured_collection_jmWatT",
         "featured_collection_8CCGXR",
         "featured_collection_k9pjpJ",
-        "featured_collection_BPkMfU"
+        "featured_collection_BPkMfU",
+        "featured_collection_KhzVUB"
       ],
       "custom_css": [
-        "h3{color:whitesmoke; font-size:22px;}"
+        "h3 {color: whitesmoke; font-size: 22px;}"
       ],
       "settings": {
         "title": "SHOP BY CATEGORY",

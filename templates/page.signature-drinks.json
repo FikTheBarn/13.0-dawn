@@ -240,7 +240,7 @@
         "slide_UAxCHk": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Subscriptions_1.jpg",
+            "image": "shopify:\/\/shop_images\/DSC_5377.jpg",
             "heading": "OUR SUBSCRIPTIONS",
             "heading_size": "h0",
             "subheading": "A unique flavour experience, every month.",
@@ -261,13 +261,14 @@
         "slide_icmt3y",
         "slide_UAxCHk"
       ],
+      "disabled": true,
       "settings": {
         "layout": "grid",
-        "slide_height": "medium",
+        "slide_height": "large",
         "slider_visual": "dots",
         "auto_rotate": false,
         "change_slides_speed": 5,
-        "image_behavior": "none",
+        "image_behavior": "ambient",
         "show_text_below": true,
         "accessibility_info": "Slideshow about our brand"
       }

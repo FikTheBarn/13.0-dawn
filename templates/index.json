@@ -1,93 +1,27 @@
 {
   "sections": {
-    "custom_slideshow_hero_d4rGUT": {
-      "type": "custom-slideshow-hero",
-      "blocks": {
-        "slide_TWyMNn": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Subscriptions_1.jpg",
-            "heading": "OUR SUBSCRIPTIONS",
-            "heading_1": "",
-            "heading_2": "",
-            "heading_size": "h1",
-            "subheading": "A unique flavour experience, every month.",
-            "subheading_2": "",
-            "button_label": "EXPLORE SUBSCRIPTIONS",
-            "link": "shopify:\/\/pages\/subscriptions-intro",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "link_2": "",
-            "button_style_secondary_2": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "left",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "slide_bNE9zd": {
-          "type": "slide",
-          "settings": {
-            "heading": "Image slide",
-            "heading_1": "Image slide",
-            "heading_2": "Image slide",
-            "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "subheading_2": "Tell your brand's story through images",
-            "button_label": "Button label",
-            "link": "",
-            "button_style_secondary": false,
-            "button_label_2": "Button label",
-            "link_2": "",
-            "button_style_secondary_2": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
-        }
-      },
-      "block_order": [
-        "slide_TWyMNn",
-        "slide_bNE9zd"
-      ],
-      "disabled": true,
-      "settings": {
-        "layout": "full_bleed",
-        "slide_height": "adapt_image",
-        "slider_visual": "counter",
-        "auto_rotate": false,
-        "change_slides_speed": 5,
-        "show_text_below": true,
-        "accessibility_info": "Slideshow about our brand"
-      }
-    },
     "image_with_text_Fx77i4": {
       "type": "image-with-text",
       "blocks": {
         "heading_wVRAXM": {
           "type": "heading",
           "settings": {
-            "heading": "CENTRAL AMERICA TRIPLE BOX",
+            "heading": "OUR SUBSCRIPTIONS",
             "heading_size": "h1"
           }
         },
         "text_LRNGrf": {
           "type": "text",
           "settings": {
-            "text": "<p>3 Origins. 3 Varietals. 3 Processes.Taste our journey through Central America!<\/p>",
+            "text": "<p>A unique flavour experience, every month.<\/p>",
             "text_style": "body"
           }
         },
         "button_KhUXcV": {
           "type": "button",
           "settings": {
-            "button_label": "ORDER NOW",
-            "button_link": "shopify:\/\/products\/triple-box-central-america",
+            "button_label": "EXPLORE SUBSCRIPTIONS",
+            "button_link": "shopify:\/\/pages\/subscriptions-intro",
             "button_style_secondary": false
           }
         }
@@ -97,22 +31,22 @@
         "text_LRNGrf",
         "button_KhUXcV"
       ],
-      "disabled": true,
       "custom_css": [
-        "h2 {font-size: 72px;}"
+        "@media screen and (min-width: 480px) {h2 {font-size: 72px; }}",
+        "@media screen and (max-width: 481px) {h2 {font-size: 42px; }}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/central_triple_box_cb2a9ca8-92f7-407c-a2f7-9018bedb6073.jpg",
-        "height": "adapt",
+        "image": "shopify:\/\/shop_images\/DSC_5377.jpg",
+        "height": "large",
         "desktop_image_width": "medium",
         "layout": "text_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
         "content_layout": "no-overlap",
-        "section_color_scheme": "",
+        "section_color_scheme": "scheme-5",
         "color_scheme": "",
         "image_behavior": "none",
-        "mobile_content_alignment": "left",
+        "mobile_content_alignment": "center",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -151,6 +85,7 @@
         "text_qbVJLJ",
         "buttons_Adxe4j"
       ],
+      "disabled": true,
       "custom_css": [
         "@media screen and (min-width: 480px) {h2 {color: whitesmoke; font-size: 6vw; margin-bottom: 0px; padding-bottom: 0px; }}",
         "@media screen and (max-width: 481px) {h2 {color: whitesmoke; font-size: 16vw; margin-bottom: 0px; padding-bottom: 0px; }}",
@@ -338,7 +273,6 @@
     }
   },
   "order": [
-    "custom_slideshow_hero_d4rGUT",
     "image_with_text_Fx77i4",
     "image_banner_BMHTdx",
     "featured_collection_Y8ga6P",

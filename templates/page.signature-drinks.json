@@ -196,68 +196,57 @@
         "padding_bottom": 36
       }
     },
-    "custom_slideshow_hero_ztWFwY": {
-      "type": "custom-slideshow-hero",
+    "slideshow_LhzNjn": {
+      "type": "slideshow",
       "blocks": {
-        "slide_a6Yj8H": {
+        "slide_GqDQkf": {
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/DSC_5377.jpg",
-            "heading": "OUR SUBSCRIPTIONS",
-            "heading_1": "",
-            "heading_2": "",
-            "heading_size": "h1",
-            "subheading": "A unique flavour experience, every month.",
-            "subheading_2": "",
-            "button_label": "EXPLORE SUBSCRIPTIONS",
-            "link": "shopify:\/\/pages\/subscriptions-intro",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "link_2": "",
-            "button_style_secondary_2": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "slide_KpETHY": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Image19.02.24at13.31.jpg",
             "heading": "Image slide",
-            "heading_1": "Image slide",
-            "heading_2": "Image slide",
             "heading_size": "h1",
             "subheading": "Tell your brand's story through images",
-            "subheading_2": "Tell your brand's story through images",
             "button_label": "Button label",
             "link": "",
             "button_style_secondary": false,
-            "button_label_2": "Button label",
-            "link_2": "",
-            "button_style_secondary_2": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 100,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_icmt3y": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/MG_5922.jpg",
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
             "box_align": "middle-center",
             "show_text_box": true,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
+            "color_scheme": "",
             "text_alignment_mobile": "center"
           }
         }
       },
       "block_order": [
-        "slide_a6Yj8H",
-        "slide_KpETHY"
+        "slide_GqDQkf",
+        "slide_icmt3y"
       ],
       "settings": {
-        "layout": "full_bleed",
-        "slide_height": "adapt_image",
-        "slider_visual": "counter",
+        "layout": "grid",
+        "slide_height": "medium",
+        "slider_visual": "dots",
         "auto_rotate": false,
         "change_slides_speed": 5,
+        "image_behavior": "none",
         "show_text_below": true,
         "accessibility_info": "Slideshow about our brand"
       }
@@ -266,6 +255,6 @@
   "order": [
     "main",
     "multicolumn_9cdf9r",
-    "custom_slideshow_hero_ztWFwY"
+    "slideshow_LhzNjn"
   ]
 }

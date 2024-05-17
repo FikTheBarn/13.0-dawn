@@ -1485,5 +1485,35 @@
         "id": "color_profile_exotic"
       }
     ]
+  },
+  {
+    "name": "Shipping Bar",
+    "settings":
+    [
+      {
+        "type": "checkbox",
+        "id": "show_shipping_bar",
+        "label": "Show Shipping Bar in Cart Drawer",
+        "default": false
+      },
+      {
+        "type": "text",
+        "id": "shipping_message",
+        "label": "Shipping Message",
+        "default": "You are away from a free tote bag!"
+      },
+      {
+        "type": "number",
+        "id": "minimum_free_shipping",
+        "label": "Minimum Free Shipping",
+        "default": 20
+      },
+      {
+        "type": "color",
+        "id": "shipping_bar_color",
+        "label": "Progress Bar Color",
+        "default": "#0546e0"
+      }
+    ]
   }
 ]

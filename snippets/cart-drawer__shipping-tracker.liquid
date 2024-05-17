@@ -12,7 +12,7 @@
     {% if shipping_value_left > 0 %}
       <span class="caption-large">{{ shipping_value_left | money | append: customer_message | prepend: customer_text }}</span>
     {% elsif shipping_value_left <= 0 %}
-      <span>{{ 'sections.cart.free_shipping_achieved' | t }}</span>
+      <span class="caption-large">{{ 'sections.cart.free_shipping_achieved' | t }}</span>
     {% endif %}
   </p>
 

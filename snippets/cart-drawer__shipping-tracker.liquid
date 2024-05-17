@@ -6,14 +6,11 @@
   {% assign cart_total = cart.total_price %}
   {% assign shipping_value_left = shipping_value | minus: cart_total %}
   {% assign customer_message = 'sections.cart.free_shipping_message' | t %}
-
-  {% assign full_message = customer_text | append: " " | append: shipping_value_left | money | append: " " | append: customer_message %}
-
   {% assign shipping_percentage_fraction = cart_total | times: 100 | divided_by: shipping_value %}
 
   <p class="shipping-message">
     {% if shipping_value_left > 0 %}
-      <span class="free_shipping_notice">{{ full_message }}</span>
+      <span class="free_shipping_notice">{{ shipping_value_left | money }}</span>
     {% elsif shipping_value_left <= 0 %}
       <span>{{ 'sections.cart.free_shipping_achieved' | t }}</span>
     {% endif %}

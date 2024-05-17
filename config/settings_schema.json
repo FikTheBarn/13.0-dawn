@@ -1500,7 +1500,7 @@
         "type": "text",
         "id": "shipping_message",
         "label": "Shipping Message",
-        "default": "You are"
+        "default": "You are away from a free tote bag!"
       },
       {
         "type": "number",

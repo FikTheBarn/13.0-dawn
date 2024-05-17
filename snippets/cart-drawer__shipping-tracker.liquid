@@ -10,7 +10,7 @@
 
   <p class="shipping-message">
     {% if shipping_value_left > 0 %}
-      <span class="free_shipping_notice">{{ shipping_value_left | money | append: customer_message | prepend: customer_text }}</span>
+      <span class="free_shipping_notice rte">{{ shipping_value_left | money | append: customer_message | prepend: customer_text }}</span>
     {% elsif shipping_value_left <= 0 %}
       <span>{{ 'sections.cart.free_shipping_achieved' | t }}</span>
     {% endif %}

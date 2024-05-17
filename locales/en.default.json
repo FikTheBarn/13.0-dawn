@@ -279,8 +279,8 @@
       }
     },
     "cart": {
-      "free_shipping_notice": "You are",
-      "free_shipping_message": "a free tote bag",
+      "free_shipping_notice": "You are ",
+      "free_shipping_message": " a free tote bag",
       "free_shipping_achieved": "Your free Tote bag will be added to your order!",
       "title": "Your cart",
       "caption": "Cart items",

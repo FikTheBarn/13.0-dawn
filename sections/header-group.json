@@ -120,7 +120,7 @@
         "row_DXryAb"
       ],
       "custom_css": [
-        "ul a {color: white;}"
+        "ul a {color: #141414;}"
       ],
       "settings": {
         "enable_language_selector": false,

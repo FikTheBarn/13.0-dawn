@@ -1488,8 +1488,7 @@
   },
   {
     "name": "Shipping Bar",
-    "settings":
-    [
+    "settings": [
       {
         "type": "checkbox",
         "id": "show_shipping_bar",

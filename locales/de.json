@@ -272,8 +272,9 @@
       }
     },
     "cart": {
-      "free_shipping_notice": "Du bist {{ shipping_value_left | money }} von einer kostenlosen Tüte entfernt!",
-      "free_shipping_achieved": "Deine kostenlose Tüte wird deiner Bestellung hinzugefügt!",
+      "free_shipping_notice": "Du bist!",
+      "free_shipping_message":"von einer kostenlosen Tote Bag entfernt",
+      "free_shipping_achieved": "Deine kostenlose Tote Bag wird deiner Bestellung hinzugefügt!",
       "title": "Dein Warenkorb",
       "caption": "Artikel im Warenkorb",
       "remove_title": "{{ title }} entfernen",

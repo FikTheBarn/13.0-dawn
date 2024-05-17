@@ -279,7 +279,7 @@
       }
     },
     "cart": {
-      "free_shipping_notice": "You are {{ shipping_value_left | money }} from a free tote bag!",
+      "free_shipping_notice": "You are {{ amount }} from a free tote bag!",
       "free_shipping_achieved": "Your free tote bag will be added to your order!",
       "title": "Your cart",
       "caption": "Cart items",

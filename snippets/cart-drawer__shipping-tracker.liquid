@@ -7,7 +7,9 @@
   {% assign shipping_percentage_fraction = cart_total | times: 100 | divided_by: shipping_value %}
   <p class="shipping-message">
     {% if shipping_value_left > 0 %}
-      <span class="free_shipping_notice">{{ 'sections.cart.free_shipping_notice' | t: shipping_value_left | money: shipping_value_left | money }}</span>
+      <span class="free_shipping_notice">
+        {{ 'sections.cart.free_shipping_notice' | t: shipping_value_left: shipping_value_left | money }}
+      </span>
     {% elsif shipping_value_left <= 0 %}
       <span>{{ 'sections.cart.free_shipping_achieved' | t }}</span>
     {% endif %}

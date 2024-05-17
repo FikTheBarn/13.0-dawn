@@ -1487,14 +1487,20 @@
     ]
   },
   {
-    "name": "Free Shipping Bar",
+    "name": "Shipping Bar",
     "settings":
     [
       {
         "type": "checkbox",
         "id": "show_shipping_bar",
-        "label": "Show Free Shipping Bar in Cart Drawer",
+        "label": "Show Shipping Bar in Cart Drawer",
         "default": false
+      },
+      {
+        "type": "text",
+        "id": "shipping_message",
+        "label": "Shipping Message",
+        "default": "You are {{ amount }} away from a free tote bag!"
       },
       {
         "type": "number",

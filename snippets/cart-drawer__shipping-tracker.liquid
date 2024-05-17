@@ -10,7 +10,7 @@
 
   <p class="shipping-message">
     {% if shipping_value_left > 0 %}
-      <span class="free_shipping_notice tax-note caption-large rte">{{ shipping_value_left | money | append: customer_message | prepend: customer_text }}</span>
+      <span class="caption-large">{{ shipping_value_left | money | append: customer_message | prepend: customer_text }}</span>
     {% elsif shipping_value_left <= 0 %}
       <span>{{ 'sections.cart.free_shipping_achieved' | t }}</span>
     {% endif %}
@@ -34,6 +34,7 @@
     display: flex;
     flex-direction: column;
     margin-bottom: 2rem;
+    margin-top: -2rem;
   }
 
   .progress-bar {
@@ -42,7 +43,7 @@
     height: 1rem;
     width: 100%;
     border-radius: 0.75em;
-    padding: 3px;
+    padding: 3px 0;
     position: relative;
     align-items: center;
   }

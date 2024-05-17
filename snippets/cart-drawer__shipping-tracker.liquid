@@ -2,13 +2,13 @@
 
 <div class="upsell-container">
   {% assign shipping_value = settings.minimum_free_shipping | times: 100 %}
-  {% assign customer_text = 'sections.cart.free_shipping_notice' | t %}
+  {% assign customer_text = 'sections.cart.free_shipping_notice' | t: amount: shipping_value_left | money %}
   {% assign cart_total = cart.total_price %}
   {% assign shipping_value_left = shipping_value | minus: cart_total %}
   {% assign shipping_percentage_fraction = cart_total | times: 100 | divided_by: shipping_value %}
   <p class="shipping-message">
     {% if shipping_value_left > 0 %}
-      <span class="free_shipping_notice">{{ shipping_value_left | money | prepend: customer_text | append: {{'sections.cart.free_shipping_notice' }}</span>
+      <span class="free_shipping_notice">{{ customer_text }}</span>
     {% elsif shipping_value_left <= 0 %}
       <span>{{ 'sections.cart.free_shipping_achieved' | t }}</span>
     {% endif %}

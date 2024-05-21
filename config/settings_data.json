@@ -186,8 +186,8 @@
         "disabled": false,
         "settings": {
           "theme_id": "",
-          "block_flags_css": false,
-          "block_lib_css": false,
+          "block_flags_css": true,
+          "block_lib_css": true,
           "rtl_css": "body {\n  direction: rtl;\n}"
         }
       }

@@ -185,7 +185,7 @@
         "type": "shopify:\/\/apps\/langify\/blocks\/langify\/b50c2edb-8c63-4e36-9e7c-a7fdd62ddb8f",
         "disabled": false,
         "settings": {
-          "theme_id": "",
+          "theme_id": "149965603083",
           "block_flags_css": true,
           "block_lib_css": true,
           "rtl_css": "body {\n  direction: rtl;\n}"

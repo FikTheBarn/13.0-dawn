@@ -6,7 +6,7 @@
         "slide_dXWpVx": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/CAREERS_PRODUCTION_ROASTER_1.jpg",
+            "image": "shopify:\/\/shop_images\/OGS09314_a7707702-05e7-498a-99f1-b6326e3fbb7f.jpg",
             "heading": "BECOME OUR WHOLESALE PARTNER",
             "heading_size": "h1",
             "subheading": "WE DELIVER AS QUICK AS YOUR LOCAL",
@@ -27,7 +27,7 @@
       ],
       "settings": {
         "layout": "full_bleed",
-        "slide_height": "small",
+        "slide_height": "medium",
         "slider_visual": "counter",
         "auto_rotate": false,
         "change_slides_speed": 5,

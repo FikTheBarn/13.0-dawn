@@ -22,13 +22,16 @@
       "block_order": [
         "text_HaV6N4"
       ],
+      "custom_css": [
+        "@media screen and (max-width: 480px) {.rich-text__wrapper {padding: 0; }}"
+      ],
       "settings": {
         "desktop_content_position": "left",
         "content_alignment": "left",
         "color_scheme": "",
         "full_width": true,
         "padding_top": 16,
-        "padding_bottom": 16
+        "padding_bottom": 32
       }
     },
     "rich_text_EDAJ3x": {

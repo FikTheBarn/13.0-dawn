@@ -6,7 +6,7 @@
         "slide_4LHJgy": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Subscriptions_1.jpg",
+            "image": "shopify:\/\/shop_images\/DSC_5377.jpg",
             "heading": "OUR SUBSCRIPTIONS",
             "heading_size": "h0",
             "subheading": "A unique flavour experience, every month.",
@@ -24,11 +24,12 @@
         "slide_xqE8NR": {
           "type": "slide",
           "settings": {
-            "heading": "Image slide",
-            "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
-            "link": "",
+            "image": "shopify:\/\/shop_images\/radiophare_1.jpg",
+            "heading": "LATEST RELEASE",
+            "heading_size": "h0",
+            "subheading": "Lemon curd notes from the Sunda region of Java Indonesia",
+            "button_label": "ORDER RADIOPHARE",
+            "link": "shopify:\/\/products\/radiophare",
             "button_style_secondary": false,
             "box_align": "middle-center",
             "show_text_box": true,
@@ -43,7 +44,6 @@
         "slide_4LHJgy",
         "slide_xqE8NR"
       ],
-      "disabled": true,
       "settings": {
         "layout": "full_bleed",
         "slide_height": "medium",
@@ -86,6 +86,7 @@
         "text_LRNGrf",
         "button_KhUXcV"
       ],
+      "disabled": true,
       "custom_css": [
         "@media screen and (min-width: 480px) {h2 {font-size: 72px; }}",
         "@media screen and (max-width: 481px) {h2 {font-size: 42px; }}"

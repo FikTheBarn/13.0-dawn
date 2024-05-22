@@ -8,21 +8,13 @@
         "announcement_tN6g6G": {
           "type": "announcement",
           "settings": {
-            "text": "Welcome to our store 🌳",
-            "link": ""
-          }
-        },
-        "announcement_AWLbmY": {
-          "type": "announcement",
-          "settings": {
-            "text": "Brew Sip Remember",
-            "link": ""
+            "text": "Our next masterpiece: Potosi Sidra, Colombia with notes of tropical fruits ☕️",
+            "link": "shopify:\/\/products\/coffee-masterpieces"
           }
         }
       },
       "block_order": [
-        "announcement_tN6g6G",
-        "announcement_AWLbmY"
+        "announcement_tN6g6G"
       ],
       "custom_css": [
         "p {font-size: 12px; font-family: \"Raleway\";}"
@@ -121,7 +113,7 @@
       ],
       "custom_css": [
         "ul a {color: #141414;}",
-        ".header__active-menu-item {color:#804d15;}"
+        ".header__active-menu-item {color: #804d15;}"
       ],
       "settings": {
         "enable_language_selector": false,

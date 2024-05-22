@@ -17,6 +17,7 @@
         "announcement_tN6g6G"
       ],
       "custom_css": [
+        "a {text-decoration: none;}",
         "p {font-size: 12px; font-family: \"Raleway\";}"
       ],
       "settings": {

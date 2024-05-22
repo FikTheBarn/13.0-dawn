@@ -38,11 +38,30 @@
             "color_scheme": "",
             "text_alignment_mobile": "center"
           }
+        },
+        "slide_9YDfQw": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/brewing_jungle_volacano.jpg",
+            "heading": "VOLCAN AZUL",
+            "heading_size": "h0",
+            "subheading": "With notes of dried figs, blueberry and apricot",
+            "button_label": "ORDER VOLCAN AZUL",
+            "link": "shopify:\/\/products\/volcan-azul",
+            "button_style_secondary": false,
+            "box_align": "middle-left",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
         }
       },
       "block_order": [
         "slide_4LHJgy",
-        "slide_xqE8NR"
+        "slide_xqE8NR",
+        "slide_9YDfQw"
       ],
       "settings": {
         "layout": "full_bleed",

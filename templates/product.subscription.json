@@ -14,7 +14,7 @@
         "custom_liquid_3wcTbw": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": ""
+            "custom_liquid": "{% if product.metafields.next.Masterpiece == blank %}\n<script>\ndocument.addEventListener('DOMContentLoaded', function() {\n  const accordionTitles = document.querySelectorAll('.accordion__title');\n\n  accordionTitles.forEach(title => {\n    if (title.textContent.includes('Your next Masterpieces')) {\n      const parentAccordion = title.closest('.product__accordion'); \/\/ Correct class name\n\n      if (parentAccordion) {\n        parentAccordion.remove();\n      }\n    }\n  });\n});\n<\/script>\n{% endif %}"
           }
         },
         "title": {
@@ -68,7 +68,6 @@
         },
         "collapsible_tab_eq6tJC": {
           "type": "collapsible_tab",
-          "disabled": true,
           "settings": {
             "heading": "Your next Masterpieces",
             "icon": "cup",

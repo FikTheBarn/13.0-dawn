@@ -313,7 +313,7 @@
         "autoplay": false,
         "show_controls": true,
         "loop_video": false,
-        "height": "medium",
+        "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_content_position": "top",

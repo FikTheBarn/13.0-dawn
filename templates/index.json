@@ -37,6 +37,11 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/DSC_5377.jpg",
+        "video_url": "",
+        "video_image_url": "",
+        "autoplay": false,
+        "show_controls": false,
+        "loop_video": false,
         "height": "large",
         "desktop_image_width": "medium",
         "layout": "text_first",
@@ -303,6 +308,11 @@
         "button_Jcn6xz"
       ],
       "settings": {
+        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/47140672fe35437390d5be6098c44874.mov",
+        "video_image_url": "",
+        "autoplay": false,
+        "show_controls": true,
+        "loop_video": false,
         "height": "medium",
         "desktop_image_width": "medium",
         "layout": "image_first",

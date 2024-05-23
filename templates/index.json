@@ -279,33 +279,16 @@
     "image_with_text_Yb9Kwz": {
       "type": "image-with-text",
       "blocks": {
-        "heading_T6THNf": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image with text",
-            "heading_size": "h1"
-          }
-        },
         "text_6R7RtG": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<ul><li>Equipment: Kalita Wave & 185<\/li><li>Coffee: 25g<\/li><li>Water: 400g @ 200°F<\/li><li><strong>GRIND<\/strong><br\/>650µm<\/li><li><strong>BREW<\/strong><\/li><li>0:00 - Bloom - 50g<br\/>0:30 - Break - 160g<br\/>0:45 - Spiral pour - 220g<br\/>1:05 - Spiral pour - 280g<br\/>1:30 - Spiral pour - 340g<br\/>2:00 - Spiral pour - 400g<br\/>Drain 3:00<\/li><\/ul>",
             "text_style": "body"
-          }
-        },
-        "button_Jcn6xz": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
           }
         }
       },
       "block_order": [
-        "heading_T6THNf",
-        "text_6R7RtG",
-        "button_Jcn6xz"
+        "text_6R7RtG"
       ],
       "settings": {
         "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/47140672fe35437390d5be6098c44874.mov",

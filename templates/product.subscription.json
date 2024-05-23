@@ -69,7 +69,7 @@
         "collapsible_tab_eq6tJC": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "Your next Masterpieces",
             "icon": "cup",
             "content": "<p>{{ product.metafields.next.Masterpiece | metafield_tag }}<\/p>",
             "page": ""

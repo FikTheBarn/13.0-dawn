@@ -1,499 +1,391 @@
 {{ 'component-image-with-text.css' | asset_url | stylesheet_tag }}
 
 {%- style -%}
-
-.image-main-slider{
-  width:490px;
-  height:390px;
-  object-fit:cover;
-}
-.text-buttom-container{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-
-  height:390px;
-  width:490px;
-  background-color: #1C1D1C;
-  padding:1.6rem;
-
-}
-.text-buttom-container h2{
-  font-size:32px !important;
-}
-.title-filter-section{
-  display:flex;
-  flex-direction:column;
-  align-items:center;
-  justify-content:center;
-}
-.title-filter-section h1{
-  margin-bottom:0px;
-}
-.image-with-text{
-  display: flex;
-  flex-direction: row;
-  justify-content:space-around;
-  align-items: flex-start;
-  margin-top:2rem;
-  margin-bottom:2rem;
-  background-color: #1C1D1C;
-  padding:3rem;
-}
-.scroll-container {
-  display: flex;
-  align-items: center;
-  width: 100%;
-  height: 100px;
-  margin-bottom: -16px;
-  overflow-x: auto; 
-}
-.filter-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  min-height: 100px;
-  overflow-x: auto; 
-}
-
-.btn {
-  min-width: 140px;
-  font-size: 18px;
-  padding: 1rem;
-  background-color:#1C1D1C ;
-  border-radius: 2px;
-  color: white;
-  cursor: pointer;
-  margin: 1.6rem;
-  border: 1px solid white;
-}
-
-.btn:hover {
-  background-color: white;
-  color: black;
-}
-.btn.active {
-  border: none;
-  background-color: white;
-  color: black;
-  outline: 0.5px solid white !important;
-  outline-offset: 4px;
-}
-
-.slider-container {
-  position: relative;
-  display: flex;
-  overflow: hidden;
-}
-
-.slider-container img {
-  width: 450px;
-  display: none;
-}
-
-.slider-container img.active {
-  display: block;
-}
-
-.prev,
-.next {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  background: transparent;
-  border: none;
-  color: white;
-  font-size: 24px;
-  cursor: pointer;
-}
-
-.prev {
-  left: 10px;
-}
-
-.next {
-  right: 10px;
-}
-.slide {
-  transition: opacity 0.5s ease-in-out; /* Change properties and duration as needed */
-}
-.btn-card{
-  display:flex;
-  flex-direction:column;
-  align-items: center;
-  justify-content: center;
-
-  max-width: 180px;
-  height: 4.5rem;
-  font-size: 14px;
-  background-color: #1C1D1C;
-  border-radius: 2px;
-  color: white;
-  cursor: pointer;
-  border: 1px solid white;
-}
-.btn-card a{
-  text-decoration: none;
-  color:white;
-
-}
-
-
-/* Mobile */
-@media screen and (max-width: 700px) {
-  .image-with-text{
-    display: flex;
-    flex-direction: column;
-    justify-content:center;
-    align-items: center;
-    padding:1.5rem;
-  } 
+  .image-main-slider{
+    width:490px;
+    height:390px;
+    object-fit:cover;
+  }
   .text-buttom-container{
-
     display: flex;
     flex-direction: column;
     justify-content: center;
-    max-height:350px;
-    width:390px;
 
-    padding-top:0px;
+    height:390px;
+    width:490px;
+    background-color: #1C1D1C;
+    padding:1.6rem;
 
   }
- 
+  .text-buttom-container h2{
+    font-size:32px !important;
+  }
+  .title-filter-section{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+  }
+  .title-filter-section h1{
+    margin-bottom:0px;
+  }
+  .image-with-text{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: flex-start;
+    margin-top:2rem;
+    margin-bottom:2rem;
+    background-color: #1C1D1C;
+    padding:3rem;
+  }
   .scroll-container {
-    flex-wrap: nowrap; 
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    margin-bottom: -16px;
+    overflow-x: auto;
   }
   .filter-container {
-    justify-content: flex-start; 
-    padding-right:0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 100px;
+    overflow-x: auto;
   }
-  .filter-container {
-    margin-left: 1rem;
-    margin-right: 1.5rem;
+
+  .btn {
+    min-width: 140px;
+    font-size: 18px;
+    padding: 1rem;
+    background-color:#1C1D1C ;
+    border-radius: 2px;
+    color: white;
+    cursor: pointer;
+    margin: 1.6rem;
+    border: 1px solid white;
   }
+
+  .btn:hover {
+    background-color: white;
+    color: black;
+  }
+  .btn.active {
+    border: none;
+    background-color: white;
+    color: black;
+    outline: 0.5px solid white !important;
+    outline-offset: 4px;
+  }
+
+  .slider-container {
+    position: relative;
+    display: flex;
+    overflow: hidden;
+  }
+
   .slider-container img {
-  width: 390px;
-  display: none;
-}
-.text-buttom-container h2{
-  font-size:24px;
-  margin-top:0px;
-  margin-bottom:0px;
-}
-.text-buttom-container p{
- 
-margin-top:6px;
-margin-bottom:12px;
-}
-}
+    width: 450px;
+    display: none;
+  }
+
+  .slider-container img.active {
+    display: block;
+  }
+
+  .prev,
+  .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+  }
+
+  .prev {
+    left: 10px;
+  }
+
+  .next {
+    right: 10px;
+  }
+  .slide {
+    transition: opacity 0.5s ease-in-out; /* Change properties and duration as needed */
+  }
+  .btn-card{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+
+    max-width: 180px;
+    height: 4.5rem;
+    font-size: 14px;
+    background-color: #1C1D1C;
+    border-radius: 2px;
+    color: white;
+    cursor: pointer;
+    border: 1px solid white;
+  }
+  .btn-card a{
+    text-decoration: none;
+    color:white;
+
+  }
 
 
+  /* Mobile */
+  @media screen and (max-width: 700px) {
+    .image-with-text{
+      display: flex;
+      flex-direction: column;
+      justify-content:center;
+      align-items: center;
+      padding:1.5rem;
+    }
+    .text-buttom-container{
 
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      max-height:350px;
+      width:390px;
+
+      padding-top:0px;
+
+    }
+
+    .scroll-container {
+      flex-wrap: nowrap;
+    }
+    .filter-container {
+      justify-content: flex-start;
+      padding-right:0.5rem;
+    }
+    .filter-container {
+      margin-left: 1rem;
+      margin-right: 1.5rem;
+    }
+    .slider-container img {
+    width: 390px;
+    display: none;
+  }
+  .text-buttom-container h2{
+    font-size:24px;
+    margin-top:0px;
+    margin-bottom:0px;
+  }
+  .text-buttom-container p{
+
+  margin-top:6px;
+  margin-bottom:12px;
+  }
+  }
 {%- endstyle -%}
 
 <section class="title-filter-section">
-<h1>THE BARN CAFÉS</h1>
-<div class="scroll-container">
-  <section class="filter-container">
-    <button class="btn tab-btn" data-target="tab-content-1"> BERLIN </button>
-    <button class="btn tab-btn" data-target="tab-content-2"> MALLORCA </button>
-    <button class="btn tab-btn" data-target="tab-content-3"> KOREA </button>
-    <button class="btn tab-btn" data-target="tab-content-4"> DUBAI </button>
-  </section>
-</div>
+  <h1>THE BARN CAFÉS</h1>
+  <div class="scroll-container">
+    <section class="filter-container">
+      <button class="btn tab-btn" data-target="tab-content-1">BERLIN</button>
+      <button class="btn tab-btn" data-target="tab-content-2">MALLORCA</button>
+      <button class="btn tab-btn" data-target="tab-content-3">KOREA</button>
+      <button class="btn tab-btn" data-target="tab-content-4">DUBAI</button>
+    </section>
+  </div>
 </section>
 
 <section class="content active" id="tab-content-1">
-  <section class="image-with-text page-width ">
-    <section class="section-SCHONHAUSER_ALLEE-padding slider-container">
-      {%- if section.settings.FRIEDRICHSTRASSE_IMAGE != blank -%}
-        <img
-          srcset="
-            {%- if section.settings.FRIEDRICHSTRASSE_IMAGE.width >= 165 -%}{{ section.settings.FRIEDRICHSTRASSE_IMAGE | image_url: width: 165 }} 165w,{%- endif -%}
-            {%- if section.settings.FRIEDRICHSTRASSE_IMAGE.width >= 360 -%}{{ section.settings.FRIEDRICHSTRASSE_IMAGE | image_url: width: 360 }} 360w,{%- endif -%}
-            {%- if section.settings.FRIEDRICHSTRASSE_IMAGE.width >= 535 -%}{{ section.settings.FRIEDRICHSTRASSE_IMAGE | image_url: width: 535 }} 535w,{%- endif -%}
-            {%- if section.settings.FRIEDRICHSTRASSE_IMAGE.width >= 750 -%}{{ section.settings.FRIEDRICHSTRASSE_IMAGE | image_url: width: 750 }} 750w,{%- endif -%}
-            {%- if section.settings.FRIEDRICHSTRASSE_IMAGE.width >= 1070 -%}{{ section.settings.FRIEDRICHSTRASSE_IMAGE | image_url: width: 1070 }} 1070w,{%- endif -%}
-            {%- if section.settings.FRIEDRICHSTRASSE_IMAGE.width >= 1500 -%}{{ section.settings.FRIEDRICHSTRASSE_IMAGE | image_url: width: 1500 }} 1500w,{%- endif -%}
-            {{ section.settings.FRIEDRICHSTRASSE_IMAGE | image_url }} {{ section.settings.FRIEDRICHSTRASSE_IMAGE.width }}
-          "
-          src="{{ section.settings.FRIEDRICHSTRASSE_IMAGE | image_url: width: 1500 }}"
-          alt="{{ section.settings.FRIEDRICHSTRASSE_IMAGE.alt | escape }}"
-          loading="lazy"
-          width=""
-          height=""
-          class="image-main-slider slide active"
-        >
-      {%- else -%}
-        {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
-      {%- endif -%}
-      {%- if section.settings.FRIEDRICHSTRASSE_IMAGE_1 != blank -%}
-  
-        <img
-          srcset="
-            {%- if section.settings.FRIEDRICHSTRASSE_IMAGE_1.width >= 165 -%}{{ section.settings.FRIEDRICHSTRASSE_IMAGE_1 | image_url: width: 165 }} 165w,{%- endif -%}
-            {%- if section.settings.FRIEDRICHSTRASSE_IMAGE_1.width >= 360 -%}{{ section.settings.FRIEDRICHSTRASSE_IMAGE_1 | image_url: width: 360 }} 360w,{%- endif -%}
-            {%- if section.settings.FRIEDRICHSTRASSE_IMAGE_1.width >= 535 -%}{{ section.settings.FRIEDRICHSTRASSE_IMAGE_1 | image_url: width: 535 }} 535w,{%- endif -%}
-            {%- if section.settings.FRIEDRICHSTRASSE_IMAGE_1.width >= 750 -%}{{ section.settings.FRIEDRICHSTRASSE_IMAGE_1 | image_url: width: 750 }} 750w,{%- endif -%}
-            {%- if section.settings.FRIEDRICHSTRASSE_IMAGE_1.width >= 1070 -%}{{ section.settings.FRIEDRICHSTRASSE_IMAGE_1 | image_url: width: 1070 }} 1070w,{%- endif -%}
-            {%- if section.settings.FRIEDRICHSTRASSE_IMAGE_1.width >= 1500 -%}{{ section.settings.FRIEDRICHSTRASSE_IMAGE_1 | image_url: width: 1500 }} 1500w,{%- endif -%}
-            {{ section.settings.FRIEDRICHSTRASSE_IMAGE_1 | image_url }} {{ section.settings.FRIEDRICHSTRASSE_IMAGE_1.width }}
-          "
-          src="{{ section.settings.FRIEDRICHSTRASSE_IMAGE_1 | image_url: width: 1500 }}"
-          alt="{{ section.settings.FRIEDRICHSTRASSE_IMAGE_1.alt | escape }}"
-          loading="lazy"
-          width=""
-          height=""
-          class="image-main-slider slide"
-        >
-      {%- else -%}
-        {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
-      {%- endif -%}
-      {%- if section.settings.FRIEDRICHSTRASSE_IMAGE_2 != blank -%}
-        <img
-          srcset="
-            {%- if section.settings.FRIEDRICHSTRASSE_IMAGE_2.width >= 165 -%}{{ section.settings.FRIEDRICHSTRASSE_IMAGE_2 | image_url: width: 165 }} 165w,{%- endif -%}
-            {%- if section.settings.FRIEDRICHSTRASSE_IMAGE_2.width >= 360 -%}{{ section.settings.FRIEDRICHSTRASSE_IMAGE_2 | image_url: width: 360 }} 360w,{%- endif -%}
-            {%- if section.settings.FRIEDRICHSTRASSE_IMAGE_2.width >= 535 -%}{{ section.settings.FRIEDRICHSTRASSE_IMAGE_2 | image_url: width: 535 }} 535w,{%- endif -%}
-            {%- if section.settings.FRIEDRICHSTRASSE_IMAGE_2.width >= 750 -%}{{ section.settings.FRIEDRICHSTRASSE_IMAGE_2 | image_url: width: 750 }} 750w,{%- endif -%}
-            {%- if section.settings.FRIEDRICHSTRASSE_IMAGE_2.width >= 1070 -%}{{ section.settings.FRIEDRICHSTRASSE_IMAGE_2 | image_url: width: 1070 }} 1070w,{%- endif -%}
-            {%- if section.settings.FRIEDRICHSTRASSE_IMAGE_2.width >= 1500 -%}{{ section.settings.FRIEDRICHSTRASSE_IMAGE_2 | image_url: width: 1500 }} 1500w,{%- endif -%}
-            {{ section.settings.FRIEDRICHSTRASSE_IMAGE_2 | image_url }} {{ section.settings.FRIEDRICHSTRASSE_IMAGE_2.width }}
-          "
-          src="{{ section.settings.FRIEDRICHSTRASSE_IMAGE_2 | image_url: width: 1500 }}"
-          alt="{{ section.settings.FRIEDRICHSTRASSE_IMAGE_2.alt | escape }}"
-          loading="lazy"
-          width=""
-          height=""
-          class="image-main-slider slide"
-        >
-      {%- else -%}
-        {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
-      {%- endif -%}
-
-        <div class="slider-buttons">
-          <button class="prev">&#10094;</button>
-          <button class="next">&#10095;</button>
-        </div>
-      </section>
-
-      <section class="text-buttom-container">
-        {%- if section.settings.FRIEDRICHSTRASSE_HEADING != blank -%}
-          <h2>
-            {{ section.settings.FRIEDRICHSTRASSE_HEADING | escape }}
-          </h2>
-        {%- endif -%}
-          
-        {%- if section.settings.FRIEDRICHSTRASSE_ADDRESS != blank -%}
-            <p>{{ section.settings.FRIEDRICHSTRASSE_ADDRESS | escape }}</p>
-        {%- endif -%}
-
-        {%- if section.settings.FRIEDRICHSTRASSE_OPENING != blank -%}
-          <p class="rich-text__heading rte {{ settings.heading_size }}" {{ shopify_attributes }}>
-            {{ section.settings.FRIEDRICHSTRASSE_OPENING | replace: 'p>', 'span>' }}
-          </p>
-        {%- endif -%}
-
-        {%- if section.settings.FRIEDRICHSTRASSE_LINK != blank -%}
-          <p class="btn-card">
-            {{ section.settings.FRIEDRICHSTRASSE_LINK | replace: 'p>', 'span>' }}
-          </p>
-        {%- endif -%}
-      </section>
-  </section>
-
-
-  <section class="image-with-text page-width ">
-    <section class="section-SCHONHAUSER_ALLEE-padding slider-container">
-      {%- if section.settings.SCHONHAUSER_ALLEE_IMAGE != blank -%}
-        <img
-          srcset="
-            {%- if section.settings.SCHONHAUSER_ALLEE_IMAGE.width >= 165 -%}{{ section.settings.SCHONHAUSER_ALLEE_IMAGE | image_url: width: 165 }} 165w,{%- endif -%}
-            {%- if section.settings.SCHONHAUSER_ALLEE_IMAGE.width >= 360 -%}{{ section.settings.SCHONHAUSER_ALLEE_IMAGE | image_url: width: 360 }} 360w,{%- endif -%}
-            {%- if section.settings.SCHONHAUSER_ALLEE_IMAGE.width >= 535 -%}{{ section.settings.SCHONHAUSER_ALLEE_IMAGE | image_url: width: 535 }} 535w,{%- endif -%}
-            {%- if section.settings.SCHONHAUSER_ALLEE_IMAGE.width >= 750 -%}{{ section.settings.SCHONHAUSER_ALLEE_IMAGE | image_url: width: 750 }} 750w,{%- endif -%}
-            {%- if section.settings.SCHONHAUSER_ALLEE_IMAGE.width >= 1070 -%}{{ section.settings.SCHONHAUSER_ALLEE_IMAGE | image_url: width: 1070 }} 1070w,{%- endif -%}
-            {%- if section.settings.SCHONHAUSER_ALLEE_IMAGE.width >= 1500 -%}{{ section.settings.SCHONHAUSER_ALLEE_IMAGE | image_url: width: 1500 }} 1500w,{%- endif -%}
-            {{ section.settings.SCHONHAUSER_ALLEE_IMAGE | image_url }} {{ section.settings.SCHONHAUSER_ALLEE_IMAGE.width }}
-          "
-          src="{{ section.settings.SCHONHAUSER_ALLEE_IMAGE | image_url: width: 1500 }}"
-          alt="{{ section.settings.SCHONHAUSER_ALLEE_IMAGE.alt | escape }}"
-          loading="lazy"
-          width=""
-          height=""
-          class="image-main-slider slide active"
-        >
-      {%- else -%}
-        {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
-      {%- endif -%}
-      {%- if section.settings.SCHONHAUSER_ALLEE_IMAGE_1 != blank -%}
-  
-        <img
-          srcset="
-            {%- if section.settings.SCHONHAUSER_ALLEE_IMAGE_1.width >= 165 -%}{{ section.settings.SCHONHAUSER_ALLEE_IMAGE_1 | image_url: width: 165 }} 165w,{%- endif -%}
-            {%- if section.settings.SCHONHAUSER_ALLEE_IMAGE_1.width >= 360 -%}{{ section.settings.SCHONHAUSER_ALLEE_IMAGE_1 | image_url: width: 360 }} 360w,{%- endif -%}
-            {%- if section.settings.SCHONHAUSER_ALLEE_IMAGE_1.width >= 535 -%}{{ section.settings.SCHONHAUSER_ALLEE_IMAGE_1 | image_url: width: 535 }} 535w,{%- endif -%}
-            {%- if section.settings.SCHONHAUSER_ALLEE_IMAGE_1.width >= 750 -%}{{ section.settings.SCHONHAUSER_ALLEE_IMAGE_1 | image_url: width: 750 }} 750w,{%- endif -%}
-            {%- if section.settings.SCHONHAUSER_ALLEE_IMAGE_1.width >= 1070 -%}{{ section.settings.SCHONHAUSER_ALLEE_IMAGE_1 | image_url: width: 1070 }} 1070w,{%- endif -%}
-            {%- if section.settings.SCHONHAUSER_ALLEE_IMAGE_1.width >= 1500 -%}{{ section.settings.SCHONHAUSER_ALLEE_IMAGE_1 | image_url: width: 1500 }} 1500w,{%- endif -%}
-            {{ section.settings.SCHONHAUSER_ALLEE_IMAGE_1 | image_url }} {{ section.settings.SCHONHAUSER_ALLEE_IMAGE_1.width }}
-          "
-          src="{{ section.settings.SCHONHAUSER_ALLEE_IMAGE_1 | image_url: width: 1500 }}"
-          alt="{{ section.settings.SCHONHAUSER_ALLEE_IMAGE_1.alt | escape }}"
-          loading="lazy"
-          width=""
-          height=""
-          class="image-main-slider slide"
-        >
-      {%- else -%}
-        {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
-      {%- endif -%}
-      {%- if section.settings.SCHONHAUSER_ALLEE_IMAGE_2 != blank -%}
-        <img
-          srcset="
-            {%- if section.settings.SCHONHAUSER_ALLEE_IMAGE_2.width >= 165 -%}{{ section.settings.SCHONHAUSER_ALLEE_IMAGE_2 | image_url: width: 165 }} 165w,{%- endif -%}
-            {%- if section.settings.SCHONHAUSER_ALLEE_IMAGE_2.width >= 360 -%}{{ section.settings.SCHONHAUSER_ALLEE_IMAGE_2 | image_url: width: 360 }} 360w,{%- endif -%}
-            {%- if section.settings.SCHONHAUSER_ALLEE_IMAGE_2.width >= 535 -%}{{ section.settings.SCHONHAUSER_ALLEE_IMAGE_2 | image_url: width: 535 }} 535w,{%- endif -%}
-            {%- if section.settings.SCHONHAUSER_ALLEE_IMAGE_2.width >= 750 -%}{{ section.settings.SCHONHAUSER_ALLEE_IMAGE_2 | image_url: width: 750 }} 750w,{%- endif -%}
-            {%- if section.settings.SCHONHAUSER_ALLEE_IMAGE_2.width >= 1070 -%}{{ section.settings.SCHONHAUSER_ALLEE_IMAGE_2 | image_url: width: 1070 }} 1070w,{%- endif -%}
-            {%- if section.settings.SCHONHAUSER_ALLEE_IMAGE_2.width >= 1500 -%}{{ section.settings.SCHONHAUSER_ALLEE_IMAGE_2 | image_url: width: 1500 }} 1500w,{%- endif -%}
-            {{ section.settings.SCHONHAUSER_ALLEE_IMAGE_2 | image_url }} {{ section.settings.SCHONHAUSER_ALLEE_IMAGE_2.width }}
-          "
-          src="{{ section.settings.SCHONHAUSER_ALLEE_IMAGE_2 | image_url: width: 1500 }}"
-          alt="{{ section.settings.SCHONHAUSER_ALLEE_IMAGE_2.alt | escape }}"
-          loading="lazy"
-          width=""
-          height=""
-          class="image-main-slider slide"
-        >
-      {%- else -%}
-        {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
-      {%- endif -%}
-
-        <div class="slider-buttons">
-          <button class="prev">&#10094;</button>
-          <button class="next">&#10095;</button>
-        </div>
-      </section>
-
-      <section class="text-buttom-container">
-        {%- if section.settings.FRIEDRICHSTRASSE_HEADING != blank -%}
-          <h2>
-            {{ section.settings.SCHONHAUSER_ALLEE_HEADING | escape }}
-          </h2>
-        {%- endif -%}
-          
-        {%- if section.settings.SCHONHAUSER_ALLEE_ADDRESS != blank -%}
-            <p>{{ section.settings.SCHONHAUSER_ALLEE_ADDRESS | escape }}</p>
-        {%- endif -%}
-
-        {%- if section.settings.SCHONHAUSER_ALLEE_OPENING != blank -%}
-          <p class="rich-text__heading rte {{ settings.heading_size }}" {{ shopify_attributes }}>
-            {{ section.settings.SCHONHAUSER_ALLEE_OPENING | replace: 'p>', 'span>' }}
-          </p>
-        {%- endif -%}
-
-        {%- if section.settings.SCHONHAUSER_ALLEE_LINK != blank -%}
-          <p class="btn-card">
-            {{ section.settings.SCHONHAUSER_ALLEE_LINK | replace: 'p>', 'span>' }}
-          </p>
-        {%- endif -%}
-      </section>
-  </section>
-
   <section class="image-with-text page-width">
-
-    <section class="section-MITTE-padding slider-container">
-              {%- if section.settings.MITTE_IMAGE != blank -%}
-            <img
-              srcset="
-              {%- if section.settings.MITTE_IMAGE.width >= 165 -%}{{ section.settings.MITTE_IMAGE | image_url: width: 165 }} 165w,{%- endif -%}
-              {%- if section.settings.MITTE_IMAGE.width >= 360 -%}{{ section.settings.MITTE_IMAGE | image_url: width: 360 }} 360w,{%- endif -%}
-              {%- if section.settings.MITTE_IMAGE.width >= 535 -%}{{ section.settings.MITTE_IMAGE | image_url: width: 535 }} 535w,{%- endif -%}
-              {%- if section.settings.MITTE_IMAGE.width >= 750 -%}{{ section.settings.MITTE_IMAGE | image_url: width: 750 }} 750w,{%- endif -%}
-              {%- if section.settings.MITTE_IMAGE.width >= 1070 -%}{{ section.settings.MITTE_IMAGE | image_url: width: 1070 }} 1070w,{%- endif -%}
-              {%- if section.settings.MITTE_IMAGE.width >= 1500 -%}{{ section.settings.MITTE_IMAGE | image_url: width: 1500 }} 1500w,{%- endif -%}
-              {{ section.settings.MITTE_IMAGE | image_url }} {{ section.settings.MITTE_IMAGE.width }}
-              "
-              src="{{ section.settings.image_2 | image_url: width: 1500 }}"
-              alt="{{ section.settings.MITTE_IMAGE.alt | escape }}"
-              loading="lazy"
-              width=""
-              height=""
-              class="image-main-slider slide active"
-            >
-          {%- else -%}
-            {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
-          {%- endif -%}
-          {%- if section.settings.MITTE_IMAGE_1 != blank -%}
-            <img
-            srcset="
-          {%- if section.settings.MITTE_IMAGE_1.width >= 165 -%}{{ section.settings.MITTE_IMAGE_1 | image_url: width: 165 }} 165w,{%- endif -%}
-          {%- if section.settings.MITTE_IMAGE_1.width >= 360 -%}{{ section.settings.MITTE_IMAGE_1 | image_url: width: 360 }} 360w,{%- endif -%}
-          {%- if section.settings.MITTE_IMAGE_1.width >= 535 -%}{{ section.settings.MITTE_IMAGE_1 | image_url: width: 535 }} 535w,{%- endif -%}
-          {%- if section.settings.MITTE_IMAGE_1.width >= 750 -%}{{ section.settings.MITTE_IMAGE_1 | image_url: width: 750 }} 750w,{%- endif -%}
-          {%- if section.settings.MITTE_IMAGE_1.width >= 1070 -%}{{ section.settings.MITTE_IMAGE_1 | image_url: width: 1070 }} 1070w,{%- endif -%}
-          {%- if section.settings.MITTE_IMAGE_1.width >= 1500 -%}{{ section.settings.MITTE_IMAGE_1 | image_url: width: 1500 }} 1500w,{%- endif -%}
-          {{ section.settings.MITTE_IMAGE_1 | image_url }} {{ section.settings.MITTE_IMAGE_1.width }}
+    <section class="section-POTSDAMER_PLATZ-padding slider-container">
+      {%- if section.settings.POTSDAMER_PLATZ_IMAGE != blank -%}
+        <img
+          srcset="
+            {%- if section.settings.POTSDAMER_PLATZ_IMAGE.width >= 165 -%}{{ section.settings.POTSDAMER_PLATZ_IMAGE | image_url: width: 165 }} 165w,{%- endif -%}
+            {%- if section.settings.POTSDAMER_PLATZ_IMAGE.width >= 360 -%}{{ section.settings.POTSDAMER_PLATZ_IMAGE | image_url: width: 360 }} 360w,{%- endif -%}
+            {%- if section.settings.POTSDAMER_PLATZ_IMAGE.width >= 535 -%}{{ section.settings.POTSDAMER_PLATZ_IMAGE | image_url: width: 535 }} 535w,{%- endif -%}
+            {%- if section.settings.POTSDAMER_PLATZ_IMAGE.width >= 750 -%}{{ section.settings.POTSDAMER_PLATZ_IMAGE | image_url: width: 750 }} 750w,{%- endif -%}
+            {%- if section.settings.POTSDAMER_PLATZ_IMAGE.width >= 1070 -%}{{ section.settings.POTSDAMER_PLATZ_IMAGE | image_url: width: 1070 }} 1070w,{%- endif -%}
+            {%- if section.settings.POTSDAMER_PLATZ_IMAGE.width >= 1500 -%}{{ section.settings.POTSDAMER_PLATZ_IMAGE | image_url: width: 1500 }} 1500w,{%- endif -%}
+            {{ section.settings.POTSDAMER_PLATZ_IMAGE | image_url }} {{ section.settings.POTSDAMER_PLATZ_IMAGE.width }}
           "
-          src="{{ section.settings.image_2 | image_url: width: 1500 }}"
-          alt="{{ section.settings.MITTE_IMAGE_1.alt | escape }}"
+          src="{{ section.settings.POTSDAMER_PLATZ_IMAGE| image_url: width: 1500 }}"
+          alt="{{ section.settings.POTSDAMER_PLATZ_IMAGE.alt | escape }}"
+          loading="lazy"
+          width=""
+          height=""
+          class="image-main-slider slide active"
+        >
+      {%- else -%}
+        {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+      {%- endif -%}
+      {%- if section.settings.POTSDAMER_PLATZ_IMAGE_1 != blank -%}
+        <img
+          srcset="
+            {%- if section.settings.POTSDAMER_PLATZ_IMAGE_1.width >= 165 -%}{{ section.settings.POTSDAMER_PLATZ_IMAGE_1 | image_url: width: 165 }} 165w,{%- endif -%}
+            {%- if section.settings.POTSDAMER_PLATZ_IMAGE_1.width >= 360 -%}{{ section.settings.POTSDAMER_PLATZ_IMAGE_1 | image_url: width: 360 }} 360w,{%- endif -%}
+            {%- if section.settings.POTSDAMER_PLATZ_IMAGE_1.width >= 535 -%}{{ section.settings.POTSDAMER_PLATZ_IMAGE_1 | image_url: width: 535 }} 535w,{%- endif -%}
+            {%- if section.settings.POTSDAMER_PLATZ_IMAGE_1.width >= 750 -%}{{ section.settings.POTSDAMER_PLATZ_IMAGE_1 | image_url: width: 750 }} 750w,{%- endif -%}
+            {%- if section.settings.POTSDAMER_PLATZ_IMAGE_1.width >= 1070 -%}{{ section.settings.POTSDAMER_PLATZ_IMAGE_1 | image_url: width: 1070 }} 1070w,{%- endif -%}
+            {%- if section.settings.POTSDAMER_PLATZ_IMAGE_1.width >= 1500 -%}{{ section.settings.POTSDAMER_PLATZ_IMAGE_1 | image_url: width: 1500 }} 1500w,{%- endif -%}
+            {{ section.settings.POTSDAMER_PLATZ_IMAGE_1 | image_url }} {{ section.settings.POTSDAMER_PLATZ_IMAGE_1.width }}
+          "
+          src="{{ section.settings.POTSDAMER_PLATZ_IMAGE_1| image_url: width: 1500 }}"
+          alt="{{ section.settings.POTSDAMER_PLATZ_IMAGE_1.alt | escape }}"
           loading="lazy"
           width=""
           height=""
           class="image-main-slider slide"
         >
-        {%- else -%}
-          {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
-        {%- endif -%}
-        {%- if section.settings.MITTE_IMAGE_2 != blank -%}
-          <img
-          srcset="
-        {%- if section.settings.MITTE_IMAGE_2.width >= 165 -%}{{ section.settings.MITTE_IMAGE_2 | image_url: width: 165 }} 165w,{%- endif -%}
-        {%- if section.settings.MITTE_IMAGE_2.width >= 360 -%}{{ section.settings.MITTE_IMAGE_2 | image_url: width: 360 }} 360w,{%- endif -%}
-        {%- if section.settings.MITTE_IMAGE_2.width >= 535 -%}{{ section.settings.MITTE_IMAGE_2 | image_url: width: 535 }} 535w,{%- endif -%}
-        {%- if section.settings.MITTE_IMAGE_2.width >= 750 -%}{{ section.settings.MITTE_IMAGE_2 | image_url: width: 750 }} 750w,{%- endif -%}
-        {%- if section.settings.MITTE_IMAGE_2.width >= 1070 -%}{{ section.settings.MITTE_IMAGE_2 | image_url: width: 1070 }} 1070w,{%- endif -%}
-        {%- if section.settings.MITTE_IMAGE_2.width >= 1500 -%}{{ section.settings.MITTE_IMAGE_2 | image_url: width: 1500 }} 1500w,{%- endif -%}
-        {{ section.settings.MITTE_IMAGE_2 | image_url }} {{ section.settings.MITTE_IMAGE_2.width }}
-      "
-      src="{{ section.settings.image_2 | image_url: width: 1500 }}"
-      alt="{{ section.settings.MITTE_IMAGE_2.alt | escape }}"
-      loading="lazy"
-      width=""
-      height=""
-      class="image-main-slider slide"
-      >
       {%- else -%}
-      {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+        {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
       {%- endif -%}
-
+      {%- if section.settings.POTSDAMER_PLATZ_IMAGE_2 != blank -%}
+        <img
+          srcset="
+            {%- if section.settings.POTSDAMER_PLATZ_IMAGE_2.width >= 165 -%}{{ section.settings.POTSDAMER_PLATZ_IMAGE_2 | image_url: width: 165 }} 165w,{%- endif -%}
+            {%- if section.settings.POTSDAMER_PLATZ_IMAGE_2.width >= 360 -%}{{ section.settings.POTSDAMER_PLATZ_IMAGE_2 | image_url: width: 360 }} 360w,{%- endif -%}
+            {%- if section.settings.POTSDAMER_PLATZ_IMAGE_2.width >= 535 -%}{{ section.settings.POTSDAMER_PLATZ_IMAGE_2 | image_url: width: 535 }} 535w,{%- endif -%}
+            {%- if section.settings.POTSDAMER_PLATZ_IMAGE_2.width >= 750 -%}{{ section.settings.POTSDAMER_PLATZ_IMAGE_2 | image_url: width: 750 }} 750w,{%- endif -%}
+            {%- if section.settings.POTSDAMER_PLATZ_IMAGE_2.width >= 1070 -%}{{ section.settings.POTSDAMER_PLATZ_IMAGE_2 | image_url: width: 1070 }} 1070w,{%- endif -%}
+            {%- if section.settings.POTSDAMER_PLATZ_IMAGE_2.width >= 1500 -%}{{ section.settings.POTSDAMER_PLATZ_IMAGE_2 | image_url: width: 1500 }} 1500w,{%- endif -%}
+            {{ section.settings.POTSDAMER_PLATZ_IMAGE_2 | image_url }} {{ section.settings.POTSDAMER_PLATZ_IMAGE_2.width }}
+          "
+          src="{{ section.settings.POTSDAMER_PLATZ_IMAGE_2| image_url: width: 1500 }}"
+          alt="{{ section.settings.POTSDAMER_PLATZ_IMAGE_2.alt | escape }}"
+          loading="lazy"
+          width=""
+          height=""
+          class="image-main-slider slide"
+        >
+      {%- else -%}
+        {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+      {%- endif -%}
       <div class="slider-buttons">
         <button class="prev">&#10094;</button>
         <button class="next">&#10095;</button>
       </div>
     </section>
     <section class="text-buttom-container">
-      {%- if section.settings.MITTE_HEADING != blank -%}
+      {%- if section.settings.POTSDAMER_PLATZ_HEADING != blank -%}
         <h2>
-          {{ section.settings.MITTE_HEADING | escape }}
+          {{ section.settings.POTSDAMER_PLATZ_HEADING | escape }}
         </h2>
       {%- endif -%}
-        
-      {%- if section.settings.MITTE_ADDRESS != blank -%}
-          <p>{{ section.settings.MITTE_ADDRESS | escape }}</p>
+
+      {%- if section.settings.POTSDAMER_PLATZ_ADDRESS != blank -%}
+        <p>{{ section.settings.POTSDAMER_PLATZ_ADDRESS | escape }}</p>
       {%- endif -%}
 
-      {%- if section.settings.MITTE_OPENING != blank -%}
+      {%- if section.settings.POTSDAMER_PLATZ_OPENING != blank -%}
         <p class="rich-text__heading rte {{ settings.heading_size }}" {{ shopify_attributes }}>
-          {{ section.settings.MITTE_OPENING | replace: 'p>', 'span>' }}
+          {{ section.settings.POTSDAMER_PLATZ_OPENING | replace: 'p>', 'span>' }}
         </p>
       {%- endif -%}
 
-      {%- if section.settings.MITTE_LINK != blank -%}
+      {%- if section.settings.POTSDAMER_PLATZ_LINK != blank -%}
         <p class="btn-card">
-          {{ section.settings.MITTE_LINK | replace: 'p>', 'span>' }}
+          {{ section.settings.POTSDAMER_PLATZ_LINK | replace: 'p>', 'span>' }}
+        </p>
+      {%- endif -%}
+    </section>
+  </section>
+
+  <section class="image-with-text page-width">
+    <section class="section-HACKESCHER_MARKT-padding slider-container">
+      {%- if section.settings.HACKESCHER_MARKT_IMAGE != blank -%}
+        <img
+          srcset="
+            {%- if section.settings.HACKESCHER_MARKT_IMAGE.width >= 165 -%}{{ section.settings.HACKESCHER_MARKT_IMAGE | image_url: width: 165 }} 165w,{%- endif -%}
+            {%- if section.settings.HACKESCHER_MARKT_IMAGE.width >= 360 -%}{{ section.settings.HACKESCHER_MARKT_IMAGE | image_url: width: 360 }} 360w,{%- endif -%}
+            {%- if section.settings.HACKESCHER_MARKT_IMAGE.width >= 535 -%}{{ section.settings.HACKESCHER_MARKT_IMAGE | image_url: width: 535 }} 535w,{%- endif -%}
+            {%- if section.settings.HACKESCHER_MARKT_IMAGE.width >= 750 -%}{{ section.settings.HACKESCHER_MARKT_IMAGE | image_url: width: 750 }} 750w,{%- endif -%}
+            {%- if section.settings.HACKESCHER_MARKT_IMAGE.width >= 1070 -%}{{ section.settings.HACKESCHER_MARKT_IMAGE | image_url: width: 1070 }} 1070w,{%- endif -%}
+            {%- if section.settings.HACKESCHER_MARKT_IMAGE.width >= 1500 -%}{{ section.settings.HACKESCHER_MARKT_IMAGE | image_url: width: 1500 }} 1500w,{%- endif -%}
+            {{ section.settings.HACKESCHER_MARKT_IMAGE | image_url }} {{ section.settings.HACKESCHER_MARKT_IMAGE.width }}
+          "
+          src="{{ section.settings.HACKESCHER_MARKT_IMAGE| image_url: width: 1500 }}"
+          alt="{{ section.settings.HACKESCHER_MARKT_IMAGE.alt | escape }}"
+          loading="lazy"
+          width=""
+          height=""
+          class="image-main-slider slide active"
+        >
+      {%- else -%}
+        {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+      {%- endif -%}
+      {%- if section.settings.HACKESCHER_MARKT_IMAGE_1 != blank -%}
+        <img
+          srcset="
+            {%- if section.settings.HACKESCHER_MARKT_IMAGE_1.width >= 165 -%}{{ section.settings.HACKESCHER_MARKT_IMAGE_1 | image_url: width: 165 }} 165w,{%- endif -%}
+            {%- if section.settings.HACKESCHER_MARKT_IMAGE_1.width >= 360 -%}{{ section.settings.HACKESCHER_MARKT_IMAGE_1 | image_url: width: 360 }} 360w,{%- endif -%}
+            {%- if section.settings.HACKESCHER_MARKT_IMAGE_1.width >= 535 -%}{{ section.settings.HACKESCHER_MARKT_IMAGE_1 | image_url: width: 535 }} 535w,{%- endif -%}
+            {%- if section.settings.HACKESCHER_MARKT_IMAGE_1.width >= 750 -%}{{ section.settings.HACKESCHER_MARKT_IMAGE_1 | image_url: width: 750 }} 750w,{%- endif -%}
+            {%- if section.settings.HACKESCHER_MARKT_IMAGE_1.width >= 1070 -%}{{ section.settings.HACKESCHER_MARKT_IMAGE_1 | image_url: width: 1070 }} 1070w,{%- endif -%}
+            {%- if section.settings.HACKESCHER_MARKT_IMAGE_1.width >= 1500 -%}{{ section.settings.HACKESCHER_MARKT_IMAGE_1 | image_url: width: 1500 }} 1500w,{%- endif -%}
+            {{ section.settings.HACKESCHER_MARKT_IMAGE_1 | image_url }} {{ section.settings.HACKESCHER_MARKT_IMAGE_1.width }}
+          "
+          src="{{ section.settings.HACKESCHER_MARKT_IMAGE_1| image_url: width: 1500 }}"
+          alt="{{ section.settings.HACKESCHER_MARKT_IMAGE_1.alt | escape }}"
+          loading="lazy"
+          width=""
+          height=""
+          class="image-main-slider slide"
+        >
+      {%- else -%}
+        {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+      {%- endif -%}
+      {%- if section.settings.HACKESCHER_MARKT_IMAGE_2 != blank -%}
+        <img
+          srcset="
+            {%- if section.settings.HACKESCHER_MARKT_IMAGE_2.width >= 165 -%}{{ section.settings.HACKESCHER_MARKT_IMAGE_2 | image_url: width: 165 }} 165w,{%- endif -%}
+            {%- if section.settings.HACKESCHER_MARKT_IMAGE_2.width >= 360 -%}{{ section.settings.HACKESCHER_MARKT_IMAGE_2 | image_url: width: 360 }} 360w,{%- endif -%}
+            {%- if section.settings.HACKESCHER_MARKT_IMAGE_2.width >= 535 -%}{{ section.settings.HACKESCHER_MARKT_IMAGE_2 | image_url: width: 535 }} 535w,{%- endif -%}
+            {%- if section.settings.HACKESCHER_MARKT_IMAGE_2.width >= 750 -%}{{ section.settings.HACKESCHER_MARKT_IMAGE_2 | image_url: width: 750 }} 750w,{%- endif -%}
+            {%- if section.settings.HACKESCHER_MARKT_IMAGE_2.width >= 1070 -%}{{ section.settings.HACKESCHER_MARKT_IMAGE_2 | image_url: width: 1070 }} 1070w,{%- endif -%}
+            {%- if section.settings.HACKESCHER_MARKT_IMAGE_2.width >= 1500 -%}{{ section.settings.HACKESCHER_MARKT_IMAGE_2 | image_url: width: 1500 }} 1500w,{%- endif -%}
+            {{ section.settings.HACKESCHER_MARKT_IMAGE_2 | image_url }} {{ section.settings.HACKESCHER_MARKT_IMAGE_2.width }}
+          "
+          src="{{ section.settings.HACKESCHER_MARKT_IMAGE_2| image_url: width: 1500 }}"
+          alt="{{ section.settings.HACKESCHER_MARKT_IMAGE_2.alt | escape }}"
+          loading="lazy"
+          width=""
+          height=""
+          class="image-main-slider slide"
+        >
+      {%- else -%}
+        {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+      {%- endif -%}
+      <div class="slider-buttons">
+        <button class="prev">&#10094;</button>
+        <button class="next">&#10095;</button>
+      </div>
+    </section>
+    <section class="text-buttom-container">
+      {%- if section.settings.HACKESCHER_MARKT_HEADING != blank -%}
+        <h2>
+          {{ section.settings.HACKESCHER_MARKT_HEADING | escape }}
+        </h2>
+      {%- endif -%}
+
+      {%- if section.settings.HACKESCHER_MARKT_ADDRESS != blank -%}
+        <p>{{ section.settings.HACKESCHER_MARKT_ADDRESS | escape }}</p>
+      {%- endif -%}
+
+      {%- if section.settings.HACKESCHER_MARKT_OPENING != blank -%}
+        <p class="rich-text__heading rte {{ settings.heading_size }}" {{ shopify_attributes }}>
+          {{ section.settings.HACKESCHER_MARKT_OPENING | replace: 'p>', 'span>' }}
+        </p>
+      {%- endif -%}
+
+      {%- if section.settings.HACKESCHER_MARKT_LINK != blank -%}
+        <p class="btn-card">
+          {{ section.settings.HACKESCHER_MARKT_LINK | replace: 'p>', 'span>' }}
         </p>
       {%- endif -%}
     </section>
@@ -575,9 +467,9 @@ margin-bottom:12px;
           {{ section.settings.ROSENTHALER_PLATZ_HEADING | escape }}
         </h2>
       {%- endif -%}
-        
+
       {%- if section.settings.ROSENTHALER_PLATZ_ADDRESS != blank -%}
-          <p>{{ section.settings.ROSENTHALER_PLATZ_ADDRESS | escape }}</p>
+        <p>{{ section.settings.ROSENTHALER_PLATZ_ADDRESS | escape }}</p>
       {%- endif -%}
 
       {%- if section.settings.ROSENTHALER_PLATZ_OPENING != blank -%}
@@ -589,6 +481,297 @@ margin-bottom:12px;
       {%- if section.settings.ROSENTHALER_PLATZ_LINK != blank -%}
         <p class="btn-card">
           {{ section.settings.ROSENTHALER_PLATZ_LINK | replace: 'p>', 'span>' }}
+        </p>
+      {%- endif -%}
+    </section>
+  </section>
+
+  <section class="image-with-text page-width ">
+    <section class="section-SCHONHAUSER_ALLEE-padding slider-container">
+      {%- if section.settings.FRIEDRICHSTRASSE_IMAGE != blank -%}
+        <img
+          srcset="
+            {%- if section.settings.FRIEDRICHSTRASSE_IMAGE.width >= 165 -%}{{ section.settings.FRIEDRICHSTRASSE_IMAGE | image_url: width: 165 }} 165w,{%- endif -%}
+            {%- if section.settings.FRIEDRICHSTRASSE_IMAGE.width >= 360 -%}{{ section.settings.FRIEDRICHSTRASSE_IMAGE | image_url: width: 360 }} 360w,{%- endif -%}
+            {%- if section.settings.FRIEDRICHSTRASSE_IMAGE.width >= 535 -%}{{ section.settings.FRIEDRICHSTRASSE_IMAGE | image_url: width: 535 }} 535w,{%- endif -%}
+            {%- if section.settings.FRIEDRICHSTRASSE_IMAGE.width >= 750 -%}{{ section.settings.FRIEDRICHSTRASSE_IMAGE | image_url: width: 750 }} 750w,{%- endif -%}
+            {%- if section.settings.FRIEDRICHSTRASSE_IMAGE.width >= 1070 -%}{{ section.settings.FRIEDRICHSTRASSE_IMAGE | image_url: width: 1070 }} 1070w,{%- endif -%}
+            {%- if section.settings.FRIEDRICHSTRASSE_IMAGE.width >= 1500 -%}{{ section.settings.FRIEDRICHSTRASSE_IMAGE | image_url: width: 1500 }} 1500w,{%- endif -%}
+            {{ section.settings.FRIEDRICHSTRASSE_IMAGE | image_url }} {{ section.settings.FRIEDRICHSTRASSE_IMAGE.width }}
+          "
+          src="{{ section.settings.FRIEDRICHSTRASSE_IMAGE | image_url: width: 1500 }}"
+          alt="{{ section.settings.FRIEDRICHSTRASSE_IMAGE.alt | escape }}"
+          loading="lazy"
+          width=""
+          height=""
+          class="image-main-slider slide active"
+        >
+      {%- else -%}
+        {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+      {%- endif -%}
+      {%- if section.settings.FRIEDRICHSTRASSE_IMAGE_1 != blank -%}
+        <img
+          srcset="
+            {%- if section.settings.FRIEDRICHSTRASSE_IMAGE_1.width >= 165 -%}{{ section.settings.FRIEDRICHSTRASSE_IMAGE_1 | image_url: width: 165 }} 165w,{%- endif -%}
+            {%- if section.settings.FRIEDRICHSTRASSE_IMAGE_1.width >= 360 -%}{{ section.settings.FRIEDRICHSTRASSE_IMAGE_1 | image_url: width: 360 }} 360w,{%- endif -%}
+            {%- if section.settings.FRIEDRICHSTRASSE_IMAGE_1.width >= 535 -%}{{ section.settings.FRIEDRICHSTRASSE_IMAGE_1 | image_url: width: 535 }} 535w,{%- endif -%}
+            {%- if section.settings.FRIEDRICHSTRASSE_IMAGE_1.width >= 750 -%}{{ section.settings.FRIEDRICHSTRASSE_IMAGE_1 | image_url: width: 750 }} 750w,{%- endif -%}
+            {%- if section.settings.FRIEDRICHSTRASSE_IMAGE_1.width >= 1070 -%}{{ section.settings.FRIEDRICHSTRASSE_IMAGE_1 | image_url: width: 1070 }} 1070w,{%- endif -%}
+            {%- if section.settings.FRIEDRICHSTRASSE_IMAGE_1.width >= 1500 -%}{{ section.settings.FRIEDRICHSTRASSE_IMAGE_1 | image_url: width: 1500 }} 1500w,{%- endif -%}
+            {{ section.settings.FRIEDRICHSTRASSE_IMAGE_1 | image_url }} {{ section.settings.FRIEDRICHSTRASSE_IMAGE_1.width }}
+          "
+          src="{{ section.settings.FRIEDRICHSTRASSE_IMAGE_1 | image_url: width: 1500 }}"
+          alt="{{ section.settings.FRIEDRICHSTRASSE_IMAGE_1.alt | escape }}"
+          loading="lazy"
+          width=""
+          height=""
+          class="image-main-slider slide"
+        >
+      {%- else -%}
+        {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+      {%- endif -%}
+      {%- if section.settings.FRIEDRICHSTRASSE_IMAGE_2 != blank -%}
+        <img
+          srcset="
+            {%- if section.settings.FRIEDRICHSTRASSE_IMAGE_2.width >= 165 -%}{{ section.settings.FRIEDRICHSTRASSE_IMAGE_2 | image_url: width: 165 }} 165w,{%- endif -%}
+            {%- if section.settings.FRIEDRICHSTRASSE_IMAGE_2.width >= 360 -%}{{ section.settings.FRIEDRICHSTRASSE_IMAGE_2 | image_url: width: 360 }} 360w,{%- endif -%}
+            {%- if section.settings.FRIEDRICHSTRASSE_IMAGE_2.width >= 535 -%}{{ section.settings.FRIEDRICHSTRASSE_IMAGE_2 | image_url: width: 535 }} 535w,{%- endif -%}
+            {%- if section.settings.FRIEDRICHSTRASSE_IMAGE_2.width >= 750 -%}{{ section.settings.FRIEDRICHSTRASSE_IMAGE_2 | image_url: width: 750 }} 750w,{%- endif -%}
+            {%- if section.settings.FRIEDRICHSTRASSE_IMAGE_2.width >= 1070 -%}{{ section.settings.FRIEDRICHSTRASSE_IMAGE_2 | image_url: width: 1070 }} 1070w,{%- endif -%}
+            {%- if section.settings.FRIEDRICHSTRASSE_IMAGE_2.width >= 1500 -%}{{ section.settings.FRIEDRICHSTRASSE_IMAGE_2 | image_url: width: 1500 }} 1500w,{%- endif -%}
+            {{ section.settings.FRIEDRICHSTRASSE_IMAGE_2 | image_url }} {{ section.settings.FRIEDRICHSTRASSE_IMAGE_2.width }}
+          "
+          src="{{ section.settings.FRIEDRICHSTRASSE_IMAGE_2 | image_url: width: 1500 }}"
+          alt="{{ section.settings.FRIEDRICHSTRASSE_IMAGE_2.alt | escape }}"
+          loading="lazy"
+          width=""
+          height=""
+          class="image-main-slider slide"
+        >
+      {%- else -%}
+        {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+      {%- endif -%}
+
+      <div class="slider-buttons">
+        <button class="prev">&#10094;</button>
+        <button class="next">&#10095;</button>
+      </div>
+    </section>
+
+    <section class="text-buttom-container">
+      {%- if section.settings.FRIEDRICHSTRASSE_HEADING != blank -%}
+        <h2>
+          {{ section.settings.FRIEDRICHSTRASSE_HEADING | escape }}
+        </h2>
+      {%- endif -%}
+
+      {%- if section.settings.FRIEDRICHSTRASSE_ADDRESS != blank -%}
+        <p>{{ section.settings.FRIEDRICHSTRASSE_ADDRESS | escape }}</p>
+      {%- endif -%}
+
+      {%- if section.settings.FRIEDRICHSTRASSE_OPENING != blank -%}
+        <p class="rich-text__heading rte {{ settings.heading_size }}" {{ shopify_attributes }}>
+          {{ section.settings.FRIEDRICHSTRASSE_OPENING | replace: 'p>', 'span>' }}
+        </p>
+      {%- endif -%}
+
+      {%- if section.settings.FRIEDRICHSTRASSE_LINK != blank -%}
+        <p class="btn-card">
+          {{ section.settings.FRIEDRICHSTRASSE_LINK | replace: 'p>', 'span>' }}
+        </p>
+      {%- endif -%}
+    </section>
+  </section>
+
+  <section class="image-with-text page-width">
+    <section class="section-MITTE-padding slider-container">
+      {%- if section.settings.MITTE_IMAGE != blank -%}
+        <img
+          srcset="
+            {%- if section.settings.MITTE_IMAGE.width >= 165 -%}{{ section.settings.MITTE_IMAGE | image_url: width: 165 }} 165w,{%- endif -%}
+            {%- if section.settings.MITTE_IMAGE.width >= 360 -%}{{ section.settings.MITTE_IMAGE | image_url: width: 360 }} 360w,{%- endif -%}
+            {%- if section.settings.MITTE_IMAGE.width >= 535 -%}{{ section.settings.MITTE_IMAGE | image_url: width: 535 }} 535w,{%- endif -%}
+            {%- if section.settings.MITTE_IMAGE.width >= 750 -%}{{ section.settings.MITTE_IMAGE | image_url: width: 750 }} 750w,{%- endif -%}
+            {%- if section.settings.MITTE_IMAGE.width >= 1070 -%}{{ section.settings.MITTE_IMAGE | image_url: width: 1070 }} 1070w,{%- endif -%}
+            {%- if section.settings.MITTE_IMAGE.width >= 1500 -%}{{ section.settings.MITTE_IMAGE | image_url: width: 1500 }} 1500w,{%- endif -%}
+            {{ section.settings.MITTE_IMAGE | image_url }} {{ section.settings.MITTE_IMAGE.width }}
+          "
+          src="{{ section.settings.image_2 | image_url: width: 1500 }}"
+          alt="{{ section.settings.MITTE_IMAGE.alt | escape }}"
+          loading="lazy"
+          width=""
+          height=""
+          class="image-main-slider slide active"
+        >
+      {%- else -%}
+        {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+      {%- endif -%}
+      {%- if section.settings.MITTE_IMAGE_1 != blank -%}
+        <img
+          srcset="
+            {%- if section.settings.MITTE_IMAGE_1.width >= 165 -%}{{ section.settings.MITTE_IMAGE_1 | image_url: width: 165 }} 165w,{%- endif -%}
+            {%- if section.settings.MITTE_IMAGE_1.width >= 360 -%}{{ section.settings.MITTE_IMAGE_1 | image_url: width: 360 }} 360w,{%- endif -%}
+            {%- if section.settings.MITTE_IMAGE_1.width >= 535 -%}{{ section.settings.MITTE_IMAGE_1 | image_url: width: 535 }} 535w,{%- endif -%}
+            {%- if section.settings.MITTE_IMAGE_1.width >= 750 -%}{{ section.settings.MITTE_IMAGE_1 | image_url: width: 750 }} 750w,{%- endif -%}
+            {%- if section.settings.MITTE_IMAGE_1.width >= 1070 -%}{{ section.settings.MITTE_IMAGE_1 | image_url: width: 1070 }} 1070w,{%- endif -%}
+            {%- if section.settings.MITTE_IMAGE_1.width >= 1500 -%}{{ section.settings.MITTE_IMAGE_1 | image_url: width: 1500 }} 1500w,{%- endif -%}
+            {{ section.settings.MITTE_IMAGE_1 | image_url }} {{ section.settings.MITTE_IMAGE_1.width }}
+          "
+          src="{{ section.settings.image_2 | image_url: width: 1500 }}"
+          alt="{{ section.settings.MITTE_IMAGE_1.alt | escape }}"
+          loading="lazy"
+          width=""
+          height=""
+          class="image-main-slider slide"
+        >
+      {%- else -%}
+        {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+      {%- endif -%}
+      {%- if section.settings.MITTE_IMAGE_2 != blank -%}
+        <img
+          srcset="
+            {%- if section.settings.MITTE_IMAGE_2.width >= 165 -%}{{ section.settings.MITTE_IMAGE_2 | image_url: width: 165 }} 165w,{%- endif -%}
+            {%- if section.settings.MITTE_IMAGE_2.width >= 360 -%}{{ section.settings.MITTE_IMAGE_2 | image_url: width: 360 }} 360w,{%- endif -%}
+            {%- if section.settings.MITTE_IMAGE_2.width >= 535 -%}{{ section.settings.MITTE_IMAGE_2 | image_url: width: 535 }} 535w,{%- endif -%}
+            {%- if section.settings.MITTE_IMAGE_2.width >= 750 -%}{{ section.settings.MITTE_IMAGE_2 | image_url: width: 750 }} 750w,{%- endif -%}
+            {%- if section.settings.MITTE_IMAGE_2.width >= 1070 -%}{{ section.settings.MITTE_IMAGE_2 | image_url: width: 1070 }} 1070w,{%- endif -%}
+            {%- if section.settings.MITTE_IMAGE_2.width >= 1500 -%}{{ section.settings.MITTE_IMAGE_2 | image_url: width: 1500 }} 1500w,{%- endif -%}
+            {{ section.settings.MITTE_IMAGE_2 | image_url }} {{ section.settings.MITTE_IMAGE_2.width }}
+          "
+          src="{{ section.settings.image_2 | image_url: width: 1500 }}"
+          alt="{{ section.settings.MITTE_IMAGE_2.alt | escape }}"
+          loading="lazy"
+          width=""
+          height=""
+          class="image-main-slider slide"
+        >
+      {%- else -%}
+        {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+      {%- endif -%}
+
+      <div class="slider-buttons">
+        <button class="prev">&#10094;</button>
+        <button class="next">&#10095;</button>
+      </div>
+    </section>
+
+    <section class="text-buttom-container">
+      {%- if section.settings.MITTE_HEADING != blank -%}
+        <h2>
+          {{ section.settings.MITTE_HEADING | escape }}
+        </h2>
+      {%- endif -%}
+
+      {%- if section.settings.MITTE_ADDRESS != blank -%}
+        <p>{{ section.settings.MITTE_ADDRESS | escape }}</p>
+      {%- endif -%}
+
+      {%- if section.settings.MITTE_OPENING != blank -%}
+        <p class="rich-text__heading rte {{ settings.heading_size }}" {{ shopify_attributes }}>
+          {{ section.settings.MITTE_OPENING | replace: 'p>', 'span>' }}
+        </p>
+      {%- endif -%}
+
+      {%- if section.settings.MITTE_LINK != blank -%}
+        <p class="btn-card">
+          {{ section.settings.MITTE_LINK | replace: 'p>', 'span>' }}
+        </p>
+      {%- endif -%}
+    </section>
+  </section>
+
+  <section class="image-with-text page-width ">
+    <section class="section-SCHONHAUSER_ALLEE-padding slider-container">
+      {%- if section.settings.SCHONHAUSER_ALLEE_IMAGE != blank -%}
+        <img
+          srcset="
+            {%- if section.settings.SCHONHAUSER_ALLEE_IMAGE.width >= 165 -%}{{ section.settings.SCHONHAUSER_ALLEE_IMAGE | image_url: width: 165 }} 165w,{%- endif -%}
+            {%- if section.settings.SCHONHAUSER_ALLEE_IMAGE.width >= 360 -%}{{ section.settings.SCHONHAUSER_ALLEE_IMAGE | image_url: width: 360 }} 360w,{%- endif -%}
+            {%- if section.settings.SCHONHAUSER_ALLEE_IMAGE.width >= 535 -%}{{ section.settings.SCHONHAUSER_ALLEE_IMAGE | image_url: width: 535 }} 535w,{%- endif -%}
+            {%- if section.settings.SCHONHAUSER_ALLEE_IMAGE.width >= 750 -%}{{ section.settings.SCHONHAUSER_ALLEE_IMAGE | image_url: width: 750 }} 750w,{%- endif -%}
+            {%- if section.settings.SCHONHAUSER_ALLEE_IMAGE.width >= 1070 -%}{{ section.settings.SCHONHAUSER_ALLEE_IMAGE | image_url: width: 1070 }} 1070w,{%- endif -%}
+            {%- if section.settings.SCHONHAUSER_ALLEE_IMAGE.width >= 1500 -%}{{ section.settings.SCHONHAUSER_ALLEE_IMAGE | image_url: width: 1500 }} 1500w,{%- endif -%}
+            {{ section.settings.SCHONHAUSER_ALLEE_IMAGE | image_url }} {{ section.settings.SCHONHAUSER_ALLEE_IMAGE.width }}
+          "
+          src="{{ section.settings.SCHONHAUSER_ALLEE_IMAGE | image_url: width: 1500 }}"
+          alt="{{ section.settings.SCHONHAUSER_ALLEE_IMAGE.alt | escape }}"
+          loading="lazy"
+          width=""
+          height=""
+          class="image-main-slider slide active"
+        >
+      {%- else -%}
+        {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+      {%- endif -%}
+      {%- if section.settings.SCHONHAUSER_ALLEE_IMAGE_1 != blank -%}
+        <img
+          srcset="
+            {%- if section.settings.SCHONHAUSER_ALLEE_IMAGE_1.width >= 165 -%}{{ section.settings.SCHONHAUSER_ALLEE_IMAGE_1 | image_url: width: 165 }} 165w,{%- endif -%}
+            {%- if section.settings.SCHONHAUSER_ALLEE_IMAGE_1.width >= 360 -%}{{ section.settings.SCHONHAUSER_ALLEE_IMAGE_1 | image_url: width: 360 }} 360w,{%- endif -%}
+            {%- if section.settings.SCHONHAUSER_ALLEE_IMAGE_1.width >= 535 -%}{{ section.settings.SCHONHAUSER_ALLEE_IMAGE_1 | image_url: width: 535 }} 535w,{%- endif -%}
+            {%- if section.settings.SCHONHAUSER_ALLEE_IMAGE_1.width >= 750 -%}{{ section.settings.SCHONHAUSER_ALLEE_IMAGE_1 | image_url: width: 750 }} 750w,{%- endif -%}
+            {%- if section.settings.SCHONHAUSER_ALLEE_IMAGE_1.width >= 1070 -%}{{ section.settings.SCHONHAUSER_ALLEE_IMAGE_1 | image_url: width: 1070 }} 1070w,{%- endif -%}
+            {%- if section.settings.SCHONHAUSER_ALLEE_IMAGE_1.width >= 1500 -%}{{ section.settings.SCHONHAUSER_ALLEE_IMAGE_1 | image_url: width: 1500 }} 1500w,{%- endif -%}
+            {{ section.settings.SCHONHAUSER_ALLEE_IMAGE_1 | image_url }} {{ section.settings.SCHONHAUSER_ALLEE_IMAGE_1.width }}
+          "
+          src="{{ section.settings.SCHONHAUSER_ALLEE_IMAGE_1 | image_url: width: 1500 }}"
+          alt="{{ section.settings.SCHONHAUSER_ALLEE_IMAGE_1.alt | escape }}"
+          loading="lazy"
+          width=""
+          height=""
+          class="image-main-slider slide"
+        >
+      {%- else -%}
+        {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+      {%- endif -%}
+      {%- if section.settings.SCHONHAUSER_ALLEE_IMAGE_2 != blank -%}
+        <img
+          srcset="
+            {%- if section.settings.SCHONHAUSER_ALLEE_IMAGE_2.width >= 165 -%}{{ section.settings.SCHONHAUSER_ALLEE_IMAGE_2 | image_url: width: 165 }} 165w,{%- endif -%}
+            {%- if section.settings.SCHONHAUSER_ALLEE_IMAGE_2.width >= 360 -%}{{ section.settings.SCHONHAUSER_ALLEE_IMAGE_2 | image_url: width: 360 }} 360w,{%- endif -%}
+            {%- if section.settings.SCHONHAUSER_ALLEE_IMAGE_2.width >= 535 -%}{{ section.settings.SCHONHAUSER_ALLEE_IMAGE_2 | image_url: width: 535 }} 535w,{%- endif -%}
+            {%- if section.settings.SCHONHAUSER_ALLEE_IMAGE_2.width >= 750 -%}{{ section.settings.SCHONHAUSER_ALLEE_IMAGE_2 | image_url: width: 750 }} 750w,{%- endif -%}
+            {%- if section.settings.SCHONHAUSER_ALLEE_IMAGE_2.width >= 1070 -%}{{ section.settings.SCHONHAUSER_ALLEE_IMAGE_2 | image_url: width: 1070 }} 1070w,{%- endif -%}
+            {%- if section.settings.SCHONHAUSER_ALLEE_IMAGE_2.width >= 1500 -%}{{ section.settings.SCHONHAUSER_ALLEE_IMAGE_2 | image_url: width: 1500 }} 1500w,{%- endif -%}
+            {{ section.settings.SCHONHAUSER_ALLEE_IMAGE_2 | image_url }} {{ section.settings.SCHONHAUSER_ALLEE_IMAGE_2.width }}
+          "
+          src="{{ section.settings.SCHONHAUSER_ALLEE_IMAGE_2 | image_url: width: 1500 }}"
+          alt="{{ section.settings.SCHONHAUSER_ALLEE_IMAGE_2.alt | escape }}"
+          loading="lazy"
+          width=""
+          height=""
+          class="image-main-slider slide"
+        >
+      {%- else -%}
+        {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+      {%- endif -%}
+
+      <div class="slider-buttons">
+        <button class="prev">&#10094;</button>
+        <button class="next">&#10095;</button>
+      </div>
+    </section>
+
+    <section class="text-buttom-container">
+      {%- if section.settings.FRIEDRICHSTRASSE_HEADING != blank -%}
+        <h2>
+          {{ section.settings.SCHONHAUSER_ALLEE_HEADING | escape }}
+        </h2>
+      {%- endif -%}
+
+      {%- if section.settings.SCHONHAUSER_ALLEE_ADDRESS != blank -%}
+        <p>{{ section.settings.SCHONHAUSER_ALLEE_ADDRESS | escape }}</p>
+      {%- endif -%}
+
+      {%- if section.settings.SCHONHAUSER_ALLEE_OPENING != blank -%}
+        <p class="rich-text__heading rte {{ settings.heading_size }}" {{ shopify_attributes }}>
+          {{ section.settings.SCHONHAUSER_ALLEE_OPENING | replace: 'p>', 'span>' }}
+        </p>
+      {%- endif -%}
+
+      {%- if section.settings.SCHONHAUSER_ALLEE_LINK != blank -%}
+        <p class="btn-card">
+          {{ section.settings.SCHONHAUSER_ALLEE_LINK | replace: 'p>', 'span>' }}
         </p>
       {%- endif -%}
     </section>
@@ -670,9 +853,9 @@ margin-bottom:12px;
           {{ section.settings.NEUKOLLN_HEADING | escape }}
         </h2>
       {%- endif -%}
-        
+
       {%- if section.settings.NEUKOLLN_ADDRESS != blank -%}
-          <p>{{ section.settings.NEUKOLLN_ADDRESS | escape }}</p>
+        <p>{{ section.settings.NEUKOLLN_ADDRESS | escape }}</p>
       {%- endif -%}
 
       {%- if section.settings.NEUKOLLN_OPENING != blank -%}
@@ -765,9 +948,9 @@ margin-bottom:12px;
           {{ section.settings.NORDBAHNHOF_HEADING | escape }}
         </h2>
       {%- endif -%}
-        
+
       {%- if section.settings.NORDBAHNHOF_ADDRESS != blank -%}
-          <p>{{ section.settings.NORDBAHNHOF_ADDRESS | escape }}</p>
+        <p>{{ section.settings.NORDBAHNHOF_ADDRESS | escape }}</p>
       {%- endif -%}
 
       {%- if section.settings.NORDBAHNHOF_OPENING != blank -%}
@@ -779,101 +962,6 @@ margin-bottom:12px;
       {%- if section.settings.NORDBAHNHOF_LINK != blank -%}
         <p class="btn-card">
           {{ section.settings.NORDBAHNHOF_LINK | replace: 'p>', 'span>' }}
-        </p>
-      {%- endif -%}
-    </section>
-  </section>
-
-  <section class="image-with-text page-width">
-    <section class="section-HACKESCHER_MARKT-padding slider-container">
-      {%- if section.settings.HACKESCHER_MARKT_IMAGE != blank -%}
-        <img
-          srcset="
-            {%- if section.settings.HACKESCHER_MARKT_IMAGE.width >= 165 -%}{{ section.settings.HACKESCHER_MARKT_IMAGE | image_url: width: 165 }} 165w,{%- endif -%}
-            {%- if section.settings.HACKESCHER_MARKT_IMAGE.width >= 360 -%}{{ section.settings.HACKESCHER_MARKT_IMAGE | image_url: width: 360 }} 360w,{%- endif -%}
-            {%- if section.settings.HACKESCHER_MARKT_IMAGE.width >= 535 -%}{{ section.settings.HACKESCHER_MARKT_IMAGE | image_url: width: 535 }} 535w,{%- endif -%}
-            {%- if section.settings.HACKESCHER_MARKT_IMAGE.width >= 750 -%}{{ section.settings.HACKESCHER_MARKT_IMAGE | image_url: width: 750 }} 750w,{%- endif -%}
-            {%- if section.settings.HACKESCHER_MARKT_IMAGE.width >= 1070 -%}{{ section.settings.HACKESCHER_MARKT_IMAGE | image_url: width: 1070 }} 1070w,{%- endif -%}
-            {%- if section.settings.HACKESCHER_MARKT_IMAGE.width >= 1500 -%}{{ section.settings.HACKESCHER_MARKT_IMAGE | image_url: width: 1500 }} 1500w,{%- endif -%}
-            {{ section.settings.HACKESCHER_MARKT_IMAGE | image_url }} {{ section.settings.HACKESCHER_MARKT_IMAGE.width }}
-          "
-          src="{{ section.settings.HACKESCHER_MARKT_IMAGE| image_url: width: 1500 }}"
-          alt="{{ section.settings.HACKESCHER_MARKT_IMAGE.alt | escape }}"
-          loading="lazy"
-          width=""
-          height=""
-          class="image-main-slider slide active"
-        >
-      {%- else -%}
-        {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
-      {%- endif -%}
-      {%- if section.settings.HACKESCHER_MARKT_IMAGE_1 != blank -%}
-        <img
-          srcset="
-            {%- if section.settings.HACKESCHER_MARKT_IMAGE_1.width >= 165 -%}{{ section.settings.HACKESCHER_MARKT_IMAGE_1 | image_url: width: 165 }} 165w,{%- endif -%}
-            {%- if section.settings.HACKESCHER_MARKT_IMAGE_1.width >= 360 -%}{{ section.settings.HACKESCHER_MARKT_IMAGE_1 | image_url: width: 360 }} 360w,{%- endif -%}
-            {%- if section.settings.HACKESCHER_MARKT_IMAGE_1.width >= 535 -%}{{ section.settings.HACKESCHER_MARKT_IMAGE_1 | image_url: width: 535 }} 535w,{%- endif -%}
-            {%- if section.settings.HACKESCHER_MARKT_IMAGE_1.width >= 750 -%}{{ section.settings.HACKESCHER_MARKT_IMAGE_1 | image_url: width: 750 }} 750w,{%- endif -%}
-            {%- if section.settings.HACKESCHER_MARKT_IMAGE_1.width >= 1070 -%}{{ section.settings.HACKESCHER_MARKT_IMAGE_1 | image_url: width: 1070 }} 1070w,{%- endif -%}
-            {%- if section.settings.HACKESCHER_MARKT_IMAGE_1.width >= 1500 -%}{{ section.settings.HACKESCHER_MARKT_IMAGE_1 | image_url: width: 1500 }} 1500w,{%- endif -%}
-            {{ section.settings.HACKESCHER_MARKT_IMAGE_1 | image_url }} {{ section.settings.HACKESCHER_MARKT_IMAGE_1.width }}
-          "
-          src="{{ section.settings.HACKESCHER_MARKT_IMAGE_1| image_url: width: 1500 }}"
-          alt="{{ section.settings.HACKESCHER_MARKT_IMAGE_1.alt | escape }}"
-          loading="lazy"
-          width=""
-          height=""
-          class="image-main-slider slide"
-        >
-      {%- else -%}
-        {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
-      {%- endif -%}
-      {%- if section.settings.HACKESCHER_MARKT_IMAGE_2 != blank -%}
-        <img
-          srcset="
-            {%- if section.settings.HACKESCHER_MARKT_IMAGE_2.width >= 165 -%}{{ section.settings.HACKESCHER_MARKT_IMAGE_2 | image_url: width: 165 }} 165w,{%- endif -%}
-            {%- if section.settings.HACKESCHER_MARKT_IMAGE_2.width >= 360 -%}{{ section.settings.HACKESCHER_MARKT_IMAGE_2 | image_url: width: 360 }} 360w,{%- endif -%}
-            {%- if section.settings.HACKESCHER_MARKT_IMAGE_2.width >= 535 -%}{{ section.settings.HACKESCHER_MARKT_IMAGE_2 | image_url: width: 535 }} 535w,{%- endif -%}
-            {%- if section.settings.HACKESCHER_MARKT_IMAGE_2.width >= 750 -%}{{ section.settings.HACKESCHER_MARKT_IMAGE_2 | image_url: width: 750 }} 750w,{%- endif -%}
-            {%- if section.settings.HACKESCHER_MARKT_IMAGE_2.width >= 1070 -%}{{ section.settings.HACKESCHER_MARKT_IMAGE_2 | image_url: width: 1070 }} 1070w,{%- endif -%}
-            {%- if section.settings.HACKESCHER_MARKT_IMAGE_2.width >= 1500 -%}{{ section.settings.HACKESCHER_MARKT_IMAGE_2 | image_url: width: 1500 }} 1500w,{%- endif -%}
-            {{ section.settings.HACKESCHER_MARKT_IMAGE_2 | image_url }} {{ section.settings.HACKESCHER_MARKT_IMAGE_2.width }}
-          "
-          src="{{ section.settings.HACKESCHER_MARKT_IMAGE_2| image_url: width: 1500 }}"
-          alt="{{ section.settings.HACKESCHER_MARKT_IMAGE_2.alt | escape }}"
-          loading="lazy"
-          width=""
-          height=""
-          class="image-main-slider slide"
-        >
-      {%- else -%}
-        {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
-      {%- endif -%}
-      <div class="slider-buttons">
-        <button class="prev">&#10094;</button>
-        <button class="next">&#10095;</button>
-      </div>
-    </section>
-    <section class="text-buttom-container">
-      {%- if section.settings.HACKESCHER_MARKT_HEADING != blank -%}
-        <h2>
-          {{ section.settings.HACKESCHER_MARKT_HEADING | escape }}
-        </h2>
-      {%- endif -%}
-        
-      {%- if section.settings.HACKESCHER_MARKT_ADDRESS != blank -%}
-          <p>{{ section.settings.HACKESCHER_MARKT_ADDRESS | escape }}</p>
-      {%- endif -%}
-
-      {%- if section.settings.HACKESCHER_MARKT_OPENING != blank -%}
-        <p class="rich-text__heading rte {{ settings.heading_size }}" {{ shopify_attributes }}>
-          {{ section.settings.HACKESCHER_MARKT_OPENING | replace: 'p>', 'span>' }}
-        </p>
-      {%- endif -%}
-
-      {%- if section.settings.HACKESCHER_MARKT_LINK != blank -%}
-        <p class="btn-card">
-          {{ section.settings.HACKESCHER_MARKT_LINK | replace: 'p>', 'span>' }}
         </p>
       {%- endif -%}
     </section>
@@ -955,9 +1043,9 @@ margin-bottom:12px;
           {{ section.settings.SONY_CENTER_HEADING | escape }}
         </h2>
       {%- endif -%}
-        
+
       {%- if section.settings.SONY_CENTER_ADDRESS != blank -%}
-          <p>{{ section.settings.SONY_CENTER_ADDRESS | escape }}</p>
+        <p>{{ section.settings.SONY_CENTER_ADDRESS | escape }}</p>
       {%- endif -%}
 
       {%- if section.settings.SONY_CENTER_OPENING != blank -%}
@@ -973,103 +1061,6 @@ margin-bottom:12px;
       {%- endif -%}
     </section>
   </section>
-
-  <section class="image-with-text page-width">
-    <section class="section-POTSDAMER_PLATZ-padding slider-container">
-      {%- if section.settings.POTSDAMER_PLATZ_IMAGE != blank -%}
-        <img
-          srcset="
-            {%- if section.settings.POTSDAMER_PLATZ_IMAGE.width >= 165 -%}{{ section.settings.POTSDAMER_PLATZ_IMAGE | image_url: width: 165 }} 165w,{%- endif -%}
-            {%- if section.settings.POTSDAMER_PLATZ_IMAGE.width >= 360 -%}{{ section.settings.POTSDAMER_PLATZ_IMAGE | image_url: width: 360 }} 360w,{%- endif -%}
-            {%- if section.settings.POTSDAMER_PLATZ_IMAGE.width >= 535 -%}{{ section.settings.POTSDAMER_PLATZ_IMAGE | image_url: width: 535 }} 535w,{%- endif -%}
-            {%- if section.settings.POTSDAMER_PLATZ_IMAGE.width >= 750 -%}{{ section.settings.POTSDAMER_PLATZ_IMAGE | image_url: width: 750 }} 750w,{%- endif -%}
-            {%- if section.settings.POTSDAMER_PLATZ_IMAGE.width >= 1070 -%}{{ section.settings.POTSDAMER_PLATZ_IMAGE | image_url: width: 1070 }} 1070w,{%- endif -%}
-            {%- if section.settings.POTSDAMER_PLATZ_IMAGE.width >= 1500 -%}{{ section.settings.POTSDAMER_PLATZ_IMAGE | image_url: width: 1500 }} 1500w,{%- endif -%}
-            {{ section.settings.POTSDAMER_PLATZ_IMAGE | image_url }} {{ section.settings.POTSDAMER_PLATZ_IMAGE.width }}
-          "
-          src="{{ section.settings.POTSDAMER_PLATZ_IMAGE| image_url: width: 1500 }}"
-          alt="{{ section.settings.POTSDAMER_PLATZ_IMAGE.alt | escape }}"
-          loading="lazy"
-          width=""
-          height=""
-          class="image-main-slider slide active"
-        >
-      {%- else -%}
-        {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
-      {%- endif -%}
-      {%- if section.settings.POTSDAMER_PLATZ_IMAGE_1 != blank -%}
-        <img
-          srcset="
-            {%- if section.settings.POTSDAMER_PLATZ_IMAGE_1.width >= 165 -%}{{ section.settings.POTSDAMER_PLATZ_IMAGE_1 | image_url: width: 165 }} 165w,{%- endif -%}
-            {%- if section.settings.POTSDAMER_PLATZ_IMAGE_1.width >= 360 -%}{{ section.settings.POTSDAMER_PLATZ_IMAGE_1 | image_url: width: 360 }} 360w,{%- endif -%}
-            {%- if section.settings.POTSDAMER_PLATZ_IMAGE_1.width >= 535 -%}{{ section.settings.POTSDAMER_PLATZ_IMAGE_1 | image_url: width: 535 }} 535w,{%- endif -%}
-            {%- if section.settings.POTSDAMER_PLATZ_IMAGE_1.width >= 750 -%}{{ section.settings.POTSDAMER_PLATZ_IMAGE_1 | image_url: width: 750 }} 750w,{%- endif -%}
-            {%- if section.settings.POTSDAMER_PLATZ_IMAGE_1.width >= 1070 -%}{{ section.settings.POTSDAMER_PLATZ_IMAGE_1 | image_url: width: 1070 }} 1070w,{%- endif -%}
-            {%- if section.settings.POTSDAMER_PLATZ_IMAGE_1.width >= 1500 -%}{{ section.settings.POTSDAMER_PLATZ_IMAGE_1 | image_url: width: 1500 }} 1500w,{%- endif -%}
-            {{ section.settings.POTSDAMER_PLATZ_IMAGE_1 | image_url }} {{ section.settings.POTSDAMER_PLATZ_IMAGE_1.width }}
-          "
-          src="{{ section.settings.POTSDAMER_PLATZ_IMAGE_1| image_url: width: 1500 }}"
-          alt="{{ section.settings.POTSDAMER_PLATZ_IMAGE_1.alt | escape }}"
-          loading="lazy"
-          width=""
-          height=""
-          class="image-main-slider slide"
-        >
-      {%- else -%}
-        {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
-      {%- endif -%}
-      {%- if section.settings.POTSDAMER_PLATZ_IMAGE_2 != blank -%}
-        <img
-          srcset="
-            {%- if section.settings.POTSDAMER_PLATZ_IMAGE_2.width >= 165 -%}{{ section.settings.POTSDAMER_PLATZ_IMAGE_2 | image_url: width: 165 }} 165w,{%- endif -%}
-            {%- if section.settings.POTSDAMER_PLATZ_IMAGE_2.width >= 360 -%}{{ section.settings.POTSDAMER_PLATZ_IMAGE_2 | image_url: width: 360 }} 360w,{%- endif -%}
-            {%- if section.settings.POTSDAMER_PLATZ_IMAGE_2.width >= 535 -%}{{ section.settings.POTSDAMER_PLATZ_IMAGE_2 | image_url: width: 535 }} 535w,{%- endif -%}
-            {%- if section.settings.POTSDAMER_PLATZ_IMAGE_2.width >= 750 -%}{{ section.settings.POTSDAMER_PLATZ_IMAGE_2 | image_url: width: 750 }} 750w,{%- endif -%}
-            {%- if section.settings.POTSDAMER_PLATZ_IMAGE_2.width >= 1070 -%}{{ section.settings.POTSDAMER_PLATZ_IMAGE_2 | image_url: width: 1070 }} 1070w,{%- endif -%}
-            {%- if section.settings.POTSDAMER_PLATZ_IMAGE_2.width >= 1500 -%}{{ section.settings.POTSDAMER_PLATZ_IMAGE_2 | image_url: width: 1500 }} 1500w,{%- endif -%}
-            {{ section.settings.POTSDAMER_PLATZ_IMAGE_2 | image_url }} {{ section.settings.POTSDAMER_PLATZ_IMAGE_2.width }}
-          "
-          src="{{ section.settings.POTSDAMER_PLATZ_IMAGE_2| image_url: width: 1500 }}"
-          alt="{{ section.settings.POTSDAMER_PLATZ_IMAGE_2.alt | escape }}"
-          loading="lazy"
-          width=""
-          height=""
-          class="image-main-slider slide"
-        >
-      {%- else -%}
-        {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
-      {%- endif -%}
-      <div class="slider-buttons">
-        <button class="prev">&#10094;</button>
-        <button class="next">&#10095;</button>
-      </div>
-    </section>
-    <section class="text-buttom-container">
-      {%- if section.settings.POTSDAMER_PLATZ_HEADING != blank -%}
-        <h2>
-          {{ section.settings.POTSDAMER_PLATZ_HEADING | escape }}
-        </h2>
-      {%- endif -%}
-        
-      {%- if section.settings.POTSDAMER_PLATZ_ADDRESS != blank -%}
-          <p>{{ section.settings.POTSDAMER_PLATZ_ADDRESS | escape }}</p>
-      {%- endif -%}
-
-      {%- if section.settings.POTSDAMER_PLATZ_OPENING != blank -%}
-        <p class="rich-text__heading rte {{ settings.heading_size }}" {{ shopify_attributes }}>
-          {{ section.settings.POTSDAMER_PLATZ_OPENING | replace: 'p>', 'span>' }}
-        </p>
-      {%- endif -%}
-
-      {%- if section.settings.POTSDAMER_PLATZ_LINK != blank -%}
-        <p class="btn-card">
-          {{ section.settings.POTSDAMER_PLATZ_LINK | replace: 'p>', 'span>' }}
-        </p>
-      {%- endif -%}
-    </section>
-  </section>
-
-
 
   <section class="image-with-text page-width">
     <section class="section-ANNEX_CAFE-padding slider-container">
@@ -1147,9 +1138,9 @@ margin-bottom:12px;
           {{ section.settings.ANNEX_CAFE_HEADING | escape }}
         </h2>
       {%- endif -%}
-        
+
       {%- if section.settings.ANNEX_CAFE_ADDRESS != blank -%}
-          <p>{{ section.settings.ANNEX_CAFE_ADDRESS | escape }}</p>
+        <p>{{ section.settings.ANNEX_CAFE_ADDRESS | escape }}</p>
       {%- endif -%}
 
       {%- if section.settings.ANNEX_CAFE_OPENING != blank -%}
@@ -1242,9 +1233,9 @@ margin-bottom:12px;
           {{ section.settings.ROASTERY_HEADING | escape }}
         </h2>
       {%- endif -%}
-        
+
       {%- if section.settings.ROASTERY_ADDRESS != blank -%}
-          <p>{{ section.settings.ROASTERY_ADDRESS | escape }}</p>
+        <p>{{ section.settings.ROASTERY_ADDRESS | escape }}</p>
       {%- endif -%}
 
       {%- if section.settings.ROASTERY_OPENING != blank -%}
@@ -1339,9 +1330,9 @@ margin-bottom:12px;
           {{ section.settings.DUBAI_HEADING | escape }}
         </h2>
       {%- endif -%}
-        
+
       {%- if section.settings.DUBAI_ADDRESS != blank -%}
-          <p>{{ section.settings.DUBAI_ADDRESS | escape }}</p>
+        <p>{{ section.settings.DUBAI_ADDRESS | escape }}</p>
       {%- endif -%}
 
       {%- if section.settings.DUBAI_OPENING != blank -%}
@@ -1436,9 +1427,9 @@ margin-bottom:12px;
           {{ section.settings.MALLORCA_HEADING | escape }}
         </h2>
       {%- endif -%}
-        
+
       {%- if section.settings.MALLORCA_ADDRESS != blank -%}
-          <p>{{ section.settings.MALLORCA_ADDRESS | escape }}</p>
+        <p>{{ section.settings.MALLORCA_ADDRESS | escape }}</p>
       {%- endif -%}
 
       {%- if section.settings.MALLORCA_OPENING != blank -%}
@@ -1533,9 +1524,9 @@ margin-bottom:12px;
           {{ section.settings.SOUTH_KOREA_HEADING | escape }}
         </h2>
       {%- endif -%}
-        
+
       {%- if section.settings.SOUTH_KOREA_ADDRESS != blank -%}
-          <p>{{ section.settings.SOUTH_KOREA_ADDRESS | escape }}</p>
+        <p>{{ section.settings.SOUTH_KOREA_ADDRESS | escape }}</p>
       {%- endif -%}
 
       {%- if section.settings.SOUTH_KOREA_OPENING != blank -%}
@@ -1618,10 +1609,10 @@ margin-bottom:12px;
         {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
       {%- endif -%}
       {%- comment -%}
-      <div class="slider-buttons">
-        <button class="prev">&#10094;</button>
-        <button class="next">&#10095;</button>
-      </div>
+        <div class="slider-buttons">
+          <button class="prev">&#10094;</button>
+          <button class="next">&#10095;</button>
+        </div>
       {%- endcomment -%}
     </section>
     <section class="text-buttom-container">
@@ -1630,9 +1621,9 @@ margin-bottom:12px;
           {{ section.settings.SOUTH_KOREA_YEONHUI_HEADING | escape }}
         </h2>
       {%- endif -%}
-        
+
       {%- if section.settings.SOUTH_KOREA_YEONHUI_ADDRESS != blank -%}
-          <p>{{ section.settings.SOUTH_KOREA_YEONHUI_ADDRESS | escape }}</p>
+        <p>{{ section.settings.SOUTH_KOREA_YEONHUI_ADDRESS | escape }}</p>
       {%- endif -%}
 
       {%- if section.settings.SOUTH_KOREA_YEONHUI_OPENING != blank -%}
@@ -1715,10 +1706,10 @@ margin-bottom:12px;
         {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
       {%- endif -%}
       {%- comment -%}
-      <div class="slider-buttons">
-        <button class="prev">&#10094;</button>
-        <button class="next">&#10095;</button>
-      </div>
+        <div class="slider-buttons">
+          <button class="prev">&#10094;</button>
+          <button class="next">&#10095;</button>
+        </div>
       {%- endcomment -%}
     </section>
     <section class="text-buttom-container">
@@ -1727,9 +1718,9 @@ margin-bottom:12px;
           {{ section.settings.SOUTH_KOREA_BUSAN_HEADING | escape }}
         </h2>
       {%- endif -%}
-        
+
       {%- if section.settings.SOUTH_KOREA_BUSAN_ADDRESS != blank -%}
-          <p>{{ section.settings.SOUTH_KOREA_BUSAN_ADDRESS | escape }}</p>
+        <p>{{ section.settings.SOUTH_KOREA_BUSAN_ADDRESS | escape }}</p>
       {%- endif -%}
 
       {%- if section.settings.SOUTH_KOREA_BUSAN_OPENING != blank -%}
@@ -1812,10 +1803,10 @@ margin-bottom:12px;
         {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
       {%- endif -%}
       {%- comment -%}
-      <div class="slider-buttons">
-        <button class="prev">&#10094;</button>
-        <button class="next">&#10095;</button>
-      </div>
+        <div class="slider-buttons">
+          <button class="prev">&#10094;</button>
+          <button class="next">&#10095;</button>
+        </div>
       {%- endcomment -%}
     </section>
     <section class="text-buttom-container">
@@ -1824,9 +1815,9 @@ margin-bottom:12px;
           {{ section.settings.SOUTH_KOREA_DAEGU_HEADING | escape }}
         </h2>
       {%- endif -%}
-        
+
       {%- if section.settings.SOUTH_KOREA_DAEGU_ADDRESS != blank -%}
-          <p>{{ section.settings.SOUTH_KOREA_DAEGU_ADDRESS | escape }}</p>
+        <p>{{ section.settings.SOUTH_KOREA_DAEGU_ADDRESS | escape }}</p>
       {%- endif -%}
 
       {%- if section.settings.SOUTH_KOREA_DAEGU_OPENING != blank -%}
@@ -1909,10 +1900,10 @@ margin-bottom:12px;
         {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
       {%- endif -%}
       {%- comment -%}
-      <div class="slider-buttons">
-        <button class="prev">&#10094;</button>
-        <button class="next">&#10095;</button>
-      </div>
+        <div class="slider-buttons">
+          <button class="prev">&#10094;</button>
+          <button class="next">&#10095;</button>
+        </div>
       {%- endcomment -%}
     </section>
     <section class="text-buttom-container">
@@ -1921,9 +1912,9 @@ margin-bottom:12px;
           {{ section.settings.SOUTH_KOREA_DAEJEON_HEADING | escape }}
         </h2>
       {%- endif -%}
-        
+
       {%- if section.settings.SOUTH_KOREA_DAEJEON_ADDRESS != blank -%}
-          <p>{{ section.settings.SOUTH_KOREA_DAEJEON_ADDRESS | escape }}</p>
+        <p>{{ section.settings.SOUTH_KOREA_DAEJEON_ADDRESS | escape }}</p>
       {%- endif -%}
 
       {%- if section.settings.SOUTH_KOREA_DAEJEON_OPENING != blank -%}
@@ -2006,10 +1997,10 @@ margin-bottom:12px;
         {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
       {%- endif -%}
       {%- comment -%}
-      <div class="slider-buttons">
-        <button class="prev">&#10094;</button>
-        <button class="next">&#10095;</button>
-      </div>
+        <div class="slider-buttons">
+          <button class="prev">&#10094;</button>
+          <button class="next">&#10095;</button>
+        </div>
       {%- endcomment -%}
     </section>
     <section class="text-buttom-container">
@@ -2018,9 +2009,9 @@ margin-bottom:12px;
           {{ section.settings.SOUTH_KOREA_JEJU_HEADING | escape }}
         </h2>
       {%- endif -%}
-        
+
       {%- if section.settings.SOUTH_KOREA_JEJU_ADDRESS != blank -%}
-          <p>{{ section.settings.SOUTH_KOREA_JEJU_ADDRESS | escape }}</p>
+        <p>{{ section.settings.SOUTH_KOREA_JEJU_ADDRESS | escape }}</p>
       {%- endif -%}
 
       {%- if section.settings.SOUTH_KOREA_JEJU_OPENING != blank -%}
@@ -2103,10 +2094,10 @@ margin-bottom:12px;
         {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
       {%- endif -%}
       {%- comment -%}
-      <div class="slider-buttons">
-        <button class="prev">&#10094;</button>
-        <button class="next">&#10095;</button>
-      </div>
+        <div class="slider-buttons">
+          <button class="prev">&#10094;</button>
+          <button class="next">&#10095;</button>
+        </div>
       {%- endcomment -%}
     </section>
     <section class="text-buttom-container">
@@ -2115,9 +2106,9 @@ margin-bottom:12px;
           {{ section.settings.SOUTH_KOREA_ROASTERY_HEADING | escape }}
         </h2>
       {%- endif -%}
-        
+
       {%- if section.settings.SOUTH_KOREA_ROASTERY_ADDRESS != blank -%}
-          <p>{{ section.settings.SOUTH_KOREA_ROASTERY_ADDRESS | escape }}</p>
+        <p>{{ section.settings.SOUTH_KOREA_ROASTERY_ADDRESS | escape }}</p>
       {%- endif -%}
 
       {%- if section.settings.SOUTH_KOREA_ROASTERY_OPENING != blank -%}
@@ -2135,87 +2126,79 @@ margin-bottom:12px;
   </section>
 </section>
 
+{% javascript %}
+  document.addEventListener('DOMContentLoaded', function() {
+    // Handling Tab Button Clicks
+    const tabButtons = document.querySelectorAll('.tab-btn');
+    const tabContents = document.querySelectorAll('.content');
 
+    tabButtons.forEach(function(button) {
+      button.addEventListener('click', function() {
+        const target = this.getAttribute('data-target');
 
-{% javascript %} 
+        // Hide all tab contents
+        tabContents.forEach(function(content) {
+          content.style.display = 'none';
+        });
 
-document.addEventListener('DOMContentLoaded', function() {
-  // Handling Tab Button Clicks
-  const tabButtons = document.querySelectorAll('.tab-btn');
-  const tabContents = document.querySelectorAll('.content');
+        // Show the selected tab content
+        document.getElementById(target).style.display = 'block';
 
-  tabButtons.forEach(function(button) {
-    button.addEventListener('click', function() {
-      const target = this.getAttribute('data-target');
-
-      // Hide all tab contents
-      tabContents.forEach(function(content) {
-        content.style.display = 'none';
+        // Remove 'active' class from all buttons and add it only to the clicked button
+        tabButtons.forEach(function(btn) {
+          btn.classList.remove('active');
+        });
+        this.classList.add('active');
       });
-
-      // Show the selected tab content
-      document.getElementById(target).style.display = 'block';
-
-      // Remove 'active' class from all buttons and add it only to the clicked button
-      tabButtons.forEach(function(btn) {
-        btn.classList.remove('active');
-      });
-      this.classList.add('active');
     });
+
+    // Slider Initialization for multiple containers
+    function initializeSlider(containerClass) {
+      const sliders = document.querySelectorAll(containerClass);
+
+      sliders.forEach(function(slider) {
+        let slideIndex = 0;
+        const slides = slider.querySelectorAll('.slide');
+
+        function showSlide(n) {
+          slides.forEach(slide => slide.classList.remove('active'));
+          slideIndex = (n + slides.length) % slides.length;
+          slides[slideIndex].classList.add('active');
+        }
+
+        function nextSlide() {
+          showSlide(slideIndex + 1);
+        }
+
+        function prevSlide() {
+          showSlide(slideIndex - 1);
+        }
+
+        slider.querySelector('.next').addEventListener('click', nextSlide);
+        slider.querySelector('.prev').addEventListener('click', prevSlide);
+      });
+    }
+
+    // Initialize sliders for different containers
+    const sliderSections = [
+      '.section-DUBAI-padding', '.section-FRIEDRICHSTRASSE-padding',
+      '.section-SCHONHAUSER_ALLEE-padding', '.section-MITTE-padding',
+      '.section-ROSENTHALER_PLATZ-padding', '.section-NEUKOLLN-padding',
+      '.section-NORDBAHNHOF-padding', '.section-HACKESCHER_MARKT-padding',
+      '.section-SONY_CENTER-padding', '.section-POTSDAMER_PLATZ-padding',
+      '.section-CAFE_KRANZLER-padding', '.section-ANNEX_CAFE-padding',
+      '.section-ROASTERY-padding', '.section-MALLORCA-padding',
+      '.section-SOUTH_KOREA-padding', '.section-SOUTH_KOREA_YEONHUI-padding',
+      '.section-SOUTH_KOREA_BUSAN-padding', '.section-SOUTH_KOREA_DAEGU-padding',
+      '.section-SOUTH_KOREA_DAEJEON-padding', '.section-SOUTH_KOREA_JEJU-padding',
+      '.section-SOUTH_KOREA_ROASTERY-padding'
+    ];
+
+    sliderSections.forEach(section => initializeSlider(section + '.slider-container'));
   });
-
-  // Slider Initialization for multiple containers
-  function initializeSlider(containerClass) {
-    const sliders = document.querySelectorAll(containerClass);
-
-    sliders.forEach(function(slider) {
-      let slideIndex = 0;
-      const slides = slider.querySelectorAll('.slide');
-
-      function showSlide(n) {
-        slides.forEach(slide => slide.classList.remove('active'));
-        slideIndex = (n + slides.length) % slides.length;
-        slides[slideIndex].classList.add('active');
-      }
-
-      function nextSlide() {
-        showSlide(slideIndex + 1);
-      }
-
-      function prevSlide() {
-        showSlide(slideIndex - 1);
-      }
-
-      slider.querySelector('.next').addEventListener('click', nextSlide);
-      slider.querySelector('.prev').addEventListener('click', prevSlide);
-    });
-  }
-
-  // Initialize sliders for different containers
-  const sliderSections = [
-    '.section-DUBAI-padding', '.section-FRIEDRICHSTRASSE-padding', 
-    '.section-SCHONHAUSER_ALLEE-padding', '.section-MITTE-padding', 
-    '.section-ROSENTHALER_PLATZ-padding', '.section-NEUKOLLN-padding', 
-    '.section-NORDBAHNHOF-padding', '.section-HACKESCHER_MARKT-padding', 
-    '.section-SONY_CENTER-padding', '.section-POTSDAMER_PLATZ-padding', 
-    '.section-CAFE_KRANZLER-padding', '.section-ANNEX_CAFE-padding', 
-    '.section-ROASTERY-padding', '.section-MALLORCA-padding', 
-    '.section-SOUTH_KOREA-padding', '.section-SOUTH_KOREA_YEONHUI-padding', 
-    '.section-SOUTH_KOREA_BUSAN-padding', '.section-SOUTH_KOREA_DAEGU-padding', 
-    '.section-SOUTH_KOREA_DAEJEON-padding', '.section-SOUTH_KOREA_JEJU-padding', 
-    '.section-SOUTH_KOREA_ROASTERY-padding'
-  ];
-
-  sliderSections.forEach(section => initializeSlider(section + '.slider-container'));
-});
-
-
-
-
 {% endjavascript %}
 
-
-   {% schema %}
+{% schema %}
 {
   "name": "custom locations slider",
   "class": "section",
@@ -2777,7 +2760,7 @@ document.addEventListener('DOMContentLoaded', function() {
           "default": "<p>link your location</p>",
           "label": "t:sections.rich-text.blocks.heading.settings.heading.label"
         },
-             
+
 
 
         {
@@ -3028,7 +3011,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 
-        
+
 
 
         {

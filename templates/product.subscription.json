@@ -14,7 +14,7 @@
         "custom_liquid_3wcTbw": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<style>\n<\/style>"
+            "custom_liquid": "<style>\n\/* Target the element itself *\/\n.is-empty {\n  display: none;\n}\n\n\/* Target the parent size-guide *\/\n.size-guide:has(.is-empty) {\n  display: none;\n}\n<\/style>"
           }
         },
         "title": {

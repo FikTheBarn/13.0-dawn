@@ -270,6 +270,52 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "image_with_text_Yb9Kwz": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_T6THNf": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text",
+            "heading_size": "h1"
+          }
+        },
+        "text_6R7RtG": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_Jcn6xz": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_T6THNf",
+        "text_6R7RtG",
+        "button_Jcn6xz"
+      ],
+      "settings": {
+        "height": "medium",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -278,6 +324,7 @@
     "featured_collection_Y8ga6P",
     "collection_list_c4HEKH",
     "custom_video_Wcjhpt",
-    "featured_blog_ReFHyG"
+    "featured_blog_ReFHyG",
+    "image_with_text_Yb9Kwz"
   ]
 }

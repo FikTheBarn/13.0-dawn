@@ -14,7 +14,7 @@
         "custom_liquid_3wcTbw": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "{% if product.metafileds.next.Masterpiece == blank %}\n\ntest123\n\n{% endif %}"
+            "custom_liquid": ""
           }
         },
         "title": {
@@ -68,6 +68,7 @@
         },
         "collapsible_tab_eq6tJC": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Your next Masterpieces",
             "icon": "cup",

@@ -90,18 +90,13 @@
 
 </style>
 
+  {% for subscriptions_reviews in shop.metaobjects.subscriptions_reviews.values %}
+
    <div class="container">
-        <div class="row">
-          <div class="col s12">
-            <h2 class='text-center'>The Barn Reviews</h2>
-       
-          </div>
-        </div>
+    
         <div class="row">
           <div class="col s12 cards-container">
-
-
-
+            
              <div class="card blue-grey darken-1">
                <div class="card-content white-text">
                 <div class="image-name-date-container">
@@ -248,7 +243,8 @@
           </div>
         </div>
       </div>
-
+  {% endfor %}
+  
 {% schema %}
   {
     "name": "Custom abo reviews",

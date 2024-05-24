@@ -294,7 +294,7 @@
         "video_url": "https:\/\/youtu.be\/qzYp0MlrCDg?si=RHzWdhBMytL7t7Er",
         "video_image_url": "",
         "autoplay": false,
-        "show_controls": false,
+        "show_controls": true,
         "loop_video": false,
         "height": "adapt",
         "desktop_image_width": "medium",

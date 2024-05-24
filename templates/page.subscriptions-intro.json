@@ -119,6 +119,7 @@
     },
     "custom_subscriptions_reviews_kqzDzF": {
       "type": "custom-subscriptions-reviews",
+      "disabled": true,
       "settings": {
       }
     }

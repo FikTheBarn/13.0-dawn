@@ -381,7 +381,7 @@
         "video_url": "https:\/\/youtu.be\/qzYp0MlrCDg?si=RHzWdhBMytL7t7Er",
         "video_image_url": "",
         "autoplay": false,
-        "show_controls": true,
+        "show_controls": false,
         "loop_video": false,
         "height": "adapt",
         "desktop_image_width": "large",

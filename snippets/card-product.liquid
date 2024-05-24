@@ -223,11 +223,9 @@
 
               {% assign paragraphs = metafield_text | split: ' | ' %}
 
-              <ul>
-                {% for paragraph in paragraphs %}
-                  <li>{{ paragraph }}</li>
-                {% endfor %}
-              </ul>
+              {% for paragraph in paragraphs %}
+                <div><span style="color: green;">✓</span> {{ paragraph }}</div>
+              {% endfor %}
             </div>
 
             <span class="caption-large light">{{ block.settings.description | escape }}</span>

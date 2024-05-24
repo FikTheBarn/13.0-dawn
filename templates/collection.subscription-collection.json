@@ -67,7 +67,7 @@
         "columns_desktop": 3,
         "image_ratio": "square",
         "show_secondary_image": true,
-        "show_vendor": true,
+        "show_vendor": false,
         "show_bullet_list": true,
         "show_tastenotes": false,
         "show_rating": false,

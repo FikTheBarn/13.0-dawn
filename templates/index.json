@@ -39,6 +39,9 @@
         "image": "shopify:\/\/shop_images\/DSC_5377.jpg",
         "video_url": "",
         "video_image_url": "",
+        "autoplay": false,
+        "show_controls": false,
+        "loop_video": false,
         "height": "large",
         "desktop_image_width": "medium",
         "layout": "text_first",
@@ -288,8 +291,11 @@
         "text_6R7RtG"
       ],
       "settings": {
-        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/8bf6fdb0f8cb42989fc11c03ca09feaf.mov",
+        "video_url": "https:\/\/youtu.be\/qzYp0MlrCDg?si=RHzWdhBMytL7t7Er",
         "video_image_url": "",
+        "autoplay": false,
+        "show_controls": false,
+        "loop_video": false,
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",

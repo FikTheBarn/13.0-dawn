@@ -130,6 +130,9 @@
         "text_TYBt8b",
         "heading_b87hRk"
       ],
+      "custom_css": [
+        ".image-with-text__content {padding: 4rem calc(0rem \/ var(--font-body-scale)) 5rem;}"
+      ],
       "settings": {
         "title": "FILTER BREW GUIDE",
         "heading_size": "h1",

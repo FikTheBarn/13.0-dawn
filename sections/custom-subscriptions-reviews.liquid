@@ -92,11 +92,33 @@
 
   {% for subscriptions_reviews in shop.metaobjects.subscriptions_reviews.values %}
 
-    {{ subscriptions_reviews.customer_picture }}
-    {{ subscriptions_reviews.customer_name }}
-    {{ subscriptions_reviews.date }}
-    {{ subscriptions_reviews.customer_title_review }}
-    {{ subscriptions_reviews.customer_review }}
+
+ 
+  
+
+ 
+
+
+    <div class="card blue-grey darken-1">
+       <div class="card-content white-text">
+        <div class="image-name-date-container">
+          <img class="circle-image" src="{{ subscriptions_reviews.customer_picture }}" alt="customer avatar" loading="lazy" height="200" width="200">
+            <div class="name-date-container">
+                <span class="card-title">{{ subscriptions_reviews.customer_name }}</span>
+                <span class="card-title-date">  {{ subscriptions_reviews.date }}</span>
+            </div>
+        </div>
+        <div class="rating">
+            <span class="star">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+        </div>
+         <p> {{ subscriptions_reviews.customer_title_review }} </p>
+         <p> {{ subscriptions_reviews.customer_review }} </p>
+       </div>
+     </div>
+
+
+
+    
 
    <div class="container">
     

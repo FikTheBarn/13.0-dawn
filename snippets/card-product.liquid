@@ -217,15 +217,15 @@
               {%- if show_bullet_list -%}
                 <span class="visually-hidden">{{ 'accessibility.vendor' | t }}</span>
                 <div class="caption light">{{ card_product.metafields.custom.taste_notes }}</div>
+
+                {% assign metafield_text = card_product.metafields.custom.subscription_filter_beans %}
+
+                {% assign paragraphs = metafield_text | split: ' | ' %}
+
+                {% for paragraph in paragraphs %}
+                  <div><span style="color: green;">✓</span> {{ paragraph }}</div>
+                {% endfor %}
               {%- endif -%}
-
-              {% assign metafield_text = card_product.metafields.custom.subscription_filter_beans %}
-
-              {% assign paragraphs = metafield_text | split: ' | ' %}
-
-              {% for paragraph in paragraphs %}
-                <div><span style="color: green;">✓</span> {{ paragraph }}</div>
-              {% endfor %}
             </div>
 
             <span class="caption-large light">{{ block.settings.description | escape }}</span>

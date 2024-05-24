@@ -1,5 +1,18 @@
 <style>
+  .cards-container .card {
+    display: inline-block;
+    overflow: visible;
+    background-color:#fBFBFB;
+    padding:1.6rem;
+    margin:1rem;
+    border-radius: 10px;
+    border: 1px solid #eee;
+    width: -webkit-fill-available;
 
+
+
+  }
+  
 /* Media Query Ranges */
 @media only screen and (max-width: 600px) {
     .cards-container {
@@ -28,7 +41,8 @@
       margin-right:7rem;
     }
   }
-  
+
+
  
   .image-name-date-container{
     display:flex;
@@ -43,31 +57,39 @@
     margin-left:0.7rem;
 
   }
-  .cards-container .card {
-    display: inline-block;
-    overflow: visible;
-    background-color:#fBFBFB;
-    padding:1rem;
-    margin:1rem;
-    border-radius: 10px;
-    border: 1px solid #eee;
 
-  }
   .rating {
-    unicode-bidi: bidi-override;
-    direction: rtl;
-    text-align: left;
+    display:flex;
+    flex-direction:row;
     margin-top:0.6rem;
-    font-size: 22px; /* Adjust size as needed */
+    margin-left:0.7rem;
+    margin-bottom:3rem;
+
 
 }
-.card p {
+.card-title-reviews-container{
+  display:flex;
+  flex-direction:column;
+  margin-left:0.7rem;
+
+}
+.card-title-review{
+  color:#141414;
+  font-size:16px;
+  margin-bottom:1rem;
+}
+.card-review{
   color:grey;
   font-size:16px;
-
 }
+
 .star {
-    color: gold; /* Change color as needed */
+
+    width: 20px; /* Adjust size as needed */
+    height: 20px; /* Adjust size as needed */
+    margin-right: 4px;
+    fill: #804d15; /* Change color as needed */
+
 }
   /* Styles for demo */
   .text-center {
@@ -80,6 +102,7 @@
     object-fit: cover;
 }
   .card-title{
+    font-weight:bold;
 
   color:#141414
 }
@@ -90,191 +113,59 @@
 
 </style>
 
+
+     <div class="col s12 cards-container">
   {% for subscriptions_reviews in shop.metaobjects.subscriptions_reviews.values %}
 
-
  
-  
-<div class="container">
-  <div class="row">
-    <div class="col s12 cards-container">
- 
-      <div class="card blue-grey darken-1">
-         <div class="card-content white-text">
-          <div class="image-name-date-container">
-            <img class="circle-image" src="{{ subscriptions_reviews.customer_picture }}" alt="customer avatar" loading="lazy" height="200" width="200">
-              <div class="name-date-container">
-                  <span class="card-title">{{ subscriptions_reviews.customer_name }}</span>
-                  <span class="card-title-date">  {{ subscriptions_reviews.date }}</span>
-              </div>
-          </div>
-          <div class="rating">
-              <span class="star">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
-          </div>
-           <p> {{ subscriptions_reviews.customer_title_review }} </p>
-           <p> {{ subscriptions_reviews.customer_review }} </p>
-         </div>
-       </div>
-   
-    </div>
-  </div>
-</div>
-
-
     
+          <div class="card blue-grey darken-1">
+            <div class="card-content white-text">
+              <div class="image-name-date-container">
+              
 
-  {% endfor %}
-   <div class="container">
-    
-        <div class="row">
-          <div class="col s12 cards-container">
-            
-             <div class="card blue-grey darken-1">
-               <div class="card-content white-text">
-                <div class="image-name-date-container">
-                    <img src="https://img.freepik.com/free-psd/cute-dog-portrait-isolated_23-2150194076.jpg?t=st=1716480174~exp=1716483774~hmac=32d4b4243990585437973d1928bfdce119621c4a403547e757002283e66f35dd&w=826" alt="Image" class="circle-image" width="" height="">
-                    <div class="name-date-container">
-                        <span class="card-title">Emma Johnson</span>
-                        <span class="card-title-date">3 weeks ago</span>
-                    </div>
-                </div>
-                <div class="rating">
-                    <span class="star">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
-                </div>
-                 <p>Fantastic coffee! The Barn never disappoints. Their beans are always fresh, and the flavors are consistently rich and complex. Highly recommended!</p>
-               </div>
-             </div>
 
-             <div class="card blue-grey darken-1">
-                <div class="card-content white-text">
-                 <div class="image-name-date-container">
-                     <img src="https://img.freepik.com/free-psd/cute-dog-portrait-isolated_23-2150194076.jpg?t=st=1716480174~exp=1716483774~hmac=32d4b4243990585437973d1928bfdce119621c4a403547e757002283e66f35dd&w=826" alt="Image" class="circle-image"width="" height="">
-                     <div class="name-date-container">
-                         <span class="card-title">Maximilian Schmidt</span>
-                         <span class="card-title-date">2 weeks ago</span>
-                     </div>
-                 </div>
-                 <div class="rating">
-                     <span class="star">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
-                 </div>
-                  <p>The Barn Coffee Roasters is my go-to for specialty coffee. Each cup is a delightful journey of flavor, and their subscription service makes it so easy to enjoy their amazing beans at home.</p>
-                </div>
+          
+
+                  <div class="name-date-container">
+                      <span class="card-title">{{ subscriptions_reviews.customer_name }}</span>
+                      <span class="card-title-date">  {{ subscriptions_reviews.date }}</span>
+                  </div>
               </div>
-
-              <div class="card blue-grey darken-1">
-                <div class="card-content white-text">
-                 <div class="image-name-date-container">
-                     <img src="https://img.freepik.com/free-psd/cute-dog-portrait-isolated_23-2150194076.jpg?t=st=1716480174~exp=1716483774~hmac=32d4b4243990585437973d1928bfdce119621c4a403547e757002283e66f35dd&w=826" alt="Image" class="circle-image"width="" height="">
-                     <div class="name-date-container">
-                         <span class="card-title">Sophie Williams</span>
-                         <span class="card-title-date">5 weeks ago</span>
-                     </div>
-                 </div>
-                 <div class="rating">
-                     <span class="star">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
-                 </div>
-                  <p>Absolutely love The Barn! Their attention to detail in sourcing and roasting shines through in every cup. Whether I'm savoring a single origin pour-over or a classic espresso, it's always top-notch.</p>
-                </div>
+              <div class="rating">
+                <svg class="star" viewBox="0 0 20 20">
+                  <path d="M10.0001 16.0074L14.8499 18.9407C15.7381 19.4783 16.8249 18.6836 16.5912 17.6786L15.3057 12.1626L19.5946 8.44634C20.3776 7.76853 19.9569 6.48303 18.9285 6.40122L13.2839 5.92208L11.0752 0.709949C10.6779 -0.236649 9.32225 -0.236649 8.92491 0.709949L6.71618 5.91039L1.07165 6.38954C0.043251 6.47134 -0.377459 7.75685 0.405529 8.43466L4.69444 12.1509L3.40893 17.6669C3.17521 18.6719 4.26204 19.4666 5.15021 18.929L10.0001 16.0074V16.0074Z"></path>
+                </svg>
+                <svg class="star" viewBox="0 0 20 20">
+                  <path d="M10.0001 16.0074L14.8499 18.9407C15.7381 19.4783 16.8249 18.6836 16.5912 17.6786L15.3057 12.1626L19.5946 8.44634C20.3776 7.76853 19.9569 6.48303 18.9285 6.40122L13.2839 5.92208L11.0752 0.709949C10.6779 -0.236649 9.32225 -0.236649 8.92491 0.709949L6.71618 5.91039L1.07165 6.38954C0.043251 6.47134 -0.377459 7.75685 0.405529 8.43466L4.69444 12.1509L3.40893 17.6669C3.17521 18.6719 4.26204 19.4666 5.15021 18.929L10.0001 16.0074V16.0074Z"></path>
+                </svg>
+                <svg class="star" viewBox="0 0 20 20">
+                  <path d="M10.0001 16.0074L14.8499 18.9407C15.7381 19.4783 16.8249 18.6836 16.5912 17.6786L15.3057 12.1626L19.5946 8.44634C20.3776 7.76853 19.9569 6.48303 18.9285 6.40122L13.2839 5.92208L11.0752 0.709949C10.6779 -0.236649 9.32225 -0.236649 8.92491 0.709949L6.71618 5.91039L1.07165 6.38954C0.043251 6.47134 -0.377459 7.75685 0.405529 8.43466L4.69444 12.1509L3.40893 17.6669C3.17521 18.6719 4.26204 19.4666 5.15021 18.929L10.0001 16.0074V16.0074Z"></path>
+                </svg>
+                <svg class="star" viewBox="0 0 20 20">
+                  <path d="M10.0001 16.0074L14.8499 18.9407C15.7381 19.4783 16.8249 18.6836 16.5912 17.6786L15.3057 12.1626L19.5946 8.44634C20.3776 7.76853 19.9569 6.48303 18.9285 6.40122L13.2839 5.92208L11.0752 0.709949C10.6779 -0.236649 9.32225 -0.236649 8.92491 0.709949L6.71618 5.91039L1.07165 6.38954C0.043251 6.47134 -0.377459 7.75685 0.405529 8.43466L4.69444 12.1509L3.40893 17.6669C3.17521 18.6719 4.26204 19.4666 5.15021 18.929L10.0001 16.0074V16.0074Z"></path>
+                </svg>
+                <svg class="star" viewBox="0 0 20 20">
+                  <path d="M10.0001 16.0074L14.8499 18.9407C15.7381 19.4783 16.8249 18.6836 16.5912 17.6786L15.3057 12.1626L19.5946 8.44634C20.3776 7.76853 19.9569 6.48303 18.9285 6.40122L13.2839 5.92208L11.0752 0.709949C10.6779 -0.236649 9.32225 -0.236649 8.92491 0.709949L6.71618 5.91039L1.07165 6.38954C0.043251 6.47134 -0.377459 7.75685 0.405529 8.43466L4.69444 12.1509L3.40893 17.6669C3.17521 18.6719 4.26204 19.4666 5.15021 18.929L10.0001 16.0074V16.0074Z"></path>
+                </svg>
               </div>
-
-              <div class="card blue-grey darken-1">
-                <div class="card-content white-text">
-                 <div class="image-name-date-container">
-                     <img src="https://img.freepik.com/free-psd/cute-dog-portrait-isolated_23-2150194076.jpg?t=st=1716480174~exp=1716483774~hmac=32d4b4243990585437973d1928bfdce119621c4a403547e757002283e66f35dd&w=826" alt="Image" class="circle-image"width="" height="">
-                     <div class="name-date-container">
-                         <span class="card-title">Liam Brown</span>
-                         <span class="card-title-date">3 hours ago</span>
-                     </div>
-                 </div>
-                 <div class="rating">
-                     <span class="star">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
-                 </div>
-                  <p>Great coffee, great service! The Barn's subscription has been a game-changer for me. It's like Christmas morning every time a new shipment arrives. Can't get enough of their delicious brews!</p>
-                </div>
+              <div class="card-title-reviews-container">
+              
+                <span class="card-title-review"> {{ subscriptions_reviews.customer_title_review }} </span>
+                 <span class="card-review"> {{ subscriptions_reviews.customer_review }} </span>
               </div>
-
-              <div class="card blue-grey darken-1">
-                <div class="card-content white-text">
-                 <div class="image-name-date-container">
-                     <img src="https://img.freepik.com/free-psd/cute-dog-portrait-isolated_23-2150194076.jpg?t=st=1716480174~exp=1716483774~hmac=32d4b4243990585437973d1928bfdce119621c4a403547e757002283e66f35dd&w=826" alt="Image" class="circle-image"width="" height="">
-                     <div class="name-date-container">
-                         <span class="card-title">Isabella Martinez</span>
-                         <span class="card-title-date">3 weeks ago</span>
-                     </div>
-                 </div>
-                 <div class="rating">
-                     <span class="star">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
-                 </div>
-                  <p>The Barn's coffee is a true treat for the senses.</p>
-                </div>
-              </div>
-
-              <div class="card blue-grey darken-1">
-                <div class="card-content white-text">
-                 <div class="image-name-date-container">
-                     <img src="https://img.freepik.com/free-psd/cute-dog-portrait-isolated_23-2150194076.jpg?t=st=1716480174~exp=1716483774~hmac=32d4b4243990585437973d1928bfdce119621c4a403547e757002283e66f35dd&w=826" alt="Image" class="circle-image"width="" height="">
-                     <div class="name-date-container">
-                         <span class="card-title">Oliver Wilson</span>
-                         <span class="card-title-date">1 month ago</span>
-                     </div>
-                 </div>
-                 <div class="rating">
-                     <span class="star">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
-                 </div>
-                  <p>I've been a loyal customer of The Barn for years, and they never fail to impress. Their dedication to quality and their passion for coffee truly sets them apart. Five stars all the way!</p>
-                </div>
-              </div>
-
-              <div class="card blue-grey darken-1">
-                <div class="card-content white-text">
-                 <div class="image-name-date-container">
-                     <img src="https://img.freepik.com/free-psd/cute-dog-portrait-isolated_23-2150194076.jpg?t=st=1716480174~exp=1716483774~hmac=32d4b4243990585437973d1928bfdce119621c4a403547e757002283e66f35dd&w=826" alt="Image" class="circle-image"width="" height="">
-                     <div class="name-date-container">
-                         <span class="card-title">Hannah Lee</span>
-                         <span class="card-title-date">3 weeks ago</span>
-                     </div>
-                 </div>
-                 <div class="rating">
-                     <span class="star">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
-                 </div>
-                  <p>As a coffee enthusiast, I'm always on the lookout for exceptional beans, and The Barn delivers every time.</p>
-                </div>
-              </div>
-
-              <div class="card blue-grey darken-1">
-                <div class="card-content white-text">
-                 <div class="image-name-date-container">
-                     <img src="https://img.freepik.com/free-psd/cute-dog-portrait-isolated_23-2150194076.jpg?t=st=1716480174~exp=1716483774~hmac=32d4b4243990585437973d1928bfdce119621c4a403547e757002283e66f35dd&w=826" alt="Image" class="circle-image"width="" height="">
-                     <div class="name-date-container">
-                         <span class="card-title">Noah Anderson</span>
-                         <span class="card-title-date">9 hours ago</span>
-                     </div>
-                 </div>
-                 <div class="rating">
-                     <span class="star">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
-                 </div>
-                  <p>The Barn's coffee is like poetry in a cup. Each blend tells a unique story, and I love exploring the diverse flavor profiles. A must-try for anyone who appreciates the art of coffee.</p>
-                </div>
-              </div>
-
-              <div class="card blue-grey darken-1">
-                <div class="card-content white-text">
-                 <div class="image-name-date-container">
-                     <img src="https://img.freepik.com/free-psd/cute-dog-portrait-isolated_23-2150194076.jpg?t=st=1716480174~exp=1716483774~hmac=32d4b4243990585437973d1928bfdce119621c4a403547e757002283e66f35dd&w=826" alt="Image" class="circle-image"width="" height="">
-                     <div class="name-date-container">
-                         <span class="card-title">Amelia Taylor</span>
-                         <span class="card-title-date">1 week ago</span>
-                     </div>
-                 </div>
-                 <div class="rating">
-                     <span class="star">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
-                 </div>
-                  <p>I can't imagine starting my day without a cup of coffee from The Barn.</p>
-                </div>
-              </div>
+            </div>
           </div>
-        </div>
+      
+          
+          
+          
+          
+        {% endfor %}
       </div>
+
+   
+       
   
 {% schema %}
   {

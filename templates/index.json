@@ -291,12 +291,11 @@
         "text_6R7RtG"
       ],
       "settings": {
-        "video_url": "",
+        "video_url": "https:\/\/youtu.be\/VnAQDO-fg6M?si=9ASWwQU_lqa1WBXK",
         "video_image_url": "",
         "autoplay": true,
         "show_controls": true,
         "loop_video": false,
-        "video": "shopify:\/\/files\/videos\/THE BARN Coffee Roasters Berlin - About Us.mov",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",

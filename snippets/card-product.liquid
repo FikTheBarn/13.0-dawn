@@ -213,22 +213,20 @@
               <div class="caption-with-letter-spacing light">{{ card_product.metafields.custom.taste_notes }}</div>
             {%- endif -%}
 
-            {%- if card_product.metafields.custom.taste_notes != blank -%}
-              <div class="card-information">
-                {%- if show_bullet_list -%}
-                  <span class="visually-hidden">{{ 'accessibility.vendor' | t }}</span>
-                  <div class="caption light">{{ card_product.metafields.custom.taste_notes }}</div>
-                {%- endif -%}
+            <div class="card-information">
+              {%- if show_bullet_list -%}
+                <span class="visually-hidden">{{ 'accessibility.vendor' | t }}</span>
+                <div class="caption light">{{ card_product.metafields.custom.taste_notes }}</div>
+              {%- endif -%}
 
-                {% assign metafield_text = card_product.metafields.custom.subscription_filter_beans %}
+              {% assign metafield_text = card_product.metafields.custom.subscription_filter_beans %}
 
-                {% assign paragraphs = metafield_text | split: ' | ' %}
+              {% assign paragraphs = metafield_text | split: ' | ' %}
 
-                {% for paragraph in paragraphs %}
-                  <div><span style="color: green;">✓</span> {{ paragraph }}</div>
-                {% endfor %}
-              </div>
-            {%- endif -%}
+              {% for paragraph in paragraphs %}
+                <div><span style="color: green;">✓</span> {{ paragraph }}</div>
+              {% endfor %}
+            </div>
 
             <span class="caption-large light">{{ block.settings.description | escape }}</span>
 

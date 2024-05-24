@@ -264,6 +264,7 @@
                     media_aspect_ratio: section.settings.image_ratio,
                     show_secondary_image: section.settings.show_secondary_image,
                     show_vendor: section.settings.show_vendor,
+                    show_bullet_list: section.settings.show_bullet_list,
                     show_rating: section.settings.show_rating,
                     lazy_load: lazy_load,
                     show_quick_add: section.settings.enable_quick_add,
@@ -432,6 +433,11 @@
       "label": "t:sections.main-collection-product-grid.settings.show_vendor.label"
     },
      {
+      "type": "checkbox",
+      "id": "show_bullet_list",
+      "default": false,
+      "label": "Show Bullet List"
+    }, {
       "type": "checkbox",
       "id": "show_tastenotes",
       "default": false,

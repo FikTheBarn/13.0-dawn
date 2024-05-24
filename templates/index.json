@@ -293,7 +293,7 @@
       "settings": {
         "video_url": "https:\/\/youtu.be\/VnAQDO-fg6M?si=9ASWwQU_lqa1WBXK",
         "video_image_url": "",
-        "autoplay": true,
+        "autoplay": false,
         "show_controls": true,
         "loop_video": false,
         "height": "adapt",

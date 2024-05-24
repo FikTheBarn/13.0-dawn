@@ -66,8 +66,7 @@
             {%- elsif section.settings.video_url -%}
               <video
                 {% if section.settings.autoplay %}
-                  autoplay
-                  muted
+                  autoplay muted
                 {% endif %}
                 {% if section.settings.show_controls %}
                   controls
@@ -80,6 +79,7 @@
               >
                 <source src="{{ section.settings.video_url }}" type="video/mp4">
               </video>
+
             {%- else -%}
               {{ 'detailed-apparel-1' | placeholder_svg_tag: 'placeholder-svg' }}
             {%- endif -%}

@@ -59,7 +59,7 @@
       "type": "custom-subscriptions-collection-filter",
       "custom_css": [
         "h2 {text-align: center;}",
-        ".card-information{text-align:justify;}"
+        ".card-information {text-align: left;}"
       ],
       "settings": {
         "title_subscription": "",

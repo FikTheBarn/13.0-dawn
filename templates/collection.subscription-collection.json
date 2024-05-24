@@ -68,6 +68,7 @@
         "image_ratio": "square",
         "show_secondary_image": true,
         "show_vendor": true,
+        "show_bullet_list": true,
         "show_tastenotes": false,
         "show_rating": false,
         "enable_quick_add": false,

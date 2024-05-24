@@ -119,6 +119,7 @@
         },
         "heading_b87hRk": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "heading": "FILTER BREW GUIDE",
             "heading_size": "h0"
@@ -130,6 +131,8 @@
         "heading_b87hRk"
       ],
       "settings": {
+        "title": "FILTER BREW GUIDE",
+        "heading_size": "h1",
         "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/7e43f571282e4c418540d77e4429dbce.mov",
         "video_image_url": "",
         "autoplay": false,

@@ -65,6 +65,7 @@
               }}
             {%- elsif section.settings.video_url -%}
               <video
+                id="deferred-video"
                 {% if section.settings.autoplay %}
                   autoplay muted
                 {% endif %}
@@ -133,6 +134,19 @@
     </div>
   </div>
 </div>
+
+<script defer>
+  document.addEventListener("DOMContentLoaded", function() {
+    var video = document.getElementById("deferred-video");
+    if (video) {
+      var source = document.createElement("source");
+      source.src = "{{ section.settings.video_url }}";
+      source.type = "video/mp4";
+      video.appendChild(source);
+      video.load();
+    }
+  });
+</script>
 
 {% schema %}
 {

@@ -83,6 +83,7 @@
                   class="video-section__poster media deferred-media__poster media--landscape"
                   type="button"
                   aria-label="{{ alt }}"
+                  onclick="loadVideo('{{ video_id }}', '{{ section.settings.video_url.type }}', '{{ section.settings.video_url }}')"
                 >
                   {%- if poster != null -%}
                     {{
@@ -177,10 +178,10 @@
                       class="button{% if block.settings.button_style_secondary %} button--secondary{% else %} button--primary{% endif %}"
                       {{ block.shopify_attributes }}
                     >
-                      {{ block.settings.button_label | escape }}
+                      {{ block.settings.button_label }}
                     </a>
                   {%- endif -%}
-              {%- endcase -%}
+              {% endcase %}
             {%- endfor -%}
           </div>
         </div>
@@ -188,6 +189,36 @@
     </div>
   </div>
 </div>
+
+<script>
+function loadVideo(videoId, videoType, videoUrl) {
+  const mediaId = `#Deferred-Poster-Modal-${videoId}`;
+  const button = document.querySelector(mediaId);
+  const deferredMedia = button.closest('deferred-media');
+
+  if (videoType === 'youtube') {
+    deferredMedia.innerHTML = `
+      <iframe
+        src="https://www.youtube.com/embed/${videoId}?enablejsapi=1&autoplay=1"
+        class="js-youtube"
+        allow="autoplay; encrypted-media"
+        allowfullscreen
+        title="Video"
+      ></iframe>
+    `;
+  } else if (videoType === 'vimeo') {
+    deferredMedia.innerHTML = `
+      <iframe
+        src="https://player.vimeo.com/video/${videoId}?autoplay=1"
+        class="js-vimeo"
+        allow="autoplay; encrypted-media"
+        allowfullscreen
+        title="Video"
+      ></iframe>
+    `;
+  }
+}
+</script>
 
 {% schema %}
 {

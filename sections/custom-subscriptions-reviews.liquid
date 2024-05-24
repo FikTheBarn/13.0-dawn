@@ -91,7 +91,12 @@
 </style>
 
   {% for subscriptions_reviews in shop.metaobjects.subscriptions_reviews.values %}
+
+    {{ subscriptions_reviews.customer_picture }}
     {{ subscriptions_reviews.customer_name }}
+    {{ subscriptions_reviews.date }}
+    {{ subscriptions_reviews.customer_title_review }}
+    {{ subscriptions_reviews.customer_review }}
 
    <div class="container">
     

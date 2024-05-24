@@ -116,10 +116,18 @@
             "text": "<p>Equipment: V60 Dripper, Filter Papers & Hario Server.<br\/><br\/>Coffee: 15g<br\/><br\/>Water: 250g<br\/><br\/><strong>GRIND<\/strong><br\/>Medium Fine | 22 Clicks<br\/><br\/><strong>BREW<\/strong><\/p><p>0:00 - Bloom - 50g<br\/>0.30 - Spiral pour - 120g<br\/>1:00 - Spiral pour - 180g<br\/>1: 30 - Spiral pour - 250g<br\/>Brew time 2:30<br\/><\/p>",
             "text_style": "body"
           }
+        },
+        "heading_b87hRk": {
+          "type": "heading",
+          "settings": {
+            "heading": "FILTER BREW GUIDE",
+            "heading_size": "h0"
+          }
         }
       },
       "block_order": [
-        "text_TYBt8b"
+        "text_TYBt8b",
+        "heading_b87hRk"
       ],
       "settings": {
         "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/7e43f571282e4c418540d77e4429dbce.mov",

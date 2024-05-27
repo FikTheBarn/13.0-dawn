@@ -59,6 +59,7 @@
         },
         "slide_4E98eC": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Summer_Specials_1.jpg",
             "heading": "SUMMER SPECIALS",

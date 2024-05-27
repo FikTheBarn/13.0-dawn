@@ -58,8 +58,7 @@
     "custom_subscriptions_collection_filter_nH8z3U": {
       "type": "custom-subscriptions-collection-filter",
       "custom_css": [
-        "h2 {text-align: center;}",
-        ".card-information {text-align: left;}"
+        "h2 {text-align: center;}"
       ],
       "settings": {
         "title_subscription": "",

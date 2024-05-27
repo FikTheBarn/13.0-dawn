@@ -34,6 +34,9 @@
         "content",
         "share"
       ],
+      "custom_css": [
+        "h3{font-size: 40px}"
+      ],
       "settings": {
       }
     }

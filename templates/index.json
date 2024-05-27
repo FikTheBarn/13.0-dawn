@@ -42,12 +42,12 @@
         "slide_9YDfQw": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/brewing_jungle_volacano.jpg",
-            "heading": "VOLCAN AZUL",
+            "image": "shopify:\/\/shop_images\/Image_17.05.24_at_17.47.jpg",
+            "heading": "CASCARA WORKSHOP",
             "heading_size": "h0",
-            "subheading": "With notes of dried figs, blueberry and apricot",
-            "button_label": "ORDER VOLCAN AZUL",
-            "link": "shopify:\/\/products\/volcan-azul",
+            "subheading": "On 31st May we are hosting a Cascara Workshop in Berlin.",
+            "button_label": "JOIN US",
+            "link": "shopify:\/\/products\/cascara-workshop",
             "button_style_secondary": false,
             "box_align": "middle-left",
             "show_text_box": true,

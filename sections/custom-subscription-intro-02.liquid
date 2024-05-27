@@ -267,8 +267,46 @@
 
 
 {% comment %} //////////////////ACCORDION  SECTION///////////////////// {% endcomment %}
+.accordion-container{
+  display:flex;
+  flex-direction:row;
+}
+.accordion{
+  width:50%;
+
+}
+
+.accordion-image-container{
+  display:flex;
+  flex-direction:column;
+  width: 50%;
+  height:900px;
+
+}
+
+.accordion-image-container-one{
+
+  object-fit:cover;
+  padding:1.2rem;
+  padding-top:0px;
 
 
+
+  
+}
+.accordion-image-container-two{
+
+  object-fit:cover;
+  padding:1.2rem;
+  padding-top:0px;
+
+}
+
+.accordion-image{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
   .master-section-container-accordion{
     display: flex;
     flex-direction: column;
@@ -320,7 +358,17 @@
   .panel p {
     padding-left:2rem;
   }
+
+
+
   @media (max-width: 1100px) {
+
+.accordion{
+  width:100%;
+}
+    .accordion-image-container{
+      display:none;
+    }
 
   .master-container-button-mobile-accordion{
         display:flex;
@@ -335,6 +383,8 @@
         background-color:#141414;
     
       }
+
+
   }
   .cta-bottom-container-desktop{
     display:flex;
@@ -475,66 +525,83 @@
       <button class="button-main button-desktop">{{ section.settings.cta-main }} </button>
     </div>
 
-    <div class="accordion">
-      <div class="accordion-button-intro-02">{{ section.settings.faq_question_1}}<span class="arrow"> <svg width="32" height="10" viewBox="0 0 52 30" fill="none"   xmlns="http://www.w3.org/2000/svg">
-        <path d="M23.5251 28.4749C24.892 29.8417 27.108 29.8417 28.4749 28.4749L50.7487 6.20101C52.1156 4.83417 52.1156 2.6181 50.7487 1.25126C49.3819 -0.115573 47.1658 -0.115573 45.799 1.25126L26 21.0503L6.20101 1.25126C4.83417 -0.115571 2.6181 -0.115571 1.25126 1.25126C-0.115573 2.6181 -0.115573 4.83418 1.25126 6.20101L23.5251 28.4749ZM22.5 23L22.5 26L29.5 26L29.5 23L22.5 23Z" fill="white"/>
-        </svg></span></div>
-      <div class="panel">
-          <p>{{ section.settings.faq_answer_1}}</p>
+    <div class="accordion-container">
+      <div class="accordion">
+      
+        <div class="accordion-button-intro-02">{{ section.settings.faq_question_1}}<span class="arrow"> <svg width="32" height="10" viewBox="0 0 52 30" fill="none"   xmlns="http://www.w3.org/2000/svg">
+          <path d="M23.5251 28.4749C24.892 29.8417 27.108 29.8417 28.4749 28.4749L50.7487 6.20101C52.1156 4.83417 52.1156 2.6181 50.7487 1.25126C49.3819 -0.115573 47.1658 -0.115573 45.799 1.25126L26 21.0503L6.20101 1.25126C4.83417 -0.115571 2.6181 -0.115571 1.25126 1.25126C-0.115573 2.6181 -0.115573 4.83418 1.25126 6.20101L23.5251 28.4749ZM22.5 23L22.5 26L29.5 26L29.5 23L22.5 23Z" fill="white"/>
+          </svg></span></div>
+        <div class="panel">
+            <p>{{ section.settings.faq_answer_1}}</p>
+        </div>
+        <div class="accordion-button-intro-02">{{ section.settings.faq_question_2}}<span class="arrow"> <svg width="32" height="10" viewBox="0 0 52 30" fill="none"   xmlns="http://www.w3.org/2000/svg">
+          <path d="M23.5251 28.4749C24.892 29.8417 27.108 29.8417 28.4749 28.4749L50.7487 6.20101C52.1156 4.83417 52.1156 2.6181 50.7487 1.25126C49.3819 -0.115573 47.1658 -0.115573 45.799 1.25126L26 21.0503L6.20101 1.25126C4.83417 -0.115571 2.6181 -0.115571 1.25126 1.25126C-0.115573 2.6181 -0.115573 4.83418 1.25126 6.20101L23.5251 28.4749ZM22.5 23L22.5 26L29.5 26L29.5 23L22.5 23Z" fill="white"/>
+          </svg></span></div>
+        <div class="panel">
+            <p>{{ section.settings.faq_answer_2}}</p>
+        </div>
+        <div class="accordion-button-intro-02">{{ section.settings.faq_question_3}}<span class="arrow"> <svg width="32" height="10" viewBox="0 0 52 30" fill="none"   xmlns="http://www.w3.org/2000/svg">
+          <path d="M23.5251 28.4749C24.892 29.8417 27.108 29.8417 28.4749 28.4749L50.7487 6.20101C52.1156 4.83417 52.1156 2.6181 50.7487 1.25126C49.3819 -0.115573 47.1658 -0.115573 45.799 1.25126L26 21.0503L6.20101 1.25126C4.83417 -0.115571 2.6181 -0.115571 1.25126 1.25126C-0.115573 2.6181 -0.115573 4.83418 1.25126 6.20101L23.5251 28.4749ZM22.5 23L22.5 26L29.5 26L29.5 23L22.5 23Z" fill="white"/>
+          </svg></span></div>
+        <div class="panel">
+            <p>{{ section.settings.faq_answer_3}}</p>
+        </div>
+        <div class="accordion-button-intro-02">{{ section.settings.faq_question_4}}<span class="arrow"> <svg width="32" height="10" viewBox="0 0 52 30" fill="none"   xmlns="http://www.w3.org/2000/svg">
+          <path d="M23.5251 28.4749C24.892 29.8417 27.108 29.8417 28.4749 28.4749L50.7487 6.20101C52.1156 4.83417 52.1156 2.6181 50.7487 1.25126C49.3819 -0.115573 47.1658 -0.115573 45.799 1.25126L26 21.0503L6.20101 1.25126C4.83417 -0.115571 2.6181 -0.115571 1.25126 1.25126C-0.115573 2.6181 -0.115573 4.83418 1.25126 6.20101L23.5251 28.4749ZM22.5 23L22.5 26L29.5 26L29.5 23L22.5 23Z" fill="white"/>
+          </svg></span></div>
+        <div class="panel">
+            <p>{{ section.settings.faq_answer_4}}</p>
+        </div>
+        <div class="accordion-button-intro-02">{{ section.settings.faq_question_5}}<span class="arrow"> <svg width="32" height="10" viewBox="0 0 52 30" fill="none"   xmlns="http://www.w3.org/2000/svg">
+          <path d="M23.5251 28.4749C24.892 29.8417 27.108 29.8417 28.4749 28.4749L50.7487 6.20101C52.1156 4.83417 52.1156 2.6181 50.7487 1.25126C49.3819 -0.115573 47.1658 -0.115573 45.799 1.25126L26 21.0503L6.20101 1.25126C4.83417 -0.115571 2.6181 -0.115571 1.25126 1.25126C-0.115573 2.6181 -0.115573 4.83418 1.25126 6.20101L23.5251 28.4749ZM22.5 23L22.5 26L29.5 26L29.5 23L22.5 23Z" fill="white"/>
+          </svg></span></div>
+        <div class="panel">
+            <p>{{ section.settings.faq_answer_5}}</p>
+        </div>
+        <div class="accordion-button-intro-02">{{ section.settings.faq_question_6}}<span class="arrow"> <svg width="32" height="10" viewBox="0 0 52 30" fill="none"   xmlns="http://www.w3.org/2000/svg">
+          <path d="M23.5251 28.4749C24.892 29.8417 27.108 29.8417 28.4749 28.4749L50.7487 6.20101C52.1156 4.83417 52.1156 2.6181 50.7487 1.25126C49.3819 -0.115573 47.1658 -0.115573 45.799 1.25126L26 21.0503L6.20101 1.25126C4.83417 -0.115571 2.6181 -0.115571 1.25126 1.25126C-0.115573 2.6181 -0.115573 4.83418 1.25126 6.20101L23.5251 28.4749ZM22.5 23L22.5 26L29.5 26L29.5 23L22.5 23Z" fill="white"/>
+          </svg></span></div>
+        <div class="panel">
+            <p>{{ section.settings.faq_answer_6}}</p>
+        </div>
+        <div class="accordion-button-intro-02">{{ section.settings.faq_question_7}}<span class="arrow"> <svg width="32" height="10" viewBox="0 0 52 30" fill="none"   xmlns="http://www.w3.org/2000/svg">
+          <path d="M23.5251 28.4749C24.892 29.8417 27.108 29.8417 28.4749 28.4749L50.7487 6.20101C52.1156 4.83417 52.1156 2.6181 50.7487 1.25126C49.3819 -0.115573 47.1658 -0.115573 45.799 1.25126L26 21.0503L6.20101 1.25126C4.83417 -0.115571 2.6181 -0.115571 1.25126 1.25126C-0.115573 2.6181 -0.115573 4.83418 1.25126 6.20101L23.5251 28.4749ZM22.5 23L22.5 26L29.5 26L29.5 23L22.5 23Z" fill="white"/>
+          </svg></span></div>
+        <div class="panel">
+            <p>{{ section.settings.faq_answer_7}}</p>
+        </div>
+        <div class="accordion-button-intro-02">{{ section.settings.faq_question_8}}<span class="arrow"> <svg width="32" height="10" viewBox="0 0 52 30" fill="none"   xmlns="http://www.w3.org/2000/svg">
+          <path d="M23.5251 28.4749C24.892 29.8417 27.108 29.8417 28.4749 28.4749L50.7487 6.20101C52.1156 4.83417 52.1156 2.6181 50.7487 1.25126C49.3819 -0.115573 47.1658 -0.115573 45.799 1.25126L26 21.0503L6.20101 1.25126C4.83417 -0.115571 2.6181 -0.115571 1.25126 1.25126C-0.115573 2.6181 -0.115573 4.83418 1.25126 6.20101L23.5251 28.4749ZM22.5 23L22.5 26L29.5 26L29.5 23L22.5 23Z" fill="white"/>
+          </svg></span></div>
+        <div class="panel">
+            <p>{{ section.settings.faq_answer_8}}</p>
+        </div>
+        <div class="accordion-button-intro-02">{{ section.settings.faq_question_9}}<span class="arrow"> <svg width="32" height="10" viewBox="0 0 52 30" fill="none"   xmlns="http://www.w3.org/2000/svg">
+          <path d="M23.5251 28.4749C24.892 29.8417 27.108 29.8417 28.4749 28.4749L50.7487 6.20101C52.1156 4.83417 52.1156 2.6181 50.7487 1.25126C49.3819 -0.115573 47.1658 -0.115573 45.799 1.25126L26 21.0503L6.20101 1.25126C4.83417 -0.115571 2.6181 -0.115571 1.25126 1.25126C-0.115573 2.6181 -0.115573 4.83418 1.25126 6.20101L23.5251 28.4749ZM22.5 23L22.5 26L29.5 26L29.5 23L22.5 23Z" fill="white"/>
+          </svg></span></div>
+        <div class="panel">
+            <p>{{ section.settings.faq_answer_9}}</p>
+        </div>
+        <div class="accordion-button-intro-02">{{ section.settings.faq_question_10}}<span class="arrow"> <svg width="32" height="10" viewBox="0 0 52 30" fill="none"   xmlns="http://www.w3.org/2000/svg">
+          <path d="M23.5251 28.4749C24.892 29.8417 27.108 29.8417 28.4749 28.4749L50.7487 6.20101C52.1156 4.83417 52.1156 2.6181 50.7487 1.25126C49.3819 -0.115573 47.1658 -0.115573 45.799 1.25126L26 21.0503L6.20101 1.25126C4.83417 -0.115571 2.6181 -0.115571 1.25126 1.25126C-0.115573 2.6181 -0.115573 4.83418 1.25126 6.20101L23.5251 28.4749ZM22.5 23L22.5 26L29.5 26L29.5 23L22.5 23Z" fill="white"/>
+          </svg></span></div>
+        <div class="panel">
+            <p>{{ section.settings.faq_answer_10}}</p>
+        </div>
+      
       </div>
-      <div class="accordion-button-intro-02">{{ section.settings.faq_question_2}}<span class="arrow"> <svg width="32" height="10" viewBox="0 0 52 30" fill="none"   xmlns="http://www.w3.org/2000/svg">
-        <path d="M23.5251 28.4749C24.892 29.8417 27.108 29.8417 28.4749 28.4749L50.7487 6.20101C52.1156 4.83417 52.1156 2.6181 50.7487 1.25126C49.3819 -0.115573 47.1658 -0.115573 45.799 1.25126L26 21.0503L6.20101 1.25126C4.83417 -0.115571 2.6181 -0.115571 1.25126 1.25126C-0.115573 2.6181 -0.115573 4.83418 1.25126 6.20101L23.5251 28.4749ZM22.5 23L22.5 26L29.5 26L29.5 23L22.5 23Z" fill="white"/>
-        </svg></span></div>
-      <div class="panel">
-          <p>{{ section.settings.faq_answer_2}}</p>
+      <div class="accordion-image-container">
+   
+      <div class="accordion-image-container-one">
+        <img src="https://cdn.shopify.com/s/files/1/0831/4141/files/subscription_3_bags_1.jpg?v=1623942363" class="accordion-image" width=""; height=""; alt="">
+
       </div>
-      <div class="accordion-button-intro-02">{{ section.settings.faq_question_3}}<span class="arrow"> <svg width="32" height="10" viewBox="0 0 52 30" fill="none"   xmlns="http://www.w3.org/2000/svg">
-        <path d="M23.5251 28.4749C24.892 29.8417 27.108 29.8417 28.4749 28.4749L50.7487 6.20101C52.1156 4.83417 52.1156 2.6181 50.7487 1.25126C49.3819 -0.115573 47.1658 -0.115573 45.799 1.25126L26 21.0503L6.20101 1.25126C4.83417 -0.115571 2.6181 -0.115571 1.25126 1.25126C-0.115573 2.6181 -0.115573 4.83418 1.25126 6.20101L23.5251 28.4749ZM22.5 23L22.5 26L29.5 26L29.5 23L22.5 23Z" fill="white"/>
-        </svg></span></div>
-      <div class="panel">
-          <p>{{ section.settings.faq_answer_3}}</p>
+      <div class="accordion-image-container-two">
+        <img src="https://cdn.shopify.com/s/files/1/0831/4141/files/beans_bags.jpg?v=1614304611" class="accordion-image" width=""; height=""; alt="">
+
       </div>
-      <div class="accordion-button-intro-02">{{ section.settings.faq_question_4}}<span class="arrow"> <svg width="32" height="10" viewBox="0 0 52 30" fill="none"   xmlns="http://www.w3.org/2000/svg">
-        <path d="M23.5251 28.4749C24.892 29.8417 27.108 29.8417 28.4749 28.4749L50.7487 6.20101C52.1156 4.83417 52.1156 2.6181 50.7487 1.25126C49.3819 -0.115573 47.1658 -0.115573 45.799 1.25126L26 21.0503L6.20101 1.25126C4.83417 -0.115571 2.6181 -0.115571 1.25126 1.25126C-0.115573 2.6181 -0.115573 4.83418 1.25126 6.20101L23.5251 28.4749ZM22.5 23L22.5 26L29.5 26L29.5 23L22.5 23Z" fill="white"/>
-        </svg></span></div>
-      <div class="panel">
-          <p>{{ section.settings.faq_answer_4}}</p>
-      </div>
-      <div class="accordion-button-intro-02">{{ section.settings.faq_question_5}}<span class="arrow"> <svg width="32" height="10" viewBox="0 0 52 30" fill="none"   xmlns="http://www.w3.org/2000/svg">
-        <path d="M23.5251 28.4749C24.892 29.8417 27.108 29.8417 28.4749 28.4749L50.7487 6.20101C52.1156 4.83417 52.1156 2.6181 50.7487 1.25126C49.3819 -0.115573 47.1658 -0.115573 45.799 1.25126L26 21.0503L6.20101 1.25126C4.83417 -0.115571 2.6181 -0.115571 1.25126 1.25126C-0.115573 2.6181 -0.115573 4.83418 1.25126 6.20101L23.5251 28.4749ZM22.5 23L22.5 26L29.5 26L29.5 23L22.5 23Z" fill="white"/>
-        </svg></span></div>
-      <div class="panel">
-          <p>{{ section.settings.faq_answer_5}}</p>
-      </div>
-      <div class="accordion-button-intro-02">{{ section.settings.faq_question_6}}<span class="arrow"> <svg width="32" height="10" viewBox="0 0 52 30" fill="none"   xmlns="http://www.w3.org/2000/svg">
-        <path d="M23.5251 28.4749C24.892 29.8417 27.108 29.8417 28.4749 28.4749L50.7487 6.20101C52.1156 4.83417 52.1156 2.6181 50.7487 1.25126C49.3819 -0.115573 47.1658 -0.115573 45.799 1.25126L26 21.0503L6.20101 1.25126C4.83417 -0.115571 2.6181 -0.115571 1.25126 1.25126C-0.115573 2.6181 -0.115573 4.83418 1.25126 6.20101L23.5251 28.4749ZM22.5 23L22.5 26L29.5 26L29.5 23L22.5 23Z" fill="white"/>
-        </svg></span></div>
-      <div class="panel">
-          <p>{{ section.settings.faq_answer_6}}</p>
-      </div>
-      <div class="accordion-button-intro-02">{{ section.settings.faq_question_7}}<span class="arrow"> <svg width="32" height="10" viewBox="0 0 52 30" fill="none"   xmlns="http://www.w3.org/2000/svg">
-        <path d="M23.5251 28.4749C24.892 29.8417 27.108 29.8417 28.4749 28.4749L50.7487 6.20101C52.1156 4.83417 52.1156 2.6181 50.7487 1.25126C49.3819 -0.115573 47.1658 -0.115573 45.799 1.25126L26 21.0503L6.20101 1.25126C4.83417 -0.115571 2.6181 -0.115571 1.25126 1.25126C-0.115573 2.6181 -0.115573 4.83418 1.25126 6.20101L23.5251 28.4749ZM22.5 23L22.5 26L29.5 26L29.5 23L22.5 23Z" fill="white"/>
-        </svg></span></div>
-      <div class="panel">
-          <p>{{ section.settings.faq_answer_7}}</p>
-      </div>
-      <div class="accordion-button-intro-02">{{ section.settings.faq_question_8}}<span class="arrow"> <svg width="32" height="10" viewBox="0 0 52 30" fill="none"   xmlns="http://www.w3.org/2000/svg">
-        <path d="M23.5251 28.4749C24.892 29.8417 27.108 29.8417 28.4749 28.4749L50.7487 6.20101C52.1156 4.83417 52.1156 2.6181 50.7487 1.25126C49.3819 -0.115573 47.1658 -0.115573 45.799 1.25126L26 21.0503L6.20101 1.25126C4.83417 -0.115571 2.6181 -0.115571 1.25126 1.25126C-0.115573 2.6181 -0.115573 4.83418 1.25126 6.20101L23.5251 28.4749ZM22.5 23L22.5 26L29.5 26L29.5 23L22.5 23Z" fill="white"/>
-        </svg></span></div>
-      <div class="panel">
-          <p>{{ section.settings.faq_answer_8}}</p>
-      </div>
-      <div class="accordion-button-intro-02">{{ section.settings.faq_question_9}}<span class="arrow"> <svg width="32" height="10" viewBox="0 0 52 30" fill="none"   xmlns="http://www.w3.org/2000/svg">
-        <path d="M23.5251 28.4749C24.892 29.8417 27.108 29.8417 28.4749 28.4749L50.7487 6.20101C52.1156 4.83417 52.1156 2.6181 50.7487 1.25126C49.3819 -0.115573 47.1658 -0.115573 45.799 1.25126L26 21.0503L6.20101 1.25126C4.83417 -0.115571 2.6181 -0.115571 1.25126 1.25126C-0.115573 2.6181 -0.115573 4.83418 1.25126 6.20101L23.5251 28.4749ZM22.5 23L22.5 26L29.5 26L29.5 23L22.5 23Z" fill="white"/>
-        </svg></span></div>
-      <div class="panel">
-          <p>{{ section.settings.faq_answer_9}}</p>
-      </div>
-      <div class="accordion-button-intro-02">{{ section.settings.faq_question_10}}<span class="arrow"> <svg width="32" height="10" viewBox="0 0 52 30" fill="none"   xmlns="http://www.w3.org/2000/svg">
-        <path d="M23.5251 28.4749C24.892 29.8417 27.108 29.8417 28.4749 28.4749L50.7487 6.20101C52.1156 4.83417 52.1156 2.6181 50.7487 1.25126C49.3819 -0.115573 47.1658 -0.115573 45.799 1.25126L26 21.0503L6.20101 1.25126C4.83417 -0.115571 2.6181 -0.115571 1.25126 1.25126C-0.115573 2.6181 -0.115573 4.83418 1.25126 6.20101L23.5251 28.4749ZM22.5 23L22.5 26L29.5 26L29.5 23L22.5 23Z" fill="white"/>
-        </svg></span></div>
-      <div class="panel">
-          <p>{{ section.settings.faq_answer_10}}</p>
+
+
       </div>
     </div>
   
@@ -543,10 +610,10 @@
     </div>
   </section>
   
-  <div style="padding:3rem;" class="cta-bottom-container-desktop">
-    <button class="button-main button-desktop">{{ section.settings.cta-main }}</button>
-  </div>
-
+  
+</div>
+<div style="padding:3rem;" class="cta-bottom-container-desktop">
+  <button class="button-main button-desktop">{{ section.settings.cta-main }}</button>
 </div>
 {% javascript %}
 // NEWSLETTER LOGIC

@@ -259,11 +259,11 @@
                   {%- assign lazy_load = true -%}
                 {%- endif -%}
                 <li class="grid__item">
+                  {% comment %}this code was removed in render 'card-product':show_vendor: section.settings.show_vendor, {% endcomment %}
                   {% render 'card-product',
                     card_product: product,
                     media_aspect_ratio: section.settings.image_ratio,
                     show_secondary_image: section.settings.show_secondary_image,
-                    show_vendor: section.settings.show_vendor,
                     show_bullet_list: section.settings.show_bullet_list,
                     show_rating: section.settings.show_rating,
                     lazy_load: lazy_load,

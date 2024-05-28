@@ -125,6 +125,7 @@
     },
     "custom_highlights_subscriptions_y69wAC": {
       "type": "custom-highlights-subscriptions",
+      "disabled": true,
       "settings": {
       }
     }

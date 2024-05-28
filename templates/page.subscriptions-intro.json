@@ -40,6 +40,14 @@
       "settings": {
       }
     },
+    "custom_highlights_subscriptions_y69wAC": {
+      "type": "custom-highlights-subscriptions",
+      "disabled": true,
+      "settings": {
+        "past_title": "<p>HIGHLIGHTS FROM PAST MONTHS<\/p>",
+        "past_subtitle": "<p>From your new daily brew to the rarest beans out there, expect memorable flavour every month.<\/p>"
+      }
+    },
     "1715189960079070b7": {
       "type": "apps",
       "blocks": {
@@ -122,20 +130,14 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "custom_highlights_subscriptions_y69wAC": {
-      "type": "custom-highlights-subscriptions",
-      "disabled": true,
-      "settings": {
-      }
     }
   },
   "order": [
     "main",
     "custom_subscription_intro_3BGcyW",
     "custom_subscriptions_reviews_kqzDzF",
+    "custom_highlights_subscriptions_y69wAC",
     "1715189960079070b7",
-    "custom_subscription_intro_02",
-    "custom_highlights_subscriptions_y69wAC"
+    "custom_subscription_intro_02"
   ]
 }

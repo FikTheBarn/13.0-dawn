@@ -1,43 +1,98 @@
 <style>
-
-  
-</style>
-  
-  
-    <div class="page-width">
-        {% for subscription_coffee_details in shop.metaobjects.subscription_coffee_details.values %}
-  
-
-                <div class="">
-                    <span class="">  {{ subscription_coffee_details.coffee_name }}</span>
-                    <span class="">  {{ subscription_coffee_details.country }}</span>
-                    <span class="">  {{ subscription_coffee_details.roast }}</span>
-                    <span class="">  {{ subscription_coffee_details.producer }}</span>
-                    <span class="">  {{ subscription_coffee_details.altitude }}</span>
-                    <span class="">  {{ subscription_coffee_details.varital }}</span>
-                    <span class="">  {{ subscription_coffee_details.process }}</span>
-                </div>
-      
-            
-                <div class="">
-                    <img src="{{ subscription_coffee_details.bag_image | img_url:'500x' }}" alt="" loading="lazy" height="" width="">
-                    <img src="{{ subscription_coffee_details.farm_image| img_url:'500x' }}" alt="" loading="lazy" height="" width="">
-                </div>
-         
-
-        {% endfor %}
-     </div>
-  
-     
-         
-    
-  {% schema %}
-    {
-      "name": "Custom abo highlights",
-      "settings": [],
-      "presets": [{
-          "name": "Custom abo highlights",
-          "category": "Text"
-      }]
+    .card-container-highlights {
+      display: flex;
+      flex-wrap: nowrap;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
     }
+  
+    .card-highlights {
+      flex: 0 0 auto; /* Allow horizontal scrolling */
+      display: flex;
+      flex-direction: column;
+      border-radius: 5px;
+      overflow: hidden;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      margin: 16px;
+      max-width: 300px;
+      background-color:#f5f5f5;
+
+    }
+  
+    .card-highlights img {
+      width: 100%;
+      height: auto;
+    }
+  
+    .card-content-highlights {
+      padding: 16px;
+      background-color:#f5f5f5;
+    }
+  
+    .card-content-highlights span {
+      display: block;
+      margin-bottom: 8px;
+      font-size: 14px;
+      color: #141414;
+    }
+  
+    .card-content-highlights span:first-child {
+      font-size: 28px;
+      font-weight: bold;
+      color: #333;
+      text-align:center;
+      font-family:'Chalet Comprime';
+    }
+  
+    @media (min-width: 768px) {
+      .card-container-highlights {
+        flex-wrap: wrap;
+        justify-content: space-between;
+        overflow-x: hidden;
+      }
+  
+      .card-highlights {
+        flex: 1 1 calc(25% - 32px);
+        margin: 16px;
+      }
+    }
+  
+    @media (min-width: 1024px) {
+      .card-highlights {
+        flex: 1 1 calc(25% - 32px);
+      }
+    }
+  </style>
+  
+  
+  <div class="page-width">
+    <div class="card-container-highlights">
+      {% for subscription_coffee_details in shop.metaobjects.subscription_coffee_details.values %}
+        <div class="card-highlights">
+          <img src="{{ subscription_coffee_details.farm_image | img_url:'500x' }}" alt="Farm image" loading="lazy" width="" height="">
+          <div class="card-content-highlights">
+            <span>{{ subscription_coffee_details.coffee_name }}</span>
+            <span><strong>Country:</strong> {{ subscription_coffee_details.country }}</span>
+            <span><strong>Roast:</strong> {{ subscription_coffee_details.roast }}</span>
+            <span><strong>Producer:</strong> {{ subscription_coffee_details.producer }}</span>
+            <span><strong>Altitude:</strong> {{ subscription_coffee_details.altitude }}</span>
+            <span><strong>Varietal:</strong> {{ subscription_coffee_details.varietal }}</span>
+            <span><strong>Process:</strong> {{ subscription_coffee_details.process }}</span>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+  
+  
+  {% schema %}
+  {
+    "name": "Custom abo highlights",
+    "settings": [],
+    "presets": [{
+        "name": "Custom abo highlights",
+        "category": "Text"
+    }]
+  }
   {% endschema %}
+  

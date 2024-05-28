@@ -1561,10 +1561,12 @@
           class="image-main-slider slide active"
         >
       {%- endif -%}
-      <div class="slider-buttons">
-        <button class="prev">&#10094;</button>
-        <button class="next">&#10095;</button>
-      </div>
+      {%- comment -%}
+        <div class="slider-buttons">
+          <button class="prev">&#10094;</button>
+          <button class="next">&#10095;</button>
+        </div>
+      {%- endcomment -%}
     </section>
     <section class="text-buttom-container">
       {%- if section.settings.LA_RAMBLA_HEADING != blank -%}

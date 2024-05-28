@@ -43,7 +43,7 @@
         "complementary_FG8RKq": {
           "type": "complementary",
           "settings": {
-            "block_heading": "",
+            "block_heading": "{{ product.metafields.subscription.subscription_espresso_beans | metafield_text }}",
             "make_collapsible_row": false,
             "icon": "price_tag",
             "product_list_limit": 10,

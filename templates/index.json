@@ -21,6 +21,24 @@
             "text_alignment_mobile": "center"
           }
         },
+        "slide_4E98eC": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Summer_Specials_1.jpg",
+            "heading": "SUMMER SPECIALS",
+            "heading_size": "h1",
+            "subheading": "Dip your toes into our Coffee Subscriptions and snatch some summer goddies",
+            "button_label": "EXPLORE SUBSCRIPTIONS",
+            "link": "shopify:\/\/collections\/main-coffee-subscriptions",
+            "button_style_secondary": false,
+            "box_align": "middle-left",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        },
         "slide_4LHJgy": {
           "type": "slide",
           "settings": {
@@ -56,32 +74,13 @@
             "color_scheme": "",
             "text_alignment_mobile": "center"
           }
-        },
-        "slide_4E98eC": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Summer_Specials_1.jpg",
-            "heading": "SUMMER SPECIALS",
-            "heading_size": "h1",
-            "subheading": "Dip your toes into our Coffee Subscriptions and snatch some summer goddies",
-            "button_label": "Find out more",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-left",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-1",
-            "text_alignment_mobile": "center"
-          }
         }
       },
       "block_order": [
         "slide_9YDfQw",
+        "slide_4E98eC",
         "slide_4LHJgy",
-        "slide_xqE8NR",
-        "slide_4E98eC"
+        "slide_xqE8NR"
       ],
       "settings": {
         "layout": "full_bleed",

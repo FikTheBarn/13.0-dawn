@@ -29,7 +29,7 @@
             "heading_size": "h1",
             "subheading": "Dip your toes into our Coffee Subscriptions and snatch some summer goddies",
             "button_label": "EXPLORE SUBSCRIPTIONS",
-            "link": "shopify:\/\/collections\/main-coffee-subscriptions",
+            "link": "shopify:\/\/collections\/coffee-subscription",
             "button_style_secondary": false,
             "box_align": "middle-left",
             "show_text_box": true,
@@ -41,6 +41,7 @@
         },
         "slide_4LHJgy": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/DSC_5377.jpg",
             "heading": "OUR SUBSCRIPTIONS",

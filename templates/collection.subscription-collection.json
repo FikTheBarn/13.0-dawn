@@ -36,7 +36,7 @@
         "text_86UXHa"
       ],
       "custom_css": [
-
+        ".rich-text__wrapper{margin-left:0px;}"
       ],
       "settings": {
         "desktop_content_position": "left",
@@ -60,7 +60,7 @@
       "custom_css": [
         "h2 {text-align: center;}",
         ".bullet_list {text-align: left;}",
-        ".caption{display:none;}"
+        ".caption {display: none;}"
       ],
       "settings": {
         "title_subscription": "",

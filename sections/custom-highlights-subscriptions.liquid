@@ -1,0 +1,43 @@
+<style>
+
+  
+</style>
+  
+  
+    <div class="page-width">
+        {% for subscription_coffee_details in shop.metaobjects.subscription_coffee_details.values %}
+  
+
+                <div class="">
+                    <span class="">  {{ subscription_coffee_details.coffee_name }}</span>
+                    <span class="">  {{ subscription_coffee_details.country }}</span>
+                    <span class="">  {{ subscription_coffee_details.roast }}</span>
+                    <span class="">  {{ subscription_coffee_details.producer }}</span>
+                    <span class="">  {{ subscription_coffee_details.altitude }}</span>
+                    <span class="">  {{ subscription_coffee_details.varital }}</span>
+                    <span class="">  {{ subscription_coffee_details.process }}</span>
+                </div>
+      
+            
+                <div class="">
+                    <img src="{{ subscription_coffee_details.bag_image | img_url:'500x' }}" alt="" loading="lazy" height="" width="">
+                    <img src="{{ subscription_coffee_details.farm_image| img_url:'500x' }}" alt="" loading="lazy" height="" width="">
+                </div>
+         
+
+        {% endfor %}
+     </div>
+  
+     
+         
+    
+  {% schema %}
+    {
+      "name": "Custom abo highlights",
+      "settings": [],
+      "presets": [{
+          "name": "Custom abo highlights",
+          "category": "Text"
+      }]
+    }
+  {% endschema %}

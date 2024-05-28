@@ -38,7 +38,7 @@
         "custom_liquid_YMr3Fj": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "{% if product.id == 7990258696459 %}\n  <a href=\"your-customization-url\" class=\"button button--primary\" style=\"width: 100%\">Personalized<\/a>\n{% endif %}"
+            "custom_liquid": "{% if product.id == 7990258696459 %}\n  <a href=\"your-customization-url\" class=\"custombutton\">Personalized<\/a>\n\n<style>\n.custombutton {\nborder: var( - variant-pills-border-width) solid rgba(var( - color-foreground),var( - variant-pills-border-opacity));\nbackground-color: rgb(var( - color-foreground));\nborder-radius: var( - variant-pills-radius);\ncolor: rgb(var( - color-background));\ndisplay: inline-block;\ntext-decoration: none;\nmargin: .7rem .5rem .2rem 0;\npadding: 1rem 2rem;\nfont-size: 1.4rem;\nletter-spacing: .1rem;\nline-height: 1;\ntext-align: center;\ntransition: border var( - duration-short) ease;\ncursor: pointer;\nposition: relative;\n}\n.custombutton.active {\nbackground-color: rgb(var( - color-foreground));\ncolor: rgb(var( - color-background));\n}\n.custombutton.inactive {\nbackground-color: rgb(var( - color-background));\ncolor: rgb(var( - color-foreground));\n}\n<\/style>\n{% endif %}"
           }
         },
         "quantity_selector": {

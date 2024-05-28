@@ -66,6 +66,13 @@
   
   
   <div class="page-width">
+    <div class="master-title-subtitle-button-container-intro">
+        <div class="master-title-subtitle-container">
+          <h2>{{ section.settings.past_title }}</h2>
+          <p>{{ section.settings.past_subtitle }}</p>
+        </div>
+        <button class="button-main button-desktop"> {{ section.settings.cta-main }} </button>
+      </div>
     <div class="card-container-highlights">
       {% for subscription_coffee_details in shop.metaobjects.subscription_coffee_details.values %}
         <div class="card-highlights">
@@ -88,7 +95,20 @@
   {% schema %}
   {
     "name": "Custom abo highlights",
-    "settings": [],
+    "settings": [
+        {
+            "type": "richtext",
+            "id": "past_title",
+            "default": "<p>HIGHLIGHTS FROM PAST MONTHS</p>",
+            "label": "Past Coffees Title"
+          },
+          {
+            "type": "richtext",
+            "id": "past_subtitle",
+            "default": "<p>From your new daily brew to the rarest beans out there, expect memorable flavour every month.</p>",
+            "label": "Past Coffees Subtitle"
+          }
+    ],
     "presets": [{
         "name": "Custom abo highlights",
         "category": "Text"

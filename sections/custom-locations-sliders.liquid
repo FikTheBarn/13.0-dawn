@@ -1560,50 +1560,6 @@
           height=""
           class="image-main-slider slide active"
         >
-      {%- else -%}
-        {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
-      {%- endif -%}
-      {%- if section.settings.LA_RAMBLA_IMAGE_1 != blank -%}
-        <img
-          srcset="
-            {%- if section.settings.LA_RAMBLA_IMAGE_1.width >= 165 -%}{{ section.settings.LA_RAMBLA_IMAGE_1 | image_url: width: 165 }} 165w,{%- endif -%}
-            {%- if section.settings.LA_RAMBLA_IMAGE_1.width >= 360 -%}{{ section.settings.LA_RAMBLA_IMAGE_1 | image_url: width: 360 }} 360w,{%- endif -%}
-            {%- if section.settings.LA_RAMBLA_IMAGE_1.width >= 535 -%}{{ section.settings.LA_RAMBLA_IMAGE_1 | image_url: width: 535 }} 535w,{%- endif -%}
-            {%- if section.settings.LA_RAMBLA_IMAGE_1.width >= 750 -%}{{ section.settings.LA_RAMBLA_IMAGE_1 | image_url: width: 750 }} 750w,{%- endif -%}
-            {%- if section.settings.LA_RAMBLA_IMAGE_1.width >= 1070 -%}{{ section.settings.LA_RAMBLA_IMAGE_1 | image_url: width: 1070 }} 1070w,{%- endif -%}
-            {%- if section.settings.LA_RAMBLA_IMAGE_1.width >= 1500 -%}{{ section.settings.LA_RAMBLA_IMAGE_1 | image_url: width: 1500 }} 1500w,{%- endif -%}
-            {{ section.settings.LA_RAMBLA_IMAGE_1 | image_url }} {{ section.settings.LA_RAMBLA_IMAGE_1.width }}
-          "
-          src="{{ section.settings.LA_RAMBLA_IMAGE_1| image_url: width: 1500 }}"
-          alt="{{ section.settings.LA_RAMBLA_IMAGE_1.alt | escape }}"
-          loading="lazy"
-          width=""
-          height=""
-          class="image-main-slider slide"
-        >
-      {%- else -%}
-        {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
-      {%- endif -%}
-      {%- if section.settings.LA_RAMBLA_IMAGE_2 != blank -%}
-        <img
-          srcset="
-            {%- if section.settings.LA_RAMBLA_IMAGE_2.width >= 165 -%}{{ section.settings.LA_RAMBLA_IMAGE_2 | image_url: width: 165 }} 165w,{%- endif -%}
-            {%- if section.settings.LA_RAMBLA_IMAGE_2.width >= 360 -%}{{ section.settings.LA_RAMBLA_IMAGE_2 | image_url: width: 360 }} 360w,{%- endif -%}
-            {%- if section.settings.LA_RAMBLA_IMAGE_2.width >= 535 -%}{{ section.settings.LA_RAMBLA_IMAGE_2 | image_url: width: 535 }} 535w,{%- endif -%}
-            {%- if section.settings.LA_RAMBLA_IMAGE_2.width >= 750 -%}{{ section.settings.LA_RAMBLA_IMAGE_2 | image_url: width: 750 }} 750w,{%- endif -%}
-            {%- if section.settings.LA_RAMBLA_IMAGE_2.width >= 1070 -%}{{ section.settings.LA_RAMBLA_IMAGE_2 | image_url: width: 1070 }} 1070w,{%- endif -%}
-            {%- if section.settings.LA_RAMBLA_IMAGE_2.width >= 1500 -%}{{ section.settings.LA_RAMBLA_IMAGE_2 | image_url: width: 1500 }} 1500w,{%- endif -%}
-            {{ section.settings.LA_RAMBLA_IMAGE_2 | image_url }} {{ section.settings.LA_RAMBLA_IMAGE_2.width }}
-          "
-          src="{{ section.settings.LA_RAMBLA_IMAGE_2| image_url: width: 1500 }}"
-          alt="{{ section.settings.LA_RAMBLA_IMAGE_2.alt | escape }}"
-          loading="lazy"
-          width=""
-          height=""
-          class="image-main-slider slide"
-        >
-      {%- else -%}
-        {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
       {%- endif -%}
       <div class="slider-buttons">
         <button class="prev">&#10094;</button>

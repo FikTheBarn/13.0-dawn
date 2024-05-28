@@ -35,6 +35,12 @@
             "swatch_shape": "circle"
           }
         },
+        "custom_liquid_YMr3Fj": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{% if product.id == 7990258696459 %}\n  <a href=\"your-customization-url\" class=\"button button--primary\" style=\"width: 100%\">Personalized<\/a>\n{% endif %}"
+          }
+        },
         "quantity_selector": {
           "type": "quantity_selector",
           "settings": {
@@ -119,6 +125,7 @@
         "caption",
         "price",
         "variant_picker",
+        "custom_liquid_YMr3Fj",
         "quantity_selector",
         "buy_buttons",
         "description",
@@ -169,6 +176,11 @@
       ],
       "disabled": true,
       "settings": {
+        "video_url": "",
+        "video_image_url": "",
+        "autoplay": false,
+        "show_controls": false,
+        "loop_video": false,
         "height": "small",
         "desktop_image_width": "medium",
         "layout": "text_first",

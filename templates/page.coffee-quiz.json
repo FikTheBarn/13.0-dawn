@@ -33,6 +33,28 @@
         "padding_bottom": 0
       }
     },
+    "rich_text_KVKezJ": {
+      "type": "rich-text",
+      "blocks": {
+        "text_VxYq4f": {
+          "type": "text",
+          "settings": {
+            "text": "<h6><a href=\"\/pages\/the-barn-coffee-quiz\" title=\"The Barn Coffee Quiz\">Start again<\/a><\/h6>"
+          }
+        }
+      },
+      "block_order": [
+        "text_VxYq4f"
+      ],
+      "settings": {
+        "desktop_content_position": "right",
+        "content_alignment": "right",
+        "color_scheme": "scheme-2",
+        "full_width": true,
+        "padding_top": 16,
+        "padding_bottom": 0
+      }
+    },
     "custom_liquid_cC6r63": {
       "type": "custom-liquid",
       "custom_css": [
@@ -49,6 +71,7 @@
   "order": [
     "main",
     "rich_text_EDKmYf",
+    "rich_text_KVKezJ",
     "custom_liquid_cC6r63"
   ]
 }

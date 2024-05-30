@@ -10,7 +10,7 @@
     "custom_liquid_cC6r63": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<script>\n<div class=\"octane-ai-quiz \" data-quiz-id=\"lGIIFq5ojcQahp9X\" data-embed-type=\"fullpage\" data-mobile-height=\"match_browser\" data-desktop-height=\"match_browser\"><\/div><script src=\"https:\/\/app.octaneai.com\/qdjc2fnfthq48oa4\/quiz.js\" async defer><\/script>",
+        "custom_liquid": "<div class=\"octane-ai-quiz \" data-quiz-id=\"lGIIFq5ojcQahp9X\" data-embed-type=\"fullpage\" data-mobile-height=\"match_browser\" data-desktop-height=\"match_browser\"><\/div><script src=\"https:\/\/app.octaneai.com\/qdjc2fnfthq48oa4\/quiz.js\" async defer><\/script>",
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 52

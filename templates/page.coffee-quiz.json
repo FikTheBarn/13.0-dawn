@@ -8,10 +8,35 @@
         "padding_bottom": 28
       }
     },
+    "rich_text_EDKmYf": {
+      "type": "rich-text",
+      "blocks": {
+        "text_QkMzBb": {
+          "type": "text",
+          "settings": {
+            "text": "<h6><a href=\"\/collections\/coffee-beans\" title=\"COFFEE BEANS\">Coffee Beans<\/a> &gt; Quiz<\/h6>"
+          }
+        }
+      },
+      "block_order": [
+        "text_QkMzBb"
+      ],
+      "custom_css": [
+        ".rich-text__wrapper {background-color: #f5f5f5;}"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "scheme-2",
+        "full_width": true,
+        "padding_top": 16,
+        "padding_bottom": 0
+      }
+    },
     "custom_liquid_cC6r63": {
       "type": "custom-liquid",
       "custom_css": [
-        ".oct-quiz-bottom_content p {display:none;}"
+        ".oct-quiz-bottom_content p {display: none;}"
       ],
       "settings": {
         "custom_liquid": "<div class=\"octane-ai-quiz \" data-quiz-id=\"lGIIFq5ojcQahp9X\" data-embed-type=\"fullpage\" data-mobile-height=\"match_browser\" data-desktop-height=\"match_browser\"><\/div><script src=\"https:\/\/app.octaneai.com\/qdjc2fnfthq48oa4\/quiz.js\" async defer><\/script>",
@@ -23,6 +48,7 @@
   },
   "order": [
     "main",
+    "rich_text_EDKmYf",
     "custom_liquid_cC6r63"
   ]
 }

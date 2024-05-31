@@ -61,12 +61,12 @@
         "slide_xqE8NR": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/radiophare_1.jpg",
-            "heading": "LATEST RELEASE",
+            "image": "shopify:\/\/shop_images\/brewing_jungle_volacano.jpg",
+            "heading": "VOLCAN AZUL",
             "heading_size": "h0",
-            "subheading": "Lemon notes from the Sunda region of Java",
-            "button_label": "ORDER RADIOPHARE",
-            "link": "shopify:\/\/products\/radiophare",
+            "subheading": "Experience a sweet and complex profile from Costa Rica",
+            "button_label": "ORDER HERE",
+            "link": "shopify:\/\/products\/volcan-azul",
             "button_style_secondary": false,
             "box_align": "middle-left",
             "show_text_box": true,

@@ -11,6 +11,7 @@
         },
         "button_LxmfWW": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "button_label": "{{ product.metafields.product.coffee_type | metafield_text }} >",
             "button_link": "{{ product.metafields.beans.collection_url_link.value }}",
@@ -44,7 +45,7 @@
         "content_alignment": "left",
         "color_scheme": "",
         "full_width": true,
-        "padding_top": 0,
+        "padding_top": 16,
         "padding_bottom": 0
       }
     },
@@ -73,6 +74,7 @@
         },
         "price": {
           "type": "price",
+          "disabled": true,
           "settings": {
           }
         },
@@ -84,6 +86,7 @@
         },
         "variant_picker": {
           "type": "variant_picker",
+          "disabled": true,
           "settings": {
             "picker_type": "button",
             "swatch_shape": "circle"
@@ -91,11 +94,19 @@
         },
         "quantity_selector": {
           "type": "quantity_selector",
+          "disabled": true,
           "settings": {
+          }
+        },
+        "custom_liquid_i9KkzJ": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<a href=\"{{ product.metafields.beans.collection_url_link }}\" class=\"button button--primary\" style=\"width: 100%\">\n  {{ product.metafields.custom.region.value }}\n<\/a>"
           }
         },
         "buy_buttons": {
           "type": "buy_buttons",
+          "disabled": true,
           "settings": {
             "show_dynamic_checkout": false,
             "show_gift_card_recipient": true
@@ -133,6 +144,7 @@
         },
         "collapsible-row-1": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "The Cup",
             "icon": "cup",
@@ -142,6 +154,7 @@
         },
         "collapsible-row-2": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "About The Farm",
             "icon": "plant",
@@ -151,6 +164,7 @@
         },
         "collapsible-row-3": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "The Process",
             "icon": "clipboard",
@@ -174,6 +188,7 @@
         "recharge_subscriptions_subscription_widget_RMeEDe",
         "variant_picker",
         "quantity_selector",
+        "custom_liquid_i9KkzJ",
         "buy_buttons",
         "complementary_FG8RKq",
         "description",

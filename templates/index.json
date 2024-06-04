@@ -8,7 +8,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/IMG_4153_1d5464e3-7ac5-473a-9b13-4903e861e6e2.heic",
             "heading": "<strong>COMANDANTE BARACUDA GIVEAWAY<\/strong>",
-            "heading_size": "h1",
+            "heading_size": "h0",
             "subheading": "Subscribe to our coffee in June and you could win a Comandante Baracuda!",
             "button_label": "SUBSCRIBE NOW",
             "link": "shopify:\/\/collections\/coffee-subscription",
@@ -26,7 +26,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Summer_Specials_1.jpg",
             "heading": "SUMMER SPECIALS",
-            "heading_size": "h1",
+            "heading_size": "h0",
             "subheading": "Dip your toes into our Coffee Subscriptions and snatch some summer goddies",
             "button_label": "EXPLORE SUBSCRIPTIONS",
             "link": "shopify:\/\/collections\/coffee-subscription",

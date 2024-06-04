@@ -101,7 +101,7 @@
         "custom_liquid_i9KkzJ": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<a href=\"{{ product.metafields.beans.collection_url_link }}\" class=\"button button--primary\" style=\"width: 100%\">\n  {{ product.metafields.custom.region.value }}\n<\/a>"
+            "custom_liquid": "<a href=\"{{ product.metafields.beans.collection_url_link }}\" class=\"button button--primary\" style=\"width: 100%\">\n  {{ product.metafields.product.metafield_the_process.value }}\n<\/a>"
           }
         },
         "buy_buttons": {

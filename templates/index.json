@@ -3,6 +3,24 @@
     "custom_slideshow_hero_UiixMb": {
       "type": "custom-slideshow-hero",
       "blocks": {
+        "slide_4LHJgy": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_4153_1d5464e3-7ac5-473a-9b13-4903e861e6e2.heic",
+            "heading": "SUBSCRIBE AND WIN",
+            "heading_size": "h1",
+            "subheading": "Join our subscriber community in June and The Comandante Baracuda Grinder could be yours!",
+            "button_label": "SUBSCRIBE NOW",
+            "link": "shopify:\/\/collections\/coffee-subscription",
+            "button_style_secondary": false,
+            "box_align": "middle-left",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-5",
+            "text_alignment_mobile": "center"
+          }
+        },
         "slide_4E98eC": {
           "type": "slide",
           "settings": {
@@ -18,25 +36,6 @@
             "text_alignment": "center",
             "image_overlay_opacity": 0,
             "color_scheme": "scheme-5",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "slide_4LHJgy": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/DSC_5377.jpg",
-            "heading": "OUR SUBSCRIPTIONS",
-            "heading_size": "h0",
-            "subheading": "A unique flavour experience, every month.",
-            "button_label": "EXPLORE SUBSCRIPTIONS",
-            "link": "shopify:\/\/pages\/subscriptions-intro",
-            "button_style_secondary": false,
-            "box_align": "middle-left",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "",
             "text_alignment_mobile": "center"
           }
         },
@@ -60,6 +59,7 @@
         },
         "slide_xqE8NR": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/brewing_jungle_volacano.jpg",
             "heading": "VOLCAN AZUL",
@@ -78,8 +78,8 @@
         }
       },
       "block_order": [
-        "slide_4E98eC",
         "slide_4LHJgy",
+        "slide_4E98eC",
         "slide_9YDfQw",
         "slide_xqE8NR"
       ],

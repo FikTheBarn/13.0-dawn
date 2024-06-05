@@ -3,6 +3,24 @@
     "custom_slideshow_hero_UiixMb": {
       "type": "custom-slideshow-hero",
       "blocks": {
+        "slide_9YDfQw": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Image29.05.24at13.08.jpg",
+            "heading": "COMMUNITY CUPPING",
+            "heading_size": "h0",
+            "subheading": "Reserve your ticket today and join us for a tasting of our latest releases.",
+            "button_label": "JOIN US",
+            "link": "shopify:\/\/products\/berlin-cupping",
+            "button_style_secondary": false,
+            "box_align": "middle-left",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-5",
+            "text_alignment_mobile": "center"
+          }
+        },
         "slide_4LHJgy": {
           "type": "slide",
           "settings": {
@@ -39,24 +57,6 @@
             "text_alignment_mobile": "center"
           }
         },
-        "slide_9YDfQw": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Image29.05.24at13.08.jpg",
-            "heading": "COMMUNITY CUPPING",
-            "heading_size": "h0",
-            "subheading": "Reserve your ticket today and join us for a tasting of our latest releases.",
-            "button_label": "JOIN US",
-            "link": "shopify:\/\/products\/berlin-cupping",
-            "button_style_secondary": false,
-            "box_align": "middle-left",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-5",
-            "text_alignment_mobile": "center"
-          }
-        },
         "slide_xqE8NR": {
           "type": "slide",
           "disabled": true,
@@ -78,9 +78,9 @@
         }
       },
       "block_order": [
+        "slide_9YDfQw",
         "slide_4LHJgy",
         "slide_4E98eC",
-        "slide_9YDfQw",
         "slide_xqE8NR"
       ],
       "settings": {

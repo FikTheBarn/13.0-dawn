@@ -1,0 +1,37 @@
+<style>
+
+  .title-page{
+    color:red;
+    }
+  </style>
+  
+    {% for brew_guides in shop.metaobjects.brew_guides.values %}
+      {% if brew_guides.page_handle == page.handle %}
+        <div class="page-width">
+          <div class="career-detail-body">
+            <h1 class="title-page">{{ brew_guides.brew_method }}</h1>
+          </div>
+        </div>
+      {% endif %}
+    {% endfor %}
+
+
+  <script>
+
+  
+ 
+  </script>
+
+  
+  
+  
+  {% schema %}
+    {
+      "name": "Brew Guides Detail",
+      "settings": [],
+      "presets": [{
+          "name": "Brew Guides Detail",
+          "category": "Text"
+    }]
+    }
+  {% endschema %}

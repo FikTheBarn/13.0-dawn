@@ -29,16 +29,10 @@
         "padding_top": 16,
         "padding_bottom": 0
       }
-    },
-    "custom_career_detail_7Vh8tX": {
-      "type": "custom-career-detail",
-      "settings": {
-      }
     }
   },
   "order": [
     "main",
-    "rich_text_DP9BVq",
-    "custom_career_detail_7Vh8tX"
+    "rich_text_DP9BVq"
   ]
 }

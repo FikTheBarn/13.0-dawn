@@ -22,9 +22,15 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "custom_brew_guides_details_MdTmWV": {
+      "type": "custom-brew-guides-details",
+      "settings": {
+      }
     }
   },
   "order": [
-    "rich_text_QqA8Ut"
+    "rich_text_QqA8Ut",
+    "custom_brew_guides_details_MdTmWV"
   ]
 }

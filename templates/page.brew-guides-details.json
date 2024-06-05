@@ -29,10 +29,16 @@
         "padding_top": 16,
         "padding_bottom": 0
       }
+    },
+    "custom_brew_guides_details_TkRh8p": {
+      "type": "custom-brew-guides-details",
+      "settings": {
+      }
     }
   },
   "order": [
     "main",
-    "rich_text_DP9BVq"
+    "rich_text_DP9BVq",
+    "custom_brew_guides_details_TkRh8p"
   ]
 }

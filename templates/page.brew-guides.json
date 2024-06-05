@@ -81,7 +81,8 @@
         "column_dn7M7V"
       ],
       "custom_css": [
-        "h3 {color: whitesmoke; font-size: 32px;}"
+        "h3 {color: whitesmoke; font-size: 32px;}",
+        ".multicolumn-card a{color: whitesmoke;}"
       ],
       "settings": {
         "title": "",

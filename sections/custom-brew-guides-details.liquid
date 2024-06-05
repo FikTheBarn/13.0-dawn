@@ -6,13 +6,13 @@
   </style>
   
     {% for brew_guides in shop.metaobjects.brew_guides.values %}
-    
+      {% if brew_guides.page-handle-hardcoded == page.handle %}
         <div class="page-width">
           <div class="career-detail-body">
             <h1 class="title-page">{{ brew_guides.brew_method }}</h1>
           </div>
         </div>
-
+      {% endif %}
     {% endfor %}
 
 

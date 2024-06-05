@@ -2,7 +2,6 @@
   "sections": {
     "main": {
       "type": "main-page",
-      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
@@ -14,7 +13,7 @@
         "text_7HKD7T": {
           "type": "text",
           "settings": {
-            "text": "<h6><a href=\"\/pages\/careers\" title=\"Careers – THE BARN Coffee Roasters Berlin\">Careers<\/a> &gt; {{ page.title }}<\/h6>"
+            "text": "<h6>Brew Guides &gt; {{ page.title }}<\/h6>"
           }
         }
       },

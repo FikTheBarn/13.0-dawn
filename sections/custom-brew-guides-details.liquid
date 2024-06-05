@@ -1,16 +1,156 @@
 <style>
+  .title-page-container{
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    height:fit-content;
+  }
+  .title-page-container .page-title{
+    margin:0px;
+  }
+  .image-brew-guides-intro-container{
+    width:100%;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:center;
+  }
+  .image-brew-guides-intro{
+    min-width:130px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    height:fit-content;
+    padding:1rem;
+  }
+  .image-brew-guides-intro img{
+    width:100px;
+    height:100px;
+    border:4px solid #804d15;
+    border-radius:100px;
+    padding:1rem;
+  }
+  .image-brew-guides-intro p{
+    margin:0px;
+    font-size:16px;
+    color:white;
+  }
 
-  .title-page{
-    color:red;
-    }
-  </style>
+  .step-container{
+  display:flex;
+  flex-direction:column;
+  text-align:center;
+}
+</style>
   
     {% for brew_guides in shop.metaobjects.brew_guides.values %}
       {% if brew_guides.page_handle_hardcoded == page.handle %}
         <div class="page-width">
-          <div class="career-detail-body">
-            <h1 class="title-page">{{ brew_guides.brew_method }}</h1>
+
+          <div class="title-page-container">
+            <h1 class="title-page">{{ brew_guides.brew_method }} Method</h1>
           </div>
+
+          <div class="image-brew-guides-intro-container">
+            <div class='image-brew-guides-intro' >
+              <img src="{{ brew_guides.time_of_preparation_image | img_url:'500x' }}" alt="brew guides" loading="lazy" height="" width="">
+              <p>{{ brew_guides.time_of_preparation }}</p>
+            </div>
+            <div class='image-brew-guides-intro'>
+              <img  src="{{ brew_guides.amount_of_water_and_temperature_image | img_url:'500x' }}" alt="brew guides" loading="lazy" height="" width="">
+              <p>{{ brew_guides.amount_of_water_and_temperature }}</p>
+            </div>
+            <div class='image-brew-guides-intro' >
+              <img src="{{ brew_guides.coffee_grind_size_image | img_url:'500x' }}" alt="brew guides" loading="lazy" height="" width="">
+              <p>{{ brew_guides.coffee_grind_size }}</p>
+            </div>
+            <div class='image-brew-guides-intro' >
+              <img src="{{ brew_guides.amount_of_coffee_in_grams_image | img_url:'500x' }}" alt="brew guides" loading="lazy" height="" width="">
+              <p>{{ brew_guides.amount_of_coffee_in_grams }}</p>
+            </div>
+          </div>
+
+          <div class="step-container">
+            <h1 class="">{{ brew_guides.step_title_01 }}</h1>
+            <p class=""> {{ brew_guides.step_description_01 }} </p>
+            {% if brew_guides.step_image_01  %}
+              <img src="{{ brew_guides.step_image_01 | img_url:'500x' }}" alt="brew guides" loading="lazy" height="" width="">
+            {% endif %}
+          </div>
+
+          <div class="step-container">
+            <h1 class="">{{ brew_guides.step_title_02 }}</h1>
+            <p class=""> {{ brew_guides.step_description_02 }} </p>
+            {% if brew_guides.step_image_02  %}
+              <img src="{{ brew_guides.step_image_02 | img_url:'500x' }}" alt="brew guides" loading="lazy" height="" width="">
+            {% endif %}
+          </div>
+
+          <div class="step-container">
+            <h1 class="">{{ brew_guides.step_title_03 }}</h1>
+            <p class=""> {{ brew_guides.step_description_03 }} </p>
+            {% if brew_guides.step_image_03  %}
+              <img src="{{ brew_guides.step_image_03 | img_url:'500x' }}" alt="brew guides" loading="lazy" height="" width="">
+            {% endif %}
+          </div>
+
+          <div class="step-container">
+            <h1 class="">{{ brew_guides.step_title_04 }}</h1>
+            <p class=""> {{ brew_guides.step_description_04 }} </p>
+            {% if brew_guides.step_image_04  %}
+              <img src="{{ brew_guides.step_image_04 | img_url:'500x' }}" alt="brew guides" loading="lazy" height="" width="">
+            {% endif %}
+          </div>
+
+          <div class="step-container">
+            <h1 class="">{{ brew_guides.step_title_05 }}</h1>
+            <p class=""> {{ brew_guides.step_description_05 }} </p>
+            {% if brew_guides.step_image_05  %}
+              <img src="{{ brew_guides.step_image_05 | img_url:'500x' }}" alt="brew guides" loading="lazy" height="" width="">
+            {% endif %}     
+          </div>
+
+          <div class="step-container">
+            <h1 class="">{{ brew_guides.step_title_06 }}</h1>
+            <p class=""> {{ brew_guides.step_description_06 }} </p>
+            {% if brew_guides.step_image_06  %}
+              <img src="{{ brew_guides.step_image_06 | img_url:'500x' }}" alt="brew guides" loading="lazy" height="" width="">
+            {% endif %}
+          </div>
+
+          <div class="step-container">
+            <h1 class="">{{ brew_guides.step_title_07 }}</h1>
+            <p class=""> {{ brew_guides.step_description_07 }} </p>
+            {% if brew_guides.step_image_07  %}
+              <img src="{{ brew_guides.step_image_07 | img_url:'500x' }}" alt="brew guides" loading="lazy" height="" width="">
+            {% endif %}
+          </div>
+
+          <div class="step-container">
+            <h1 class="">{{ brew_guides.step_title_08 }}</h1>
+            <p class=""> {{ brew_guides.step_description_08 }} </p>
+            {% if brew_guides.step_image_08  %}
+              <img src="{{ brew_guides.step_image_08 | img_url:'500x' }}" alt="brew guides" loading="lazy" height="" width="">
+            {% endif %}
+          </div>
+
+          <div class="step-container">
+            <h1 class="">{{ brew_guides.step_title_09 }}</h1>
+            <p class=""> {{ brew_guides.step_description_09 }} </p>
+            {% if brew_guides.step_image_09  %}
+              <img src="{{ brew_guides.step_image_09 | img_url:'500x' }}" alt="brew guides" loading="lazy" height="" width="">
+            {% endif %}          </div>
+
+          <div class="step-container">
+            <h1 class="">{{ brew_guides.step_title_10 }}</h1>
+            <p class=""> {{ brew_guides.step_description_10 }} </p>
+            {% if brew_guides.step_image_10  %}
+              <img src="{{ brew_guides.step_image_10 | img_url:'500x' }}" alt="brew guides" loading="lazy" height="" width="">
+            {% endif %}          
+          </div>
+
+
+
         </div>
       {% endif %}
     {% endfor %}

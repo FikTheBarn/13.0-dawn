@@ -205,7 +205,8 @@
       "type": "featured-collection",
       "custom_css": [
         ".quick-add__submit {color: white; background-color: #804d15; --color-secondary-button: #804d15;}",
-        "h3 {font-size: 32px;}"
+        "h3 {font-size: 32px;}",
+        ".custom-title-main-product {font-size: 36px !important;}"
       ],
       "settings": {
         "title": "LATEST RELEASES",

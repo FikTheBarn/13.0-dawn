@@ -77,6 +77,12 @@
           "settings": {
           }
         },
+        "custom_liquid_8BWTGP": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<a href=\"{{ product.metafields.beans.collection_url_link }}\" class=\"button button--primary\" style=\"width: 100%\">\n  {{ product.metafields.custom.name.value }}\n<\/a>"
+          }
+        },
         "recharge_subscriptions_subscription_widget_RMeEDe": {
           "type": "shopify:\/\/apps\/recharge-subscriptions\/blocks\/subscription-widget\/371eed76-0b44-4869-9813-730372ea378e",
           "settings": {
@@ -106,6 +112,7 @@
         },
         "buy_buttons": {
           "type": "buy_buttons",
+          "disabled": true,
           "settings": {
             "show_dynamic_checkout": false,
             "show_gift_card_recipient": true
@@ -186,6 +193,7 @@
         "title",
         "caption",
         "price",
+        "custom_liquid_8BWTGP",
         "recharge_subscriptions_subscription_widget_RMeEDe",
         "variant_picker",
         "quantity_selector",

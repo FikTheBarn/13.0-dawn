@@ -320,8 +320,8 @@
         "button_i7mFkA": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
-            "button_link": "",
+            "button_label": "PRE ORDER NOW",
+            "button_link": "{{ product.metafields.beans.collection_url_link.value }}",
             "button_style_secondary": false
           }
         }

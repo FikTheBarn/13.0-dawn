@@ -222,7 +222,7 @@
         "image-with-text-0": {
           "type": "heading",
           "settings": {
-            "heading": "The Terroir",
+            "heading": "{{ product.metafields.bean.producer.value }}",
             "heading_size": "h1"
           }
         },
@@ -260,7 +260,7 @@
         "heading_nQwFKD": {
           "type": "heading",
           "settings": {
-            "heading": "Milk Chocolate. Macadamia. Smooth.",
+            "heading": "{{ product.metafields.subscription.subscription_espresso_beans | metafield_text }}",
             "heading_size": "h1"
           }
         },
@@ -298,7 +298,7 @@
         "heading_K9qTny": {
           "type": "heading",
           "settings": {
-            "heading": "",
+            "heading": "{{ product.metafields.custom.general_description.value }}",
             "heading_size": "h1"
           }
         },

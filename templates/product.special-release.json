@@ -229,7 +229,7 @@
         "image-with-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>The coffee growing families of the Boa Vista Valley are true visionaries. Their work is a tribute to the earth that sustains us. <\/p><p>A network of farmers who share and nurture water, expertise, and the land they depend on. Through pioneering environmental focus, their coffee shows a new path towards the flavour we love, in tune with what matters most. <\/p><p>Every season, we work with these producers to deliver flavour that <\/p>",
+            "text": "<p>{{ product.metafields.products.metafileld_the_cup | metafield_tag }}<\/p>",
             "text_style": "body"
           }
         }

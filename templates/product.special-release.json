@@ -54,7 +54,6 @@
       "blocks": {
         "vendor": {
           "type": "text",
-          "disabled": true,
           "settings": {
             "text": "{{ product.vendor }}",
             "text_style": "uppercase"
@@ -206,6 +205,9 @@
         "collapsible-row-2",
         "collapsible-row-3",
         "share"
+      ],
+      "custom_css": [
+        ".product-form {display: none;}"
       ],
       "settings": {
         "enable_sticky_info": true,

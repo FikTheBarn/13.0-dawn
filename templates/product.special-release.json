@@ -267,7 +267,7 @@
         "text_rimJRr": {
           "type": "text",
           "settings": {
-            "text": "<p>Exceptional flavour starts with the elements. It is nurtured at the origin where coffee is grown, built from the soil, the water, the air, and the sun that nourished every plant. <\/p><p>Elemental is a coffee with the sweetness and depth that have defined our sense of coffee. The coffee cherries were slowly dried in the Brazilian sun, creating texture and depth that resonates. <\/p><p>For any occasion, a pure experience of terroir is waiting: each brew is a quiet testament to the elements.<\/p>",
+            "text": "<p>{{ product.metafields.product.metafields_about_the_farm | metafield_tag }}<\/p>",
             "text_style": "body"
           }
         }

@@ -100,6 +100,7 @@
         },
         "custom_liquid_i9KkzJ": {
           "type": "custom_liquid",
+          "disabled": true,
           "settings": {
             "custom_liquid": "<a href=\"{{ product.metafields.beans.collection_url_link }}\" class=\"button button--primary\" style=\"width: 100%\">\n  {{ product.metafields.product.metafield_the_process.value }}\n<\/a>"
           }
@@ -132,12 +133,14 @@
         },
         "custom_liquid_EjYHGg": {
           "type": "custom_liquid",
+          "disabled": true,
           "settings": {
             "custom_liquid": "{% if product.metafields.custom.video %}\n<div class=\"iframe-container\">\n  <iframe width=\"555\" height=\"620\" src=\"{{ product.metafields.custom.video }}\" frameborder=\"0\" allowfullscreen><\/iframe>\n<\/div>\n\n<style>\n.iframe-container{\n  position: relative;\n  width: 100%;\n  padding-bottom: 56.25%; \n}\n\n.iframe-container iframe{\n  position: absolute;\n  top:0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}\n<\/style>\n\n{% endif %}"
           }
         },
         "custom_liquid_aT8nLA": {
           "type": "custom_liquid",
+          "disabled": true,
           "settings": {
             "custom_liquid": "<style>\n    .rc-subscription-details {\n        display: none;\n    }\n<\/style>"
           }

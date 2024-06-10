@@ -222,14 +222,14 @@
         "image-with-text-0": {
           "type": "heading",
           "settings": {
-            "heading": "<em>The Terroir<\/em>",
+            "heading": "The Terroir",
             "heading_size": "h1"
           }
         },
         "image-with-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>The coffee growing families of the Boa Vista Valley are true visionaries. Their work is a tribute to the earth that sustains us. <\/p><p>A network of farmers who share and nurture water, expertise, and the land they depend on. Through pioneering environmental focus, their coffee shows a new path towards the flavour we love, in tune with what matters most. <\/p><p>Every season, we work with these producers to deliver flavour that <\/p>",
             "text_style": "body"
           }
         }
@@ -239,14 +239,15 @@
         "image-with-text-1"
       ],
       "settings": {
-        "height": "small",
+        "image": "{{ product.metafields.custom.additional_photos_c.value }}",
+        "height": "medium",
         "desktop_image_width": "medium",
         "layout": "text_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
         "section_color_scheme": "",
-        "color_scheme": "scheme-2",
+        "color_scheme": "scheme-5",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
         "padding_top": 36,
@@ -259,14 +260,14 @@
         "heading_nQwFKD": {
           "type": "heading",
           "settings": {
-            "heading": "<em>Milk Chocolate. Macadamia. Smooth.<\/em>",
+            "heading": "Milk Chocolate. Macadamia. Smooth.",
             "heading_size": "h1"
           }
         },
         "text_rimJRr": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Exceptional flavour starts with the elements. It is nurtured at the origin where coffee is grown, built from the soil, the water, the air, and the sun that nourished every plant. <\/p><p>Elemental is a coffee with the sweetness and depth that have defined our sense of coffee. The coffee cherries were slowly dried in the Brazilian sun, creating texture and depth that resonates. <\/p><p>For any occasion, a pure experience of terroir is waiting: each brew is a quiet testament to the elements.<\/p>",
             "text_style": "body"
           }
         }
@@ -276,14 +277,15 @@
         "text_rimJRr"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/Elemental_launch_6.jpg",
         "height": "small",
-        "desktop_image_width": "medium",
+        "desktop_image_width": "small",
         "layout": "image_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
         "section_color_scheme": "",
-        "color_scheme": "scheme-2",
+        "color_scheme": "scheme-1",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
         "padding_top": 36,

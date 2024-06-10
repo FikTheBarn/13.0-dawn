@@ -74,7 +74,6 @@
         },
         "price": {
           "type": "price",
-          "disabled": true,
           "settings": {
           }
         },
@@ -107,7 +106,6 @@
         },
         "buy_buttons": {
           "type": "buy_buttons",
-          "disabled": true,
           "settings": {
             "show_dynamic_checkout": false,
             "show_gift_card_recipient": true
@@ -224,7 +222,7 @@
         "image-with-text-0": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
+            "heading": "<em>The Terroir<\/em>",
             "heading_size": "h1"
           }
         },
@@ -240,7 +238,80 @@
         "image-with-text-0",
         "image-with-text-1"
       ],
-      "disabled": true,
+      "settings": {
+        "height": "small",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "scheme-2",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_pem7L9": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_nQwFKD": {
+          "type": "heading",
+          "settings": {
+            "heading": "<em>Milk Chocolate. Macadamia. Smooth.<\/em>",
+            "heading_size": "h1"
+          }
+        },
+        "text_rimJRr": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_nQwFKD",
+        "text_rimJRr"
+      ],
+      "settings": {
+        "height": "small",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "scheme-2",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_CEyzGy": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_K9qTny": {
+          "type": "heading",
+          "settings": {
+            "heading": "<em>The Elemental Experience<\/em>",
+            "heading_size": "h1"
+          }
+        },
+        "text_G7mkEL": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_K9qTny",
+        "text_G7mkEL"
+      ],
       "settings": {
         "height": "small",
         "desktop_image_width": "medium",
@@ -323,6 +394,8 @@
     "rich_text_zda7MH",
     "main",
     "image-with-text",
+    "image_with_text_pem7L9",
+    "image_with_text_CEyzGy",
     "multicolumn",
     "related-products"
   ]

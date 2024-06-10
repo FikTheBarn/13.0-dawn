@@ -80,7 +80,7 @@
         "custom_liquid_8BWTGP": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<a href=\"{{ product.metafields.beans.collection_url_link }}\" class=\"button button--primary\" style=\"width: 100%\">\n  {{ product.metafields.custom.name.value }}\n<\/a>"
+            "custom_liquid": "<button onclick=\"document.querySelector('[name=add]').click();\" class=\"product-form__submit button button--full-width\">{{ product.metafields.custom.name.value }}<\/button>"
           }
         },
         "recharge_subscriptions_subscription_widget_RMeEDe": {

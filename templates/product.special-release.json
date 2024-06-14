@@ -68,7 +68,7 @@
         "caption": {
           "type": "text",
           "settings": {
-            "text": "{{ product.metafields.custom.taste_notes.value }}",
+            "text": "{{ product.metafields.custom.taste_notes.value }}{{ product.metafields.subscription.subscription_espresso_beans | metafield_text }}",
             "text_style": "body"
           }
         },
@@ -239,7 +239,7 @@
         "image-with-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>{{ product.metafields.products.metafileld_the_cup | metafield_tag }}<\/p>",
+            "text": "<p>{{ product.metafields.products.metafileld_the_cup | metafield_tag }}{{ product.metafields.subscription.subscription_bean_description | metafield_tag }}<\/p>",
             "text_style": "body"
           }
         }

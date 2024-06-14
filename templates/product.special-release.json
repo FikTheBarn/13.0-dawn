@@ -321,6 +321,7 @@
         },
         "button_i7mFkA": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "button_label": "PRE ORDER NOW",
             "button_link": "{{ product.metafields.beans.collection_url_link.value }}",

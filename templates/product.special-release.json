@@ -68,7 +68,7 @@
         "caption": {
           "type": "text",
           "settings": {
-            "text": "{{ product.metafields.custom.taste_notes.value }}",
+            "text": "{{ product.metafields.custom.product_main_text.value }}",
             "text_style": "body"
           }
         },

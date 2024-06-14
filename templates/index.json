@@ -172,7 +172,7 @@
         "slide_xqE8NR"
       ],
       "settings": {
-        "layout": "full_bleed",
+        "layout": "grid",
         "slide_height": "medium",
         "slider_visual": "dots",
         "auto_rotate": false,

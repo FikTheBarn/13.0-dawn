@@ -68,7 +68,7 @@
         "caption": {
           "type": "text",
           "settings": {
-            "text": "{{ product.metafields.custom.taste_notes.value }}{{ product.metafields.subscription.subscription_espresso_beans | metafield_text }}",
+            "text": "{{ product.metafields.custom.taste_notes.value }}",
             "text_style": "body"
           }
         },

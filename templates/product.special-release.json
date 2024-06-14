@@ -79,6 +79,7 @@
         },
         "custom_liquid_8BWTGP": {
           "type": "custom_liquid",
+          "disabled": true,
           "settings": {
             "custom_liquid": "<button onclick=\"document.querySelector('[name=add]').click();\" class=\"product-form__submit button button--full-width\">{{ product.metafields.custom.name.value }}<\/button>"
           }
@@ -208,7 +209,7 @@
         "share"
       ],
       "custom_css": [
-        ".product-form {display: none;}"
+
       ],
       "settings": {
         "enable_sticky_info": true,

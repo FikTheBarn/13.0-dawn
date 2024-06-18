@@ -99,6 +99,24 @@
     "custom_slideshow_hero_UiixMb": {
       "type": "custom-slideshow-hero",
       "blocks": {
+        "slide_9YDfQw": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rwanda_Trip_17.jpg",
+            "heading": "NEW TRAVEL BLOG: RWANDA",
+            "heading_size": "h0",
+            "subheading": "Visiting our Farm Partners",
+            "button_label": "READ MORE",
+            "link": "shopify:\/\/blogs\/the-barn-blog\/rwanda",
+            "button_style_secondary": true,
+            "box_align": "middle-left",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-5",
+            "text_alignment_mobile": "center"
+          }
+        },
         "slide_4LHJgy": {
           "type": "slide",
           "settings": {
@@ -135,24 +153,6 @@
             "text_alignment_mobile": "center"
           }
         },
-        "slide_9YDfQw": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Rwanda_Trip_17.jpg",
-            "heading": "NEW TRAVEL BLOG: RWANDA",
-            "heading_size": "h0",
-            "subheading": "Visiting our Farm Partners",
-            "button_label": "READ MORE",
-            "link": "shopify:\/\/blogs\/the-barn-blog\/rwanda",
-            "button_style_secondary": true,
-            "box_align": "middle-left",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-5",
-            "text_alignment_mobile": "center"
-          }
-        },
         "slide_xqE8NR": {
           "type": "slide",
           "disabled": true,
@@ -174,9 +174,9 @@
         }
       },
       "block_order": [
+        "slide_9YDfQw",
         "slide_4LHJgy",
         "slide_4E98eC",
-        "slide_9YDfQw",
         "slide_xqE8NR"
       ],
       "settings": {

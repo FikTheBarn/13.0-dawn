@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "video_with_text_jrdbJT": {
@@ -92,14 +101,13 @@
       "blocks": {
         "slide_9YDfQw": {
           "type": "slide",
-          "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/Image29.05.24at13.08.jpg",
-            "heading": "COMMUNITY CUPPING",
+            "image": "shopify:\/\/shop_images\/Rwanda_Trip_17.jpg",
+            "heading": "NEW TRAVEL BLOG: RWANDA",
             "heading_size": "h0",
-            "subheading": "Reserve your ticket today and join us for a tasting of our latest releases.",
-            "button_label": "JOIN US",
-            "link": "shopify:\/\/products\/berlin-cupping",
+            "subheading": "Visiting our Farm Partners",
+            "button_label": "READ MORE",
+            "link": "shopify:\/\/blogs\/the-barn-blog\/rwanda",
             "button_style_secondary": false,
             "box_align": "middle-left",
             "show_text_box": true,

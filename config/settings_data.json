@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "current": {
     "logo": "shopify:\/\/shop_images\/The_Barn_Logo_Name_02_White.png",
@@ -249,7 +258,7 @@
           "text": "#ffffff",
           "button": "#804d15",
           "button_label": "#f3f3f3",
-          "secondary_button_label": "#000000",
+          "secondary_button_label": "#ffffff",
           "shadow": "#804d15"
         }
       }

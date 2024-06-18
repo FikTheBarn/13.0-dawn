@@ -187,6 +187,9 @@
         "slide_4E98eC",
         "slide_xqE8NR"
       ],
+      "custom_css": [
+        "@media screen and (max-width: 749px) {.banner__buttons {justify-content: center; }}"
+      ],
       "settings": {
         "layout": "grid",
         "slide_height": "medium",

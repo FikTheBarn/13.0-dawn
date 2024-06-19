@@ -99,26 +99,6 @@
     "custom_slideshow_hero_UiixMb": {
       "type": "custom-slideshow-hero",
       "blocks": {
-        "slide_4LHJgy": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/IMG_4105_f61f06eb-37e6-4597-9c64-dce02e771b2f.heic",
-            "heading": "<strong>COMANDANTE BARACUDA GIVEAWAY<\/strong>",
-            "heading_size": "h0",
-            "subheading": "Subscribe to our coffee in June and you could win a premium coffee grinder - worth 600€!",
-            "button_label": "SUBSCRIBE NOW",
-            "link": "shopify:\/\/products\/comandante-baracuda-giveaway",
-            "button_label_2": "",
-            "link_2": "",
-            "button_style_secondary": false,
-            "box_align": "middle-left",
-            "show_text_box": true,
-            "text_alignment": "left",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-5",
-            "text_alignment_mobile": "center"
-          }
-        },
         "slide_9YDfQw": {
           "type": "slide",
           "settings": {
@@ -131,6 +111,26 @@
             "button_label_2": "EXPLORE COFFEES",
             "link_2": "https:\/\/thebarn.de\/collections\/coffee-beans?filter.p.m.custom.region=Rwanda&sort_by=manual",
             "button_style_secondary": true,
+            "box_align": "middle-left",
+            "show_text_box": true,
+            "text_alignment": "left",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-5",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_4LHJgy": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_4105_f61f06eb-37e6-4597-9c64-dce02e771b2f.heic",
+            "heading": "<strong>COMANDANTE BARACUDA GIVEAWAY<\/strong>",
+            "heading_size": "h0",
+            "subheading": "Subscribe to our coffee in June and you could win a premium coffee grinder - worth 600€!",
+            "button_label": "SUBSCRIBE NOW",
+            "link": "shopify:\/\/products\/comandante-baracuda-giveaway",
+            "button_label_2": "",
+            "link_2": "",
+            "button_style_secondary": false,
             "box_align": "middle-left",
             "show_text_box": true,
             "text_alignment": "left",
@@ -182,8 +182,8 @@
         }
       },
       "block_order": [
-        "slide_4LHJgy",
         "slide_9YDfQw",
+        "slide_4LHJgy",
         "slide_4E98eC",
         "slide_xqE8NR"
       ],

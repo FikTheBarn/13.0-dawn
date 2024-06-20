@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "name": "t:sections.header.name",
   "type": "header",
@@ -8,8 +17,8 @@
         "announcement_tN6g6G": {
           "type": "announcement",
           "settings": {
-            "text": "Summer Specials: First delivery comes with our cute Sandstone Mug from Japan ☕️",
-            "link": "shopify:\/\/collections\/coffee-subscription"
+            "text": "Special Drop: For 24 hours, this is your chance to taste an exceptional Daterra Gesha ☕️",
+            "link": "shopify:\/\/products\/daterra-gesha-special-drop"
           }
         }
       },

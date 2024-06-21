@@ -17,15 +17,14 @@
         "announcement_tN6g6G": {
           "type": "announcement",
           "settings": {
-            "text": "Special Drop: For 24 hours, this is your chance to taste an exceptional Daterra Gesha ☕️",
-            "link": "shopify:\/\/products\/daterra-gesha-special-drop"
+            "text": "Cupping At Checkpoint Charlie With Café Granja La Esperanza. Sunday 23rd June - See You There ! ☕️",
+            "link": ""
           }
         }
       },
       "block_order": [
         "announcement_tN6g6G"
       ],
-      "disabled": true,
       "custom_css": [
         "a {text-decoration: none;}",
         "p {font-size: 12px; font-family: \"Raleway\";}"

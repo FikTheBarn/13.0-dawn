@@ -25,6 +25,7 @@
       "block_order": [
         "announcement_tN6g6G"
       ],
+      "disabled": true,
       "custom_css": [
         "a {text-decoration: none;}",
         "p {font-size: 12px; font-family: \"Raleway\";}"

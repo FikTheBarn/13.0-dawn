@@ -17,15 +17,14 @@
         "announcement_tN6g6G": {
           "type": "announcement",
           "settings": {
-            "text": "Cupping At Checkpoint Charlie With Café Granja La Esperanza. Sunday 23rd June - See You There ! ☕️",
-            "link": ""
+            "text": "Summer Specials: First delivery comes with our cute Sandstone Mug from Japan ☕️",
+            "link": "shopify:\/\/collections\/coffee-subscription"
           }
         }
       },
       "block_order": [
         "announcement_tN6g6G"
       ],
-      "disabled": true,
       "custom_css": [
         "a {text-decoration: none;}",
         "p {font-size: 12px; font-family: \"Raleway\";}"

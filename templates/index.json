@@ -99,6 +99,26 @@
     "custom_slideshow_hero_UiixMb": {
       "type": "custom-slideshow-hero",
       "blocks": {
+        "slide_xqE8NR": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/brewing_jungle_volacano.jpg",
+            "heading": "VOLCAN AZUL",
+            "heading_size": "h0",
+            "subheading": "Cup with us at 3pm on Wednesday 26th June. Alejo Castro is visiting us in Berlin - and he brings fresh crop samples!",
+            "button_label": "ORDER HERE",
+            "link": "shopify:\/\/products\/volcan-azul",
+            "button_label_2": "",
+            "link_2": "",
+            "button_style_secondary": false,
+            "box_align": "middle-left",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-5",
+            "text_alignment_mobile": "center"
+          }
+        },
         "slide_9YDfQw": {
           "type": "slide",
           "settings": {
@@ -158,33 +178,13 @@
             "color_scheme": "scheme-5",
             "text_alignment_mobile": "center"
           }
-        },
-        "slide_xqE8NR": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/brewing_jungle_volacano.jpg",
-            "heading": "VOLCAN AZUL",
-            "heading_size": "h0",
-            "subheading": "Cup with us at 3pm on Wednesday 26th June. Alejo Castro is visiting us in Berlin - and he brings fresh crop samples!",
-            "button_label": "ORDER HERE",
-            "link": "shopify:\/\/products\/volcan-azul",
-            "button_label_2": "",
-            "link_2": "",
-            "button_style_secondary": false,
-            "box_align": "middle-left",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-5",
-            "text_alignment_mobile": "center"
-          }
         }
       },
       "block_order": [
+        "slide_xqE8NR",
         "slide_9YDfQw",
         "slide_4LHJgy",
-        "slide_4E98eC",
-        "slide_xqE8NR"
+        "slide_4E98eC"
       ],
       "custom_css": [
         "@media screen and (max-width: 749px) {.banner__buttons {justify-content: center; }}"

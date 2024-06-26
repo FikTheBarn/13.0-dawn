@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin language editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "general": {
     "password_page": {
@@ -520,6 +529,13 @@
       "send_on_label": "Senden am (optional)",
       "expanded": "Formular für den Empfänger des Geschenkgutscheins erweitert",
       "collapsed": "Formular für den Empfänger des Geschenkgutscheins minimiert"
+    }
+  },
+  "shopify": {
+    "checkout": {
+      "contact": {
+        "address1_label": "Adresse - Bitte gib deine Hausnummer an"
+      }
     }
   }
 }

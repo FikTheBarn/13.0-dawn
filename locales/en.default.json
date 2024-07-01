@@ -535,7 +535,7 @@
     "checkout": {
       "shipping_errors": {
         "shipping_method_not_available_generic": {
-          "one": "Your order cannot be shipped to the selected address. Review your total order weight and ensure it above the minimum, or reach out to us webshop@thebarn.de"
+          "one": "Your order cannot be shipped to the selected address. Review your total order weight and ensure it is above the minimum and below the maximum, or reach out to us webshop@thebarn.de"
         }
       },
       "contact": {

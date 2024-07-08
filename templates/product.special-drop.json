@@ -142,7 +142,7 @@
         "complementary_FG8RKq"
       ],
       "custom_css": [
-        ".product-form__submit {padding: none;}"
+        ".product-form__submit {display: none;}"
       ],
       "settings": {
         "enable_sticky_info": true,

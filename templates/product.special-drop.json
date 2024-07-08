@@ -204,8 +204,9 @@
         "column-0": {
           "type": "column",
           "settings": {
-            "title": "Free Shipping",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/napoleon-1-sticker.jpg",
+            "title": "February<strong> 2024<\/strong>",
+            "text": "<p><strong>Napoleon Gesha Masterpiece<\/strong><\/p>",
             "link_label": "",
             "link": ""
           }
@@ -213,8 +214,9 @@
         "column-1": {
           "type": "column",
           "settings": {
-            "title": "Hassle-Free Exchanges",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/cerroazulgeshanapoleonbrew.jpg",
+            "title": "Plum. Spiced Orange. Wild.",
+            "text": "<p><strong>CERRO AZUL GESHA NAPOLEON<\/strong><\/p>",
             "link_label": "",
             "link": ""
           }
@@ -238,7 +240,7 @@
         "title": "",
         "heading_size": "h1",
         "image_width": "full",
-        "image_ratio": "adapt",
+        "image_ratio": "square",
         "columns_desktop": 3,
         "column_alignment": "left",
         "background_style": "none",

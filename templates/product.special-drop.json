@@ -141,6 +141,9 @@
         "share",
         "complementary_FG8RKq"
       ],
+      "custom_css": [
+        ".product-form__submit {padding: none;}"
+      ],
       "settings": {
         "enable_sticky_info": true,
         "color_scheme": "",

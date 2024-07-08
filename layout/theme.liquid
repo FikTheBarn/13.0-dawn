@@ -258,6 +258,7 @@
        </script>
     <script src="https://cdn.lordicon.com/lordicon.js" defer ></script>
 
+     {% include 'pagefly-app-header' %}
 
     <!-- Hotjar Tracking Code for Site 5051114 (name missing) -->
 <script>
@@ -272,7 +273,7 @@
 </script>
 
     
-  {% include 'pagefly-app-header' %}</head>
+</head>
   <body class="gradient{% if settings.animations_hover_elements != 'none' %} animate--hover-{{ settings.animations_hover_elements }}{% endif %}">
     <a class="skip-to-content-link button visually-hidden" href="#MainContent">
       {{ 'accessibility.skip_to_text' | t }}

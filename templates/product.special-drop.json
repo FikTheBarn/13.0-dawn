@@ -201,22 +201,12 @@
     "multicolumn": {
       "type": "multicolumn",
       "blocks": {
-        "column-0": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/napoleon-1-sticker.jpg",
-            "title": "February<strong> 2024<\/strong>",
-            "text": "<p><strong>Napoleon Gesha Masterpiece<\/strong><\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
         "column-1": {
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/cerroazulgeshanapoleonbrew.jpg",
-            "title": "Plum. Spiced Orange. Wild.",
-            "text": "<p><strong>CERRO AZUL GESHA NAPOLEON<\/strong><\/p>",
+            "title": "MAY 2024",
+            "text": "<p><strong>CERRO AZUL GESHA NAPOLEON<br\/><\/strong>Plum. Spiced Orange. Wild.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -224,15 +214,15 @@
         "column_LNNzRT": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/Daterra_Special_Drop.jpg",
+            "title": "JUNE 2024",
+            "text": "<p><strong>DATERRA GESHA<\/strong><br\/>Honeydew. Blackcurrant. Floral.<\/p>",
             "link_label": "",
             "link": ""
           }
         }
       },
       "block_order": [
-        "column-0",
         "column-1",
         "column_LNNzRT"
       ],
@@ -241,16 +231,16 @@
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "square",
-        "columns_desktop": 3,
+        "columns_desktop": 2,
         "column_alignment": "left",
         "background_style": "none",
         "button_label": "",
         "button_link": "",
-        "color_scheme": "scheme-1",
+        "color_scheme": "scheme-5",
         "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "swipe_on_mobile": true,
+        "padding_top": 100,
+        "padding_bottom": 100
       }
     },
     "related-products": {

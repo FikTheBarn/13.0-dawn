@@ -14,6 +14,13 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
+        "announcement_4iqwmf": {
+          "type": "announcement",
+          "settings": {
+            "text": "Limited bags available. Special drop releases tomorrow, sign up here",
+            "link": "shopify:\/\/products\/special-drop"
+          }
+        },
         "announcement_tN6g6G": {
           "type": "announcement",
           "settings": {
@@ -23,6 +30,7 @@
         }
       },
       "block_order": [
+        "announcement_4iqwmf",
         "announcement_tN6g6G"
       ],
       "custom_css": [

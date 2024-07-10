@@ -9,58 +9,111 @@
 */
 {
   "sections": {
-    "video_with_text_jrdbJT": {
-      "type": "video-with-text",
+    "custom_slideshow_hero_UiixMb": {
+      "type": "custom-slideshow-hero",
       "blocks": {
-        "heading_FUDTtE": {
-          "type": "heading",
+        "slide_xqE8NR": {
+          "type": "slide",
+          "disabled": true,
           "settings": {
-            "heading": "THIS IS ELEMENTAL",
-            "heading_size": "h0"
+            "image": "shopify:\/\/shop_images\/brewing_jungle_volacano.jpg",
+            "heading": "VOLCAN AZUL",
+            "heading_size": "h0",
+            "subheading": "Cup with us at 3pm on Wednesday 26th June. Alejo Castro is visiting us in Berlin - and he brings fresh crop samples!",
+            "button_label": "DETAILS",
+            "link": "https:\/\/fb.me\/e\/2fIYtEOnJ",
+            "button_label_2": "",
+            "link_2": "",
+            "button_style_secondary": false,
+            "box_align": "middle-left",
+            "show_text_box": true,
+            "text_alignment": "left",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-5",
+            "text_alignment_mobile": "center"
           }
         },
-        "text_MnEe66": {
-          "type": "text",
+        "slide_9YDfQw": {
+          "type": "slide",
+          "disabled": true,
           "settings": {
-            "text": "<p>Exceptional Flavour Starts With Nature<\/p>",
-            "text_style": "body"
+            "image": "shopify:\/\/shop_images\/Rwanda_Trip_17.jpg",
+            "heading": "NEW TRAVEL BLOG: RWANDA",
+            "heading_size": "h0",
+            "subheading": "Visiting our Farm Partners",
+            "button_label": "READ MORE",
+            "link": "shopify:\/\/blogs\/the-barn-blog\/rwanda",
+            "button_label_2": "EXPLORE COFFEES",
+            "link_2": "https:\/\/thebarn.de\/collections\/coffee-beans?filter.p.m.custom.region=Rwanda&sort_by=manual",
+            "button_style_secondary": true,
+            "box_align": "middle-left",
+            "show_text_box": true,
+            "text_alignment": "left",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-5",
+            "text_alignment_mobile": "center"
           }
         },
-        "button_JwgLXB": {
-          "type": "button",
+        "slide_4LHJgy": {
+          "type": "slide",
+          "disabled": true,
           "settings": {
-            "button_label": "ORDER NOW",
-            "button_link": "shopify:\/\/products\/elemental-coffee",
-            "button_style_secondary": false
+            "image": "shopify:\/\/shop_images\/IMG_4105_f61f06eb-37e6-4597-9c64-dce02e771b2f.heic",
+            "heading": "<strong>COMANDANTE BARACUDA GIVEAWAY<\/strong>",
+            "heading_size": "h0",
+            "subheading": "Subscribe to our coffee in June and you could win a premium coffee grinder - worth 600€!",
+            "button_label": "SUBSCRIBE NOW",
+            "link": "shopify:\/\/products\/comandante-baracuda-giveaway",
+            "button_label_2": "",
+            "link_2": "",
+            "button_style_secondary": false,
+            "box_align": "middle-left",
+            "show_text_box": true,
+            "text_alignment": "left",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-5",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_4E98eC": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Special_Drop_With_Chemex.jpg",
+            "heading": "SPECIAL DROP",
+            "heading_size": "h0",
+            "subheading": "Limited release. <strong>Experience the rare and exceptional. Don’t miss out!<\/strong> Only 75 bags available",
+            "button_label": "SIGN UP NOW",
+            "link": "shopify:\/\/products\/special-drop",
+            "button_label_2": "",
+            "link_2": "",
+            "button_style_secondary": false,
+            "box_align": "middle-left",
+            "show_text_box": true,
+            "text_alignment": "left",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-5",
+            "text_alignment_mobile": "center"
           }
         }
       },
       "block_order": [
-        "heading_FUDTtE",
-        "text_MnEe66",
-        "button_JwgLXB"
+        "slide_xqE8NR",
+        "slide_9YDfQw",
+        "slide_4LHJgy",
+        "slide_4E98eC"
+      ],
+      "custom_css": [
+        "@media screen and (max-width: 749px) {.banner__buttons {justify-content: center; }}"
       ],
       "settings": {
-        "fullwidth_layout": "full_bleed",
-        "title": "",
-        "heading_size": "h1",
-        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/967a3c7b73b64d10889422c3fc266d9c.mov",
-        "video_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0831\/4141\/files\/Elemental_launch_6.jpg?v=1718023936",
-        "autoplay": true,
-        "show_controls": false,
-        "loop_video": true,
-        "height": "medium",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "center",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "scheme-1",
-        "color_scheme": "scheme-5",
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "dots",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
         "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "padding_top": 0,
-        "padding_bottom": 36
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
       }
     },
     "featured_collection_Y8ga6P": {
@@ -94,112 +147,6 @@
         "swipe_on_mobile": true,
         "padding_top": 40,
         "padding_bottom": 40
-      }
-    },
-    "custom_slideshow_hero_UiixMb": {
-      "type": "custom-slideshow-hero",
-      "blocks": {
-        "slide_xqE8NR": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/brewing_jungle_volacano.jpg",
-            "heading": "VOLCAN AZUL",
-            "heading_size": "h0",
-            "subheading": "Cup with us at 3pm on Wednesday 26th June. Alejo Castro is visiting us in Berlin - and he brings fresh crop samples!",
-            "button_label": "DETAILS",
-            "link": "https:\/\/fb.me\/e\/2fIYtEOnJ",
-            "button_label_2": "",
-            "link_2": "",
-            "button_style_secondary": false,
-            "box_align": "middle-left",
-            "show_text_box": true,
-            "text_alignment": "left",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-5",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "slide_9YDfQw": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Rwanda_Trip_17.jpg",
-            "heading": "NEW TRAVEL BLOG: RWANDA",
-            "heading_size": "h0",
-            "subheading": "Visiting our Farm Partners",
-            "button_label": "READ MORE",
-            "link": "shopify:\/\/blogs\/the-barn-blog\/rwanda",
-            "button_label_2": "EXPLORE COFFEES",
-            "link_2": "https:\/\/thebarn.de\/collections\/coffee-beans?filter.p.m.custom.region=Rwanda&sort_by=manual",
-            "button_style_secondary": true,
-            "box_align": "middle-left",
-            "show_text_box": true,
-            "text_alignment": "left",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-5",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "slide_4LHJgy": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/IMG_4105_f61f06eb-37e6-4597-9c64-dce02e771b2f.heic",
-            "heading": "<strong>COMANDANTE BARACUDA GIVEAWAY<\/strong>",
-            "heading_size": "h0",
-            "subheading": "Subscribe to our coffee in June and you could win a premium coffee grinder - worth 600€!",
-            "button_label": "SUBSCRIBE NOW",
-            "link": "shopify:\/\/products\/comandante-baracuda-giveaway",
-            "button_label_2": "",
-            "link_2": "",
-            "button_style_secondary": false,
-            "box_align": "middle-left",
-            "show_text_box": true,
-            "text_alignment": "left",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-5",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "slide_4E98eC": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Summer_Specials_1.jpg",
-            "heading": "SUMMER SPECIALS",
-            "heading_size": "h0",
-            "subheading": "Dip your toes into our Coffee Subscriptions and snatch some summer goddies",
-            "button_label": "EXPLORE SUBSCRIPTIONS",
-            "link": "shopify:\/\/collections\/coffee-subscription",
-            "button_label_2": "",
-            "link_2": "",
-            "button_style_secondary": false,
-            "box_align": "middle-left",
-            "show_text_box": true,
-            "text_alignment": "left",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-5",
-            "text_alignment_mobile": "center"
-          }
-        }
-      },
-      "block_order": [
-        "slide_xqE8NR",
-        "slide_9YDfQw",
-        "slide_4LHJgy",
-        "slide_4E98eC"
-      ],
-      "custom_css": [
-        "@media screen and (max-width: 749px) {.banner__buttons {justify-content: center; }}"
-      ],
-      "settings": {
-        "layout": "full_bleed",
-        "slide_height": "medium",
-        "slider_visual": "dots",
-        "auto_rotate": false,
-        "change_slides_speed": 5,
-        "image_behavior": "none",
-        "show_text_below": true,
-        "accessibility_info": "Slideshow about our brand"
       }
     },
     "image_with_text_Fx77i4": {
@@ -251,6 +198,60 @@
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "video_with_text_jrdbJT": {
+      "type": "video-with-text",
+      "blocks": {
+        "heading_FUDTtE": {
+          "type": "heading",
+          "settings": {
+            "heading": "THIS IS ELEMENTAL",
+            "heading_size": "h0"
+          }
+        },
+        "text_MnEe66": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Exceptional Flavour Starts With Nature<\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_JwgLXB": {
+          "type": "button",
+          "settings": {
+            "button_label": "ORDER NOW",
+            "button_link": "shopify:\/\/products\/elemental-coffee",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_FUDTtE",
+        "text_MnEe66",
+        "button_JwgLXB"
+      ],
+      "settings": {
+        "fullwidth_layout": "full_bleed",
+        "title": "",
+        "heading_size": "h1",
+        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/967a3c7b73b64d10889422c3fc266d9c.mov",
+        "video_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0831\/4141\/files\/Elemental_launch_6.jpg?v=1718023936",
+        "autoplay": true,
+        "show_controls": false,
+        "loop_video": true,
+        "height": "medium",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-5",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "padding_top": 0,
         "padding_bottom": 36
       }
     },
@@ -444,10 +445,10 @@
     }
   },
   "order": [
-    "video_with_text_jrdbJT",
-    "featured_collection_Y8ga6P",
     "custom_slideshow_hero_UiixMb",
+    "featured_collection_Y8ga6P",
     "image_with_text_Fx77i4",
+    "video_with_text_jrdbJT",
     "image_banner_BMHTdx",
     "collection_list_c4HEKH",
     "custom_video_Wcjhpt",

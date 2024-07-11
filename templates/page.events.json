@@ -16,9 +16,102 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "image_banner_pHkJkH": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_DRRegx": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "text_XhQFjg": {
+          "type": "text",
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "buttons_Nmx4ek": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_DRRegx",
+        "text_XhQFjg",
+        "buttons_Nmx4ek"
+      ],
+      "settings": {
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "multirow_yfxbiJ": {
+      "type": "multirow",
+      "blocks": {
+        "row_aGCi6t": {
+          "type": "row",
+          "settings": {
+            "caption": "CUPPING EVENT",
+            "heading": "COMMUNITY CUPPING",
+            "text": "<p>Join our community cupping event and get the chance to taste our latest coffee releases! <br\/><br\/>21.07.24 from 11:00 to 12:30 <br\/><br\/>THE BARN Rosenthaler Platz \/ Weinbergsweg 1, 10119 Berlin<\/p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        },
+        "row_W8qRKW": {
+          "type": "row",
+          "settings": {
+            "caption": "SUMMER 2024",
+            "heading": "SUMMER COFFEE DRINKS",
+            "text": "<p>Join our community event and try our refreshing summer coffee drinks with our coffee trainer Allan!<br\/><br\/>26.07.24 from 18:30 to 20:00<br\/><br\/>THE BARN Checkpoint Charlie \/ Friedrichstraße 215, 10969 Berlin<\/p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_aGCi6t",
+        "row_W8qRKW"
+      ],
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "image_banner_pHkJkH",
+    "multirow_yfxbiJ"
   ]
 }

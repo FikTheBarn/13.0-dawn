@@ -70,6 +70,7 @@
         "row_aGCi6t": {
           "type": "row",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Image21.05.24at13.20_1.jpg",
             "caption": "CUPPING EVENT",
             "heading": "COMMUNITY CUPPING",
             "text": "<p>Join our community cupping event and get the chance to taste our latest coffee releases! <br\/><br\/>21.07.24 from 11:00 to 12:30 <br\/><br\/>THE BARN Rosenthaler Platz \/ Weinbergsweg 1, 10119 Berlin<\/p>",
@@ -104,8 +105,8 @@
         "section_color_scheme": "",
         "row_color_scheme": "",
         "mobile_content_alignment": "left",
-        "padding_top": 0,
-        "padding_bottom": 36
+        "padding_top": 100,
+        "padding_bottom": 100
       }
     }
   },

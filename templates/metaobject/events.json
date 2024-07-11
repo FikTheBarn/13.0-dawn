@@ -54,6 +54,18 @@
           "settings": {
             "share_label": "Share"
           }
+        },
+        "icon_with_text_bk3Err": {
+          "type": "icon-with-text",
+          "settings": {
+            "layout": "horizontal",
+            "icon_1": "heart",
+            "heading_1": "Heading",
+            "icon_2": "return",
+            "heading_2": "Heading",
+            "icon_3": "truck",
+            "heading_3": "Heading"
+          }
         }
       },
       "block_order": [
@@ -63,7 +75,8 @@
         "variant_picker_6wxzdA",
         "quantity_selector_aAFKyf",
         "buy_buttons_zyM9eC",
-        "share_Cd48i4"
+        "share_Cd48i4",
+        "icon_with_text_bk3Err"
       ],
       "settings": {
         "product": "{{ metaobject.tickets.value }}",

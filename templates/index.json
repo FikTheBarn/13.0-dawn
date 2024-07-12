@@ -29,8 +29,8 @@
         "button_JwgLXB": {
           "type": "button",
           "settings": {
-            "button_label": "ORDER NOW",
-            "button_link": "shopify:\/\/products\/elemental-coffee",
+            "button_label": "SUBSCRIBE NOW",
+            "button_link": "shopify:\/\/collections\/main-coffee-subscriptions",
             "button_style_secondary": false
           }
         }

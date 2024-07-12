@@ -16,6 +16,7 @@
       "blocks": {
         "announcement_4iqwmf": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "LA ESMERALDA GESHA ☕ 🇵🇦 Rare & Stunning!",
             "link": "shopify:\/\/products\/la-esmeralda-gesha-special-drop"

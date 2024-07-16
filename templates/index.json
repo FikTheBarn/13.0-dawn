@@ -15,22 +15,22 @@
         "heading_FUDTtE": {
           "type": "heading",
           "settings": {
-            "heading": "SUMMER SUBSCRIPTION SPECIAL",
+            "heading": "EL OBRAJE COLIBRI",
             "heading_size": "h0"
           }
         },
         "text_MnEe66": {
           "type": "text",
           "settings": {
-            "text": "<p>Explore a world of flavour.<\/p>",
+            "text": "<p>Our new rarity,  with notes of cherry, elderberry, bergamot, and nectarine Floral notes of coffee blossom<\/p>",
             "text_style": "body"
           }
         },
         "button_JwgLXB": {
           "type": "button",
           "settings": {
-            "button_label": "SUBSCRIBE NOW",
-            "button_link": "shopify:\/\/collections\/coffee-subscription",
+            "button_label": "ORDER NOW",
+            "button_link": "shopify:\/\/products\/el-obraje-colibri",
             "button_style_secondary": false
           }
         }
@@ -44,12 +44,12 @@
         "fullwidth_layout": "full_bleed",
         "title": "",
         "heading_size": "h2",
-        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/0f1fc81a364a4836b2ddff4d76aeae1c.mov",
-        "video_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0831\/4141\/files\/summersubmay.jpg?v=1716805059",
+        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/6073639622d8465095ba5f81bfbf31f9.mov",
+        "video_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0831\/4141\/products\/HaciendaElObraje-AllyCoffee_20.jpg?v=1677853260",
         "autoplay": true,
         "show_controls": false,
         "loop_video": true,
-        "height": "medium",
+        "height": "large",
         "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_content_position": "middle",

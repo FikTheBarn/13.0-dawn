@@ -23,6 +23,7 @@
         },
         "announcement_tN6g6G": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "Join our Berlin cupping event 21.07.24 at THE BARN Rosenthaler Platz ☕️",
             "link": "shopify:\/\/products\/community-cupping"

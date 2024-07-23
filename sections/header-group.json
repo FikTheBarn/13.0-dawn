@@ -23,10 +23,9 @@
         },
         "announcement_tN6g6G": {
           "type": "announcement",
-          "disabled": true,
           "settings": {
-            "text": "Join our Berlin cupping event 21.07.24 at THE BARN Rosenthaler Platz ☕️",
-            "link": "shopify:\/\/products\/community-cupping"
+            "text": "Join our summer coffee drinks event Berlin on 26.07.24 at THE BARN Checkpoint Charlie ☕️",
+            "link": "shopify:\/\/products\/summer-coffee-drinks"
           }
         }
       },

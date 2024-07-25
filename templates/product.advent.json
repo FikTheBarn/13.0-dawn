@@ -157,66 +157,12 @@
     },
     "custom_liquid_HxtPeQ": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "custom_liquid": "<div class=\"page-width\"><div class=\"countdown-timer-block\" countdown-timer-id=\"clz19ykoy13527619wtt3lmwtan\"><\/div><\/div>",
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 52
-      }
-    },
-    "multirow_aU7ANq": {
-      "type": "multirow",
-      "blocks": {
-        "row_W9YyHp": {
-          "type": "row",
-          "settings": {
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        },
-        "row_fGhnYH": {
-          "type": "row",
-          "settings": {
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        },
-        "row_UFAQcc": {
-          "type": "row",
-          "settings": {
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "row_W9YyHp",
-        "row_fGhnYH",
-        "row_UFAQcc"
-      ],
-      "settings": {
-        "image_height": "medium",
-        "desktop_image_width": "medium",
-        "heading_size": "h1",
-        "text_style": "body",
-        "button_style": "secondary",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "image_layout": "alternate-right",
-        "section_color_scheme": "",
-        "row_color_scheme": "",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
       }
     },
     "related-products": {
@@ -237,12 +183,136 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
+    },
+    "image_with_text_rE7Hak": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_69qfPE": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text",
+            "heading_size": "h1"
+          }
+        },
+        "text_HfgKRf": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_YAma9N": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_69qfPE",
+        "text_HfgKRf",
+        "button_YAma9N"
+      ],
+      "settings": {
+        "image": "{{ product.metafields.custom.additional_photos_b.value }}",
+        "height": "medium",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_banner_LfKxGQ": {
+      "type": "image-banner",
+      "blocks": {
+        "text_QbVD6i": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.bean.process | metafield_text }}",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_QbVD6i"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/adventcalendar_productpageresized.jpg",
+        "image_overlay_opacity": 30,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "fixed",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "image_with_text_tD6Yga": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_8q3g4T": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text",
+            "heading_size": "h1"
+          }
+        },
+        "text_7WwJ7w": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_bLFdGX": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_8q3g4T",
+        "text_7WwJ7w",
+        "button_bLFdGX"
+      ],
+      "settings": {
+        "image": "{{ product.metafields.custom.additional_photos_a.value }}",
+        "height": "large",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
     "custom_liquid_HxtPeQ",
-    "multirow_aU7ANq",
-    "related-products"
+    "related-products",
+    "image_with_text_rE7Hak",
+    "image_banner_LfKxGQ",
+    "image_with_text_tD6Yga"
   ]
 }

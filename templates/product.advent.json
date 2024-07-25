@@ -158,7 +158,7 @@
     "custom_liquid_HxtPeQ": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div class=\"countdown-timer-block\" countdown-timer-id=\"clz19ykoy13527619wtt3lmwtan\"><\/div>",
+        "custom_liquid": "<div class=\"page-width\"><div class=\"countdown-timer-block\" countdown-timer-id=\"clz19ykoy13527619wtt3lmwtan\"><\/div><\/div>",
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 52

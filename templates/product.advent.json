@@ -91,7 +91,6 @@
     },
     "custom_liquid_HxtPeQ": {
       "type": "custom-liquid",
-      "disabled": true,
       "settings": {
         "custom_liquid": "<div class=\"page-width\"><div class=\"countdown-timer-block\" countdown-timer-id=\"clz19ykoy13527619wtt3lmwtan\"><\/div><\/div>",
         "color_scheme": "",
@@ -151,16 +150,24 @@
     "image_banner_LfKxGQ": {
       "type": "image-banner",
       "blocks": {
-        "text_QbVD6i": {
+        "heading_DcRAjG": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ product.metafields.custom.taste_notes.value }}",
+            "heading_size": "h1"
+          }
+        },
+        "text_Jw4APB": {
           "type": "text",
           "settings": {
-            "text": "{{ product.metafields.custom.the_process.value }}",
+            "text": "",
             "text_style": "body"
           }
         }
       },
       "block_order": [
-        "text_QbVD6i"
+        "heading_DcRAjG",
+        "text_Jw4APB"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/adventcalendar_productpageresized.jpg",
@@ -212,7 +219,7 @@
         "height": "large",
         "desktop_image_width": "medium",
         "layout": "text_first",
-        "desktop_content_position": "top",
+        "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
         "section_color_scheme": "",

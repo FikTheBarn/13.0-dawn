@@ -237,7 +237,7 @@
         "text_QbVD6i": {
           "type": "text",
           "settings": {
-            "text": "{{ product.metafields.bean.process | metafield_text }}",
+            "text": "{{ product.metafields.custom.the_process.value }}",
             "text_style": "body"
           }
         }

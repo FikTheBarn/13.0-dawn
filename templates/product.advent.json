@@ -61,66 +61,6 @@
           "type": "description",
           "settings": {
           }
-        },
-        "collapsible-row-0": {
-          "type": "collapsible_tab",
-          "disabled": true,
-          "settings": {
-            "heading": "Materials",
-            "icon": "leather",
-            "content": "",
-            "page": ""
-          }
-        },
-        "collapsible-row-1": {
-          "type": "collapsible_tab",
-          "disabled": true,
-          "settings": {
-            "heading": "Shipping & Returns",
-            "icon": "truck",
-            "content": "",
-            "page": ""
-          }
-        },
-        "collapsible-row-2": {
-          "type": "collapsible_tab",
-          "disabled": true,
-          "settings": {
-            "heading": "Dimensions",
-            "icon": "ruler",
-            "content": "",
-            "page": ""
-          }
-        },
-        "collapsible-row-3": {
-          "type": "collapsible_tab",
-          "disabled": true,
-          "settings": {
-            "heading": "Care Instructions",
-            "icon": "heart",
-            "content": "",
-            "page": ""
-          }
-        },
-        "share": {
-          "type": "share",
-          "disabled": true,
-          "settings": {
-            "share_label": "Share"
-          }
-        },
-        "complementary_FG8RKq": {
-          "type": "complementary",
-          "settings": {
-            "block_heading": "{{ product.metafields.subscription.subscription_espresso_beans | metafield_text }}",
-            "make_collapsible_row": false,
-            "icon": "price_tag",
-            "product_list_limit": 10,
-            "products_per_page": 3,
-            "pagination_style": "counter",
-            "image_ratio": "square",
-            "enable_quick_add": true
-          }
         }
       },
       "block_order": [
@@ -131,13 +71,7 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
-        "description",
-        "collapsible-row-0",
-        "collapsible-row-1",
-        "collapsible-row-2",
-        "collapsible-row-3",
-        "share",
-        "complementary_FG8RKq"
+        "description"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -190,7 +124,7 @@
         "text_HfgKRf": {
           "type": "text",
           "settings": {
-            "text": "<p>{{ product.metafields.custom.the_cup.value }}<\/p>",
+            "text": "<p>{{ product.metafields.products.metafileld_the_cup | metafield_tag }}<\/p>",
             "text_style": "body"
           }
         }
@@ -203,7 +137,7 @@
         "height": "medium",
         "desktop_image_width": "medium",
         "layout": "image_first",
-        "desktop_content_position": "top",
+        "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
         "section_color_scheme": "",
@@ -220,7 +154,7 @@
         "text_QbVD6i": {
           "type": "text",
           "settings": {
-            "text": "{{ product.metafields.custom.the_process.value }}",
+            "text": "",
             "text_style": "body"
           }
         }

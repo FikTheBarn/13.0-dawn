@@ -182,14 +182,14 @@
         "heading_8q3g4T": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
+            "heading": "{{ product.metafields.custom.the_process.value }}",
             "heading_size": "h1"
           }
         },
         "text_7WwJ7w": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>{{ product.metafields.product.metafield_the_process | metafield_tag }}<\/p>",
             "text_style": "body"
           }
         },

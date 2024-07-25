@@ -187,33 +187,16 @@
     "image_with_text_rE7Hak": {
       "type": "image-with-text",
       "blocks": {
-        "heading_69qfPE": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image with text",
-            "heading_size": "h1"
-          }
-        },
         "text_HfgKRf": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>{{ product.metafields.custom.the_cup.value }}<\/p>",
             "text_style": "body"
-          }
-        },
-        "button_YAma9N": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
           }
         }
       },
       "block_order": [
-        "heading_69qfPE",
-        "text_HfgKRf",
-        "button_YAma9N"
+        "text_HfgKRf"
       ],
       "settings": {
         "image": "{{ product.metafields.custom.additional_photos_b.value }}",

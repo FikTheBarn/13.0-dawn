@@ -442,6 +442,21 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "video_ppzVVy": {
+      "type": "video",
+      "settings": {
+        "heading": "Video",
+        "heading_size": "h1",
+        "enable_video_looping": false,
+        "video_url": "https:\/\/youtu.be\/6coSum3lUNc",
+        "cover_image": "shopify:\/\/shop_images\/THE_BARN_FOREST_Photo3_Feb23.png",
+        "description": "",
+        "full_width": true,
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -452,6 +467,7 @@
     "image_banner_BMHTdx",
     "collection_list_c4HEKH",
     "custom_video_Wcjhpt",
-    "featured_blog_ReFHyG"
+    "featured_blog_ReFHyG",
+    "video_ppzVVy"
   ]
 }

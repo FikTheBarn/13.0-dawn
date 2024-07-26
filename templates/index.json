@@ -403,7 +403,6 @@
         "heading_LBqK3V"
       ],
       "custom_css": [
-        ".icon {color: black;}",
         "@media screen and (min-width: 750px) {.deferred-media__poster {max-height: 544px; } .video-section__media video {object-fit: unset; height: 544px; }}"
       ],
       "settings": {
@@ -446,7 +445,7 @@
     "video_ppzVVy": {
       "type": "video",
       "settings": {
-        "heading": "Video",
+        "heading": "THE BARN FOREST 🌳",
         "heading_size": "h1",
         "enable_video_looping": false,
         "video_url": "https:\/\/youtu.be\/6coSum3lUNc",

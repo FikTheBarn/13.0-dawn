@@ -17,12 +17,13 @@
         "announcement_4iqwmf": {
           "type": "announcement",
           "settings": {
-            "text": "Discover the NCD distribution tool",
-            "link": "shopify:\/\/products\/ncd-coffee-distributor"
+            "text": "Check out how far we've come with THE BARN FOREST 🌳",
+            "link": "shopify:\/\/blogs\/the-barn-blog\/sustainability"
           }
         },
         "announcement_tN6g6G": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "Join our summer coffee drinks event in Berlin on 26.07.24 at THE BARN Checkpoint Charlie ☕️",
             "link": "shopify:\/\/products\/summer-coffee-drinks"

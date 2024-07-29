@@ -14,13 +14,6 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
-        "announcement_4iqwmf": {
-          "type": "announcement",
-          "settings": {
-            "text": "Check out how far we have come with THE BARN FOREST 🌳",
-            "link": "shopify:\/\/blogs\/the-barn-blog\/sustainability"
-          }
-        },
         "announcement_tN6g6G": {
           "type": "announcement",
           "disabled": true,
@@ -28,11 +21,18 @@
             "text": "Join our summer coffee drinks event in Berlin on 26.07.24 at THE BARN Checkpoint Charlie ☕️",
             "link": "shopify:\/\/products\/summer-coffee-drinks"
           }
+        },
+        "announcement_4iqwmf": {
+          "type": "announcement",
+          "settings": {
+            "text": "Check out how far we have come with THE BARN FOREST 🌳",
+            "link": "shopify:\/\/blogs\/the-barn-blog\/sustainability"
+          }
         }
       },
       "block_order": [
-        "announcement_4iqwmf",
-        "announcement_tN6g6G"
+        "announcement_tN6g6G",
+        "announcement_4iqwmf"
       ],
       "custom_css": [
         "a {text-decoration: none;}",

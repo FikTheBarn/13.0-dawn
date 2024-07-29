@@ -18,6 +18,7 @@
       },
       "blocks": {
         "announcement_tN6g6G": {
+          "disabled": false,
           "settings": {
             "text": "Free Shipping on Bumba Hill Twin Box ☕️ !",
             "link": "shopify:\/\/products\/bumba-hill-twin-box"

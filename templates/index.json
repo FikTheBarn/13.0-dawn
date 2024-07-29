@@ -9,72 +9,18 @@
 */
 {
   "sections": {
-    "video_with_text_jrdbJT": {
-      "type": "video-with-text",
-      "blocks": {
-        "heading_FUDTtE": {
-          "type": "heading",
-          "settings": {
-            "heading": "EL OBRAJE COLIBRI",
-            "heading_size": "h0"
-          }
-        },
-        "text_MnEe66": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Our new rarity,  with notes of cherry and nectarine floral notes of coffee blossom.<\/p>",
-            "text_style": "body"
-          }
-        },
-        "button_JwgLXB": {
-          "type": "button",
-          "settings": {
-            "button_label": "ORDER NOW",
-            "button_link": "shopify:\/\/products\/el-obraje-colibri",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_FUDTtE",
-        "text_MnEe66",
-        "button_JwgLXB"
-      ],
-      "settings": {
-        "fullwidth_layout": "full_bleed",
-        "title": "",
-        "heading_size": "h2",
-        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/6073639622d8465095ba5f81bfbf31f9.mov",
-        "video_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0831\/4141\/products\/HaciendaElObraje-AllyCoffee_20.jpg?v=1677853260",
-        "autoplay": true,
-        "show_controls": false,
-        "loop_video": true,
-        "height": "large",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "center",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "scheme-1",
-        "color_scheme": "scheme-5",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "padding_top": 0,
-        "padding_bottom": 36
-      }
-    },
     "custom_slideshow_hero_UiixMb": {
       "type": "custom-slideshow-hero",
       "blocks": {
         "slide_xqE8NR": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/brewing_jungle_volacano.jpg",
-            "heading": "VOLCAN AZUL",
+            "image": "shopify:\/\/shop_images\/bumba_hill_twin.jpg",
+            "heading": "BUMBA HILL TWIN BOX",
             "heading_size": "h0",
-            "subheading": "Cup with us at 3pm on Wednesday 26th June. Alejo Castro is visiting us in Berlin - and he brings fresh crop samples!",
-            "button_label": "DETAILS",
-            "link": "https:\/\/fb.me\/e\/2fIYtEOnJ",
+            "subheading": "Two processes, two exclusive coffees: Lot 1 and Lot 6 show off the beautiful range of flavour from this one area.",
+            "button_label": "ORDER HERE",
+            "link": "shopify:\/\/products\/bumba-hill-twin-box",
             "button_label_2": "",
             "link_2": "",
             "button_style_secondary": false,
@@ -88,6 +34,7 @@
         },
         "slide_9YDfQw": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Rwanda_Trip_17.jpg",
             "heading": "NEW TRAVEL BLOG: RWANDA",
@@ -155,7 +102,6 @@
         "slide_4LHJgy",
         "slide_4E98eC"
       ],
-      "disabled": true,
       "custom_css": [
         "@media screen and (max-width: 749px) {.banner__buttons {justify-content: center; }}"
       ],
@@ -168,6 +114,61 @@
         "image_behavior": "none",
         "show_text_below": true,
         "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "video_with_text_jrdbJT": {
+      "type": "video-with-text",
+      "blocks": {
+        "heading_FUDTtE": {
+          "type": "heading",
+          "settings": {
+            "heading": "EL OBRAJE COLIBRI",
+            "heading_size": "h0"
+          }
+        },
+        "text_MnEe66": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our new rarity,  with notes of cherry and nectarine floral notes of coffee blossom.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_JwgLXB": {
+          "type": "button",
+          "settings": {
+            "button_label": "ORDER NOW",
+            "button_link": "shopify:\/\/products\/el-obraje-colibri",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_FUDTtE",
+        "text_MnEe66",
+        "button_JwgLXB"
+      ],
+      "disabled": true,
+      "settings": {
+        "fullwidth_layout": "full_bleed",
+        "title": "",
+        "heading_size": "h2",
+        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/6073639622d8465095ba5f81bfbf31f9.mov",
+        "video_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0831\/4141\/products\/HaciendaElObraje-AllyCoffee_20.jpg?v=1677853260",
+        "autoplay": true,
+        "show_controls": false,
+        "loop_video": true,
+        "height": "large",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-5",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "padding_top": 0,
+        "padding_bottom": 36
       }
     },
     "featured_collection_Y8ga6P": {
@@ -459,8 +460,8 @@
     }
   },
   "order": [
-    "video_with_text_jrdbJT",
     "custom_slideshow_hero_UiixMb",
+    "video_with_text_jrdbJT",
     "featured_collection_Y8ga6P",
     "image_with_text_Fx77i4",
     "image_banner_BMHTdx",

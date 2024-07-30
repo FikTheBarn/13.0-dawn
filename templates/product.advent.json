@@ -148,16 +148,33 @@
     "image_with_text_rE7Hak": {
       "type": "image-with-text",
       "blocks": {
+        "heading_Aexke3": {
+          "type": "heading",
+          "settings": {
+            "heading": "",
+            "heading_size": "h1"
+          }
+        },
         "text_HfgKRf": {
           "type": "text",
           "settings": {
             "text": "<p>{{ product.metafields.products.metafileld_the_cup | metafield_tag }}<\/p>",
             "text_style": "body"
           }
+        },
+        "button_CqCmE6": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
         }
       },
       "block_order": [
-        "text_HfgKRf"
+        "heading_Aexke3",
+        "text_HfgKRf",
+        "button_CqCmE6"
       ],
       "settings": {
         "image": "{{ product.metafields.custom.additional_photos_b.value }}",

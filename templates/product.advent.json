@@ -245,14 +245,14 @@
         "heading_KqYdLH": {
           "type": "heading",
           "settings": {
-            "heading": "{{ product.metafields.custom.the_process.value }}",
+            "heading": "Raising the standards",
             "heading_size": "h1"
           }
         },
         "text_wrpjbk": {
           "type": "text",
           "settings": {
-            "text": "<p>{{ product.metafields.product.metafield_the_process | metafield_tag }}<\/p>",
+            "text": "<p>We work closely with farmers to put their coffee at the very centre of what we do. It is a chance to connect every cup you drink with a unique origin. Our Inspiration Calendar is a celebration of the work producers do at the origin: the leaders in their field, whose passion and dedication you can taste in every sip. With guidance from our team and insights from the producers, this is a true festive celebration with a difference.<\/p>",
             "text_style": "body"
           }
         },

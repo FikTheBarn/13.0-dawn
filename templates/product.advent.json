@@ -229,7 +229,7 @@
         "text_7WwJ7w"
       ],
       "settings": {
-        "image": "{{ product.metafields.custom.additional_photos_a.value }}",
+        "image": "{{ product.metafields.custom.additional_photos_c.value }}",
         "height": "large",
         "desktop_image_width": "medium",
         "layout": "image_first",

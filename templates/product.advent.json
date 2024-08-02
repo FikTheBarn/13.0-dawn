@@ -184,20 +184,11 @@
             "text": "<p>{{ product.metafields.products.metafileld_the_cup | metafield_tag }}<\/p>",
             "text_style": "body"
           }
-        },
-        "button_CqCmE6": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
-          }
         }
       },
       "block_order": [
         "heading_Aexke3",
-        "text_HfgKRf",
-        "button_CqCmE6"
+        "text_HfgKRf"
       ],
       "settings": {
         "image": "{{ product.metafields.custom.additional_photos_b.value }}",
@@ -231,20 +222,11 @@
             "text": "<p>{{ product.metafields.product.metafield_the_process | metafield_tag }}<\/p>",
             "text_style": "body"
           }
-        },
-        "button_bLFdGX": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
-          }
         }
       },
       "block_order": [
         "heading_8q3g4T",
-        "text_7WwJ7w",
-        "button_bLFdGX"
+        "text_7WwJ7w"
       ],
       "settings": {
         "image": "{{ product.metafields.custom.additional_photos_a.value }}",
@@ -268,8 +250,8 @@
         "heading_KqYdLH": {
           "type": "heading",
           "settings": {
-            "heading": "Raising the standards",
-            "heading_size": "h1"
+            "heading": "Every cup is a testament to our producers work",
+            "heading_size": "h0"
           }
         },
         "text_wrpjbk": {
@@ -278,20 +260,11 @@
             "text": "<p>We work closely with farmers to put their coffee at the very centre of what we do. It is a chance to connect every cup you drink with a unique origin. Our Inspiration Calendar is a celebration of the work producers do at the origin: the leaders in their field, whose passion and dedication you can taste in every sip. With guidance from our team and insights from the producers, this is a true festive celebration with a difference.<\/p>",
             "text_style": "body"
           }
-        },
-        "button_C3GQJj": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
-          }
         }
       },
       "block_order": [
         "heading_KqYdLH",
-        "text_wrpjbk",
-        "button_C3GQJj"
+        "text_wrpjbk"
       ],
       "settings": {
         "image": "{{ product.metafields.custom.additional_photos_a.value }}",

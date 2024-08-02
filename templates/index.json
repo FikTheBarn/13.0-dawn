@@ -452,10 +452,10 @@
         "video_url": "https:\/\/youtu.be\/6coSum3lUNc",
         "cover_image": "shopify:\/\/shop_images\/THE_BARN_FOREST_Photo3_Feb23.png",
         "description": "",
-        "full_width": true,
+        "full_width": false,
         "color_scheme": "",
         "padding_top": 36,
-        "padding_bottom": 0
+        "padding_bottom": 36
       }
     }
   },

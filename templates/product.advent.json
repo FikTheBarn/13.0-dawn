@@ -312,7 +312,7 @@
         "image_behavior": "fixed",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
-        "show_text_below": true
+        "show_text_below": false
       }
     },
     "collapsible_content_irjMTz": {
@@ -361,9 +361,12 @@
         "collapsible_row_PUhzmT",
         "collapsible_row_QWpk3A"
       ],
+      "custom_css": [
+        ".collapsible-content-wrapper-narrow {margin: 0 6rem auto;}"
+      ],
       "settings": {
         "caption": "",
-        "heading": "Collapsible content",
+        "heading": "FAQ",
         "heading_size": "h1",
         "heading_alignment": "left",
         "layout": "none",

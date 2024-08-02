@@ -108,6 +108,29 @@
         "padding_bottom": 28
       }
     },
+    "rich_text_CdHw4J": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_7G4YjU": {
+          "type": "heading",
+          "settings": {
+            "heading": "Let the exceptional flavour of Single Origin coffee inspire you this Christmas.",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_7G4YjU"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "image_banner_LfKxGQ": {
       "type": "image-banner",
       "blocks": {
@@ -286,6 +309,21 @@
         "padding_bottom": 100
       }
     },
+    "video_g87BJN": {
+      "type": "video",
+      "settings": {
+        "heading": "Video",
+        "heading_size": "h1",
+        "enable_video_looping": false,
+        "video": "shopify:\/\/files\/videos\/video-home-2.mp4",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "custom_liquid_HxtPeQ": {
       "type": "custom-liquid",
       "settings": {
@@ -294,15 +332,79 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "collapsible_content_irjMTz": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_JDnqrD": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_UbLEpe": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_PUhzmT": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_QWpk3A": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_JDnqrD",
+        "collapsible_row_UbLEpe",
+        "collapsible_row_PUhzmT",
+        "collapsible_row_QWpk3A"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Collapsible content",
+        "heading_size": "h1",
+        "heading_alignment": "left",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
     "related-products",
+    "rich_text_CdHw4J",
     "image_banner_LfKxGQ",
     "image_with_text_rE7Hak",
     "image_with_text_tD6Yga",
     "image_with_text_8Baaqw",
-    "custom_liquid_HxtPeQ"
+    "video_g87BJN",
+    "custom_liquid_HxtPeQ",
+    "collapsible_content_irjMTz"
   ]
 }

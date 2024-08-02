@@ -154,7 +154,7 @@
         "text_HfgKRf"
       ],
       "settings": {
-        "image": "{{ product.metafields.custom.additional_photos_b.value }}",
+        "image": "shopify:\/\/shop_images\/DSCF3716.jpg",
         "height": "large",
         "desktop_image_width": "medium",
         "layout": "text_first",

@@ -108,6 +108,21 @@
         "padding_bottom": 28
       }
     },
+    "custom_video_9jLVXK": {
+      "type": "custom-video",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "enable_video_looping": true,
+        "video": "shopify:\/\/files\/videos\/DJI_20240701_132206_389_video.mov",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "description": "",
+        "full_width": true,
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "rich_text_CdHw4J": {
       "type": "rich-text",
       "blocks": {
@@ -383,6 +398,7 @@
   "order": [
     "main",
     "related-products",
+    "custom_video_9jLVXK",
     "rich_text_CdHw4J",
     "image_with_text_rE7Hak",
     "image_with_text_tD6Yga",

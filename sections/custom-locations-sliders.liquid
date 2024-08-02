@@ -193,6 +193,7 @@
   <div class="scroll-container">
     <section class="filter-container">
       <button class="btn tab-btn" data-target="tab-content-1">BERLIN</button>
+      <button class="btn tab-btn" data-target="tab-content-5">MÜNCHEN</button>
       <button class="btn tab-btn" data-target="tab-content-2">MALLORCA</button>
       <button class="btn tab-btn" data-target="tab-content-3">KOREA</button>
       <button class="btn tab-btn" data-target="tab-content-4">DUBAI</button>
@@ -1063,6 +1064,101 @@
   </section>
 
   <section class="image-with-text page-width">
+    <section class="section-CAFE_KRANZLER-padding slider-container">
+      {%- if section.settings.CAFE_KRANZLER_IMAGE != blank -%}
+        <img
+          srcset="
+            {%- if section.settings.CAFE_KRANZLER_IMAGE.width >= 165 -%}{{ section.settings.CAFE_KRANZLER_IMAGE | image_url: width: 165 }} 165w,{%- endif -%}
+            {%- if section.settings.CAFE_KRANZLER_IMAGE.width >= 360 -%}{{ section.settings.CAFE_KRANZLER_IMAGE | image_url: width: 360 }} 360w,{%- endif -%}
+            {%- if section.settings.CAFE_KRANZLER_IMAGE.width >= 535 -%}{{ section.settings.CAFE_KRANZLER_IMAGE | image_url: width: 535 }} 535w,{%- endif -%}
+            {%- if section.settings.CAFE_KRANZLER_IMAGE.width >= 750 -%}{{ section.settings.CAFE_KRANZLER_IMAGE | image_url: width: 750 }} 750w,{%- endif -%}
+            {%- if section.settings.CAFE_KRANZLER_IMAGE.width >= 1070 -%}{{ section.settings.CAFE_KRANZLER_IMAGE | image_url: width: 1070 }} 1070w,{%- endif -%}
+            {%- if section.settings.CAFE_KRANZLER_IMAGE.width >= 1500 -%}{{ section.settings.CAFE_KRANZLER_IMAGE | image_url: width: 1500 }} 1500w,{%- endif -%}
+            {{ section.settings.CAFE_KRANZLER_IMAGE | image_url }} {{ section.settings.image.width }}
+          "
+          src="{{ section.settings.CAFE_KRANZLER_IMAGE| image_url: width: 1500 }}"
+          alt="{{ section.settings.CAFE_KRANZLER_IMAGE.alt | escape }}"
+          loading="lazy"
+          width=""
+          height=""
+          class="image-main-slider slide active"
+        >
+      {%- else -%}
+        {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+      {%- endif -%}
+      {%- if section.settings.CAFE_KRANZLER_IMAGE_1 != blank -%}
+        <img
+          srcset="
+            {%- if section.settings.CAFE_KRANZLER_IMAGE_1.width >= 165 -%}{{ section.settings.CAFE_KRANZLER_IMAGE_1 | image_url: width: 165 }} 165w,{%- endif -%}
+            {%- if section.settings.CAFE_KRANZLER_IMAGE_1.width >= 360 -%}{{ section.settings.CAFE_KRANZLER_IMAGE_1 | image_url: width: 360 }} 360w,{%- endif -%}
+            {%- if section.settings.CAFE_KRANZLER_IMAGE_1.width >= 535 -%}{{ section.settings.CAFE_KRANZLER_IMAGE_1 | image_url: width: 535 }} 535w,{%- endif -%}
+            {%- if section.settings.CAFE_KRANZLER_IMAGE_1.width >= 750 -%}{{ section.settings.CAFE_KRANZLER_IMAGE_1 | image_url: width: 750 }} 750w,{%- endif -%}
+            {%- if section.settings.CAFE_KRANZLER_IMAGE_1.width >= 1070 -%}{{ section.settings.CAFE_KRANZLER_IMAGE_1 | image_url: width: 1070 }} 1070w,{%- endif -%}
+            {%- if section.settings.CAFE_KRANZLER_IMAGE_1.width >= 1500 -%}{{ section.settings.CAFE_KRANZLER_IMAGE_1 | image_url: width: 1500 }} 1500w,{%- endif -%}
+            {{ section.settings.CAFE_KRANZLER_IMAGE_1 | image_url }} {{ section.settings.image.width }}
+          "
+          src="{{ section.settings.CAFE_KRANZLER_IMAGE_1| image_url: width: 1500 }}"
+          alt="{{ section.settings.CAFE_KRANZLER_IMAGE_1.alt | escape }}"
+          loading="lazy"
+          width=""
+          height=""
+          class="image-main-slider slide"
+        >
+      {%- else -%}
+        {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+      {%- endif -%}
+      {%- if section.settings.CAFE_KRANZLER_IMAGE_2 != blank -%}
+        <img
+          srcset="
+            {%- if section.settings.CAFE_KRANZLER_IMAGE_2.width >= 165 -%}{{ section.settings.CAFE_KRANZLER_IMAGE_2 | image_url: width: 165 }} 165w,{%- endif -%}
+            {%- if section.settings.CAFE_KRANZLER_IMAGE_2.width >= 360 -%}{{ section.settings.CAFE_KRANZLER_IMAGE_2 | image_url: width: 360 }} 360w,{%- endif -%}
+            {%- if section.settings.CAFE_KRANZLER_IMAGE_2.width >= 535 -%}{{ section.settings.CAFE_KRANZLER_IMAGE_2 | image_url: width: 535 }} 535w,{%- endif -%}
+            {%- if section.settings.CAFE_KRANZLER_IMAGE_2.width >= 750 -%}{{ section.settings.CAFE_KRANZLER_IMAGE_2 | image_url: width: 750 }} 750w,{%- endif -%}
+            {%- if section.settings.CAFE_KRANZLER_IMAGE_2.width >= 1070 -%}{{ section.settings.CAFE_KRANZLER_IMAGE_2 | image_url: width: 1070 }} 1070w,{%- endif -%}
+            {%- if section.settings.CAFE_KRANZLER_IMAGE_2.width >= 1500 -%}{{ section.settings.CAFE_KRANZLER_IMAGE_2 | image_url: width: 1500 }} 1500w,{%- endif -%}
+            {{ section.settings.CAFE_KRANZLER_IMAGE_2 | image_url }} {{ section.settings.image.width }}
+          "
+          src="{{ section.settings.CAFE_KRANZLER_IMAGE_2| image_url: width: 1500 }}"
+          alt="{{ section.settings.CAFE_KRANZLER_IMAGE_2.alt | escape }}"
+          loading="lazy"
+          width=""
+          height=""
+          class="image-main-slider slide"
+        >
+      {%- else -%}
+        {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+      {%- endif -%}
+      <div class="slider-buttons">
+        <button class="prev">&#10094;</button>
+        <button class="next">&#10095;</button>
+      </div>
+    </section>
+    <section class="text-buttom-container">
+      {%- if section.settings.CAFE_KRANZLER_HEADING != blank -%}
+        <h2>
+          {{ section.settings.CAFE_KRANZLER_HEADING | escape }}
+        </h2>
+      {%- endif -%}
+
+      {%- if section.settings.CAFE_KRANZLER_ADDRESS != blank -%}
+        <p>{{ section.settings.CAFE_KRANZLER_ADDRESS | escape }}</p>
+      {%- endif -%}
+
+      {%- if section.settings.CAFE_KRANZLER_OPENING != blank -%}
+        <p class="rich-text__heading rte {{ settings.heading_size }}" {{ shopify_attributes }}>
+          {{ section.settings.CAFE_KRANZLER_OPENING | replace: 'p>', 'span>' }}
+        </p>
+      {%- endif -%}
+
+      {%- if section.settings.CAFE_KRANZLER_LINK != blank -%}
+        <p class="btn-card">
+          {{ section.settings.CAFE_KRANZLER_LINK | replace: 'p>', 'span>' }}
+        </p>
+      {%- endif -%}
+    </section>
+  </section>
+
+  <section class="image-with-text page-width">
     <section class="section-ANNEX_CAFE-padding slider-container">
       {%- if section.settings.ANNEX_CAFE_IMAGE != blank -%}
         <img
@@ -1252,6 +1348,99 @@
     </section>
   </section>
 </section>
+
+<section class="content" id="tab-content-5">
+    <section class="image-with-text page-width">
+      <section class="section-MUNCHEN-padding slider-container">
+        {%- if section.settings.MUNCHEN_IMAGE != blank -%}
+          <img
+            srcset="
+              {%- if section.settings.MUNCHEN_IMAGE.width >= 165 -%}{{ section.settings.MUNCHEN_IMAGE | image_url: width: 165 }} 165w,{%- endif -%}
+              {%- if section.settings.MUNCHEN_IMAGE.width >= 360 -%}{{ section.settings.MUNCHEN_IMAGE | image_url: width: 360 }} 360w,{%- endif -%}
+              {%- if section.settings.MUNCHEN_IMAGE.width >= 535 -%}{{ section.settings.MUNCHEN_IMAGE | image_url: width: 535 }} 535w,{%- endif -%}
+              {%- if section.settings.MUNCHEN_IMAGE.width >= 750 -%}{{ section.settings.MUNCHEN_IMAGE | image_url: width: 750 }} 750w,{%- endif -%}
+              {%- if section.settings.MUNCHEN_IMAGE.width >= 1070 -%}{{ section.settings.MUNCHEN_IMAGE | image_url: width: 1070 }} 1070w,{%- endif -%}
+              {%- if section.settings.MUNCHEN_IMAGE.width >= 1500 -%}{{ section.settings.MUNCHEN_IMAGE | image_url: width: 1500 }} 1500w,{%- endif -%}
+              {{ section.settings.MUNCHEN_IMAGE | image_url }} {{ section.settings.MUNCHEN_IMAGE.width }}
+            "
+            src="{{ section.settings.MUNCHEN_IMAGE| image_url: width: 1500 }}"
+            alt="{{ section.settings.MUNCHEN_IMAGE.alt | escape }}"
+            loading="lazy"
+            width=""
+            height=""
+            class="image-main-slider slide active"
+          >
+        {%- else -%}
+          {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+        {%- endif -%}
+        {%- if section.settings.MUNCHEN_IMAGE_1 != blank -%}
+          <img
+            srcset="
+              {%- if section.settings.MUNCHEN_IMAGE_1.width >= 165 -%}{{ section.settings.MUNCHEN_IMAGE_1 | image_url: width: 165 }} 165w,{%- endif -%}
+              {%- if section.settings.MUNCHEN_IMAGE_1.width >= 360 -%}{{ section.settings.MUNCHEN_IMAGE_1 | image_url: width: 360 }} 360w,{%- endif -%}
+              {%- if section.settings.MUNCHEN_IMAGE_1.width >= 535 -%}{{ section.settings.MUNCHEN_IMAGE_1 | image_url: width: 535 }} 535w,{%- endif -%}
+              {%- if section.settings.MUNCHEN_IMAGE_1.width >= 750 -%}{{ section.settings.MUNCHEN_IMAGE_1 | image_url: width: 750 }} 750w,{%- endif -%}
+              {%- if section.settings.MUNCHEN_IMAGE_1.width >= 1070 -%}{{ section.settings.MUNCHEN_IMAGE_1 | image_url: width: 1070 }} 1070w,{%- endif -%}
+              {%- if section.settings.MUNCHEN_IMAGE_1.width >= 1500 -%}{{ section.settings.MUNCHEN_IMAGE_1 | image_url: width: 1500 }} 1500w,{%- endif -%}
+              {{ section.settings.MUNCHEN_IMAGE_1 | image_url }} {{ section.settings.MUNCHEN_IMAGE_1.width }}
+            "
+            src="{{ section.settings.MUNCHEN_IMAGE_1| image_url: width: 1500 }}"
+            alt="{{ section.settings.MUNCHEN_IMAGE_1.alt | escape }}"
+            loading="lazy"
+            width=""
+            height=""
+            class="image-main-slider slide"
+          >
+        {%- endif -%}
+        {%- if section.settings.MUNCHEN_IMAGE_2 != blank -%}
+          <img
+            srcset="
+              {%- if section.settings.MUNCHEN_IMAGE_2.width >= 165 -%}{{ section.settings.MUNCHEN_IMAGE_2 | image_url: width: 165 }} 165w,{%- endif -%}
+              {%- if section.settings.MUNCHEN_IMAGE_2.width >= 360 -%}{{ section.settings.MUNCHEN_IMAGE_2 | image_url: width: 360 }} 360w,{%- endif -%}
+              {%- if section.settings.MUNCHEN_IMAGE_2.width >= 535 -%}{{ section.settings.MUNCHEN_IMAGE_2 | image_url: width: 535 }} 535w,{%- endif -%}
+              {%- if section.settings.MUNCHEN_IMAGE_2.width >= 750 -%}{{ section.settings.MUNCHEN_IMAGE_2 | image_url: width: 750 }} 750w,{%- endif -%}
+              {%- if section.settings.MUNCHEN_IMAGE_2.width >= 1070 -%}{{ section.settings.MUNCHEN_IMAGE_2 | image_url: width: 1070 }} 1070w,{%- endif -%}
+              {%- if section.settings.MUNCHEN_IMAGE_2.width >= 1500 -%}{{ section.settings.MUNCHEN_IMAGE_2 | image_url: width: 1500 }} 1500w,{%- endif -%}
+              {{ section.settings.MUNCHEN_IMAGE_2 | image_url }} {{ section.settings.MUNCHEN_IMAGE_2.width }}
+            "
+            src="{{ section.settings.MUNCHEN_IMAGE_2| image_url: width: 1500 }}"
+            alt="{{ section.settings.MUNCHEN_IMAGE_2.alt | escape }}"
+            loading="lazy"
+            width=""
+            height=""
+            class="image-main-slider slide"
+          >
+        {%- endif -%}
+        <div class="slider-buttons">
+          <button class="prev">&#10094;</button>
+          <button class="next">&#10095;</button>
+        </div>
+      </section>
+      <section class="text-buttom-container">
+        {%- if section.settings.MUNCHEN_HEADING != blank -%}
+          <h2>
+            {{ section.settings.MUNCHEN_HEADING | escape }}
+          </h2>
+        {%- endif -%}
+  
+        {%- if section.settings.MUNCHEN_ADDRESS != blank -%}
+          <p>{{ section.settings.MUNCHEN_ADDRESS | escape }}</p>
+        {%- endif -%}
+  
+        {%- if section.settings.MUNCHEN_OPENING != blank -%}
+          <p class="rich-text__heading rte {{ settings.heading_size }}" {{ shopify_attributes }}>
+            {{ section.settings.MUNCHEN_OPENING | replace: 'p>', 'span>' }}
+          </p>
+        {%- endif -%}
+  
+        {%- if section.settings.MUNCHEN_LINK != blank -%}
+          <p class="btn-card">
+            {{ section.settings.MUNCHEN_LINK | replace: 'p>', 'span>' }}
+          </p>
+        {%- endif -%}
+      </section>
+    </section>
+  </section>
 
 <section class="content" id="tab-content-4">
   <section class="image-with-text page-width">
@@ -2240,7 +2429,7 @@
       '.section-NORDBAHNHOF-padding', '.section-HACKESCHER_MARKT-padding',
       '.section-SONY_CENTER-padding', '.section-POTSDAMER_PLATZ-padding',
       '.section-CAFE_KRANZLER-padding', '.section-ANNEX_CAFE-padding',
-      '.section-ROASTERY-padding', '.section-MALLORCA-padding', '.section-LA_RAMBLA-padding',
+      '.section-ROASTERY-padding', '.section-MUNCHEN-padding', '.section-MALLORCA-padding', '.section-LA_RAMBLA-padding',
       '.section-SOUTH_KOREA-padding', '.section-SOUTH_KOREA_YEONHUI-padding',
       '.section-SOUTH_KOREA_BUSAN-padding', '.section-SOUTH_KOREA_DAEGU-padding',
       '.section-SOUTH_KOREA_DAEJEON-padding', '.section-SOUTH_KOREA_JEJU-padding',
@@ -3145,6 +3334,45 @@
           "default": "<p>link your location</p>",
           "label": "t:sections.rich-text.blocks.heading.settings.heading.label"
         },
+    {
+    "type": "image_picker",
+    "id": "MUNCHEN_IMAGE",
+    "label": "t:sections.image-with-text.settings.image.label"
+  },
+  {
+    "type": "image_picker",
+    "id": "MUNCHEN_IMAGE_1",
+    "label": "t:sections.image-with-text.settings.image.label"
+  },
+  {
+    "type": "image_picker",
+    "id": "MUNCHEN_IMAGE_2",
+    "label": "t:sections.image-with-text.settings.image.label"
+  },
+  {
+        "type": "text",
+        "id": "MUNCHEN_HEADING",
+        "default": "Image with text",
+        "label": "t:sections.image-with-text.blocks.heading.settings.heading.label"
+      },
+      {
+        "type": "text",
+        "id": "MUNCHEN_ADDRESS",
+        "default": "Image with text",
+        "label": "t:sections.image-with-text.blocks.heading.settings.heading.label"
+      },
+      {
+        "type": "richtext",
+        "id": "MUNCHEN_OPENING",
+        "default": "<p>link your location</p>",
+        "label": "t:sections.rich-text.blocks.heading.settings.heading.label"
+      },
+      {
+        "type": "richtext",
+        "id": "MUNCHEN_LINK",
+        "default": "<p>link your location</p>",
+        "label": "t:sections.rich-text.blocks.heading.settings.heading.label"
+      },
     {
       "type": "select",
       "id": "height",

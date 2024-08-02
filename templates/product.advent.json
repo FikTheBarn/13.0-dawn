@@ -192,7 +192,7 @@
       ],
       "settings": {
         "image": "{{ product.metafields.custom.additional_photos_b.value }}",
-        "height": "medium",
+        "height": "large",
         "desktop_image_width": "medium",
         "layout": "text_first",
         "desktop_content_position": "middle",
@@ -230,7 +230,7 @@
       ],
       "settings": {
         "image": "{{ product.metafields.custom.additional_photos_a.value }}",
-        "height": "medium",
+        "height": "large",
         "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_content_position": "middle",
@@ -268,7 +268,7 @@
       ],
       "settings": {
         "image": "{{ product.metafields.custom.additional_photos_a.value }}",
-        "height": "medium",
+        "height": "large",
         "desktop_image_width": "medium",
         "layout": "text_first",
         "desktop_content_position": "middle",

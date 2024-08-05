@@ -102,6 +102,7 @@
         "slide_4LHJgy",
         "slide_4E98eC"
       ],
+      "disabled": true,
       "custom_css": [
         "@media screen and (max-width: 749px) {.banner__buttons {justify-content: center; }}"
       ],
@@ -147,7 +148,6 @@
         "text_MnEe66",
         "button_JwgLXB"
       ],
-      "disabled": true,
       "settings": {
         "fullwidth_layout": "full_bleed",
         "title": "",

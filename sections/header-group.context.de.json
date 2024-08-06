@@ -13,16 +13,5 @@
     "market": "de"
   },
   "sections": {
-    "announcement-bar": {
-      "settings": {
-      },
-      "blocks": {
-        "announcement_tN6g6G": {
-          "disabled": false,
-          "settings": {
-          }
-        }
-      }
-    }
   }
 }

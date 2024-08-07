@@ -75,6 +75,25 @@
         "cta_text_color": "#fff"
       }
     },
+    "custom_special_drop_wA3waR": {
+      "type": "custom-special-drop",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/SpecialDrop_2.gif",
+        "height": "medium",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "custom_liquid": "<div class=\"klaviyo-form-UXffmQ\"><\/div>"
+      }
+    },
     "multicolumn_U34xXY": {
       "type": "multicolumn",
       "blocks": {
@@ -215,91 +234,15 @@
         "show_text_below": true,
         "accessibility_info": "Slideshow about our brand"
       }
-    },
-    "custom_liquid_NcUHAz": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<div class=\"klaviyo-form-UXffmQ\"><\/div>",
-        "color_scheme": "",
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
-    "image_with_text_7zA7rz": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_xANzRp": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image with text",
-            "heading_size": "h1"
-          }
-        },
-        "text_JdkN8n": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "text_style": "body"
-          }
-        },
-        "button_zmjcGE": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_xANzRp",
-        "text_JdkN8n",
-        "button_zmjcGE"
-      ],
-      "settings": {
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "custom_special_drop_wA3waR": {
-      "type": "custom-special-drop",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/SpecialDrop_2.gif",
-        "height": "medium",
-        "desktop_image_width": "small",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36,
-        "custom_liquid": "<div class=\"klaviyo-form-UXffmQ\"><\/div>"
-      }
     }
   },
   "order": [
     "main",
     "image_banner_fHWYYp",
     "countdown_timer_p8X7G6",
+    "custom_special_drop_wA3waR",
     "multicolumn_U34xXY",
     "rich_text_kEF4Dr",
-    "custom_slideshow_hero_hU6Nkd",
-    "custom_liquid_NcUHAz",
-    "image_with_text_7zA7rz",
-    "custom_special_drop_wA3waR"
+    "custom_slideshow_hero_hU6Nkd"
   ]
 }

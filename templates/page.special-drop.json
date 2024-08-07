@@ -215,6 +215,15 @@
         "show_text_below": true,
         "accessibility_info": "Slideshow about our brand"
       }
+    },
+    "custom_liquid_NcUHAz": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"klaviyo-form-UXffmQ\"><\/div>",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -223,6 +232,7 @@
     "countdown_timer_p8X7G6",
     "multicolumn_U34xXY",
     "rich_text_kEF4Dr",
-    "custom_slideshow_hero_hU6Nkd"
+    "custom_slideshow_hero_hU6Nkd",
+    "custom_liquid_NcUHAz"
   ]
 }

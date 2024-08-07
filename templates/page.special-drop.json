@@ -72,7 +72,7 @@
         "timer_section_btn_link": "",
         "timer_section_btn_text": "",
         "cta_bg_color": "#4770db",
-        "cta_text_color": "#fff"
+        "cta_text_color": "#ffffff"
       }
     },
     "custom_special_drop_wA3waR": {
@@ -100,7 +100,7 @@
         "column_7hDyhF": {
           "type": "column",
           "settings": {
-            "title": "1",
+            "title": "STEP ONE",
             "text": "<p>Every month our expert team sources extraordinary new coffees from around the world<\/p>",
             "link_label": "",
             "link": ""
@@ -109,7 +109,7 @@
         "column_wYUtHN": {
           "type": "column",
           "settings": {
-            "title": "2",
+            "title": "STEP TWO",
             "text": "<p>We will let you know about the coffee before releasing it to the public. <\/p>",
             "link_label": "",
             "link": ""
@@ -118,7 +118,7 @@
         "column_LfNmbx": {
           "type": "column",
           "settings": {
-            "title": "3",
+            "title": "STEP THREE",
             "text": "<p>You then have a two hour time window to order the coffee before everyone else.<\/p>",
             "link_label": "",
             "link": ""
@@ -136,7 +136,7 @@
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 3,
-        "column_alignment": "left",
+        "column_alignment": "center",
         "background_style": "primary",
         "button_label": "",
         "button_link": "",

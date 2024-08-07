@@ -57,6 +57,24 @@
         "show_text_below": false
       }
     },
+    "countdown_timer_p8X7G6": {
+      "type": "countdown-timer",
+      "settings": {
+        "bg_color": "#1c1d1c",
+        "timer_section_title": "Days until the next Special Drop",
+        "timer_section_subtitle": "",
+        "title_text_color": "#ffffff",
+        "subtitle_text_color": "#000",
+        "timer_title_size": 32,
+        "timer_subtitle_size": 16,
+        "date_picker": "08\/15\/2024",
+        "timer_color": "#000",
+        "timer_section_btn_link": "",
+        "timer_section_btn_text": "Shop Now!",
+        "cta_bg_color": "#4770db",
+        "cta_text_color": "#fff"
+      }
+    },
     "multicolumn_U34xXY": {
       "type": "multicolumn",
       "blocks": {
@@ -202,6 +220,7 @@
   "order": [
     "main",
     "image_banner_fHWYYp",
+    "countdown_timer_p8X7G6",
     "multicolumn_U34xXY",
     "rich_text_kEF4Dr",
     "custom_slideshow_hero_hU6Nkd"

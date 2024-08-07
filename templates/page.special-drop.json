@@ -15,9 +15,153 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "multicolumn_U34xXY": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_7hDyhF": {
+          "type": "column",
+          "settings": {
+            "title": "1",
+            "text": "<p>Every month our expert team sources extraordinary new coffees from around the world<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_wYUtHN": {
+          "type": "column",
+          "settings": {
+            "title": "2",
+            "text": "<p>We will let you know about the coffee before releasing it to the public. <\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_LfNmbx": {
+          "type": "column",
+          "settings": {
+            "title": "3",
+            "text": "<p>You then have a two hour time window to order the coffee before everyone else.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_7hDyhF",
+        "column_wYUtHN",
+        "column_LfNmbx"
+      ],
+      "settings": {
+        "title": "How it works",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_kEF4Dr": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_zWVFaz": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Special drops we have released<\/strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_8epAjp": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Every Special Drop offers a unique exploration of origin, varietal, and process. Here are some of our past drops:<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_zWVFaz",
+        "text_8epAjp"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "custom_slideshow_hero_hU6Nkd": {
+      "type": "custom-slideshow-hero",
+      "blocks": {
+        "slide_8GP6MC": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/esmeralda_gesha_picker_2.jpg",
+            "heading": "<strong>LA ESMERALDA GESHA<\/strong>",
+            "heading_size": "h1",
+            "subheading": "With intense jasmine florals and delicate notes of stone fruit, \tLa Esmeralda Gesha delivered the magic of Gesha in every sip.",
+            "button_label": "",
+            "link": "",
+            "button_label_2": "",
+            "link_2": "",
+            "button_style_secondary": false,
+            "box_align": "middle-left",
+            "show_text_box": true,
+            "text_alignment": "left",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_b9EEnc": {
+          "type": "slide",
+          "settings": {
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_label_2": "Button label",
+            "link_2": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_8GP6MC",
+        "slide_b9EEnc"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "small",
+        "slider_visual": "dots",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "multicolumn_U34xXY",
+    "rich_text_kEF4Dr",
+    "custom_slideshow_hero_hU6Nkd"
   ]
 }

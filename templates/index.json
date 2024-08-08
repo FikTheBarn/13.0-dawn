@@ -15,12 +15,12 @@
         "slide_xqE8NR": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/bumba_hill_twin_cropped.png",
-            "heading": "BUMBA HILL TWIN BOX",
+            "image": "shopify:\/\/shop_images\/Special_Drop_With_Chemex.jpg",
+            "heading": "<strong>OUR NEXT SPECIAL DROP<\/strong>",
             "heading_size": "h0",
-            "subheading": "Two processes, two exclusive coffees: Lot 1 and Lot 6 show off the beautiful range of flavour from this one area.",
-            "button_label": "ORDER HERE",
-            "link": "shopify:\/\/products\/bumba-hill-twin-box",
+            "subheading": "Next Thursday, we will release our August Special Drop. Join the list and skip the queue.",
+            "button_label": "SIGN UP",
+            "link": "shopify:\/\/pages\/specialty-coffee-drop",
             "button_label_2": "",
             "link_2": "",
             "button_style_secondary": false,
@@ -102,7 +102,6 @@
         "slide_4LHJgy",
         "slide_4E98eC"
       ],
-      "disabled": true,
       "custom_css": [
         "@media screen and (max-width: 749px) {.banner__buttons {justify-content: center; }}"
       ],
@@ -148,6 +147,7 @@
         "text_MnEe66",
         "button_JwgLXB"
       ],
+      "disabled": true,
       "settings": {
         "fullwidth_layout": "full_bleed",
         "title": "",

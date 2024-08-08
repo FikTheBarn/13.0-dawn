@@ -78,7 +78,7 @@
     "custom_special_drop_wA3waR": {
       "type": "custom-special-drop",
       "custom_css": [
-        "@media screen and (max-width: 750px) {.image-with-text__content {padding: 4rem calc(1rem \/ var(--font-body-scale)) 5rem;}}"
+        "@media screen and (max-width: 750px) {.image-with-text__content {padding: 4rem calc(1rem \/ var(--font-body-scale)) 5rem; } h1 {font-size: 32px; }}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/SpecialDrop_2.gif",

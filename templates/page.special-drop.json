@@ -20,17 +20,10 @@
     "image_banner_fHWYYp": {
       "type": "image-banner",
       "blocks": {
-        "heading_AqVey8": {
-          "type": "heading",
-          "settings": {
-            "heading": "<strong>Special Drops<\/strong>",
-            "heading_size": "h0"
-          }
-        },
         "heading_iW6rTH": {
           "type": "heading",
           "settings": {
-            "heading": "Every month we select one rare coffee and roast one batch, be the first to get it!",
+            "heading": "<strong>Special Drops: Every month we select one rare coffee and roast one batch, be the first to get it!<\/strong>",
             "heading_size": "h1"
           }
         },
@@ -47,7 +40,6 @@
         }
       },
       "block_order": [
-        "heading_AqVey8",
         "heading_iW6rTH",
         "buttons_3GKXar"
       ],

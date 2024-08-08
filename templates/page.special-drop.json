@@ -31,7 +31,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "GET NOTIFIED",
-            "button_link_1": "",
+            "button_link_1": "#shopify-section-template--20096180781323__custom_special_drop_wA3waR",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -241,7 +241,7 @@
     "custom_liquid_x6Pt97": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<script>\ndocument.addEventListener('DOMContentLoaded', function(){\n  document.querySelector('.banner__button').addEventListener('click', function(){\n    document.getElementById('shopify-section-image-with-text-2').scrollIntoView({ \n      behavior: 'smooth' \n    });\n  })\n})\n<\/script>",
+        "custom_liquid": "<script>\ndocument.addEventListener('DOMContentLoaded', function(){\n  document.querySelector('.banner__button').addEventListener('click', function(){\n    document.getElementById('shopify-section-template--20096180781323__custom_special_drop_wA3waR').scrollIntoView({ \n      behavior: 'smooth' \n    });\n  });\n});\n<\/script>",
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 52

@@ -203,33 +203,55 @@
             "text_alignment_mobile": "center"
           }
         },
-        "slide_b9EEnc": {
+        "slide_tKCz78": {
           "type": "slide",
           "settings": {
-            "heading": "Image slide",
+            "image": "shopify:\/\/shop_images\/cerroazulgeshanapoleonbrew.jpg",
+            "heading": "<strong>CERRO AZUL GESHA NAPOLEON<\/strong>",
             "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
+            "subheading": "Named for the rarest Cognac, the 'Napoleon' process delivers a profile that defies all expectations. Wild, boozy, yet silky smooth, this is a coffee with an intense array of fruit driven flavour.",
+            "button_label": "",
             "link": "",
-            "button_label_2": "Button label",
+            "button_label_2": "",
             "link_2": "",
             "button_style_secondary": false,
-            "box_align": "middle-center",
+            "box_align": "middle-left",
             "show_text_box": true,
-            "text_alignment": "center",
+            "text_alignment": "left",
             "image_overlay_opacity": 0,
-            "color_scheme": "",
+            "color_scheme": "scheme-4",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_mnbbyC": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Daterra_Special_Drop.jpg",
+            "heading": "<strong>DATERRA GESHA BV40<\/strong>",
+            "heading_size": "h1",
+            "subheading": "The Daterra team are constantly experimenting: nurturing plants and perfecting processing. This lot is bursting with the flavour of summer fruit - with bright, clean sweetness that is a testament to expert fermentation.",
+            "button_label": "",
+            "link": "",
+            "button_label_2": "",
+            "link_2": "",
+            "button_style_secondary": false,
+            "box_align": "middle-left",
+            "show_text_box": true,
+            "text_alignment": "left",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-4",
             "text_alignment_mobile": "center"
           }
         }
       },
       "block_order": [
         "slide_8GP6MC",
-        "slide_b9EEnc"
+        "slide_tKCz78",
+        "slide_mnbbyC"
       ],
       "settings": {
         "layout": "full_bleed",
-        "slide_height": "small",
+        "slide_height": "medium",
         "slider_visual": "dots",
         "auto_rotate": false,
         "change_slides_speed": 5,

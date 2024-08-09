@@ -42,7 +42,8 @@
   endunless
 -%}
 
-{% for events in shop.metaobjects.events.values %}
+{% assign sorted_events = shop.metaobjects.events.values | sort_natural: 'date' %}
+{% for events in sorted_events  %}
   <div class="multirow section-{{ section.id }}-padding gradient color-{{ section.settings.section_color_scheme }}">
     <div class="multirow__inner page-width">
       {%- for block in section.blocks -%}

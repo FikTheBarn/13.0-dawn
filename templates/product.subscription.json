@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
@@ -34,6 +43,19 @@
           "settings": {
           }
         },
+        "groupmate_pdp_variant_selector_B89VgV": {
+          "type": "shopify:\/\/apps\/groupmate\/blocks\/pdp_variant-selector\/6e6d41ff-b0ad-49c2-a226-69e76a2e1525",
+          "settings": {
+            "show_label": true,
+            "show_swatch_titles": true,
+            "show_border": false,
+            "swatch_size": 3,
+            "only_available": false,
+            "order_active": false,
+            "custom_css": "",
+            "disable_app_css": false
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -43,6 +65,7 @@
         },
         "complementary_FG8RKq": {
           "type": "complementary",
+          "disabled": true,
           "settings": {
             "block_heading": "Prepaid Subscriptions",
             "make_collapsible_row": false,
@@ -106,6 +129,7 @@
         "title",
         "caption",
         "price",
+        "groupmate_pdp_variant_selector_B89VgV",
         "variant_picker",
         "complementary_FG8RKq",
         "buy_buttons",

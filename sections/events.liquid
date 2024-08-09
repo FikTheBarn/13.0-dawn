@@ -44,6 +44,7 @@
 
 {% assign sortable_events = shop.metaobjects.events.values %}
 {% assign sorted_events = sortable_events | sort_natural: 'date'  %}
+{% assign sorted_events = sorted_events | reverse %}
 {% for events in sorted_events  %}
   <div class="multirow section-{{ section.id }}-padding gradient color-{{ section.settings.section_color_scheme }}">
     <div class="multirow__inner page-width">

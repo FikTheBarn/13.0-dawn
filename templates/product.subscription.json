@@ -52,7 +52,7 @@
             "swatch_size": 3,
             "only_available": false,
             "order_active": false,
-            "custom_css": "",
+            "custom_css": "label.mw_groupmate__label {font-size: 1.3rem;}",
             "disable_app_css": false
           }
         },

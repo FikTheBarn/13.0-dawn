@@ -9,6 +9,7 @@
   {{ 'component-slider.css' | asset_url | stylesheet_tag }}
   {{ 'component-rating.css' | asset_url | stylesheet_tag }}
   {{ 'component-deferred-media.css' | asset_url | stylesheet_tag }}
+  {{ 'combined-listings.css' | asset_url | stylesheet_tag }}
   {% unless product.has_only_default_variant %}
     {{ 'component-product-variant-picker.css' | asset_url | stylesheet_tag }}
     {{ 'component-swatch-input.css' | asset_url | stylesheet_tag }}
@@ -195,6 +196,9 @@
                     {{ product.description }}
                   </div>
                 {%- endif -%}
+                {%- when 'combined_listing' -%}
+                <p class="form__label">{{ block.settings.combined_listing_text }}</p>
+                {% render 'combined-listings', product: product %}
               {%- when 'sku' -%}
                 <p
                   class="product__sku{% if block.settings.text_style == 'uppercase' %} caption-with-letter-spacing{% elsif block.settings.text_style == 'subtitle' %} subtitle{% endif %}{% if product.selected_or_first_available_variant.sku.size == 0 %} visibility-hidden{% endif %}"
@@ -1535,6 +1539,17 @@
           "id": "enable_quick_add",
           "label": "t:sections.main-product.blocks.complementary_products.settings.enable_quick_add.label",
           "default": false
+        }
+      ]
+    },
+    {
+      "type": "combined_listings",
+      "name": "Title for Combo List",
+      "settings": [
+        {
+          "type": "text",
+          "id": "combined_listing_text",
+          "label": "Input the title here"
         }
       ]
     },

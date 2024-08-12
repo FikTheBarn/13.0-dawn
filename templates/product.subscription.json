@@ -43,17 +43,10 @@
           "settings": {
           }
         },
-        "groupmate_pdp_variant_selector_B89VgV": {
-          "type": "shopify:\/\/apps\/groupmate\/blocks\/pdp_variant-selector\/6e6d41ff-b0ad-49c2-a226-69e76a2e1525",
+        "combined_listings_A3RKyq": {
+          "type": "combined_listings",
           "settings": {
-            "show_label": true,
-            "show_swatch_titles": true,
-            "show_border": false,
-            "swatch_size": 3,
-            "only_available": false,
-            "order_active": false,
-            "custom_css": "label.mw_groupmate__label {font-size: 1.3rem;}",
-            "disable_app_css": false
+            "combined_listing_text": "Duration"
           }
         },
         "variant_picker": {
@@ -129,7 +122,7 @@
         "title",
         "caption",
         "price",
-        "groupmate_pdp_variant_selector_B89VgV",
+        "combined_listings_A3RKyq",
         "variant_picker",
         "complementary_FG8RKq",
         "buy_buttons",

@@ -197,8 +197,10 @@
                   </div>
                 {%- endif -%}
                 {%- when 'combined_listings' -%}
+              {% if product.metafields.beans.combined_listing %}
                 <p class="form__label custom-caption">{{ block.settings.combined_listing_text }}</p>
                 {% render 'combined-listings', product: product %}
+              {% endif %}
               {%- when 'sku' -%}
                 <p
                   class="product__sku{% if block.settings.text_style == 'uppercase' %} caption-with-letter-spacing{% elsif block.settings.text_style == 'subtitle' %} subtitle{% endif %}{% if product.selected_or_first_available_variant.sku.size == 0 %} visibility-hidden{% endif %}"

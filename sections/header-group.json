@@ -16,6 +16,7 @@
       "blocks": {
         "announcement_tN6g6G": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "Receive a free KeepCup with orders over 50 EUR",
             "link": ""

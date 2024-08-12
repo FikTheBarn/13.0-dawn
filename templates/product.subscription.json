@@ -43,6 +43,12 @@
           "settings": {
           }
         },
+        "combined_listings_aiRMEj": {
+          "type": "combined_listings",
+          "settings": {
+            "combined_listing_text": "Duration"
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -116,6 +122,7 @@
         "title",
         "caption",
         "price",
+        "combined_listings_aiRMEj",
         "variant_picker",
         "complementary_FG8RKq",
         "buy_buttons",

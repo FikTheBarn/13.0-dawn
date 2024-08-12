@@ -1,0 +1,19 @@
+{% comment %}
+  Check if the product has the metafield for combined listings.
+{% endcomment %}
+
+{% if product.metafields.beans.combined_listing %}
+  <div class="combined-products">
+    {% for combined_product in product.metafields.beans.combined_listing.value %}
+      {% assign active_class = "" %}
+      {% if combined_product.url == request.path %}
+        {% assign active_class = "active" %}
+      {% endif %}
+      <a href="{{ combined_product.url }}" class="custombutton {{ active_class }}">
+        {% if combined_product.metafields.custom.name %}
+          {{ combined_product.metafields.custom.name.value }}<br>
+        {% endif %}
+      </a>
+    {% endfor %}
+  </div>
+{% endif %}

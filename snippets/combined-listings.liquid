@@ -6,7 +6,7 @@
     {% for combined_product in product.metafields.beans.combined_listing.value %}
       {% assign active_class = "" %}
       {% if combined_product.url == request.path %}
-        {% assign active_class = "active" %}
+        {% assign active_class = "animated" %}
       {% endif %}
       <a href="{{ combined_product.url }}" class="custombutton {{ active_class }}">
         {% if combined_product.metafields.custom.name %}

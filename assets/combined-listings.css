@@ -29,7 +29,7 @@
   border: var(--variant-pills-border-width) solid rgba(var(--color-foreground));
 }
 
-.active {
+.animated {
   background-color: rgb(var(--color-foreground));
   color: rgb(var(--color-background));
 }

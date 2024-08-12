@@ -1,30 +1,35 @@
-  .combined-products{
-    margin-top:0px;
-  }
-  
-  .custombutton {
-    border: var(--variant-pills-border-width) solid rgba(var(--color-foreground), var(--variant-pills-border-opacity));
-    background-color: rgb(var(--color-background));
-    border-radius: var(--variant-pills-radius);
-    color: rgb(var(--color-foreground));
-    display: inline-block;
-    text-decoration: none;
-    margin: .7rem .5rem .2rem 0;
-    padding: 1rem 2rem;
-    font-size: 1.4rem;
-    letter-spacing: .1rem;
-    line-height: 1;
-    text-align: center;
-    transition: border var(--duration-short) ease;
-    cursor: pointer;
-    position: relative;
-  }
+.custom-caption {
+  margin-bottom: 0px;
+}
 
-  .custombutton:hover {
-    border: var(--variant-pills-border-width) solid rgba(var(--color-foreground));
-  }
+.combined-products {
+  margin-top: 0px;
+}
 
-  .active {
-    background-color: rgb(var(--color-foreground));
-    color: rgb(var(--color-background));
-  }
+.custombutton {
+  border: var(--variant-pills-border-width) solid
+    rgba(var(--color-foreground), var(--variant-pills-border-opacity));
+  background-color: rgb(var(--color-background));
+  border-radius: var(--variant-pills-radius);
+  color: rgb(var(--color-foreground));
+  display: inline-block;
+  text-decoration: none;
+  margin: 0.7rem 0.5rem 0.2rem 0;
+  padding: 1rem 2rem;
+  font-size: 1.4rem;
+  letter-spacing: 0.1rem;
+  line-height: 1;
+  text-align: center;
+  transition: border var(--duration-short) ease;
+  cursor: pointer;
+  position: relative;
+}
+
+.custombutton:hover {
+  border: var(--variant-pills-border-width) solid rgba(var(--color-foreground));
+}
+
+.active {
+  background-color: rgb(var(--color-foreground));
+  color: rgb(var(--color-background));
+}

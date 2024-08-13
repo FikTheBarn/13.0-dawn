@@ -12,6 +12,26 @@
     "custom_slideshow_hero_UiixMb": {
       "type": "custom-slideshow-hero",
       "blocks": {
+        "slide_9YDfQw": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/keepcupglasslargerphoto.jpg",
+            "heading": "KEEPCUP: OUR RESUABLE CHOICE",
+            "heading_size": "h0",
+            "subheading": "Receive yours with orders over 50 EUR",
+            "button_label": "SHOP",
+            "link": "shopify:\/\/collections\/shop",
+            "button_label_2": "EXPLORE COFFEES",
+            "link_2": "shopify:\/\/collections\/coffee-beans",
+            "button_style_secondary": true,
+            "box_align": "middle-left",
+            "show_text_box": true,
+            "text_alignment": "left",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-5",
+            "text_alignment_mobile": "center"
+          }
+        },
         "slide_xqE8NR": {
           "type": "slide",
           "settings": {
@@ -23,27 +43,6 @@
             "link": "shopify:\/\/pages\/specialty-coffee-drop",
             "button_label_2": "",
             "link_2": "",
-            "button_style_secondary": true,
-            "box_align": "middle-left",
-            "show_text_box": true,
-            "text_alignment": "left",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-5",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "slide_9YDfQw": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Rwanda_Trip_17.jpg",
-            "heading": "NEW TRAVEL BLOG: RWANDA",
-            "heading_size": "h0",
-            "subheading": "Visiting our Farm Partners",
-            "button_label": "READ MORE",
-            "link": "shopify:\/\/blogs\/the-barn-blog\/rwanda",
-            "button_label_2": "EXPLORE COFFEES",
-            "link_2": "https:\/\/thebarn.de\/collections\/coffee-beans?filter.p.m.custom.region=Rwanda&sort_by=manual",
             "button_style_secondary": true,
             "box_align": "middle-left",
             "show_text_box": true,
@@ -97,8 +96,8 @@
         }
       },
       "block_order": [
-        "slide_xqE8NR",
         "slide_9YDfQw",
+        "slide_xqE8NR",
         "slide_4LHJgy",
         "slide_4E98eC"
       ],

@@ -34,6 +34,7 @@
         role="list"
       >
         {% for recommendation in recommendations.products %}
+          {% unless recommendation.tags contains 'Hidden' %}
           <li class="grid__item">
             {% render 'card-product',
               card_product: recommendation,
@@ -44,6 +45,7 @@
               show_rating: section.settings.show_rating
             %}
           </li>
+            {% endunless %}
         {% endfor %}
       </ul>
     {% endif %}

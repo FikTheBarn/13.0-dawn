@@ -331,12 +331,6 @@
             "collection": "coffee-equipment"
           }
         },
-        "featured_collection_qC8jLM": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "fellow-products"
-          }
-        },
         "featured_collection_gzV7jL": {
           "type": "featured_collection",
           "settings": {
@@ -366,7 +360,6 @@
         "featured_collection_KyhY6J",
         "featured_collection_pdqiKP",
         "featured_collection_AVyPQP",
-        "featured_collection_qC8jLM",
         "featured_collection_gzV7jL",
         "featured_collection_UEHAjE",
         "featured_collection_akNPL9",

@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "banner": {
@@ -65,18 +74,6 @@
             "collection": "coffee-grinders"
           }
         },
-        "featured_collection_AnqJGU": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "fellow-products"
-          }
-        },
-        "featured_collection_U8BMfU": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "aeropress-equipment"
-          }
-        },
         "featured_collection_hLk6Ti": {
           "type": "featured_collection",
           "settings": {
@@ -104,8 +101,6 @@
       },
       "block_order": [
         "featured_collection_KTrLxd",
-        "featured_collection_AnqJGU",
-        "featured_collection_U8BMfU",
         "featured_collection_hLk6Ti",
         "featured_collection_6H9QPQ",
         "featured_collection_Bpjh8i",
@@ -113,7 +108,7 @@
       ],
       "custom_css": [
         "h2 {font-family: \"Chalet Comprime\"; font-size: 32px;}",
-        "h3{font-size: 24px;}"
+        "h3 {font-size: 24px;}"
       ],
       "settings": {
         "title": "EQUIPMENT BY CATEGORY",

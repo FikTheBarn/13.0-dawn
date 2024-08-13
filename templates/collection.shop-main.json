@@ -86,16 +86,16 @@
             "collection": "coffee-equipment"
           }
         },
+        "featured_collection_KhzVUB": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "coffee-filter-brewing-method"
+          }
+        },
         "featured_collection_Jthy3D": {
           "type": "featured_collection",
           "settings": {
             "collection": "instant-capsules-coffee"
-          }
-        },
-        "featured_collection_jmWatT": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "coffee-capsules"
           }
         },
         "featured_collection_8CCGXR": {
@@ -115,24 +115,17 @@
           "settings": {
             "collection": "coffee-vouchers"
           }
-        },
-        "featured_collection_KhzVUB": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "coffee-filter-brewing-method"
-          }
         }
       },
       "block_order": [
         "featured_collection_Rb3xDj",
         "featured_collection_NcAhax",
         "featured_collection_nrfW3M",
+        "featured_collection_KhzVUB",
         "featured_collection_Jthy3D",
-        "featured_collection_jmWatT",
         "featured_collection_8CCGXR",
         "featured_collection_k9pjpJ",
-        "featured_collection_BPkMfU",
-        "featured_collection_KhzVUB"
+        "featured_collection_BPkMfU"
       ],
       "custom_css": [
         "h3 {color: whitesmoke; font-size: 22px;}"

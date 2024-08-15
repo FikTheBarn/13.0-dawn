@@ -12,8 +12,29 @@
     "custom_slideshow_hero_UiixMb": {
       "type": "custom-slideshow-hero",
       "blocks": {
+        "slide_4E98eC": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/La_Palma_El_Tucan_Special_Drop.jpg",
+            "heading": "<strong>LA PALMA & EL TUCÁN GESHA<\/strong>",
+            "heading_size": "h0",
+            "subheading": "The extraordinary processing used for this lot takes the refined profile of Gesha in a whole new direction.",
+            "button_label": "ORDER NOW",
+            "link": "shopify:\/\/products\/la-palma-el-tucan-special-drop",
+            "button_label_2": "ONLY 100 BAGS AVAILABLE",
+            "link_2": "shopify:\/\/products\/la-palma-el-tucan-special-drop",
+            "button_style_secondary": true,
+            "box_align": "middle-left",
+            "show_text_box": true,
+            "text_alignment": "left",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-5",
+            "text_alignment_mobile": "center"
+          }
+        },
         "slide_9YDfQw": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/keepcupglasslargerphoto.jpg",
             "heading": "KEEPCUP: OUR RESUABLE CHOICE",
@@ -73,34 +94,13 @@
             "color_scheme": "scheme-5",
             "text_alignment_mobile": "center"
           }
-        },
-        "slide_4E98eC": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/esmeralda_special_drop.jpg",
-            "heading": "LA ESMERALDA GESHA",
-            "heading_size": "h0",
-            "subheading": "Special drop: For 24 hours, this is your chance to taste an exceptional Gesha - intense jasmine, stone fruit, bergamot.",
-            "button_label": "ORDER NOW",
-            "link": "shopify:\/\/products\/la-esmeralda-gesha-special-drop",
-            "button_label_2": "",
-            "link_2": "",
-            "button_style_secondary": false,
-            "box_align": "middle-left",
-            "show_text_box": true,
-            "text_alignment": "left",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-5",
-            "text_alignment_mobile": "center"
-          }
         }
       },
       "block_order": [
+        "slide_4E98eC",
         "slide_9YDfQw",
         "slide_xqE8NR",
-        "slide_4LHJgy",
-        "slide_4E98eC"
+        "slide_4LHJgy"
       ],
       "custom_css": [
         "@media screen and (max-width: 749px) {.banner__buttons {justify-content: center; }}"

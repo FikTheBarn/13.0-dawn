@@ -34,6 +34,7 @@
         },
         "slide_xqE8NR": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Special_Drop_With_Chemex.jpg",
             "heading": "<strong>OUR NEXT SPECIAL DROP<\/strong>",

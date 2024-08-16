@@ -14,6 +14,7 @@
       "blocks": {
         "slide_4E98eC": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/La_Palma_El_Tucan_Special_Drop.jpg",
             "heading": "<strong>LA PALMA & EL TUCÁN GESHA<\/strong>",
@@ -34,7 +35,6 @@
         },
         "slide_9YDfQw": {
           "type": "slide",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/keepcupglasslargerphoto.jpg",
             "heading": "KEEPCUP: OUR RESUABLE CHOICE",

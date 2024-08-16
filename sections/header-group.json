@@ -16,14 +16,14 @@
       "blocks": {
         "announcement_g6bJEw": {
           "type": "announcement",
-          "disabled": true,
           "settings": {
-            "text": "Special drop: For 24 hours, this is your chance to taste an exceptional Gesha.",
-            "link": "shopify:\/\/products\/la-palma-el-tucan-special-drop"
+            "text": "Sign up for our next Special Drop. Join the list and skip the queue ☕️",
+            "link": "shopify:\/\/pages\/specialty-coffee-drop"
           }
         },
         "announcement_tN6g6G": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "Receive a free KeepCup with orders over 50 EUR",
             "link": ""

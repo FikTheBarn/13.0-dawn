@@ -13,5 +13,12 @@
     "market": "de"
   },
   "sections": {
+    "video_with_text_jrdbJT": {
+      "settings": {
+        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/8fb6b88e8b1146f58894bf5eab35d57c.mp4"
+      },
+      "blocks": {
+      }
+    }
   }
 }

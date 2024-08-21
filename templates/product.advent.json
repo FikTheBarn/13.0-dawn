@@ -231,13 +231,6 @@
     "image_with_text_rE7Hak": {
       "type": "image-with-text",
       "blocks": {
-        "heading_Aexke3": {
-          "type": "heading",
-          "settings": {
-            "heading": "Get inspired by our advent calendar",
-            "heading_size": "h2"
-          }
-        },
         "text_HfgKRf": {
           "type": "text",
           "settings": {
@@ -247,7 +240,6 @@
         }
       },
       "block_order": [
-        "heading_Aexke3",
         "text_HfgKRf"
       ],
       "settings": {

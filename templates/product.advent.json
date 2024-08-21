@@ -100,6 +100,24 @@
             "show_dynamic_checkout": false,
             "show_gift_card_recipient": true
           }
+        },
+        "collapsible_tab_rwW697": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Inspirational calendar contains",
+            "icon": "box",
+            "content": "<p>You will receive 24 x 50g of exceptional coffee<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_pjrXFB": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Shipment in December",
+            "icon": "truck",
+            "content": "<p>If you pre-order your calendar, it will be dispatched from 18th November onwards. You will receive the shipping notification by e-mail as usual.<\/p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -108,7 +126,9 @@
         "caption",
         "description",
         "price",
-        "buy_buttons"
+        "buy_buttons",
+        "collapsible_tab_rwW697",
+        "collapsible_tab_pjrXFB"
       ],
       "settings": {
         "enable_sticky_info": false,

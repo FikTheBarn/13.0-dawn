@@ -22,7 +22,7 @@
         "text_6kHXBj": {
           "type": "text",
           "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text": "{{ product.metafields.bean.tastenotes | metafield_text }}",
             "text_style": "subtitle"
           }
         },
@@ -44,9 +44,12 @@
         "text_6kHXBj",
         "buttons_RXTb37"
       ],
+      "custom_css": [
+        ".banner__text {color: white;}"
+      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/inspiration_calendar_calendar_final_look_30_07_2_1_d54c2608-217d-4aa3-82cf-34a3deb418c8.jpg",
-        "image_overlay_opacity": 10,
+        "image_overlay_opacity": 30,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
         "show_text_box": false,

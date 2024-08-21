@@ -156,13 +156,6 @@
             "heading_size": "h0"
           }
         },
-        "text_TpwHGN": {
-          "type": "text",
-          "settings": {
-            "text": "This holiday season, join a global community of thousands of coffee lovers in walking through a carefully curated holiday coffee calendar, featuring a sweeping range of origins, varieties, and processing methods that reveal the rich tapestry of coffee flavors.",
-            "text_style": "body"
-          }
-        },
         "buttons_EaFeRp": {
           "type": "buttons",
           "settings": {
@@ -177,16 +170,15 @@
       },
       "block_order": [
         "heading_kVydRr",
-        "text_TpwHGN",
         "buttons_EaFeRp"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/coffee-shining.gif",
         "image_overlay_opacity": 60,
         "image_height": "large",
-        "desktop_content_position": "middle-center",
+        "desktop_content_position": "middle-left",
         "show_text_box": false,
-        "desktop_content_alignment": "center",
+        "desktop_content_alignment": "left",
         "color_scheme": "",
         "image_behavior": "none",
         "mobile_content_alignment": "center",

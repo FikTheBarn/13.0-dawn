@@ -171,43 +171,6 @@
         "show_text_below": true
       }
     },
-    "image_banner_LfKxGQ": {
-      "type": "image-banner",
-      "blocks": {
-        "heading_DcRAjG": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "heading": "24 days. 24 coffees. An incredible festive countdown awaits. Throughout the advent period, you will taste the incredible range of coffee today, grown by the producers who inspire us around the world: an exploration of origin, varietal, and process unlike any other.",
-            "heading_size": "h1"
-          }
-        },
-        "text_kXdfUb": {
-          "type": "text",
-          "settings": {
-            "text": "24 days. 24 coffees. An incredible festive countdown awaits. Throughout the advent period, you will taste the incredible range of coffee today, grown by the producers who inspire us around the world: an exploration of origin, varietal, and process unlike any other.",
-            "text_style": "subtitle"
-          }
-        }
-      },
-      "block_order": [
-        "heading_DcRAjG",
-        "text_kXdfUb"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Image_01.08.24_at_10.27.jpg",
-        "image_overlay_opacity": 20,
-        "image_height": "medium",
-        "desktop_content_position": "middle-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "",
-        "image_behavior": "fixed",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": false
-      }
-    },
     "related-products": {
       "type": "related-products",
       "disabled": true,
@@ -466,7 +429,6 @@
     "image_banner_cwV6xB",
     "main",
     "image_banner_MHF39b",
-    "image_banner_LfKxGQ",
     "related-products",
     "rich_text_CdHw4J",
     "image_with_text_rE7Hak",

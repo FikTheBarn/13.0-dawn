@@ -21,6 +21,7 @@
         },
         "buttons_RXTb37": {
           "type": "buttons",
+          "disabled": true,
           "settings": {
             "button_label_1": "PRE-ORDER NOW",
             "button_link_1": "shopify:\/\/products\/acaia-pearl-s",
@@ -54,14 +55,14 @@
       "blocks": {
         "vendor": {
           "type": "text",
-          "disabled": true,
           "settings": {
-            "text": "{{ product.vendor }}",
+            "text": "Join us on a 24-day journey",
             "text_style": "uppercase"
           }
         },
         "title": {
           "type": "title",
+          "disabled": true,
           "settings": {
           }
         },
@@ -72,21 +73,13 @@
             "text_style": "body"
           }
         },
+        "description": {
+          "type": "description",
+          "settings": {
+          }
+        },
         "price": {
           "type": "price",
-          "settings": {
-          }
-        },
-        "variant_picker": {
-          "type": "variant_picker",
-          "settings": {
-            "picker_type": "button",
-            "swatch_shape": "circle"
-          }
-        },
-        "quantity_selector": {
-          "type": "quantity_selector",
-          "disabled": true,
           "settings": {
           }
         },
@@ -96,25 +89,18 @@
             "show_dynamic_checkout": false,
             "show_gift_card_recipient": true
           }
-        },
-        "description": {
-          "type": "description",
-          "settings": {
-          }
         }
       },
       "block_order": [
         "vendor",
         "title",
         "caption",
+        "description",
         "price",
-        "variant_picker",
-        "quantity_selector",
-        "buy_buttons",
-        "description"
+        "buy_buttons"
       ],
       "settings": {
-        "enable_sticky_info": true,
+        "enable_sticky_info": false,
         "color_scheme": "",
         "media_size": "small",
         "constrain_to_viewport": true,
@@ -125,8 +111,8 @@
         "mobile_thumbnails": "hide",
         "hide_variants": true,
         "enable_video_looping": false,
-        "padding_top": 36,
-        "padding_bottom": 12
+        "padding_top": 40,
+        "padding_bottom": 40
       }
     },
     "image_banner_MHF39b": {
@@ -134,28 +120,25 @@
       "blocks": {
         "heading_kVydRr": {
           "type": "heading",
-          "disabled": true,
           "settings": {
-            "heading": "Image banner",
-            "heading_size": "h1"
+            "heading": "Experience Coffee Like Never Before",
+            "heading_size": "h0"
           }
         },
         "text_TpwHGN": {
           "type": "text",
-          "disabled": true,
           "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text": "This holiday season, join a global community of thousands of coffee lovers in walking through a carefully curated holiday coffee calendar, featuring a sweeping range of origins, varieties, and processing methods that reveal the rich tapestry of coffee flavors.",
             "text_style": "body"
           }
         },
         "buttons_EaFeRp": {
           "type": "buttons",
-          "disabled": true,
           "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
+            "button_label_1": "PRE-ORDER NOW",
+            "button_link_1": "shopify:\/\/products\/acaia-lunar-scale",
             "button_style_secondary_1": false,
-            "button_label_2": "Button label",
+            "button_label_2": "",
             "button_link_2": "",
             "button_style_secondary_2": false
           }
@@ -168,10 +151,10 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/coffee-shining.gif",
-        "image_overlay_opacity": 0,
+        "image_overlay_opacity": 60,
         "image_height": "large",
         "desktop_content_position": "middle-center",
-        "show_text_box": true,
+        "show_text_box": false,
         "desktop_content_alignment": "center",
         "color_scheme": "",
         "image_behavior": "fixed",
@@ -215,21 +198,6 @@
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
         "show_text_below": false
-      }
-    },
-    "video_ygWGVT": {
-      "type": "video",
-      "settings": {
-        "heading": "",
-        "heading_size": "h1",
-        "enable_video_looping": true,
-        "video": "shopify:\/\/files\/videos\/DJI_20240701_132206_389_video.mov",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "description": "",
-        "full_width": false,
-        "color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36
       }
     },
     "related-products": {
@@ -281,7 +249,7 @@
           "type": "heading",
           "settings": {
             "heading": "Get inspired by our advent calendar",
-            "heading_size": "h0"
+            "heading_size": "h2"
           }
         },
         "text_HfgKRf": {
@@ -298,7 +266,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/DSCF3716.jpg",
-        "height": "large",
+        "height": "small",
         "desktop_image_width": "medium",
         "layout": "text_first",
         "desktop_content_position": "middle",
@@ -309,7 +277,7 @@
         "image_behavior": "none",
         "mobile_content_alignment": "left",
         "padding_top": 0,
-        "padding_bottom": 80
+        "padding_bottom": 0
       }
     },
     "image_with_text_tD6Yga": {
@@ -319,7 +287,7 @@
           "type": "heading",
           "settings": {
             "heading": "<strong>Let’s celebrate change <\/strong>",
-            "heading_size": "h0"
+            "heading_size": "h2"
           }
         },
         "text_7WwJ7w": {
@@ -336,18 +304,18 @@
       ],
       "settings": {
         "image": "{{ product.metafields.custom.additional_photos_c.value }}",
-        "height": "large",
+        "height": "small",
         "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
-        "section_color_scheme": "scheme-5",
-        "color_scheme": "scheme-5",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
-        "padding_top": 100,
-        "padding_bottom": 100
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "image_with_text_8Baaqw": {
@@ -357,7 +325,7 @@
           "type": "heading",
           "settings": {
             "heading": "Every cup is a testament to our producers work",
-            "heading_size": "h0"
+            "heading_size": "h2"
           }
         },
         "text_wrpjbk": {
@@ -374,7 +342,7 @@
       ],
       "settings": {
         "image": "{{ product.metafields.custom.additional_photos_a.value }}",
-        "height": "large",
+        "height": "small",
         "desktop_image_width": "medium",
         "layout": "text_first",
         "desktop_content_position": "middle",
@@ -384,7 +352,7 @@
         "color_scheme": "",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
-        "padding_top": 100,
+        "padding_top": 0,
         "padding_bottom": 0
       }
     },
@@ -491,7 +459,6 @@
     "main",
     "image_banner_MHF39b",
     "image_banner_LfKxGQ",
-    "video_ygWGVT",
     "related-products",
     "rich_text_CdHw4J",
     "image_with_text_rE7Hak",

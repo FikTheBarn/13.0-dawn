@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "rich_text_TnkzhW": {
@@ -39,7 +48,7 @@
           "type": "column",
           "settings": {
             "title": "Opening Time",
-            "text": "<p>{{ metaobject.opening_time | metafield_tag }}<\/p><p>-<\/p><p>{{ metaobject.contact_1 | metafield_tag }}<\/p>",
+            "text": "<p>{{ metaobject.opening_time | metafield_tag }}<\/p><p>{{ metaobject.contact_1 | metafield_tag }}<br\/>Friedrichstraße 215, 10969 Berlin<br\/><\/p>",
             "link_label": "",
             "link": ""
           }

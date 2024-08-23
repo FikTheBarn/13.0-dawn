@@ -131,7 +131,7 @@
         "custom_liquid_EjYHGg": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "{% if product.metafields.custom.hosted_video %}\n<div class=\"iframe-container\">\n  <iframe width=\"555\" height=\"620\" src=\"{{ product.metafields.custom.hosted_video }}\" frameborder=\"0\" allowfullscreen><\/iframe>\n<\/div>\n\n<style>\n.iframe-container{\n  position: relative;\n  width: 100%;\n  padding-bottom: 56.25%; \n}\n\n.iframe-container iframe{\n  position: absolute;\n  top:0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}\n<\/style>\n\n{% endif %}"
+            "custom_liquid": "{% if product.metafields.custom.hosted_video %}\n  {% assign video_url = product.metafields.custom.hosted_video | replace: \"gid:\/\/shopify\/Video\/\", \"https:\/\/cdn.shopify.com\/s\/files\/\" %} <!-- Replace with appropriate URL prefix -->\n\n  <div class=\"iframe-container\">\n    <iframe width=\"555\" height=\"620\" src=\"{{ video_url }}\" frameborder=\"0\" allowfullscreen><\/iframe>\n  <\/div>\n\n  <style>\n    .iframe-container {\n      position: relative;\n      width: 100%;\n      padding-bottom: 56.25%;\n    }\n\n    .iframe-container iframe {\n      position: absolute;\n      top: 0;\n      left: 0;\n      width: 100%;\n      height: 100%;\n    }\n  <\/style>\n{% endif %}"
           }
         },
         "custom_liquid_aT8nLA": {

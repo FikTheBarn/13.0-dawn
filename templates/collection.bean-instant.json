@@ -115,61 +115,12 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "video_with_text_nTCF4T": {
-      "type": "video-with-text",
-      "blocks": {
-        "text_TYBt8b": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Equipment: V60 Dripper, Filter Papers & Hario Server.<br\/><br\/>Coffee: 15g<br\/><br\/>Water: 250g<br\/><br\/><strong>GRIND<\/strong><br\/>Medium Fine | 22 Clicks<br\/><br\/><strong>BREW<\/strong><\/p><p>0:00 - Bloom - 50g<br\/>0.30 - Spiral pour - 120g<br\/>1:00 - Spiral pour - 180g<br\/>1: 30 - Spiral pour - 250g<br\/>Brew time 2:30<br\/><\/p>",
-            "text_style": "body"
-          }
-        },
-        "heading_b87hRk": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "heading": "FILTER BREW GUIDE",
-            "heading_size": "h0"
-          }
-        }
-      },
-      "block_order": [
-        "text_TYBt8b",
-        "heading_b87hRk"
-      ],
-      "custom_css": [
-        "@media screen and (max-width: 750px) {.image-with-text__content {padding: 4rem calc(0rem \/ var(--font-body-scale)) 5rem;}}"
-      ],
-      "settings": {
-        "title": "FILTER BREW GUIDE",
-        "heading_size": "h1",
-        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/7e43f571282e4c418540d77e4429dbce.mov",
-        "video_image_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0831\/4141\/files\/How_to_Brew_Filter_Coffee_Thumbnail.png?v=1716563229",
-        "autoplay": false,
-        "show_controls": true,
-        "loop_video": false,
-        "height": "adapt",
-        "desktop_image_width": "large",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
     "rich_text_kd8XCe",
     "custom_beans_cirlcle_filters_4V9L8c",
     "banner",
-    "product-grid",
-    "video_with_text_nTCF4T"
+    "product-grid"
   ]
 }

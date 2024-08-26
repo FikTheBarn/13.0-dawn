@@ -486,6 +486,24 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "countdown_timer_E3GqhK": {
+      "type": "countdown-timer",
+      "settings": {
+        "bg_color": "#1c1d1c",
+        "timer_section_title": "Hurry Up!",
+        "timer_section_subtitle": "Sale ends in:",
+        "title_text_color": "#000",
+        "subtitle_text_color": "#000",
+        "timer_title_size": 24,
+        "timer_subtitle_size": 16,
+        "date_picker": "31\/12\/2024",
+        "timer_color": "#000",
+        "timer_section_btn_link": "",
+        "timer_section_btn_text": "Shop Now!",
+        "cta_bg_color": "#4770db",
+        "cta_text_color": "#fff"
+      }
     }
   },
   "order": [
@@ -500,6 +518,7 @@
     "image_with_text_8Baaqw",
     "rich_text_RdfbTt",
     "custom_liquid_HxtPeQ",
-    "collapsible_content_irjMTz"
+    "collapsible_content_irjMTz",
+    "countdown_timer_E3GqhK"
   ]
 }

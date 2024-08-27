@@ -77,13 +77,6 @@
           "settings": {
           }
         },
-        "caption": {
-          "type": "text",
-          "settings": {
-            "text": "{{ product.metafields.custom.taste_notes.value }}",
-            "text_style": "body"
-          }
-        },
         "description": {
           "type": "description",
           "settings": {
@@ -123,7 +116,6 @@
       "block_order": [
         "vendor",
         "title",
-        "caption",
         "description",
         "price",
         "buy_buttons",

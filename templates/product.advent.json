@@ -310,8 +310,8 @@
         "collapsible_row_UbLEpe": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
+            "heading": "Is it possible for me to order multiple items and have them shipped to different locations as gifts?",
+            "icon": "none",
             "row_content": "",
             "page": ""
           }

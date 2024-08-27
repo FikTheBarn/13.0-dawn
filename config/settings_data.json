@@ -231,7 +231,7 @@
           "title": "Are you in {country}?",
           "text": "Select your shipping country.",
           "helper_text": "",
-          "cta_text": "Shop now",
+          "cta_text": "CONTINUE",
           "fallback_text": "We don’t ship to {country}",
           "alignment_image": "right",
           "style_corners": "rounded",
@@ -240,11 +240,11 @@
           "title_font_size": 20,
           "text_font_size": 14,
           "show_blurred_background": false,
-          "style_colors_background": "#FFF",
+          "style_colors_background": "#1c1d1c",
           "style_colors_closeButton": "#5C5F62",
           "style_colors_cta_text": "#fff",
           "style_colors_cta_button": "#804d15",
-          "style_colors_text": "#000"
+          "style_colors_text": "#ffffff"
         }
       }
     },

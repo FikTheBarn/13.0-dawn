@@ -186,6 +186,68 @@
         "show_text_below": true
       }
     },
+    "custom_image_banner_D8FLaC": {
+      "type": "custom-image-banner",
+      "blocks": {
+        "heading_kbXC9W": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "text_8kq8M9": {
+          "type": "text",
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "countdown_fY3eGK": {
+          "type": "countdown",
+          "settings": {
+            "timer_title_size": 24,
+            "timer_subtitle_size": 16,
+            "date_picker": "01\/12\/2024",
+            "detail_weeks": "WEEKS",
+            "detail_days": "DAYS",
+            "detail_hours": "HOURS",
+            "detail_mins": "MIN",
+            "detail_secs": "SEC"
+          }
+        },
+        "buttons_x6azzq": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "PRE-ORDER",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_kbXC9W",
+        "text_8kq8M9",
+        "countdown_fY3eGK",
+        "buttons_x6azzq"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/coffee-shining.gif",
+        "image_overlay_opacity": 60,
+        "image_height": "large",
+        "desktop_content_position": "middle-left",
+        "show_text_box": true,
+        "desktop_content_alignment": "left",
+        "color_scheme": "scheme-4",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "multirow_nGFBxf": {
       "type": "multirow",
       "blocks": {
@@ -392,6 +454,7 @@
     "image_banner_cwV6xB",
     "main",
     "image_banner_MHF39b",
+    "custom_image_banner_D8FLaC",
     "multirow_nGFBxf",
     "related-products",
     "image_banner_Er7FKj",

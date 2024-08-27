@@ -298,10 +298,37 @@
     "collapsible_content_irjMTz": {
       "type": "collapsible-content",
       "blocks": {
+        "collapsible_row_PUhzmT": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "When can I expect my calendar to be shipped?",
+            "icon": "none",
+            "row_content": "",
+            "page": ""
+          }
+        },
         "collapsible_row_JDnqrD": {
           "type": "collapsible_row",
           "settings": {
             "heading": "When is the last order date to ensure delivery by December 1st?",
+            "icon": "none",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_Yh9Wwh": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What is the daily amount of coffee included in each Advent Calendar slot?",
+            "icon": "none",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_QWpk3A": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What should I do if I discover that one of the days in my Advent calendar is missing?",
             "icon": "none",
             "row_content": "",
             "page": ""
@@ -316,30 +343,23 @@
             "page": ""
           }
         },
-        "collapsible_row_PUhzmT": {
+        "collapsible_row_GWmbmW": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
-            "page": ""
-          }
-        },
-        "collapsible_row_QWpk3A": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
+            "heading": "Is it possible for me to cancel my order?",
+            "icon": "none",
             "row_content": "",
             "page": ""
           }
         }
       },
       "block_order": [
-        "collapsible_row_JDnqrD",
-        "collapsible_row_UbLEpe",
         "collapsible_row_PUhzmT",
-        "collapsible_row_QWpk3A"
+        "collapsible_row_JDnqrD",
+        "collapsible_row_Yh9Wwh",
+        "collapsible_row_QWpk3A",
+        "collapsible_row_UbLEpe",
+        "collapsible_row_GWmbmW"
       ],
       "custom_css": [
         ".collapsible-content-wrapper-narrow {margin: 0 6rem auto;}"

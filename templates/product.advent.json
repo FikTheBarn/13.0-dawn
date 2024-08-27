@@ -199,8 +199,8 @@
         "text_8kq8M9": {
           "type": "text",
           "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
+            "text": "Days until advent",
+            "text_style": "subtitle"
           }
         },
         "countdown_fY3eGK": {
@@ -220,7 +220,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "PRE-ORDER",
-            "button_link_1": "",
+            "button_link_1": "https:\/\/the-barn-coffee-roasters.myshopify.com\/cart\/45680606150923:1?channel=buy_button",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",

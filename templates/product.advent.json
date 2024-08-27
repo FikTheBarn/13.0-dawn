@@ -15,7 +15,7 @@
         "heading_B3Pq4V": {
           "type": "heading",
           "settings": {
-            "heading": "OUR {{ product.title }}",
+            "heading": "{{ product.title }} 2024",
             "heading_size": "h0"
           }
         },

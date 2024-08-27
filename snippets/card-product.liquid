@@ -221,7 +221,7 @@
 
                 {% assign metafield_text = card_product.metafields.subscription.subscription_espresso_beans %}
 
-                <!-- Split the text into an array using a comma as the delimiter -->
+                <!-- Split the text into an array using a comma as the delimiter, if necessary -->
                 {% assign paragraphs = metafield_text | split: ',' %}
 
                 <!-- Iterate over each item in the array -->
@@ -234,8 +234,8 @@
                       height="20"
                       style="vertical-align: middle;"
                     >
-                    <!-- Output the text, removing any extra spaces -->
-                    {{ paragraph | strip }}
+                    <!-- Output the text, removing brackets, quotes, and any extra spaces -->
+                    {{ paragraph | replace: '[', '' | replace: ']', '' | replace: '"', '' | strip }}
                   </div>
                 {% endfor %}
               {%- endif -%}

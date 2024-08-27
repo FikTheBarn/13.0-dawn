@@ -138,54 +138,6 @@
         "padding_bottom": 40
       }
     },
-    "image_banner_MHF39b": {
-      "type": "image-banner",
-      "blocks": {
-        "heading_kVydRr": {
-          "type": "heading",
-          "settings": {
-            "heading": "Experience Coffee Like Never Before",
-            "heading_size": "h0"
-          }
-        },
-        "text_VDQGBq": {
-          "type": "text",
-          "settings": {
-            "text": "Days until advent",
-            "text_style": "body"
-          }
-        },
-        "buttons_EaFeRp": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "PRE-ORDER",
-            "button_link_1": "https:\/\/the-barn-coffee-roasters.myshopify.com\/cart\/45680606150923:1?channel=buy_button",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_kVydRr",
-        "text_VDQGBq",
-        "buttons_EaFeRp"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/coffee-shining.gif",
-        "image_overlay_opacity": 60,
-        "image_height": "large",
-        "desktop_content_position": "middle-left",
-        "show_text_box": false,
-        "desktop_content_alignment": "left",
-        "color_scheme": "scheme-4",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
     "custom_image_banner_D8FLaC": {
       "type": "custom-image-banner",
       "blocks": {
@@ -439,7 +391,6 @@
   "order": [
     "image_banner_cwV6xB",
     "main",
-    "image_banner_MHF39b",
     "custom_image_banner_D8FLaC",
     "multirow_nGFBxf",
     "related-products",

@@ -97,7 +97,7 @@
         "collapsible_tab_rwW697": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "{{ product.metafields.custom.general_description.value }}contains",
+            "heading": "{{ product.metafields.custom.name.value }} contains",
             "icon": "box",
             "content": "<p><em>You will receive 24 x 50g of exceptional coffee freshly roasted<\/em><\/p>",
             "page": ""

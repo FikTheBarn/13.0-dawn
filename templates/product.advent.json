@@ -50,7 +50,7 @@
       "settings": {
         "image": "{{ product.metafields.custom.hosted_video.value }}",
         "image_overlay_opacity": 30,
-        "image_height": "adapt",
+        "image_height": "large",
         "desktop_content_position": "middle-center",
         "show_text_box": false,
         "desktop_content_alignment": "center",

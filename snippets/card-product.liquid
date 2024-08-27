@@ -232,7 +232,7 @@
                         height="20"
                         style="vertical-align: middle;"
                       >
-                      {{ paragraph }}
+                      {{ paragraph | join: ", " }} 
                     </div>
                   {% endfor %}
                 {%- endif -%}

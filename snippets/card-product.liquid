@@ -213,11 +213,11 @@
               <div class="caption-with-letter-spacing light">{{ card_product.metafields.custom.taste_notes }}</div>
             {%- endif -%}
 
-            {%- if card_product.metafields.custom.taste_notes != blank -%}
+            {%- if card_product.metafields.subscription.subscription_espresso_beans != blank -%}
               <div class="card-information bullet_list">
                 {%- if show_bullet_list -%}
                   <span class="visually-hidden">{{ 'accessibility.vendor' | t }}</span>
-                  <div class="caption light">{{ card_product.metafields.custom.taste_notes }}</div>
+                  <div class="caption light">{{ card_product.metafields.subscription.subscription_espresso_beans }}</div>
 
                   {% assign metafield_text = card_product.metafields.beans.subscription_detials %}
 

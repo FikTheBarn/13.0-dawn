@@ -195,10 +195,11 @@
         "row_TmpX8c": {
           "type": "row",
           "settings": {
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "",
-            "button_label": "Button label",
+            "image": "{{ product.metafields.custom.additional_photos_b.value }}",
+            "caption": "",
+            "heading": "",
+            "text": "<p>{{ product.metafields.product.metafield_the_process | metafield_tag }}<\/p>",
+            "button_label": "",
             "button_link": ""
           }
         },

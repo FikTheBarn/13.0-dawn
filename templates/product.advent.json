@@ -148,6 +148,13 @@
             "heading_size": "h0"
           }
         },
+        "text_VDQGBq": {
+          "type": "text",
+          "settings": {
+            "text": "Days until advent",
+            "text_style": "body"
+          }
+        },
         "buttons_EaFeRp": {
           "type": "buttons",
           "settings": {
@@ -162,6 +169,7 @@
       },
       "block_order": [
         "heading_kVydRr",
+        "text_VDQGBq",
         "buttons_EaFeRp"
       ],
       "settings": {

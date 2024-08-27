@@ -184,7 +184,7 @@
         "row_ifigFF": {
           "type": "row",
           "settings": {
-            "image": "{{ product.metafields.custom.additional_photos_b.value }}",
+            "image": "{{ product.metafields.custom.additional_photos_c.value }}",
             "caption": "",
             "heading": "",
             "text": "<p>{{ product.metafields.product.metafields_about_the_farm | metafield_tag }}<\/p>",

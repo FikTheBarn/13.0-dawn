@@ -221,7 +221,7 @@
 
                   {% assign metafield_text = card_product.metafields.subscription.subscription_espresso_beans %}
 
-                  {% assign paragraphs = metafield_text %}
+                  {% assign paragraphs = metafield_text | split: ' , ' %}
 
                   {% for paragraph in paragraphs %}
                     <div>

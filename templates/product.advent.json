@@ -283,7 +283,7 @@
         "heading_9X4jMf": {
           "type": "heading",
           "settings": {
-            "heading": "Be inspired by the people that changed the way we experience coffee.",
+            "heading": "{{ product.metafields.custom.product_main_text.value }}",
             "heading_size": "h0"
           }
         },

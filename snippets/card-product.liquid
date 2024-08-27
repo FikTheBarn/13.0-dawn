@@ -221,8 +221,11 @@
 
                 {% assign metafield_text = card_product.metafields.subscription.subscription_espresso_beans %}
 
-                <!-- Check if the metafield_text is not empty -->
-                {% if metafield_text != blank %}
+                <!-- Split the text into an array using a comma as the delimiter -->
+                {% assign paragraphs = metafield_text | split: ',' %}
+
+                <!-- Iterate over each item in the array -->
+                {% for paragraph in paragraphs %}
                   <div>
                     <img
                       src="https://cdn.shopify.com/s/files/1/0831/4141/files/white-heavy-check-mark-svgrepo-com.svg?v=1716770484"
@@ -231,10 +234,10 @@
                       height="20"
                       style="vertical-align: middle;"
                     >
-                    <!-- Output the text directly, removing any unwanted characters -->
-                    {{ metafield_text | strip | replace: '"', '' | replace: '[', '' | replace: ']', '' }}
+                    <!-- Output the text, removing any extra spaces -->
+                    {{ paragraph | strip }}
                   </div>
-                {% endif %}
+                {% endfor %}
               {%- endif -%}
             </div>
             {% comment %}   {%- endif -%} {% endcomment %}

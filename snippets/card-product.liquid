@@ -213,7 +213,7 @@
               <div class="caption-with-letter-spacing light">{{ card_product.metafields.custom.taste_notes }}</div>
             {%- endif -%}
 
-            {%- if card_product.metafields.custom.taste_notes != blank -%}
+            {% comment %}{%- if card_product.metafields.custom.taste_notes != blank -%} {% endcomment %}
               <div class="card-information bullet_list">
                 {%- if show_bullet_list -%}
                   <span class="visually-hidden">{{ 'accessibility.vendor' | t }}</span>
@@ -237,7 +237,7 @@
                   {% endfor %}
                 {%- endif -%}
               </div>
-            {%- endif -%}
+         {% comment %}   {%- endif -%} {% endcomment %}
 
             <span class="caption-large light">{{ block.settings.description | escape }}</span>
 

@@ -255,100 +255,6 @@
         "padding_bottom": 28
       }
     },
-    "rich_text_CdHw4J": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_7G4YjU": {
-          "type": "heading",
-          "settings": {
-            "heading": "Taste coffee from around the world",
-            "heading_size": "h1"
-          }
-        }
-      },
-      "block_order": [
-        "heading_7G4YjU"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 40
-      }
-    },
-    "image_with_text_8Baaqw": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_KqYdLH": {
-          "type": "heading",
-          "settings": {
-            "heading": "Every cup is a testament to our producers work",
-            "heading_size": "h2"
-          }
-        },
-        "text_wrpjbk": {
-          "type": "text",
-          "settings": {
-            "text": "<p>{{ product.metafields.product.metafields_about_the_farm | metafield_tag }}<\/p>",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "heading_KqYdLH",
-        "text_wrpjbk"
-      ],
-      "settings": {
-        "image": "{{ product.metafields.custom.additional_photos_a.value }}",
-        "height": "small",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "rich_text_RdfbTt": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_FxrNdh": {
-          "type": "heading",
-          "settings": {
-            "heading": "A Festive Journey through coffee",
-            "heading_size": "h1"
-          }
-        }
-      },
-      "block_order": [
-        "heading_FxrNdh"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 40
-      }
-    },
-    "custom_liquid_HxtPeQ": {
-      "type": "custom-liquid",
-      "disabled": true,
-      "settings": {
-        "custom_liquid": "<div class=\"page-width\"><div class=\"countdown-timer-block\" countdown-timer-id=\"clz19ykoy13527619wtt3lmwtan\"><\/div><\/div>",
-        "color_scheme": "",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "collapsible_content_irjMTz": {
       "type": "collapsible-content",
       "blocks": {
@@ -438,10 +344,6 @@
     "image_banner_MHF39b",
     "multirow_nGFBxf",
     "related-products",
-    "rich_text_CdHw4J",
-    "image_with_text_8Baaqw",
-    "rich_text_RdfbTt",
-    "custom_liquid_HxtPeQ",
     "collapsible_content_irjMTz",
     "countdown_timer_E3GqhK"
   ]

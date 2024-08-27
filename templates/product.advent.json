@@ -99,7 +99,7 @@
           "settings": {
             "heading": "{{ product.metafields.custom.name.value }} contains",
             "icon": "box",
-            "content": "<p>{{ product.metafields.custom.general_description.value }}<\/p>",
+            "content": "<p><em>{{ product.metafields.custom.general_description.value }}<\/em><em>.<\/em><\/p>",
             "page": ""
           }
         },

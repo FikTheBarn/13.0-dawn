@@ -36,10 +36,41 @@
     },
     "banner": {
       "type": "main-collection-banner",
+      "disabled": true,
       "settings": {
         "show_collection_description": false,
         "show_collection_image": false,
         "color_scheme": "scheme-1"
+      }
+    },
+    "rich_text_3FhKNd": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_LnRXJ6": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ collection.metafields.equipments.tilte.value }}",
+            "heading_size": "h1"
+          }
+        },
+        "text_t6ckny": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Every coffee tells a story. Every cup you brew is a connection to an incredible journey. Discover our 2024 Advent Calendars today.<\/p><p><br\/>Two unforgettable experiences, representing the very best of coffee from around the world. Your festive journey awaits.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_LnRXJ6",
+        "text_t6ckny"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
     "product-grid": {
@@ -52,12 +83,13 @@
         "image_shape": "default",
         "show_secondary_image": true,
         "show_vendor": false,
+        "show_bullet_list": false,
         "show_tastenotes": false,
         "show_rating": false,
         "quick_add": "none",
-        "enable_filtering": true,
+        "enable_filtering": false,
         "filter_type": "horizontal",
-        "enable_sorting": true,
+        "enable_sorting": false,
         "columns_mobile": "2",
         "padding_top": 36,
         "padding_bottom": 36
@@ -67,6 +99,7 @@
   "order": [
     "rich_text_kd8XCe",
     "banner",
+    "rich_text_3FhKNd",
     "product-grid"
   ]
 }

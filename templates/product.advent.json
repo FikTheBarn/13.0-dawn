@@ -68,7 +68,7 @@
           "type": "text",
           "settings": {
             "text": "Join us on a 24-day journey",
-            "text_style": "uppercase"
+            "text_style": "subtitle"
           }
         },
         "title": {

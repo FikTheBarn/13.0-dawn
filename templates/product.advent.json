@@ -48,7 +48,7 @@
         ".banner__text {color: white;}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/inspiration_calendar_calendar_final_look_30_07_2_1_d54c2608-217d-4aa3-82cf-34a3deb418c8.jpg",
+        "image": "{{ product.metafields.custom.hosted_video.value }}",
         "image_overlay_opacity": 30,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
@@ -493,16 +493,16 @@
         "bg_color": "#1c1d1c",
         "timer_section_title": "Hurry Up!",
         "timer_section_subtitle": "Sale ends in:",
-        "title_text_color": "#000",
-        "subtitle_text_color": "#000",
+        "title_text_color": "#000000",
+        "subtitle_text_color": "#000000",
         "timer_title_size": 24,
         "timer_subtitle_size": 16,
         "date_picker": "31\/12\/2024",
-        "timer_color": "#000",
+        "timer_color": "#000000",
         "timer_section_btn_link": "",
         "timer_section_btn_text": "Shop Now!",
         "cta_bg_color": "#4770db",
-        "cta_text_color": "#fff"
+        "cta_text_color": "#ffffff"
       }
     }
   },

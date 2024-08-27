@@ -123,7 +123,7 @@
         "collapsible_tab_pjrXFB"
       ],
       "settings": {
-        "enable_sticky_info": false,
+        "enable_sticky_info": true,
         "color_scheme": "",
         "media_size": "small",
         "constrain_to_viewport": true,

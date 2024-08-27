@@ -97,18 +97,18 @@
         "collapsible_tab_rwW697": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Inspirational calendar contains",
+            "heading": "{{ block.settings.page.title }}contains",
             "icon": "box",
-            "content": "<p>You will receive 24 x 50g of exceptional coffee<\/p>",
+            "content": "<p><em>You will receive 24 x 50g of exceptional coffee freshly roasted<\/em><\/p>",
             "page": ""
           }
         },
         "collapsible_tab_pjrXFB": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Shipment in December",
+            "heading": "Shipment in November",
             "icon": "truck",
-            "content": "<p>If you pre-order your calendar, it will be dispatched from 18th November onwards. You will receive the shipping notification by e-mail as usual.<\/p>",
+            "content": "<p><em>Pre-order today. Freshly roasted for dispatch on 15th November.<\/em><\/p>",
             "page": ""
           }
         }

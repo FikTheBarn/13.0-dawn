@@ -278,74 +278,6 @@
         "padding_bottom": 40
       }
     },
-    "image_with_text_rE7Hak": {
-      "type": "image-with-text",
-      "blocks": {
-        "text_HfgKRf": {
-          "type": "text",
-          "settings": {
-            "text": "<p>{{ product.metafields.products.metafileld_the_cup | metafield_tag }}<\/p>",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "text_HfgKRf"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/DSCF3716.jpg",
-        "height": "small",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "image_with_text_tD6Yga": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_8q3g4T": {
-          "type": "heading",
-          "settings": {
-            "heading": "<strong>Let’s celebrate change <\/strong>",
-            "heading_size": "h2"
-          }
-        },
-        "text_7WwJ7w": {
-          "type": "text",
-          "settings": {
-            "text": "<p>{{ product.metafields.product.metafield_the_process | metafield_tag }}<\/p>",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "heading_8q3g4T",
-        "text_7WwJ7w"
-      ],
-      "settings": {
-        "image": "{{ product.metafields.custom.additional_photos_c.value }}",
-        "height": "small",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "scheme-1",
-        "color_scheme": "scheme-1",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "image_with_text_8Baaqw": {
       "type": "image-with-text",
       "blocks": {
@@ -507,8 +439,6 @@
     "multirow_nGFBxf",
     "related-products",
     "rich_text_CdHw4J",
-    "image_with_text_rE7Hak",
-    "image_with_text_tD6Yga",
     "image_with_text_8Baaqw",
     "rich_text_RdfbTt",
     "custom_liquid_HxtPeQ",

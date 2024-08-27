@@ -214,30 +214,30 @@
             {%- endif -%}
 
             {% comment %}{%- if card_product.metafields.custom.taste_notes != blank -%} {% endcomment %}
-              <div class="card-information bullet_list">
-                {%- if show_bullet_list -%}
-                  <span class="visually-hidden">{{ 'accessibility.vendor' | t }}</span>
-                  <div class="caption light">{{ card_product.metafields.custom.taste_notes }}</div>
+            <div class="card-information bullet_list">
+              {%- if show_bullet_list -%}
+                <span class="visually-hidden">{{ 'accessibility.vendor' | t }}</span>
+                <div class="caption light">{{ card_product.metafields.custom.taste_notes }}</div>
 
-                  {% assign metafield_text = card_product.metafields.subscription.subscription_espresso_beans %}
+                {% assign metafield_text = card_product.metafields.subscription.subscription_espresso_beans %}
 
-                  {% assign paragraphs = metafield_text | split: ',' %}
-
-                  {% for paragraph in paragraphs %}
-                    <div>
-                      <img
-                        src="https://cdn.shopify.com/s/files/1/0831/4141/files/white-heavy-check-mark-svgrepo-com.svg?v=1716770484"
-                        alt="Green checkmark"
-                        width="20"
-                        height="20"
-                        style="vertical-align: middle;"
-                      >
-                      {{ paragraph | join: ", " }} 
-                    </div>
-                  {% endfor %}
-                {%- endif -%}
-              </div>
-         {% comment %}   {%- endif -%} {% endcomment %}
+                <!-- Check if the metafield_text is not empty -->
+                {% if metafield_text != blank %}
+                  <div>
+                    <img
+                      src="https://cdn.shopify.com/s/files/1/0831/4141/files/white-heavy-check-mark-svgrepo-com.svg?v=1716770484"
+                      alt="Green checkmark"
+                      width="20"
+                      height="20"
+                      style="vertical-align: middle;"
+                    >
+                    <!-- Output the text directly, removing any unwanted characters -->
+                    {{ metafield_text | strip | replace: '"', '' | replace: '[', '' | replace: ']', '' }}
+                  </div>
+                {% endif %}
+              {%- endif -%}
+            </div>
+            {% comment %}   {%- endif -%} {% endcomment %}
 
             <span class="caption-large light">{{ block.settings.description | escape }}</span>
 

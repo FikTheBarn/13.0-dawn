@@ -206,10 +206,11 @@
         "row_GRfLBf": {
           "type": "row",
           "settings": {
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "button_label": "Button label",
+            "image": "{{ product.metafields.custom.additional_photos_a.value }}",
+            "caption": "",
+            "heading": "",
+            "text": "<p>{{ product.metafields.products.metafileld_the_cup | metafield_tag }}<\/p>",
+            "button_label": "",
             "button_link": ""
           }
         }

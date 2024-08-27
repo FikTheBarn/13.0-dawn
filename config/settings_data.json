@@ -218,35 +218,6 @@
         "settings": {
         }
       },
-      "15912215999290715800": {
-        "type": "shopify:\/\/apps\/geolocation-orbe\/blocks\/app-embed-modal\/7cb09287-cd2b-4646-837c-f1f9b6ea703e",
-        "disabled": false,
-        "settings": {
-          "test_mode": true,
-          "modal_closeButton": true,
-          "option_flag_style": "circle",
-          "option_currency_type": "only_flag",
-          "option_language": true,
-          "option_search_country": false,
-          "title": "Are you in {country} ?",
-          "text": "Select your shipping country.",
-          "helper_text": "",
-          "cta_text": "CONTINUE",
-          "fallback_text": "We don’t ship to {country}",
-          "alignment_image": "right",
-          "style_corners": "rounded",
-          "style_dropdown": "underlined",
-          "modal_button_align": "center",
-          "title_font_size": 20,
-          "text_font_size": 14,
-          "show_blurred_background": false,
-          "style_colors_background": "#1c1d1c",
-          "style_colors_closeButton": "#5c5f62",
-          "style_colors_cta_text": "#ffffff",
-          "style_colors_cta_button": "#804d15",
-          "style_colors_text": "#ffffff"
-        }
-      },
       "5858961087409699889": {
         "type": "shopify:\/\/apps\/geolocation-orbe\/blocks\/app-embed-footer-selector\/7cb09287-cd2b-4646-837c-f1f9b6ea703e",
         "disabled": false,
@@ -270,6 +241,35 @@
           "language_title": "Preferred Language",
           "helper_text": "Changing language will not affect your selected region",
           "block_alignement": "center"
+        }
+      },
+      "15912215999290715800": {
+        "type": "shopify:\/\/apps\/geolocation-orbe\/blocks\/app-embed-modal\/7cb09287-cd2b-4646-837c-f1f9b6ea703e",
+        "disabled": false,
+        "settings": {
+          "test_mode": false,
+          "modal_closeButton": true,
+          "option_flag_style": "circle",
+          "option_currency_type": "only_flag",
+          "option_language": true,
+          "option_search_country": false,
+          "title": "Are you in {country} ?",
+          "text": "Select your shipping country.",
+          "helper_text": "",
+          "cta_text": "CONTINUE",
+          "fallback_text": "We don’t ship to {country}",
+          "alignment_image": "right",
+          "style_corners": "rounded",
+          "style_dropdown": "underlined",
+          "modal_button_align": "center",
+          "title_font_size": 20,
+          "text_font_size": 14,
+          "show_blurred_background": false,
+          "style_colors_background": "#1c1d1c",
+          "style_colors_closeButton": "#5c5f62",
+          "style_colors_cta_text": "#ffffff",
+          "style_colors_cta_button": "#804d15",
+          "style_colors_text": "#ffffff"
         }
       }
     },

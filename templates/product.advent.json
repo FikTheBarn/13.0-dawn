@@ -187,7 +187,7 @@
         "buttons_x6azzq"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/coffee-shining.gif",
+        "image": "{{ product.metafields.custom.custom_dynamic_badge.value }}",
         "image_overlay_opacity": 60,
         "image_height": "large",
         "desktop_content_position": "middle-left",

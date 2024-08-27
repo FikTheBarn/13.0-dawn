@@ -122,6 +122,9 @@
         "collapsible_tab_rwW697",
         "collapsible_tab_pjrXFB"
       ],
+      "custom_css": [
+        ".product__text {color: white;}"
+      ],
       "settings": {
         "enable_sticky_info": true,
         "color_scheme": "",

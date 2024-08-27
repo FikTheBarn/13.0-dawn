@@ -192,8 +192,8 @@
         "heading_kbXC9W": {
           "type": "heading",
           "settings": {
-            "heading": "Image banner",
-            "heading_size": "h1"
+            "heading": "Experience Coffee Like Never Before",
+            "heading_size": "h0"
           }
         },
         "text_8kq8M9": {
@@ -201,19 +201,6 @@
           "settings": {
             "text": "Days until advent",
             "text_style": "subtitle"
-          }
-        },
-        "countdown_fY3eGK": {
-          "type": "countdown",
-          "settings": {
-            "timer_title_size": 24,
-            "timer_subtitle_size": 16,
-            "date_picker": "01\/12\/2024",
-            "detail_weeks": "WEEKS",
-            "detail_days": "DAYS",
-            "detail_hours": "HOURS",
-            "detail_mins": "MIN",
-            "detail_secs": "SEC"
           }
         },
         "buttons_x6azzq": {
@@ -231,7 +218,6 @@
       "block_order": [
         "heading_kbXC9W",
         "text_8kq8M9",
-        "countdown_fY3eGK",
         "buttons_x6azzq"
       ],
       "settings": {

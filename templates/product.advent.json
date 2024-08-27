@@ -67,7 +67,7 @@
         "vendor": {
           "type": "text",
           "settings": {
-            "text": "Join us on a 24-day journey",
+            "text": "{{ product.metafields.bean.producer.value }}",
             "text_style": "subtitle"
           }
         },

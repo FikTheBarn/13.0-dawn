@@ -188,7 +188,7 @@
             "caption": "",
             "heading": "",
             "text": "<p>{{ product.metafields.product.metafields_about_the_farm | metafield_tag }}<\/p>",
-            "button_label": "Button label",
+            "button_label": "",
             "button_link": ""
           }
         },
@@ -219,7 +219,7 @@
         "row_GRfLBf"
       ],
       "settings": {
-        "image_height": "medium",
+        "image_height": "small",
         "desktop_image_width": "medium",
         "heading_size": "h1",
         "text_style": "body",

@@ -233,7 +233,7 @@
                         style="vertical-align: middle; margin-right: 8px;"
                       >
                       <!-- Output the text, removing brackets, quotes, and any extra spaces -->
-                      {{ paragraph | replace: '[', '' | replace: ']', '' | replace: '"', '' | strip }}
+                     <div>{{ paragraph | replace: '[', '' | replace: ']', '' | replace: '"', '' | strip }}</div>
                     </li>
                   {% endfor %}
                 </ul>

@@ -93,6 +93,8 @@
   text-align: left;
   list-style: none;
   display: flex;
+  align-items: center;
+  margin-bottom: 8px;
 }
 
 

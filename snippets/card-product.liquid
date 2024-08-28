@@ -220,24 +220,23 @@
                 <div class="caption light">{{ card_product.metafields.custom.taste_notes }}</div>
 
                 {% assign metafield_text = card_product.metafields.subscription.subscription_espresso_beans %}
-
-                <!-- Split the text into an array using a comma as the delimiter, if necessary -->
                 {% assign paragraphs = metafield_text | split: ',' %}
 
-                <!-- Iterate over each item in the array -->
-                {% for paragraph in paragraphs %}
-                  <div class="bullet-points">
-                    <img
-                      src="https://cdn.shopify.com/s/files/1/0831/4141/files/white-heavy-check-mark-svgrepo-com.svg?v=1716770484"
-                      alt="Green checkmark"
-                      width="20"
-                      height="20"
-                      style="vertical-align: middle;"
-                    >
-                    <!-- Output the text, removing brackets, quotes, and any extra spaces -->
-                    <p>{{ paragraph | replace: '[', '' | replace: ']', '' | replace: '"', '' | strip }}</p>
-                  </div>
-                {% endfor %}
+                <ul class="bullet-points">
+                  {% for paragraph in paragraphs %}
+                    <li>
+                      <img
+                        src="https://cdn.shopify.com/s/files/1/0831/4141/files/white-heavy-check-mark-svgrepo-com.svg?v=1716770484"
+                        alt="Green checkmark"
+                        width="20"
+                        height="20"
+                        style="vertical-align: middle; margin-right: 8px;"
+                      >
+                      <!-- Output the text, removing brackets, quotes, and any extra spaces -->
+                      {{ paragraph | replace: '[', '' | replace: ']', '' | replace: '"', '' | strip }}
+                    </li>
+                  {% endfor %}
+                </ul>
               {%- endif -%}
             </div>
             {% comment %}   {%- endif -%} {% endcomment %}

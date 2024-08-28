@@ -123,21 +123,21 @@
         "heading_FUDTtE": {
           "type": "heading",
           "settings": {
-            "heading": "OUR SUBSCRIPTIONS",
+            "heading": "COFFEE SUBSCRIPTIONS",
             "heading_size": "h0"
           }
         },
         "text_MnEe66": {
           "type": "text",
           "settings": {
-            "text": "<p>A unique flavour experience, every month.<\/p>",
+            "text": "<p>Roasters Choice - Rare Masterpieces -  Espresso of the Month<br\/>Find your favourite and enjoy our Perks.<\/p>",
             "text_style": "body"
           }
         },
         "button_JwgLXB": {
           "type": "button",
           "settings": {
-            "button_label": "EXPLORE SUBSCRIPTIONS",
+            "button_label": " Sign up here",
             "button_link": "shopify:\/\/collections\/coffee-subscription",
             "button_style_secondary": false
           }
@@ -161,7 +161,7 @@
         "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_content_position": "middle",
-        "desktop_content_alignment": "center",
+        "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
         "section_color_scheme": "scheme-1",
         "color_scheme": "scheme-5",

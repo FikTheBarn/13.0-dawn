@@ -83,12 +83,16 @@
   align-items: center;
   }
 
+.bullet-points {
+  padding: 0px;
+}
+
+
 
 .bullet-points li{
   text-align: left;
   list-style: none;
   display: flex;
-  padding: 0px;
 }
 
 

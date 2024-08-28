@@ -83,6 +83,15 @@
   align-items: center;
   }
 
+
+.bullet-points li{
+  text-align: left;
+  list-style: none;
+  display: flex;
+  padding: 0px;
+}
+
+
   @media only screen and (max-width: 750px) {
     .new_release_label {
         font-size: 1.3rem;
@@ -117,11 +126,6 @@
     }
   }
 
-.bullet-points{
-  text-align:left;
-  list-style: none;
-  padding: 0px;
-}
 
 
 

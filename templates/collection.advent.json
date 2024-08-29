@@ -22,6 +22,7 @@
       "block_order": [
         "text_gFy6XN"
       ],
+      "disabled": true,
       "custom_css": [
         ".rich-text__wrapper {margin: 0px;}"
       ],
@@ -31,7 +32,7 @@
         "color_scheme": "",
         "full_width": true,
         "padding_top": 16,
-        "padding_bottom": 0
+        "padding_bottom": 16
       }
     },
     "banner": {
@@ -43,34 +44,51 @@
         "color_scheme": "scheme-1"
       }
     },
-    "rich_text_3FhKNd": {
-      "type": "rich-text",
+    "image_banner_nKUABU": {
+      "type": "image-banner",
       "blocks": {
-        "heading_LnRXJ6": {
+        "heading_bAkELr": {
           "type": "heading",
           "settings": {
-            "heading": "{{ collection.metafields.equipments.tilte.value }}",
+            "heading": "Your Festive Journey",
             "heading_size": "h1"
           }
         },
-        "text_t6ckny": {
+        "text_qrhW8Q": {
           "type": "text",
           "settings": {
-            "text": "<p>Every coffee tells a story. Every cup you brew is a connection to an incredible journey. Discover our 2024 Advent Calendars today.<\/p><p><br\/>Two unforgettable experiences, representing the very best of coffee from around the world. Your festive journey awaits.<\/p>"
+            "text": "Every coffee tells a story. Every cup you brew is a connection to an incredible journey. Discover our 2024 Advent Calendars today.Two unforgettable experiences, representing the very best of coffee from around the world. Your festive journey awaits.",
+            "text_style": "body"
+          }
+        },
+        "buttons_aEdNtM": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "PRE-ORDER NOW",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
           }
         }
       },
       "block_order": [
-        "heading_LnRXJ6",
-        "text_t6ckny"
+        "heading_bAkELr",
+        "text_qrhW8Q",
+        "buttons_aEdNtM"
       ],
       "settings": {
-        "desktop_content_position": "left",
-        "content_alignment": "left",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
         "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
       }
     },
     "product-grid": {
@@ -99,7 +117,7 @@
   "order": [
     "rich_text_kd8XCe",
     "banner",
-    "rich_text_3FhKNd",
+    "image_banner_nKUABU",
     "product-grid"
   ]
 }

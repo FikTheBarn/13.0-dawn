@@ -152,6 +152,7 @@
         },
         "text_8kq8M9": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "Days until advent",
             "text_style": "subtitle"

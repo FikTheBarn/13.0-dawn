@@ -294,7 +294,7 @@
         "buttons_awqq4W": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "PRE-ORDER",
+            "button_label_1": "PRE-ORDER NOW",
             "button_link_1": "{{ product.metafields.beans.collection_url_link.value }}",
             "button_style_secondary_1": false,
             "button_label_2": "",

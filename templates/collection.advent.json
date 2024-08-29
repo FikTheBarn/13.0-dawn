@@ -65,7 +65,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "PRE-ORDER NOW",
-            "button_link_1": "#template--20233395896587__product-grid",
+            "button_link_1": "#ProductGridContainer",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",

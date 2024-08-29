@@ -78,6 +78,9 @@
         "text_qrhW8Q",
         "buttons_aEdNtM"
       ],
+      "custom_css": [
+        ".banner__text{color: white;}"
+      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Inspirational_with_numbers_cropped.png",
         "image_overlay_opacity": 40,

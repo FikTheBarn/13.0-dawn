@@ -160,6 +160,7 @@
         },
         "countdown_Hp6y6T": {
           "type": "countdown",
+          "disabled": true,
           "settings": {
             "timer_title_size": 24,
             "timer_subtitle_size": 16,

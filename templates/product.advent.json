@@ -28,7 +28,6 @@
         },
         "buttons_RXTb37": {
           "type": "buttons",
-          "disabled": true,
           "settings": {
             "button_label_1": "PRE-ORDER NOW",
             "button_link_1": "shopify:\/\/products\/acaia-pearl-s",

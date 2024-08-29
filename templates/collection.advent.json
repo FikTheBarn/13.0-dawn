@@ -79,10 +79,10 @@
         "buttons_aEdNtM"
       ],
       "custom_css": [
-        ".banner__text{color: white;}"
+        ".banner__text {color: white;}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Inspirational_with_numbers_cropped.png",
+        "image": "shopify:\/\/shop_images\/Inspirational_Calendar_Hero_28b36c15-78d7-4ac9-b8a9-581f86ab0edc.jpg",
         "image_overlay_opacity": 40,
         "image_height": "medium",
         "desktop_content_position": "middle-center",

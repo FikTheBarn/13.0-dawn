@@ -348,7 +348,7 @@
         "collapsible_row_Yh9Wwh": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "How much coffee is included in the Calendar per day?",
+            "heading": "How much coffee is included in the calendar per day?",
             "icon": "none",
             "row_content": "",
             "page": "advent-calendar"
@@ -357,7 +357,7 @@
         "collapsible_row_QWpk3A": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "What should I do if one coffee is missing in my Calendar?",
+            "heading": "What should I do if one coffee is missing in my calendar?",
             "icon": "none",
             "row_content": "",
             "page": ""
@@ -366,7 +366,7 @@
         "collapsible_row_UbLEpe": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Can I order multiple Calendars and have them shipped to different locations?",
+            "heading": "Can I order multiple calendars and have them shipped to different locations?",
             "icon": "none",
             "row_content": "",
             "page": ""

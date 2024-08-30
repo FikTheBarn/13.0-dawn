@@ -87,6 +87,14 @@
                       style="padding-bottom: {{ 1 | divided_by: highest_ratio | times: 100 }}%;"
                     {% endif %}
                   >
+                      <a style="opacity: 0; z-index: 3" class="img-click"
+                      {% if block.settings.link == blank %}
+                      role="link" aria-disabled="true"
+                      {% else %}
+                      href="{{ block.settings.link }}"
+                      {% endif %}>img link</a>
+
+                    
                     {%- liquid
                       assign number_of_columns = section.settings.columns_desktop
                       assign number_of_columns_mobile = section.settings.columns_mobile

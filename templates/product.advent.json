@@ -30,7 +30,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "PRE-ORDER NOW",
-            "button_link_1": "{{ product.metafields.beans.collection_url_link.value }}",
+            "button_link_1": "#MainProduct-template--20011887067403__main",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -176,7 +176,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "PRE-ORDER NOW",
-            "button_link_1": "{{ product.metafields.beans.collection_url_link.value }}",
+            "button_link_1": "#MainProduct-template--20011887067403__main",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -295,7 +295,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "PRE-ORDER NOW",
-            "button_link_1": "{{ product.metafields.beans.collection_url_link.value }}",
+            "button_link_1": "#MainProduct-template--20011887067403__main",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -441,7 +441,7 @@
         "collapsible_row_QWpk3A"
       ],
       "custom_css": [
-        "@media screen and (min-width: 750px) {.collapsible-content-wrapper-narrow {margin: 0 6rem auto;}}"
+        "@media screen and (min-width: 750px) {.collapsible-content-wrapper-narrow {margin: 0 6rem auto; }}"
       ],
       "settings": {
         "caption": "",

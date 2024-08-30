@@ -123,13 +123,17 @@
         "column_dmg3Qn",
         "column_TgipJh"
       ],
+      "custom_css": [
+        ".grid {justify-content: center;}",
+        "h3 {font-size: 4rem;}"
+      ],
       "settings": {
         "title": "",
         "heading_size": "h2",
         "image_width": "full",
         "image_ratio": "square",
         "columns_desktop": 3,
-        "column_alignment": "left",
+        "column_alignment": "center",
         "background_style": "primary",
         "button_label": "",
         "button_link": "",

@@ -457,6 +457,40 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "rich_text_WnBF8a": {
+      "type": "rich-text",
+      "blocks": {
+        "text_pXaHBP": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Do you have anymore questions ?<\/p>"
+          }
+        },
+        "button_9tXdrj": {
+          "type": "button",
+          "settings": {
+            "button_label": "Contact us",
+            "button_link": "mailto:calendar@thebarn.de",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "text_pXaHBP",
+        "button_9tXdrj"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -466,6 +500,7 @@
     "multirow_nGFBxf",
     "related-products",
     "image_banner_Er7FKj",
-    "collapsible_content_irjMTz"
+    "collapsible_content_irjMTz",
+    "rich_text_WnBF8a"
   ]
 }

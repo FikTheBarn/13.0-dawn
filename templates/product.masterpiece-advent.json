@@ -381,15 +381,6 @@
             "page": ""
           }
         },
-        "collapsible_row_cCdFpc": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "If I like a coffee from the calendar can I order more of it? ",
-            "icon": "none",
-            "row_content": "<p>Yes, you can order each coffee by scanning the coffee card in each box. Each coffee will be available starting from its day in the calendar. We will roast all the orders we receive after Christmas.<\/p>",
-            "page": ""
-          }
-        },
         "collapsible_row_efHDLg": {
           "type": "collapsible_row",
           "settings": {
@@ -434,7 +425,6 @@
         "collapsible_row_UBPfBb",
         "collapsible_row_8aLqiX",
         "collapsible_row_wKdQF6",
-        "collapsible_row_cCdFpc",
         "collapsible_row_efHDLg",
         "collapsible_row_JDnqrD",
         "collapsible_row_Yh9Wwh",

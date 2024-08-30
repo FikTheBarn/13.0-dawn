@@ -104,8 +104,8 @@
             "image": "shopify:\/\/shop_images\/DSCF0074_2_with_ribbon_on_the_box.jpg",
             "title": "INSPIRATION ADVENT CALENDAR",
             "text": "<ul><li>Outstanding Coffees from producers that think differently (24 x 50g)<\/li><li>Tasting diary to record your favourite brews<\/li><li>Limited Edition Print to hang on your wall<\/li><li>Be inspired by coffees that will change your mind<\/li><\/ul>",
-            "link_label": "",
-            "link": ""
+            "link_label": "PRE-ORDER NOW",
+            "link": "shopify:\/\/products\/inspiration-calendar"
           }
         },
         "column_TgipJh": {
@@ -114,8 +114,8 @@
             "image": "shopify:\/\/shop_images\/Mastepiece_Calendar_Product_mit_nummers1.jpg",
             "title": "MASTERPIECE ADVENT CALENDAR",
             "text": "<ul><li>The most precious Collection of rare Geisha Coffees (12 x 50g)<\/li><li>From the Worlds Leading Producers<\/li><li>Beautifully refined ceramic cup, handmade by Uliana Tepikina in Berlin<\/li><li>The first time you can access an unparalleled line up, side by side<\/li><\/ul>",
-            "link_label": "",
-            "link": ""
+            "link_label": "PRE-ORDER NOW",
+            "link": "shopify:\/\/products\/masterpiece-calendar"
           }
         }
       },
@@ -125,13 +125,13 @@
       ],
       "settings": {
         "title": "",
-        "heading_size": "h1",
+        "heading_size": "h2",
         "image_width": "full",
         "image_ratio": "square",
-        "columns_desktop": 2,
+        "columns_desktop": 3,
         "column_alignment": "left",
         "background_style": "primary",
-        "button_label": "Button label",
+        "button_label": "",
         "button_link": "",
         "color_scheme": "",
         "columns_mobile": "1",
@@ -142,6 +142,7 @@
     },
     "product-grid": {
       "type": "main-collection-product-grid",
+      "disabled": true,
       "custom_css": [
         ".grid {justify-content: center;}"
       ],
@@ -167,6 +168,7 @@
     },
     "video_dMjtQE": {
       "type": "video",
+      "disabled": true,
       "settings": {
         "heading": "",
         "heading_size": "h1",

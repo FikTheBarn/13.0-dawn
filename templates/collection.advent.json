@@ -141,8 +141,8 @@
         "color_scheme": "",
         "columns_mobile": "1",
         "swipe_on_mobile": true,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 52,
+        "padding_bottom": 52
       }
     },
     "product-grid": {
@@ -173,12 +173,11 @@
     },
     "video_dMjtQE": {
       "type": "video",
-      "disabled": true,
       "settings": {
         "heading": "",
         "heading_size": "h1",
-        "enable_video_looping": false,
-        "video": "shopify:\/\/files\/videos\/DJI_20240701_132206_389_video.mov",
+        "enable_video_looping": true,
+        "video": "shopify:\/\/files\/videos\/hori_calendar 3.mov",
         "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
         "description": "",
         "full_width": true,

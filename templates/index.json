@@ -148,6 +148,7 @@
         "text_MnEe66",
         "button_JwgLXB"
       ],
+      "disabled": true,
       "settings": {
         "fullwidth_layout": "full_bleed",
         "title": "",
@@ -169,6 +170,58 @@
         "mobile_content_alignment": "center",
         "padding_top": 0,
         "padding_bottom": 36
+      }
+    },
+    "image_banner_BMHTdx": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_66UN9z": {
+          "type": "heading",
+          "settings": {
+            "heading": "INSPIRATION ADVENT CALENDAR",
+            "heading_size": "h1"
+          }
+        },
+        "text_qbVJLJ": {
+          "type": "text",
+          "settings": {
+            "text": "Coffee Producers that changed our Minds",
+            "text_style": "subtitle"
+          }
+        },
+        "buttons_Adxe4j": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "PRE-ORDER NOW",
+            "button_link_1": "shopify:\/\/pages\/subscriptions-intro",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_66UN9z",
+        "text_qbVJLJ",
+        "buttons_Adxe4j"
+      ],
+      "custom_css": [
+        "@media screen and (min-width: 480px) {h2 {color: whitesmoke; font-size: 4vw; }}",
+        "@media screen and (max-width: 481px) {h2 {color: whitesmoke; font-size: 12vw; }}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/DSCF0074_2_with_ribbon_on_the_box.jpg",
+        "image_overlay_opacity": 40,
+        "image_height": "large",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
       }
     },
     "featured_collection_Y8ga6P": {
@@ -254,61 +307,6 @@
         "mobile_content_alignment": "center",
         "padding_top": 36,
         "padding_bottom": 36
-      }
-    },
-    "image_banner_BMHTdx": {
-      "type": "image-banner",
-      "blocks": {
-        "heading_66UN9z": {
-          "type": "heading",
-          "settings": {
-            "heading": "OUR SUBSCRIPTIONS",
-            "heading_size": "h0"
-          }
-        },
-        "text_qbVJLJ": {
-          "type": "text",
-          "settings": {
-            "text": "A unique flavour experience, every month.",
-            "text_style": "subtitle"
-          }
-        },
-        "buttons_Adxe4j": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "EXPLORE SUBSCRIPTIONS",
-            "button_link_1": "shopify:\/\/pages\/subscriptions-intro",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_66UN9z",
-        "text_qbVJLJ",
-        "buttons_Adxe4j"
-      ],
-      "disabled": true,
-      "custom_css": [
-        "@media screen and (min-width: 480px) {h2 {color: whitesmoke; font-size: 6vw; margin-bottom: 0px; padding-bottom: 0px; }}",
-        "@media screen and (max-width: 481px) {h2 {color: whitesmoke; font-size: 16vw; margin-bottom: 0px; padding-bottom: 0px; }}",
-        ".banner__box {max-width: 398px;}"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/bg-hero.jpg",
-        "image_2": "shopify:\/\/shop_images\/Subscriptions.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "desktop_content_position": "middle-left",
-        "show_text_box": true,
-        "desktop_content_alignment": "left",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": false
       }
     },
     "collection_list_c4HEKH": {
@@ -455,9 +453,9 @@
   "order": [
     "custom_slideshow_hero_UiixMb",
     "video_with_text_jrdbJT",
+    "image_banner_BMHTdx",
     "featured_collection_Y8ga6P",
     "image_with_text_Fx77i4",
-    "image_banner_BMHTdx",
     "collection_list_c4HEKH",
     "custom_video_Wcjhpt",
     "featured_blog_ReFHyG",

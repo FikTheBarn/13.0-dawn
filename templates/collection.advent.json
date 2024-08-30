@@ -65,7 +65,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "PRE-ORDER NOW",
-            "button_link_1": "#ProductGridContainer",
+            "button_link_1": "#Slider-template--20233395896587__multicolumn_Nm77mQ",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -124,7 +124,7 @@
         "column_TgipJh"
       ],
       "custom_css": [
-        "@media screen and (min-width: 750px) {.grid {justify-content: center;}}",
+        "@media screen and (min-width: 750px) {.grid {justify-content: center; }}",
         "h3 {font-size: 4rem;}",
         ".rte {text-align: left; padding: 0px;}"
       ],

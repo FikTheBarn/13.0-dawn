@@ -1,0 +1,471 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
+{
+  "sections": {
+    "image_banner_cwV6xB": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_B3Pq4V": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ product.title }} 2024",
+            "heading_size": "h0"
+          }
+        },
+        "text_6kHXBj": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.bean.tastenotes | metafield_text }}",
+            "text_style": "subtitle"
+          }
+        },
+        "buttons_RXTb37": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "PRE-ORDER NOW",
+            "button_link_1": "#MainProduct-template--20011887067403__main",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_B3Pq4V",
+        "text_6kHXBj",
+        "buttons_RXTb37"
+      ],
+      "custom_css": [
+        ".banner__text {color: white;}"
+      ],
+      "settings": {
+        "image": "{{ product.metafields.custom.hosted_video.value }}",
+        "image_overlay_opacity": 30,
+        "image_height": "large",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.bean.producer.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "title": {
+          "type": "title",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": true
+          }
+        },
+        "collapsible_tab_rwW697": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "{{ product.metafields.custom.name.value }} contains",
+            "icon": "box",
+            "content": "<p><em>{{ product.metafields.custom.general_description.value }}<\/em><em>.<\/em><\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_pjrXFB": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Shipment in November",
+            "icon": "truck",
+            "content": "<p><em>Pre-order today. Freshly roasted for dispatch on 15th November.<\/em><\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "description",
+        "price",
+        "buy_buttons",
+        "collapsible_tab_rwW697",
+        "collapsible_tab_pjrXFB"
+      ],
+      "custom_css": [
+        ".product__text {color: white;}"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "color_scheme": "",
+        "media_size": "small",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "gallery_layout": "thumbnail_slider",
+        "media_position": "left",
+        "image_zoom": "hover",
+        "mobile_thumbnails": "hide",
+        "hide_variants": true,
+        "enable_video_looping": false,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "custom_image_banner_D8FLaC": {
+      "type": "custom-image-banner",
+      "blocks": {
+        "heading_kbXC9W": {
+          "type": "heading",
+          "settings": {
+            "heading": "Experience Coffee Like Never Before",
+            "heading_size": "h0"
+          }
+        },
+        "text_8kq8M9": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Days until advent",
+            "text_style": "subtitle"
+          }
+        },
+        "countdown_Hp6y6T": {
+          "type": "countdown",
+          "disabled": true,
+          "settings": {
+            "timer_title_size": 24,
+            "timer_subtitle_size": 16,
+            "date_picker": "12\/01\/2024",
+            "detail_weeks": "WEEKS",
+            "detail_days": "DAYS",
+            "detail_hours": "HOURS",
+            "detail_mins": "MIN",
+            "detail_secs": "SEC"
+          }
+        },
+        "buttons_x6azzq": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "PRE-ORDER NOW",
+            "button_link_1": "#MainProduct-template--20011887067403__main",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_kbXC9W",
+        "text_8kq8M9",
+        "countdown_Hp6y6T",
+        "buttons_x6azzq"
+      ],
+      "settings": {
+        "image": "{{ product.metafields.custom.custom_dynamic_badge.value }}",
+        "image_overlay_opacity": 60,
+        "image_height": "large",
+        "desktop_content_position": "middle-left",
+        "show_text_box": true,
+        "desktop_content_alignment": "left",
+        "color_scheme": "scheme-4",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "multirow_nGFBxf": {
+      "type": "multirow",
+      "blocks": {
+        "row_ifigFF": {
+          "type": "row",
+          "settings": {
+            "image": "{{ product.metafields.custom.additional_photos_c.value }}",
+            "caption": "",
+            "heading": "",
+            "text": "<p>{{ product.metafields.product.metafields_about_the_farm | metafield_tag }}<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_TmpX8c": {
+          "type": "row",
+          "settings": {
+            "image": "{{ product.metafields.custom.additional_photos_b.value }}",
+            "caption": "",
+            "heading": "",
+            "text": "<p>{{ product.metafields.product.metafield_the_process | metafield_tag }}<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_GRfLBf": {
+          "type": "row",
+          "settings": {
+            "image": "{{ product.metafields.custom.additional_photos_a.value }}",
+            "caption": "",
+            "heading": "",
+            "text": "<p>{{ product.metafields.products.metafileld_the_cup | metafield_tag }}<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_ifigFF",
+        "row_TmpX8c",
+        "row_GRfLBf"
+      ],
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-right",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "disabled": true,
+      "settings": {
+        "heading": "You may also like",
+        "heading_size": "h2",
+        "products_to_show": 4,
+        "columns_desktop": 3,
+        "color_scheme": "scheme-1",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "columns_mobile": "1",
+        "padding_top": 36,
+        "padding_bottom": 28
+      }
+    },
+    "image_banner_Er7FKj": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_9X4jMf": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ product.metafields.custom.product_main_text.value }}",
+            "heading_size": "h0"
+          }
+        },
+        "buttons_awqq4W": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "PRE-ORDER NOW",
+            "button_link_1": "#MainProduct-template--20011887067403__main",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_9X4jMf",
+        "buttons_awqq4W"
+      ],
+      "custom_css": [
+        "@media only screen and (min-width: 750px) {.banner__box {max-width: 80rem; }}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Image_01.08.24_at_10.27.jpg",
+        "image_overlay_opacity": 20,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "fixed",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    },
+    "collapsible_content_irjMTz": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_PUhzmT": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How much coffee is included for each day?",
+            "icon": "none",
+            "row_content": "<p>Each day has 50g of coffee beans - enough to brew 3x filter brews of 250ml each.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_9PVt7d": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Does the calendar feature filter or espresso roast?",
+            "icon": "none",
+            "row_content": "<p>All coffees in the calendar are roasted in omni-style, allowing you to use both espresso and filter brew techniques.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_myXVCx": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Where do you ship to?",
+            "icon": "none",
+            "row_content": "<p>Germany, Europe, North America. <\/p><p>Please contact us directly, if you are located outside of these regions: <a href=\"mailto:calendar@thebarn.de\" title=\"mailto:calendar@thebarn.de\">calendar@thebarn.de<\/a><\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_UBPfBb": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "When will the coffee be roasted?",
+            "icon": "none",
+            "row_content": "<p>To make sure the coffee is as fresh as possible, we will roast the coffees fresh before we start shipping in November. <\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_8aLqiX": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "When will my calendar be shipped?",
+            "icon": "none",
+            "row_content": "<p>We will begin shipping all calendars starting November 18th. This is giving us two weeks to reach you.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_wKdQF6": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "When is the last order date?",
+            "icon": "none",
+            "row_content": "<p>The cut off date for international orders is October 31st and for orders in Germany November 10th. <\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_cCdFpc": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "If I like a coffee from the calendar can I order more of it? ",
+            "icon": "none",
+            "row_content": "<p>Yes, you can order each coffee by scanning the coffee card in each box. Each coffee will be available starting from its day in the calendar. We will roast all the orders we receive after Christmas.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_efHDLg": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can I order multiple calendars and have them shipped to different locations?",
+            "icon": "none",
+            "row_content": "<p>Certainly! You can indeed buy more than one Advent Calendar as gifts and have them sent as gifts. However, please note that we cannot divide a single order among multiple addresses. Therefore, you will need to place a separate order for each address you wish to ship to.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_JDnqrD": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "If I order additional products, will they be shipped with my calendar?",
+            "icon": "none",
+            "row_content": "<p>If you proceed with a purchase that includes items other than the Advent Calendar, our system will automatically split your order. The non-Advent products will be shipped right away. When the scheduled shipping date for the Advent Calendar arrives, it will be shipped separately in its own shipment.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_Yh9Wwh": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can I cancel my order?",
+            "icon": "none",
+            "row_content": "<p>We can only accept order cancellations within 24 hours after you have placed your order.<\/p>",
+            "page": "advent-calendar"
+          }
+        },
+        "collapsible_row_QWpk3A": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can I order several calendars to the same address or to shipping destinations not mentioned?",
+            "icon": "none",
+            "row_content": "<p>We may be able to help you there. Please contact our Advent Calendar Support Team: <a href=\"mailto:calendar@thebarn.de\" title=\"mailto:calendar@thebarn.de\">calendar@thebarn.de.<\/a><\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_PUhzmT",
+        "collapsible_row_9PVt7d",
+        "collapsible_row_myXVCx",
+        "collapsible_row_UBPfBb",
+        "collapsible_row_8aLqiX",
+        "collapsible_row_wKdQF6",
+        "collapsible_row_cCdFpc",
+        "collapsible_row_efHDLg",
+        "collapsible_row_JDnqrD",
+        "collapsible_row_Yh9Wwh",
+        "collapsible_row_QWpk3A"
+      ],
+      "custom_css": [
+        "@media screen and (min-width: 750px) {.collapsible-content-wrapper-narrow {margin: 0 6rem auto; }}"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "FAQ",
+        "heading_size": "h1",
+        "heading_alignment": "left",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "image_banner_cwV6xB",
+    "main",
+    "custom_image_banner_D8FLaC",
+    "multirow_nGFBxf",
+    "related-products",
+    "image_banner_Er7FKj",
+    "collapsible_content_irjMTz"
+  ]
+}

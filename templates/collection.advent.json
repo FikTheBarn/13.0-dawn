@@ -173,6 +173,9 @@
     },
     "video_dMjtQE": {
       "type": "video",
+      "custom_css": [
+        ".title {text-align: center;}"
+      ],
       "settings": {
         "heading": "Watch the magic unfold, our unique Advent Calendars, were hand-drawn and designed by our talented artist Alesia Majytava.",
         "heading_size": "h2",

@@ -441,7 +441,7 @@
         "collapsible_row_QWpk3A"
       ],
       "custom_css": [
-        ".collapsible-content-wrapper-narrow {margin: 0 6rem auto;}"
+        "@media screen and (min-width: 750px) {.collapsible-content-wrapper-narrow {margin: 0 6rem auto;}}"
       ],
       "settings": {
         "caption": "",

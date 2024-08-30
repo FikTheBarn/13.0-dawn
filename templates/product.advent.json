@@ -350,7 +350,7 @@
           "settings": {
             "heading": "Where do you ship to?",
             "icon": "none",
-            "row_content": "<p>Germany, Europe, North America. <\/p><p>Please contact us directly, if you are located outside of these regions: calendar@thebarn.de<\/p>",
+            "row_content": "<p>Germany, Europe, North America. <\/p><p>Please contact us directly, if you are located outside of these regions: <a href=\"mailto:calendar@thebarn.de\" title=\"mailto:calendar@thebarn.de\">calendar@thebarn.de<\/a><\/p>",
             "page": ""
           }
         },
@@ -422,7 +422,7 @@
           "settings": {
             "heading": "Can I order several calendars to the same address or to shipping destinations not mentioned?",
             "icon": "none",
-            "row_content": "<p>We may be able to help you there. Please contact our Advent Calendar Support Team: calendar@thebarn.de.<\/p>",
+            "row_content": "<p>We may be able to help you there. Please contact our Advent Calendar Support Team: <a href=\"mailto:calendar@thebarn.de\" title=\"mailto:calendar@thebarn.de\">calendar@thebarn.de.<\/a><\/p>",
             "page": ""
           }
         }

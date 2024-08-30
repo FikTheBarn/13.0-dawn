@@ -44,49 +44,6 @@
         "color_scheme": "scheme-1"
       }
     },
-    "multicolumn_Nm77mQ": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_dmg3Qn": {
-          "type": "column",
-          "settings": {
-            "title": "INSPIRATIONAL ADVENT CALENDAR",
-            "text": "<ul><li>12 x 50g of Masterpiece coffees<\/li><li>Rarest lots from the worlds top producers<\/li><li>Handmade ceramic cup from Berlin<\/li><li>An elegant Christmas centerpiece with unforgettable flavors<\/li><\/ul>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_TgipJh": {
-          "type": "column",
-          "settings": {
-            "title": "MASTERPIECE ADVENT CALENDAR",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column_dmg3Qn",
-        "column_TgipJh"
-      ],
-      "settings": {
-        "title": "Multicolumn",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "Button label",
-        "button_link": "",
-        "color_scheme": "",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "image_banner_nKUABU": {
       "type": "image-banner",
       "blocks": {
@@ -138,6 +95,51 @@
         "show_text_below": false
       }
     },
+    "multicolumn_Nm77mQ": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_dmg3Qn": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSCF0074_2_with_ribbon_on_the_box.jpg",
+            "title": "INSPIRATIONAL ADVENT CALENDAR",
+            "text": "<ul><li>12 x 50g of Masterpiece coffees<\/li><li>Rarest lots from the worlds top producers<\/li><li>Handmade ceramic cup from Berlin<\/li><li>An elegant Christmas centerpiece with unforgettable flavors<\/li><\/ul>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_TgipJh": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Mastepiece_Calendar_Product_mit_nummers1.jpg",
+            "title": "MASTERPIECE ADVENT CALENDAR",
+            "text": "<ul><li>12 x 50g of Masterpiece coffees<\/li><li>Rarest lots from the worlds top producers<\/li><li>Handmade ceramic cup from Berlin<\/li><li>An elegant Christmas centerpiece with unforgettable flavors<\/li><\/ul>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_dmg3Qn",
+        "column_TgipJh"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "square",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "product-grid": {
       "type": "main-collection-product-grid",
       "custom_css": [
@@ -182,8 +184,8 @@
   "order": [
     "rich_text_kd8XCe",
     "banner",
-    "multicolumn_Nm77mQ",
     "image_banner_nKUABU",
+    "multicolumn_Nm77mQ",
     "product-grid",
     "video_dMjtQE"
   ]

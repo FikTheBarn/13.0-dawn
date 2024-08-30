@@ -16,7 +16,6 @@
       "blocks": {
         "announcement_g6bJEw": {
           "type": "announcement",
-          "disabled": true,
           "settings": {
             "text": "Sign up for our next Special Drop. Join the list and skip the queue ☕️",
             "link": "shopify:\/\/pages\/specialty-coffee-drop"

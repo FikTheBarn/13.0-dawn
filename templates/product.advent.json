@@ -330,7 +330,7 @@
         "collapsible_row_PUhzmT": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "When can I expect my calendar to be shipped?",
+            "heading": "When will my calendar be shipped?",
             "icon": "none",
             "row_content": "",
             "page": ""
@@ -339,7 +339,7 @@
         "collapsible_row_JDnqrD": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "When is the last order date to ensure delivery by December 1st?",
+            "heading": "When is the last order date?",
             "icon": "none",
             "row_content": "",
             "page": ""
@@ -348,7 +348,7 @@
         "collapsible_row_Yh9Wwh": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "What is the daily amount of coffee included in each Advent Calendar slot?",
+            "heading": "How much coffee is included in the Calendar per day?",
             "icon": "none",
             "row_content": "",
             "page": "advent-calendar"
@@ -357,7 +357,7 @@
         "collapsible_row_QWpk3A": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "What should I do if I discover that one of the days in my Advent calendar is missing?",
+            "heading": "What should I do if one coffee is missing in my Calendar?",
             "icon": "none",
             "row_content": "",
             "page": ""
@@ -366,7 +366,7 @@
         "collapsible_row_UbLEpe": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Is it possible for me to order multiple items and have them shipped to different locations as gifts?",
+            "heading": "Can I order multiple Calendars and have them shipped to different locations?",
             "icon": "none",
             "row_content": "",
             "page": ""
@@ -375,7 +375,7 @@
         "collapsible_row_GWmbmW": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Is it possible for me to cancel my order?",
+            "heading": "Can I cancel my order?",
             "icon": "none",
             "row_content": "",
             "page": ""

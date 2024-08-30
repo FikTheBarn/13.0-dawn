@@ -174,13 +174,13 @@
     "video_dMjtQE": {
       "type": "video",
       "settings": {
-        "heading": "",
-        "heading_size": "h1",
+        "heading": "Watch the magic unfold, our unique Advent Calendars, were hand-drawn and designed by our talented artist Alesia Majytava.",
+        "heading_size": "h2",
         "enable_video_looping": true,
         "video": "shopify:\/\/files\/videos\/hori_calendar 3.mov",
         "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
         "description": "",
-        "full_width": true,
+        "full_width": false,
         "color_scheme": "",
         "padding_top": 36,
         "padding_bottom": 36

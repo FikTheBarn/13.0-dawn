@@ -124,7 +124,7 @@
         "column_TgipJh"
       ],
       "custom_css": [
-        ".grid {justify-content: center;}",
+        "@media screen and (min-width: 750px) {.grid {justify-content: center;}}",
         "h3 {font-size: 4rem;}",
         ".rte {text-align: left; padding: 0px;}"
       ],

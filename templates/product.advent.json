@@ -330,65 +330,115 @@
         "collapsible_row_PUhzmT": {
           "type": "collapsible_row",
           "settings": {
+            "heading": "How much coffee is included for each day?",
+            "icon": "none",
+            "row_content": "<p>Each day has 50g of coffee beans - enough to brew 3x filter brews of 250ml each.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_9PVt7d": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Does the calendar feature filter or espresso roast?",
+            "icon": "none",
+            "row_content": "<p>All coffees in the calendar are roasted in omni-style, allowing you to use both espresso and filter brew techniques.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_myXVCx": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Where do you ship to?",
+            "icon": "none",
+            "row_content": "<p>Germany, Europe, North America. <\/p><p>Please contact us directly, if you are located outside of these regions: calendar@thebarn.de<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_UBPfBb": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "When will the coffee be roasted?",
+            "icon": "none",
+            "row_content": "<p>To make sure the coffee is as fresh as possible, we will roast the coffees fresh before we start shipping in November. <\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_8aLqiX": {
+          "type": "collapsible_row",
+          "settings": {
             "heading": "When will my calendar be shipped?",
             "icon": "none",
-            "row_content": "",
+            "row_content": "<p>We will begin shipping all calendars starting November 18th. This is giving us two weeks to reach you.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_wKdQF6": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "When is the last order date?",
+            "icon": "none",
+            "row_content": "<p>The cut off date for international orders is October 31st and for orders in Germany November 10th. <\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_cCdFpc": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "If I like a coffee from the calendar can I order more of it? ",
+            "icon": "none",
+            "row_content": "<p>Yes, you can order each coffee by scanning the coffee card in each box. Each coffee will be available starting from its day in the calendar. We will roast all the orders we receive after Christmas.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_efHDLg": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can I order multiple calendars and have them shipped to different locations?",
+            "icon": "none",
+            "row_content": "<p>Certainly! You can indeed buy more than one Advent Calendar as gifts and have them sent as gifts. However, please note that we cannot divide a single order among multiple addresses. Therefore, you will need to place a separate order for each address you wish to ship to.<\/p>",
             "page": ""
           }
         },
         "collapsible_row_JDnqrD": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "When is the last order date?",
+            "heading": "If I order additional products, will they be shipped with my calendar?",
             "icon": "none",
-            "row_content": "",
+            "row_content": "<p>If you proceed with a purchase that includes items other than the Advent Calendar, our system will automatically split your order. The non-Advent products will be shipped right away. When the scheduled shipping date for the Advent Calendar arrives, it will be shipped separately in its own shipment.<\/p>",
             "page": ""
           }
         },
         "collapsible_row_Yh9Wwh": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "How much coffee is included in the calendar per day?",
+            "heading": "Can I cancel my order?",
             "icon": "none",
-            "row_content": "",
+            "row_content": "<p>We can only accept order cancellations within 24 hours after you have placed your order.<\/p>",
             "page": "advent-calendar"
           }
         },
         "collapsible_row_QWpk3A": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "What should I do if one coffee is missing in my calendar?",
+            "heading": "Can I order several calendars to the same address or to shipping destinations not mentioned?",
             "icon": "none",
-            "row_content": "",
-            "page": ""
-          }
-        },
-        "collapsible_row_UbLEpe": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Can I order multiple calendars and have them shipped to different locations?",
-            "icon": "none",
-            "row_content": "",
-            "page": ""
-          }
-        },
-        "collapsible_row_GWmbmW": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Can I cancel my order?",
-            "icon": "none",
-            "row_content": "",
+            "row_content": "<p>We may be able to help you there. Please contact our Advent Calendar Support Team: calendar@thebarn.de.<\/p>",
             "page": ""
           }
         }
       },
       "block_order": [
         "collapsible_row_PUhzmT",
+        "collapsible_row_9PVt7d",
+        "collapsible_row_myXVCx",
+        "collapsible_row_UBPfBb",
+        "collapsible_row_8aLqiX",
+        "collapsible_row_wKdQF6",
+        "collapsible_row_cCdFpc",
+        "collapsible_row_efHDLg",
         "collapsible_row_JDnqrD",
         "collapsible_row_Yh9Wwh",
-        "collapsible_row_QWpk3A",
-        "collapsible_row_UbLEpe",
-        "collapsible_row_GWmbmW"
+        "collapsible_row_QWpk3A"
       ],
       "custom_css": [
         ".collapsible-content-wrapper-narrow {margin: 0 6rem auto;}"

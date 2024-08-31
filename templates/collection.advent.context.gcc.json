@@ -13,5 +13,16 @@
     "market": "gcc"
   },
   "sections": {
+    "multicolumn_Nm77mQ": {
+      "settings": {
+      },
+      "blocks": {
+        "column_TgipJh": {
+          "settings": {
+            "link_label": "435.00 €"
+          }
+        }
+      }
+    }
   }
 }

@@ -10,19 +10,8 @@
 {
   "parent": "collection.advent.json",
   "context": {
-    "market": "thailand"
+    "market": "kanada"
   },
   "sections": {
-    "multicolumn_Nm77mQ": {
-      "settings": {
-      },
-      "blocks": {
-        "column_TgipJh": {
-          "settings": {
-            "link_label": "420.00 €"
-          }
-        }
-      }
-    }
   }
 }

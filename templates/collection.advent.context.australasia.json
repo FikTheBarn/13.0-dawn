@@ -8,9 +8,9 @@
 * ------------------------------------------------------------
 */
 {
-  "parent": "header-group.json",
+  "parent": "collection.advent.json",
   "context": {
-    "market": "europe-2"
+    "market": "australasia"
   },
   "sections": {
   }

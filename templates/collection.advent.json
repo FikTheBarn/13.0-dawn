@@ -128,7 +128,8 @@
       "custom_css": [
         "@media screen and (min-width: 750px) {.grid {justify-content: center; }}",
         "h3 {font-size: 4rem;}",
-        ".rte {text-align: left; padding: 0px;}"
+        ".rte {text-align: left; padding: 0px;}",
+        ".link {margin: 0.5rem 0;}"
       ],
       "settings": {
         "title": "",

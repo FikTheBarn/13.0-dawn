@@ -87,7 +87,8 @@
         "buttons_aEdNtM"
       ],
       "custom_css": [
-        ".banner__text {color: white;}"
+        ".banner__text {color: white;}",
+        ".caption-with-letter-spacing {font-size: 1.4rem; color: white;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/DSCF0074_2_with_ribbon_on_the_box.jpg",

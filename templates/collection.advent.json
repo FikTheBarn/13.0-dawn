@@ -61,6 +61,13 @@
             "text_style": "body"
           }
         },
+        "text_RBXBiG": {
+          "type": "text",
+          "settings": {
+            "text": "Early access -15% price advantage if you order before 15th September",
+            "text_style": "caption-with-letter-spacing"
+          }
+        },
         "buttons_aEdNtM": {
           "type": "buttons",
           "settings": {
@@ -76,6 +83,7 @@
       "block_order": [
         "heading_bAkELr",
         "text_qrhW8Q",
+        "text_RBXBiG",
         "buttons_aEdNtM"
       ],
       "custom_css": [

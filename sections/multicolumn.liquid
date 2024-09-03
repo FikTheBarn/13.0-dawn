@@ -87,14 +87,17 @@
                       style="padding-bottom: {{ 1 | divided_by: highest_ratio | times: 100 }}%;"
                     {% endif %}
                   >
-                      <a style="opacity: 0; z-index: 3" class="img-click"
+                    <a
+                      style="opacity: 0; z-index: 3"
+                      class="img-click"
                       {% if block.settings.link == blank %}
-                      role="link" aria-disabled="true"
+                        role="link" aria-disabled="true"
                       {% else %}
-                      href="{{ block.settings.link }}"
-                      {% endif %}>img link</a>
+                        href="{{ block.settings.link }}"
+                      {% endif %}
+                      >img link</a
+                    >
 
-                    
                     {%- liquid
                       assign number_of_columns = section.settings.columns_desktop
                       assign number_of_columns_mobile = section.settings.columns_mobile
@@ -133,19 +136,34 @@
                 {%- if block.settings.text != blank -%}
                   <div class="rte">{{ block.settings.text }}</div>
                 {%- endif -%}
-                {%- if block.settings.link_label != blank -%}
-                  <a
-                    class="link animate-arrow"
-                    {% if block.settings.link == blank %}
-                      role="link" aria-disabled="true"
-                    {% else %}
-                      href="{{ block.settings.link }}"
-                    {% endif %}
-                  >
-                    {{- block.settings.link_label | escape -}}
-                    <span class="icon-wrap">&nbsp;{% render 'icon-arrow' %}</span></a
-                  >
-                {%- endif -%}
+                <div style="display: flex; flex-direction: row; align-items: baseline; gap: 8px;">
+                  {%- if block.settings.link_label_2 != blank -%}
+                    <a
+                      class="link"
+                      style="text-decoration: line-through;"
+                      {% if block.settings.link == blank %}
+                        role="link" aria-disabled="true"
+                      {% else %}
+                        href="{{ block.settings.link }}"
+                      {% endif %}
+                    >
+                      {{- block.settings.link_label_2 | escape -}}
+                    </a>
+                  {%- endif -%}
+                  {%- if block.settings.link_label != blank -%}
+                    <a
+                      class="link animate-arrow"
+                      {% if block.settings.link == blank %}
+                        role="link" aria-disabled="true"
+                      {% else %}
+                        href="{{ block.settings.link }}"
+                      {% endif %}
+                    >
+                      {{- block.settings.link_label | escape -}}
+                      <span class="icon-wrap">&nbsp;{% render 'icon-arrow' %}</span></a
+                    >
+                  {%- endif -%}
+                </div>
               </div>
             </div>
           </li>

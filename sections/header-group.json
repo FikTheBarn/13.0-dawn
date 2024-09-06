@@ -43,6 +43,7 @@
         "announcement_tN6g6G",
         "announcement_4iqwmf"
       ],
+      "disabled": true,
       "custom_css": [
         "a {text-decoration: none;}",
         "p {font-size: 12px; font-family: \"Raleway\";}"
@@ -139,6 +140,7 @@
         "row_AnGxLc",
         "row_DXryAb"
       ],
+      "disabled": true,
       "custom_css": [
         "ul a {color: #141414;}",
         ".header__active-menu-item {color: #804d15;}"
@@ -152,6 +154,7 @@
     },
     "custom_header_DGJWfJ": {
       "type": "custom-header",
+      "disabled": true,
       "custom_css": [
         "header {padding-bottom: 8px;}",
         "ul a {color: white; font-family: \"Chalet Comprime\"; font-size: 24px;}"

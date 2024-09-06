@@ -15,32 +15,20 @@
         "heading_WKbigj": {
           "type": "heading",
           "settings": {
-            "heading": "Talk about your brand",
+            "heading": "Welcome to our Cafe",
             "heading_size": "h1"
           }
         },
         "text_iHtY63": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
-          }
-        },
-        "button_JHM6FN": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "text": "<p>We hope you are enjoying your cup of coffee<\/p>"
           }
         }
       },
       "block_order": [
         "heading_WKbigj",
-        "text_iHtY63",
-        "button_JHM6FN"
+        "text_iHtY63"
       ],
       "settings": {
         "desktop_content_position": "center",
@@ -49,6 +37,52 @@
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
+      }
+    },
+    "image_with_text_7YFbTw": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_Q8z9tX": {
+          "type": "heading",
+          "settings": {
+            "heading": "BRING THE BARN EXPERIENCE TO YOUR HOME",
+            "heading_size": "h1"
+          }
+        },
+        "text_gR7rWg": {
+          "type": "text",
+          "settings": {
+            "text": "<p>EXPLORE OUR COFFEE SUBSCRIPTIONS<br\/><br\/><strong>✓ <\/strong>Price savings of &gt; 20%.<\/p><p><strong>✓ <\/strong>Pay as you go, no binding contract.<\/p><p><strong>✓ <\/strong>Freshly roasted in Berlin<\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_FVmVU6": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_Q8z9tX",
+        "text_gR7rWg",
+        "button_FVmVU6"
+      ],
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "main": {
@@ -62,6 +96,7 @@
   },
   "order": [
     "rich_text_78hEgr",
+    "image_with_text_7YFbTw",
     "main"
   ]
 }

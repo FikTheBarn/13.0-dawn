@@ -401,6 +401,7 @@
         },
         "collapsible_row_JDnqrD": {
           "type": "collapsible_row",
+          "disabled": true,
           "settings": {
             "heading": "If I order additional products, will they be shipped with my calendar?",
             "icon": "none",

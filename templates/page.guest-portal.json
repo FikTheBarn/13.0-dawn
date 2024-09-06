@@ -59,8 +59,8 @@
         "button_FVmVU6": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
-            "button_link": "",
+            "button_label": "Sign up here",
+            "button_link": "shopify:\/\/collections\/coffee-subscription",
             "button_style_secondary": false
           }
         }

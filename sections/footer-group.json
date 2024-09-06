@@ -114,6 +114,7 @@
         "text_yRyzde",
         "image_WbJ4AG"
       ],
+      "disabled": true,
       "custom_css": [
         "p {font-size: 15px; line-height: 1.3;}",
         "a {text-decoration: none; color: #ffffffb3;}",

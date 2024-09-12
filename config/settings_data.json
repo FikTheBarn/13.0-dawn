@@ -162,12 +162,6 @@
         "settings": {
         }
       },
-      "13375078075628245689": {
-        "type": "shopify:\/\/apps\/powr-contact-form\/blocks\/app-embed\/1412fe37-d89c-4706-a797-6e2b53cb4a69",
-        "disabled": false,
-        "settings": {
-        }
-      },
       "pagefly-page-builder": {
         "type": "shopify:\/\/apps\/pagefly-page-builder\/blocks\/app-embed\/83e179f7-59a0-4589-8c66-c0dddf959200",
         "disabled": false,
@@ -270,6 +264,18 @@
           "style_colors_cta_text": "#ffffff",
           "style_colors_cta_button": "#804d15",
           "style_colors_text": "#ffffff"
+        }
+      },
+      "13768625480086291342": {
+        "type": "shopify:\/\/apps\/forms\/blocks\/forms\/8744a304-fcb1-4347-b211-bb6b4759a76a",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "13375078075628245689": {
+        "type": "shopify:\/\/apps\/powr-contact-form\/blocks\/app-embed\/1412fe37-d89c-4706-a797-6e2b53cb4a69",
+        "disabled": true,
+        "settings": {
         }
       }
     },

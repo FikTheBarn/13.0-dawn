@@ -63,6 +63,11 @@
   }
 
 
+
+p.new_release_label {
+    align-items: flex-end;
+}
+
  .new_release_label{
   display: flex;
   font-family: 'Chalet Comprime';

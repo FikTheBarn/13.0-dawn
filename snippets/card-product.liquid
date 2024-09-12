@@ -175,14 +175,11 @@
             {%- endif -%}
             {% comment %} Custome Code here for New-Release Sticker {% endcomment %}
             {% if card_product.tags contains 'new-release' %}
-              <span class="new_release_label"
-                >NEW<br>
-                RELEASE</span
-              >
+              <p class="new_release_label">NEW<br>RELEASE</p>
             {% endif %}
             {% comment %} Custome Code here for Special-drop Sticker {% endcomment %}
             {% if card_product.tags contains 'special-drop' %}
-              <span class="new_release_label">SPECIAL<br>DROP</span>
+              <p class="new_release_label">SPECIAL<br>DROP</p>
             {% endif %}
           </div>
         </div>

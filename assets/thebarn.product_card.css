@@ -64,10 +64,6 @@
 
 
 
-p.new_release_label {
-    align-items: center;
-}
-
  .new_release_label{
   display: flex;
   font-family: 'Chalet Comprime';

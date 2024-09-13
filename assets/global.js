@@ -988,8 +988,55 @@ class VariantSelects extends HTMLElement {
       this.updateVariantInput();
       this.renderProductInfo();
       this.updateShareUrl();
+      console.log("varaint has chnaged");
+      console.log(this.currentVariant);
+      this.updateVariantDetails();
     }
   }
+
+updateVariantDetails() {
+    // Step 1: Ensure the element #variant-metafield-data exists and parse the JSON data
+    const variantMetafieldDataElement = document.querySelector('#variant-metafield-data');
+    
+    if (!variantMetafieldDataElement) {
+        console.error('Element #variant-metafield-data not found.');
+        return;  // Exit if the element is not found
+    }
+    
+    // Step 2: Parse the JSON data
+    try {
+        const allVariantMetafieldData = JSON.parse(variantMetafieldDataElement.textContent);
+        console.log('Parsed Metafield Data:', allVariantMetafieldData);
+        
+        // Step 3: Ensure currentVariant and id are defined
+        if (!this.currentVariant || !this.currentVariant.id) {
+            console.error('currentVariant or currentVariant.id is undefined');
+            return;  // Exit if currentVariant or its id is not defined
+        }
+        
+        console.log('Current Variant ID:', this.currentVariant.id);
+        
+        // Step 4: Update the DOM with the metafield data if it exists
+        const variantDetailsTextElement = document.querySelector('#variant-details');
+        
+        if (!variantDetailsTextElement) {
+            console.error('Element #variant-details not found.');
+            return;  // Exit if the element is not found
+        }
+        
+        // Check if the metafield data for the current variant exists
+        if (allVariantMetafieldData[this.currentVariant.id]) {
+            variantDetailsTextElement.innerHTML = allVariantMetafieldData[this.currentVariant.id];
+        } else {
+            console.warn('No metafield data found for variant ID:', this.currentVariant.id);
+            variantDetailsTextElement.innerHTML = '';  // Optionally clear the content
+        }
+        
+    } catch (error) {
+        console.error('Error parsing JSON data:', error);
+    }
+}
+
 
   updateOptions() {
     this.options = Array.from(this.querySelectorAll('select, fieldset'), (element) => {

@@ -56,19 +56,18 @@
             "show_gift_card_recipient": true
           }
         },
+        "collapsible-row-0": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Coffee Details",
+            "icon": "cup",
+            "content": "",
+            "page": ""
+          }
+        },
         "description": {
           "type": "description",
           "settings": {
-          }
-        },
-        "collapsible-row-0": {
-          "type": "collapsible_tab",
-          "disabled": true,
-          "settings": {
-            "heading": "Materials",
-            "icon": "leather",
-            "content": "",
-            "page": ""
           }
         },
         "collapsible-row-1": {
@@ -130,8 +129,8 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
-        "description",
         "collapsible-row-0",
+        "description",
         "collapsible-row-1",
         "collapsible-row-2",
         "collapsible-row-3",
@@ -201,6 +200,7 @@
             "title": "Free Shipping",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",
+            "link_label_2": "",
             "link": ""
           }
         },
@@ -210,6 +210,7 @@
             "title": "Hassle-Free Exchanges",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",
+            "link_label_2": "",
             "link": ""
           }
         }

@@ -82,7 +82,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/SpecialDrop_2.gif",
-        "height": "adapt",
+        "height": "medium",
         "desktop_image_width": "small",
         "layout": "image_first",
         "desktop_content_position": "middle",
@@ -107,6 +107,7 @@
             "title": "STEP ONE",
             "text": "<p>Every month our expert team sources extraordinary new coffees from around the world<\/p>",
             "link_label": "",
+            "link_label_2": "",
             "link": ""
           }
         },
@@ -117,6 +118,7 @@
             "title": "STEP TWO",
             "text": "<p>We will let you know about the coffee before releasing it to the public. <\/p>",
             "link_label": "",
+            "link_label_2": "",
             "link": ""
           }
         },
@@ -127,6 +129,7 @@
             "title": "STEP THREE",
             "text": "<p>You then have a two hour time window to order the coffee before everyone else.<\/p>",
             "link_label": "",
+            "link_label_2": "",
             "link": ""
           }
         }

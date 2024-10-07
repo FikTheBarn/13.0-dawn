@@ -72,10 +72,12 @@
 
       {% comment  %} Custom code added below {% endcomment %}
 
-      {% if (cart != empty and customer.country_code == "DE") and settings.show_shipping_bar %}
-      {% render "cart-drawer__shipping-tracker" %}
+      {% if settings.show_shipping_bar %}
+      {% if cart != empty and customer.country_code == "DE") %}
+          {% render "cart-drawer__shipping-tracker" %}
       {% endif %}
-      
+      {% endif %}
+
       {% comment  %} Custom code added above {% endcomment %}
 
       <cart-drawer-items

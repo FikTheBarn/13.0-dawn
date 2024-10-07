@@ -71,13 +71,13 @@
       </div>
 
       {% comment  %} Custom code added below {% endcomment %}
-  {% for country in localization.available_countries %}
+  {% if country in localization.available_countries %}
       {% if settings.show_shipping_bar %}
         {% if cart != empty %}
         {% render "cart-drawer__shipping-tracker" %}
            {% endif %}
       {% endif %}
-    {% endfor %}
+    {% endif %}
       {% comment  %} Custom code added above {% endcomment %}
 
       <cart-drawer-items

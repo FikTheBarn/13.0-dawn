@@ -71,7 +71,7 @@
       </div>
 
       {% comment  %} Custom code added below {% endcomment %}
-{% if settings.show_shipping_bar %}
+{% if settings.show_shipping_bar and request.locale.iso_code == 'de' %}
   {% render "cart-drawer__shipping-tracker" %}
 {% endif %}
       {% comment  %} Custom code added above {% endcomment %}

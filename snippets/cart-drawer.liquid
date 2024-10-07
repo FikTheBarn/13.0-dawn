@@ -71,13 +71,15 @@
       </div>
 
       {% comment  %} Custom code added below {% endcomment %}
-  {% if country in localization.available_countries %}
+  {% for country in localization.available_countries %}
+     {% if country.iso_code == "DE"%}
       {% if settings.show_shipping_bar %}
         {% if cart != empty %}
         {% render "cart-drawer__shipping-tracker" %}
            {% endif %}
       {% endif %}
-    {% endif %}
+        {% endif %}
+    {% endfor %}
       {% comment  %} Custom code added above {% endcomment %}
 
       <cart-drawer-items

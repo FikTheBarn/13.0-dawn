@@ -73,9 +73,9 @@
       {% comment  %} Custom code added below {% endcomment %}
 
       {% if settings.show_shipping_bar %}
-      {% if cart != empty and customer.country_code == "DE") %}
-          {% render "cart-drawer__shipping-tracker" %}
-      {% endif %}
+        {% if cart != empty %}
+        {% render "cart-drawer__shipping-tracker" %}
+           {% endif %}
       {% endif %}
 
       {% comment  %} Custom code added above {% endcomment %}

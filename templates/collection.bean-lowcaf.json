@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "rich_text_kd8XCe": {
@@ -6,7 +15,7 @@
         "text_gFy6XN": {
           "type": "text",
           "settings": {
-            "text": "<h6><a href=\"\/collections\/coffee-beans\" title=\"COFFEE BEANS\">Coffee Beans<\/a> &gt; {{ collection.title }}<\/h6>"
+            "text": "<h6><a href=\"/collections/coffee-beans\" title=\"COFFEE BEANS\">Coffee Beans</a> &gt; {{ collection.title }}</h6>"
           }
         }
       },
@@ -31,33 +40,33 @@
         "custom_column_Tb6VGc": {
           "type": "custom_column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Espresso_Cirle_Filter.jpg",
+            "image": "shopify://shop_images/Espresso_Cirle_Filter.jpg",
             "button_text": "ESPRESSO",
-            "button_link": "shopify:\/\/collections\/espresso-coffee"
+            "button_link": "shopify://collections/espresso-coffee"
           }
         },
         "custom_column_ER994R": {
           "type": "custom_column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Filter_Circle_Filter_6f9c1eb2-d6e4-4c21-a4ae-31275aa603e2.jpg",
+            "image": "shopify://shop_images/Filter_Circle_Filter_6f9c1eb2-d6e4-4c21-a4ae-31275aa603e2.jpg",
             "button_text": "FILTER",
-            "button_link": "shopify:\/\/collections\/filter-coffee"
+            "button_link": "shopify://collections/filter-coffee"
           }
         },
         "custom_column_YdjC3H": {
           "type": "custom_column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Coffee_Specials_Circle_Filter_e09438f6-e62e-432d-8206-6d035ed0e116.jpg",
+            "image": "shopify://shop_images/Coffee_Specials_Circle_Filter_e09438f6-e62e-432d-8206-6d035ed0e116.jpg",
             "button_text": "SPECIALS",
-            "button_link": "shopify:\/\/collections\/coffee-beans-specials"
+            "button_link": "shopify://collections/coffee-beans-specials"
           }
         },
         "custom_column_pnymBN": {
           "type": "custom_column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Low_Caf_Circle_Filter.jpg",
+            "image": "shopify://shop_images/Low_Caf_Circle_Filter.jpg",
             "button_text": "LOW CAF",
-            "button_link": "shopify:\/\/collections\/low-caf-coffee-beans"
+            "button_link": "shopify://collections/low-caf"
           }
         }
       },

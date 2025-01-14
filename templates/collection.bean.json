@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "banner": {
@@ -24,7 +24,7 @@
         "text_HaV6N4": {
           "type": "text",
           "settings": {
-            "text": "<h6><a href=\"\/collections\/shop\" title=\"SHOP\">Shop<\/a> &gt; {{ collection.title }}<\/h6>"
+            "text": "<h6><a href=\"/collections/shop\" title=\"SHOP\">Shop</a> &gt; {{ collection.title }}</h6>"
           }
         }
       },
@@ -49,7 +49,7 @@
         "text_nMpt7J": {
           "type": "text",
           "settings": {
-            "text": "<h2>CHOOSE YOUR FAVOURITE<\/h2>"
+            "text": "<h2>CHOOSE YOUR FAVOURITE</h2>"
           }
         }
       },
@@ -74,33 +74,33 @@
         "custom_column_DPWgHH": {
           "type": "custom_column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Espresso_Cirle_Filter.jpg",
+            "image": "shopify://shop_images/Espresso_Cirle_Filter.jpg",
             "button_text": "ESPRESSO",
-            "button_link": "shopify:\/\/collections\/espresso-coffee"
+            "button_link": "shopify://collections/espresso-coffee"
           }
         },
         "custom_column_C9hnJ8": {
           "type": "custom_column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Filter_Circle_Filter_6f9c1eb2-d6e4-4c21-a4ae-31275aa603e2.jpg",
+            "image": "shopify://shop_images/Filter_Circle_Filter_6f9c1eb2-d6e4-4c21-a4ae-31275aa603e2.jpg",
             "button_text": "FILTER",
-            "button_link": "shopify:\/\/collections\/filter-coffee"
+            "button_link": "shopify://collections/filter-coffee"
           }
         },
         "custom_column_NWBxrh": {
           "type": "custom_column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Coffee_Specials_Circle_Filter_e09438f6-e62e-432d-8206-6d035ed0e116.jpg",
+            "image": "shopify://shop_images/Coffee_Specials_Circle_Filter_e09438f6-e62e-432d-8206-6d035ed0e116.jpg",
             "button_text": "SPECIALS",
-            "button_link": "shopify:\/\/collections\/coffee-beans-specials"
+            "button_link": "shopify://collections/coffee-beans-specials"
           }
         },
         "custom_column_E6PAgk": {
           "type": "custom_column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/laurinacover_2.jpg",
+            "image": "shopify://shop_images/laurinacover_2.jpg",
             "button_text": "LOW CAF",
-            "button_link": "shopify:\/\/collections\/low-caf-coffee-beans"
+            "button_link": "shopify://collections/low-caf"
           }
         }
       },
@@ -151,9 +151,7 @@
     "product-grid": {
       "type": "main-collection-product-grid",
       "disabled": true,
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "products_per_page": 36,
         "columns_desktop": 3,
@@ -175,8 +173,7 @@
     },
     "custom_beans_main_seo_F3Mrt8": {
       "type": "custom-beans-main-SEO",
-      "settings": {
-      }
+      "settings": {}
     }
   },
   "order": [

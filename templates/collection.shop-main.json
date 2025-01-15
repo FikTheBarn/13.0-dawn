@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "banner": {
@@ -46,7 +46,7 @@
         "text_gFy6XN": {
           "type": "text",
           "settings": {
-            "text": "<h6><a href=\"\/\" title=\"\/\">Home<\/a> &gt; {{ collection.title }}<\/h6>"
+            "text": "<h6><a href=\"/\" title=\"/\">Home</a> &gt; {{ collection.title }}</h6>"
           }
         }
       },
@@ -77,7 +77,7 @@
         "featured_collection_NcAhax": {
           "type": "featured_collection",
           "settings": {
-            "collection": "coffee-subscription"
+            "collection": "subscription"
           }
         },
         "featured_collection_nrfW3M": {

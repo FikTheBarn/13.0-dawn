@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "rich_text_78hEgr": {
@@ -22,7 +22,7 @@
         "text_iHtY63": {
           "type": "text",
           "settings": {
-            "text": "<p>We hope you are enjoying your cup of coffee<\/p>"
+            "text": "<p>We hope you are enjoying your cup of coffee</p>"
           }
         }
       },
@@ -52,7 +52,7 @@
         "text_gR7rWg": {
           "type": "text",
           "settings": {
-            "text": "<p>EXPLORE OUR COFFEE SUBSCRIPTIONS<br\/><br\/><strong>✓ <\/strong>Price savings of &gt; 20%.<\/p><p><strong>✓ <\/strong>Pay as you go, no binding contract.<\/p><p><strong>✓ <\/strong>Freshly roasted in Berlin<\/p>",
+            "text": "<p>EXPLORE OUR COFFEE SUBSCRIPTIONS<br/><br/><strong>✓ </strong>Price savings of &gt; 20%.</p><p><strong>✓ </strong>Pay as you go, no binding contract.</p><p><strong>✓ </strong>Freshly roasted in Berlin</p>",
             "text_style": "body"
           }
         },
@@ -60,7 +60,7 @@
           "type": "button",
           "settings": {
             "button_label": "Sign up here",
-            "button_link": "shopify:\/\/collections\/coffee-subscription",
+            "button_link": "shopify://collections/subscription",
             "button_style_secondary": false
           }
         }
@@ -71,7 +71,7 @@
         "button_FVmVU6"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Subscription_portal_image.webp",
+        "image": "shopify://shop_images/Subscription_portal_image.webp",
         "height": "large",
         "desktop_image_width": "medium",
         "layout": "text_first",

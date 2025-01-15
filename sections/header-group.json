@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "name": "t:sections.header.name",
   "type": "header",
@@ -18,7 +18,7 @@
           "type": "announcement",
           "settings": {
             "text": "PRE-RELEASE ADVENT CALENDAR: EARLY BIRD ADVANTAGE UNTIL 30 SEPTEMBER! 🐤",
-            "link": "shopify:\/\/collections\/coffee-advent-calendars-2024"
+            "link": "shopify://collections/coffee-advent-calendars-2024"
           }
         },
         "announcement_tN6g6G": {
@@ -34,7 +34,7 @@
           "disabled": true,
           "settings": {
             "text": "Check out how far we have come with THE BARN FOREST 🌳",
-            "link": "shopify:\/\/blogs\/the-barn-blog\/sustainability"
+            "link": "shopify://blogs/the-barn-blog/sustainability"
           }
         }
       },
@@ -108,7 +108,7 @@
           "settings": {
             "caption": "Caption",
             "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "button_label": "Button label",
             "button_link": ""
           }
@@ -118,7 +118,7 @@
           "settings": {
             "caption": "Caption",
             "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "button_label": "Button label",
             "button_link": ""
           }
@@ -128,7 +128,7 @@
           "settings": {
             "caption": "Caption",
             "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "button_label": "Button label",
             "button_link": ""
           }
@@ -157,12 +157,12 @@
         "ul a {color: white; font-family: \"Chalet Comprime\"; font-size: 24px;}"
       ],
       "settings": {
-        "title-00-nav-stripe": "<a href=\"\/collections\/coffee-beans\" title=\"COFFEE BEANS\">COFFEE BEANS<\/a>",
-        "title-01-nav-stripe": "<a href=\"\/collections\/coffee-subscription\" title=\"SUBSCRIPTIONS\">SUBSCRIPTIONS<\/a>",
-        "title-02-nav-stripe": "<a href=\"\/collections\/shop\" title=\"SHOP\">SHOP ALL<\/a>",
-        "title-03-nav-stripe": "<a href=\"\/pages\/locations\" title=\"THE BARN Specialty Coffee Cafés\">CAFÉS<\/a>",
-        "title-04-nav-stripe": "<a href=\"\/pages\/wholesale-coffee-beans\" title=\"wholesale-coffee-beans\">WHOLESALE<\/a>",
-        "title-05-nav-stripe": "<a href=\"\/pages\/aboutus\" title=\"About Us\">ABOUT US<\/a>",
+        "title-00-nav-stripe": "<a href=\"/collections/coffee-beans\" title=\"COFFEE BEANS\">COFFEE BEANS</a>",
+        "title-01-nav-stripe": "<a href=\"/collections/coffee-subscription\" title=\"SUBSCRIPTIONS\">SUBSCRIPTIONS</a>",
+        "title-02-nav-stripe": "<a href=\"/collections/shop\" title=\"SHOP\">SHOP ALL</a>",
+        "title-03-nav-stripe": "<a href=\"/pages/locations\" title=\"THE BARN Specialty Coffee Cafés\">CAFÉS</a>",
+        "title-04-nav-stripe": "<a href=\"/pages/wholesale-coffee-beans\" title=\"wholesale-coffee-beans\">WHOLESALE</a>",
+        "title-05-nav-stripe": "<a href=\"/pages/aboutus\" title=\"About Us\">ABOUT US</a>",
         "title_image": "Talk about the image",
         "heading": "Talk about the image",
         "button_label_image": "image",
@@ -176,7 +176,7 @@
         "menu_equipment_03": "main-menu",
         "height": "adapt",
         "button_label": "Subscription Plans",
-        "button_link": "shopify:\/\/collections\/coffee-subscription",
+        "button_link": "shopify://collections/subscription",
         "logo_position": "middle-left",
         "menu": "navigation_v12",
         "menu_type_desktop": "mega",

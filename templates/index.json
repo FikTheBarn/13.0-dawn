@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "custom_slideshow_hero_UiixMb": {
@@ -16,14 +16,14 @@
           "type": "slide",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/La_Palma_El_Tucan_Special_Drop.jpg",
-            "heading": "<strong>LA PALMA & EL TUCÁN GESHA<\/strong>",
+            "image": "shopify://shop_images/La_Palma_El_Tucan_Special_Drop.jpg",
+            "heading": "<strong>LA PALMA & EL TUCÁN GESHA</strong>",
             "heading_size": "h0",
             "subheading": "The extraordinary processing used for this lot takes the refined profile of Gesha in a whole new direction.",
             "button_label": "ORDER NOW",
-            "link": "shopify:\/\/products\/la-palma-el-tucan-special-drop",
+            "link": "shopify://products/la-palma-el-tucan-special-drop",
             "button_label_2": "ONLY 100 BAGS AVAILABLE",
-            "link_2": "shopify:\/\/products\/la-palma-el-tucan-special-drop",
+            "link_2": "shopify://products/la-palma-el-tucan-special-drop",
             "button_style_secondary": true,
             "box_align": "middle-left",
             "show_text_box": true,
@@ -36,12 +36,12 @@
         "slide_9YDfQw": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/keepcupglasslargerphoto.jpg",
+            "image": "shopify://shop_images/keepcupglasslargerphoto.jpg",
             "heading": "KEEPCUP: OUR RESUABLE CHOICE",
             "heading_size": "h0",
             "subheading": "Receive yours with orders over 50 EUR",
             "button_label": "EXPLORE COFFEES",
-            "link": "shopify:\/\/collections\/coffee-beans",
+            "link": "shopify://collections/coffee-beans",
             "button_label_2": "",
             "link_2": "",
             "button_style_secondary": false,
@@ -57,12 +57,12 @@
           "type": "slide",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/Special_Drop_With_Chemex.jpg",
-            "heading": "<strong>OUR NEXT SPECIAL DROP<\/strong>",
+            "image": "shopify://shop_images/Special_Drop_With_Chemex.jpg",
+            "heading": "<strong>OUR NEXT SPECIAL DROP</strong>",
             "heading_size": "h0",
             "subheading": "Next Thursday, we will release our August Special Drop. Join the list and skip the queue.",
             "button_label": "SIGN UP HERE",
-            "link": "shopify:\/\/pages\/specialty-coffee-drop",
+            "link": "shopify://pages/specialty-coffee-drop",
             "button_label_2": "",
             "link_2": "",
             "button_style_secondary": true,
@@ -78,12 +78,12 @@
           "type": "slide",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/IMG_4105_f61f06eb-37e6-4597-9c64-dce02e771b2f.heic",
-            "heading": "<strong>COMANDANTE BARACUDA GIVEAWAY<\/strong>",
+            "image": "shopify://shop_images/IMG_4105_f61f06eb-37e6-4597-9c64-dce02e771b2f.heic",
+            "heading": "<strong>COMANDANTE BARACUDA GIVEAWAY</strong>",
             "heading_size": "h0",
             "subheading": "Subscribe to our coffee in June and you could win a premium coffee grinder - worth 600€!",
             "button_label": "SUBSCRIBE NOW",
-            "link": "shopify:\/\/products\/comandante-baracuda-giveaway",
+            "link": "shopify://products/comandante-baracuda-giveaway",
             "button_label_2": "",
             "link_2": "",
             "button_style_secondary": false,
@@ -130,7 +130,7 @@
         "text_MnEe66": {
           "type": "text",
           "settings": {
-            "text": "<p>Roasters Choice - Rare Masterpieces -  Espresso of the Month<br\/>Find your favourite and enjoy our Perks.<\/p>",
+            "text": "<p>Roasters Choice - Rare Masterpieces -  Espresso of the Month<br/>Find your favourite and enjoy our Perks.</p>",
             "text_style": "body"
           }
         },
@@ -138,7 +138,7 @@
           "type": "button",
           "settings": {
             "button_label": " Sign up here",
-            "button_link": "shopify:\/\/collections\/coffee-subscription",
+            "button_link": "shopify://collections/subscription",
             "button_style_secondary": false
           }
         }
@@ -153,7 +153,7 @@
         "fullwidth_layout": "full_bleed",
         "title": "",
         "heading_size": "h2",
-        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/4358da4eb527464ea18593a3def92216.mp4",
+        "video_url": "https://cdn.shopify.com/videos/c/o/v/4358da4eb527464ea18593a3def92216.mp4",
         "video_image_url": "",
         "autoplay": true,
         "show_controls": true,
@@ -200,7 +200,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "PRE-ORDER NOW",
-            "button_link_1": "shopify:\/\/collections\/coffee-advent-calendars-2024",
+            "button_link_1": "shopify://collections/coffee-advent-calendars-2024",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -220,7 +220,7 @@
         "@media screen and (max-width: 481px) {h2 {color: whitesmoke; font-size: 12vw; }}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/DSCF0074_2_with_ribbon_on_the_box.jpg",
+        "image": "shopify://shop_images/DSCF0074_2_with_ribbon_on_the_box.jpg",
         "image_overlay_opacity": 40,
         "image_height": "large",
         "desktop_content_position": "middle-center",
@@ -243,7 +243,7 @@
       "settings": {
         "title": "LATEST RELEASES",
         "heading_size": "h1",
-        "description": "<p>Savor the new flavors: freshly roasted<\/p>",
+        "description": "<p>Savor the new flavors: freshly roasted</p>",
         "show_description": false,
         "description_style": "body",
         "collection": "new-releases",
@@ -279,7 +279,7 @@
         "text_LRNGrf": {
           "type": "text",
           "settings": {
-            "text": "<p>A unique flavour experience, every month.<\/p>",
+            "text": "<p>A unique flavour experience, every month.</p>",
             "text_style": "body"
           }
         },
@@ -287,7 +287,7 @@
           "type": "button",
           "settings": {
             "button_label": "EXPLORE SUBSCRIPTIONS",
-            "button_link": "shopify:\/\/pages\/subscriptions-intro",
+            "button_link": "shopify://pages/subscriptions-intro",
             "button_style_secondary": false
           }
         }
@@ -303,7 +303,7 @@
         "@media screen and (max-width: 481px) {h2 {font-size: 42px; }}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/DSC_5377.jpg",
+        "image": "shopify://shop_images/DSC_5377.jpg",
         "height": "large",
         "desktop_image_width": "medium",
         "layout": "text_first",
@@ -330,7 +330,7 @@
         "featured_collection_pdqiKP": {
           "type": "featured_collection",
           "settings": {
-            "collection": "coffee-subscription"
+            "collection": "subscription"
           }
         },
         "featured_collection_AVyPQP": {
@@ -403,15 +403,13 @@
       "block_order": [
         "heading_LBqK3V"
       ],
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "heading": "ABOUT US",
         "heading_size": "h1",
         "enable_video_looping": false,
-        "video": "shopify:\/\/files\/videos\/THE BARN Coffee Roasters Berlin - About Us.mov",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "video": "shopify://files/videos/THE BARN Coffee Roasters Berlin - About Us.mov",
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "description": "",
         "full_width": false,
         "color_scheme": "",
@@ -449,8 +447,8 @@
         "heading": "THE BARN FOREST 🌳",
         "heading_size": "h1",
         "enable_video_looping": false,
-        "video_url": "https:\/\/youtu.be\/6coSum3lUNc",
-        "cover_image": "shopify:\/\/shop_images\/THE_BARN_FOREST_Photo3_Feb23.png",
+        "video_url": "https://youtu.be/6coSum3lUNc",
+        "cover_image": "shopify://shop_images/THE_BARN_FOREST_Photo3_Feb23.png",
         "description": "",
         "full_width": false,
         "color_scheme": "",

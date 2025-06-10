@@ -1514,5 +1514,73 @@
         "default": "#0546e0"
       }
     ]
+  },
+  {
+    "name": "Discount Badge",
+    "settings": [
+       {
+        "type": "inline_richtext",
+        "id": "aftertext",
+        "default": "Custom Sale Badge",
+        "label": "After Text"
+      },
+      {
+        "type": "color",
+        "id": "aftertextbackgroundcolor",
+        "default": "#000",
+        "label": "Badge Background Color"
+      },
+      {
+        "type": "color",
+        "id": "aftertextcolor",
+        "default": "#fff",
+        "label": "Badge Text Color"
+      },
+      {
+        "type": "range",
+        "id": "font_size_badge",
+        "min": 12,
+        "max": 24,
+        "step": 1,
+        "unit": "px",
+        "label": "Font size",
+        "default": 16
+      },
+      {
+        "type": "range",
+        "id": "badge_border_radius",
+        "min": 0,
+        "max": 50,
+        "step": 2,
+        "unit": "px",
+        "label": "Border Radius",
+        "default": 0
+      },
+      {
+        "type": "checkbox",
+        "id": "badge_animation",
+        "label": "Enable Animation"
+      },
+      {
+        "type": "range",
+        "id": "badge_padding_top",
+        "min": 8,
+        "max": 30,
+        "step": 2,
+        "unit": "px",
+        "label": "Padding Top",
+        "default": 8
+      },
+      {
+        "type": "range",
+        "id": "badge_padding_bottom",
+        "min": 8,
+        "max": 30,
+        "step": 2,
+        "unit": "px",
+        "label": "Padding Bottom",
+        "default": 8
+      }
+    ]
   }
 ]

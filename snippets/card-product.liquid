@@ -166,11 +166,25 @@
                 {{- 'products.product.sold_out' | t -}}
               </span>
             {%- elsif card_product.compare_at_price > card_product.price and card_product.available -%}
+              {% comment  %}  
               <span
                 id="NoMediaStandardBadge-{{ section_id }}-{{ card_product.id }}"
                 class="badge badge--bottom-left color-{{ settings.sale_badge_color_scheme }}"
               >
                 {{- 'products.product.on_sale' | t -}}
+              </span>
+              {% endcomment %}
+              {%- assign difference = card_product.compare_at_price | minus: card_product.price -%}
+              {%- assign float_difference = difference | times: 1.0 -%}
+              {%- assign discount_fraction = float_difference | divided_by: card_product.compare_at_price -%}
+              {%- assign discount_percentage = discount_fraction | times: 100 | round -%}
+
+              <span
+                id="NoMediaStandardBadge-{{ section_id }}-{{ card_product.id }}"
+                class="badge badge--bottom-left color-{{ settings.sale_badge_color_scheme }}"
+              >
+                {{- discount_percentage }}%
+                {{ settings.aftertext }}
               </span>
             {%- endif -%}
             {% comment %} Custome Code here for New-Release Sticker {% endcomment %}

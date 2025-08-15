@@ -520,6 +520,124 @@
                   });
                   </script>
                   {% endif %}
+            {% when 'add_product' %}
+{% if product.metafields.custom.additional_product.value %}
+  <div><h3>{{ block.settings.heading_txt }}</h3></div>
+
+  {% for additional_pro in product.metafields.custom.additional_product.value %}
+    {% assign add_gid = additional_pro.ref_product %}
+    {% assign gid_ref_product = all_products[add_gid] %}
+
+    <div class="main_cart">
+      <div class="parent_cart">
+        {% if gid_ref_product.featured_image %}
+          <div class="ref_image">
+            <img
+              width="50"
+              height="auto"
+              src="{{ gid_ref_product.featured_image | image_url: width: 246 }}"
+              alt="{{ gid_ref_product.title | escape }}"
+            />
+          </div>
+        {% endif %}
+
+        <div class="ref_name">
+          <strong>
+            <p>{{ gid_ref_product.title }}</p>
+
+            {# --- PRICE BLOCK REMOVED ON PURPOSE --- #}
+
+            {%- comment -%}
+              Radios replace the old <select>. One radio per variant.
+              All radios in this product share the same name so only ONE
+              can be selected for this product.
+            {%- endcomment -%}
+
+            {% if gid_ref_product.variants.size > 1 %}
+              <div class="addon-variant-list">
+                {% for product_variant in gid_ref_product.variants %}
+                  <label class="addon-radio {% unless product_variant.available %}is-disabled{% endunless %}">
+                    <input
+                      type="radio"
+                      class="_addon_radio addon-input"
+                      name="pick_{{ gid_ref_product.handle }}"
+                      value="{{ product_variant.id }}"
+                      {% unless product_variant.available %}disabled{% endunless %}>
+                    <span class="addon-title">{{ product_variant.title }}</span>
+                  </label>
+                {% endfor %}
+              </div>
+            {% else %}
+              {# Single-variant product: show a single radio instead of hidden checkbox #}
+              <div class="addon-variant-list">
+                <label class="addon-radio {% unless gid_ref_product.variants.first.available %}is-disabled{% endunless %}">
+                  <input
+                    type="radio"
+                    class="_addon_radio addon-input"
+                    name="pick_{{ gid_ref_product.handle }}"
+                    value="{{ gid_ref_product.variants.first.id }}"
+                    {% unless gid_ref_product.variants.first.available %}disabled{% endunless %}>
+                  <span class="addon-title">{{ gid_ref_product.variants.first.title }}</span>
+                </label>
+              </div>
+            {% endif %}
+          </strong>
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+
+  <script>
+    // Requires jQuery (you already load it)
+    $(function () {
+      // When the main product Add to cart is clicked, also add the picked add-ons
+      $('.product-form__submit').on('click', function () {
+        // Collect selected radios from all add-on groups
+        var picked = $('input._addon_radio:checked').map(function () {
+          return this.value;
+        }).get();
+
+        if (!picked.length) return; // nothing chosen; let normal add-to-cart proceed
+
+        // Add chosen add-ons (no redirect; let your theme open the drawer)
+        $.ajax({
+          type: 'POST',
+          url: '/cart/add.js',
+          data: JSON.stringify({ items: picked.map(id => ({ id: id, quantity: 1 })) }),
+          contentType: 'application/json',
+          dataType: 'json',
+          success: function () {
+            // tell the theme to refresh/open the drawer (Prestige listens to this)
+            document.documentElement.dispatchEvent(
+              new CustomEvent('cart:refresh', { bubbles: true })
+            );
+          },
+          error: function (xhr) {
+            alert((xhr.responseJSON && xhr.responseJSON.message) || 'Could not add add-ons.');
+          }
+        });
+      });
+
+      // No price-change handler needed anymore (prices are hidden)
+    });
+  </script>
+
+  <style>
+    .main_cart { width:auto; display:flex; justify-content:center; max-width:100%;
+      border-radius:8px; border:1px solid; }
+    .parent_cart { padding:5px 0 5px 7px; display:flex; align-items:center; min-width:100%; border-radius:8px; }
+    .ref_image { display:flex; }
+    .ref_image img { border-radius:4px; width:55px; }
+    .ref_name { width:100%; }
+    .ref_name p { font-size:13px; margin:0; -webkit-line-clamp:2; -webkit-box-orient:vertical; display:-webkit-box; overflow:hidden; }
+    .addon-variant-list { display:flex; flex-direction:column; gap:.25rem; margin-top:.25rem; }
+    .addon-radio { display:flex; align-items:center; gap:.5rem; padding:.5rem; border:1px solid #eee; border-radius:6px; cursor:pointer; }
+    .addon-radio.is-disabled { opacity:.5; cursor:not-allowed; }
+    .addon-radio input[type="radio"] { width:18px; height:18px; }
+    .addon-radio:has(input:checked) { border-color:#333; background:#fafafa; }
+    /* Removed .price-block styles since price UI is gone */
+  </style>
+{% endif %}
                    {% when 'add_product' %} 
     {% if product.metafields.custom.additional_product.value %}
     <div>

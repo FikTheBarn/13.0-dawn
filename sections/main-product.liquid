@@ -1061,6 +1061,25 @@ function addItemToCart(variant_id, qty, frequency, unit_type) {
   </div>
 </section>
 
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  // for each group of checkboxes, only allow one to be checked at a time
+  document.querySelectorAll('.parent_cart').forEach(function(group) {
+    const checkboxes = group.querySelectorAll('input[type="checkbox"]');
+
+    checkboxes.forEach(function(checkbox) {
+      checkbox.addEventListener('change', function() {
+        if (this.checked) {
+          checkboxes.forEach(cb => {
+            if (cb !== this) cb.checked = false;
+          });
+        }
+      });
+    });
+  });
+});
+</script>
+
 <script id="variant-metafield-data" type="application/json">
   {
   {% for variant in product.variants %} 

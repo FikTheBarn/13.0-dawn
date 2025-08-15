@@ -573,20 +573,7 @@
 
             
             {% if gid_ref_product.variants.size>1 %}
-           <div class="addon-variant-list">
-  {% for variant in gid_ref_product.variants %}
-    <label class="addon-radio">
-      <input type="radio"
-             class="_addon_radio"
-             name="pick_{{ gid_ref_product.handle }}"
-             value="{{ variant.id }}"
-             {% if forloop.first %}checked{% endif %}
-             {% unless variant.available %}disabled{% endunless %}>
-      <span class="addon-title">{{ variant.title }}</span>
-      {%- comment -%} Remove price here — just title shown {%- endcomment -%}
-    </label>
-  {% endfor %}
-</div>
+   
             {% endif %}
           </strong>
         </div>

@@ -573,20 +573,20 @@
 
             
             {% if gid_ref_product.variants.size>1 %}
-            <select id="_input_selectBox" class="_input_selectBox">
-              <option name="pro_id" value="-1">Select Option</option>
-
-              {% for product_varaint in gid_ref_product.variants %}
-              <option
-                price_data="{{ product_varaint.price | money}}"
-                name="pro_id"
-                value="{{ product_varaint.id }}"
-              >
-                {{ product_varaint.title }}
-              </option>
-
-              {% endfor %}
-            </select>
+           <div class="addon-variant-list">
+  {% for variant in gid_ref_product.variants %}
+    <label class="addon-radio">
+      <input type="radio"
+             class="_addon_radio"
+             name="pick_{{ gid_ref_product.handle }}"
+             value="{{ variant.id }}"
+             {% if forloop.first %}checked{% endif %}
+             {% unless variant.available %}disabled{% endunless %}>
+      <span class="addon-title">{{ variant.title }}</span>
+      {%- comment -%} Remove price here — just title shown {%- endcomment -%}
+    </label>
+  {% endfor %}
+</div>
             {% endif %}
           </strong>
         </div>

@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -23,13 +23,12 @@
         "custom_liquid_3wcTbw": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "{% if product.metafields.next.Masterpiece == blank %}\n<script>\ndocument.addEventListener('DOMContentLoaded', function() {\n  const accordionTitles = document.querySelectorAll('.accordion__title');\n\n  accordionTitles.forEach(title => {\n    if (title.textContent.includes('Your next Masterpieces')) {\n      const parentAccordion = title.closest('.product__accordion'); \/\/ Correct class name\n\n      if (parentAccordion) {\n        parentAccordion.remove();\n      }\n    }\n  });\n});\n<\/script>\n{% endif %}"
+            "custom_liquid": "{% if product.metafields.next.Masterpiece == blank %}\n<script>\ndocument.addEventListener('DOMContentLoaded', function() {\n  const accordionTitles = document.querySelectorAll('.accordion__title');\n\n  accordionTitles.forEach(title => {\n    if (title.textContent.includes('Your next Masterpieces')) {\n      const parentAccordion = title.closest('.product__accordion'); // Correct class name\n\n      if (parentAccordion) {\n        parentAccordion.remove();\n      }\n    }\n  });\n});\n</script>\n{% endif %}"
           }
         },
         "title": {
           "type": "title",
-          "settings": {
-          }
+          "settings": {}
         },
         "caption": {
           "type": "text",
@@ -40,13 +39,18 @@
         },
         "price": {
           "type": "price",
-          "settings": {
-          }
+          "settings": {}
         },
         "combined_listings_aiRMEj": {
           "type": "combined_listings",
           "settings": {
             "combined_listing_text": "Duration"
+          }
+        },
+        "add_product_VGV4We": {
+          "type": "add_product",
+          "settings": {
+            "heading_txt": ""
           }
         },
         "variant_picker": {
@@ -79,15 +83,14 @@
         },
         "description": {
           "type": "description",
-          "settings": {
-          }
+          "settings": {}
         },
         "collapsible_tab_eq6tJC": {
           "type": "collapsible_tab",
           "settings": {
             "heading": "Your next Masterpieces",
             "icon": "cup",
-            "content": "<p>{{ product.metafields.next.Masterpiece | metafield_tag }}<\/p>",
+            "content": "<p>{{ product.metafields.next.Masterpiece | metafield_tag }}</p>",
             "page": ""
           }
         },
@@ -96,7 +99,7 @@
           "settings": {
             "heading": "Stay in Control",
             "icon": "stopwatch",
-            "content": "<p>{{ product.metafields.Subscription.Infomation | metafield_tag }}<\/p>",
+            "content": "<p>{{ product.metafields.Subscription.Infomation | metafield_tag }}</p>",
             "page": ""
           }
         },
@@ -105,7 +108,7 @@
           "settings": {
             "heading": "Shipping Information",
             "icon": "truck",
-            "content": "<p>{{ product.metafields.Subscription.Shipping_Information | metafield_tag }}<\/p>",
+            "content": "<p>{{ product.metafields.Subscription.Shipping_Information | metafield_tag }}</p>",
             "page": ""
           }
         },
@@ -123,6 +126,7 @@
         "caption",
         "price",
         "combined_listings_aiRMEj",
+        "add_product_VGV4We",
         "variant_picker",
         "complementary_FG8RKq",
         "buy_buttons",
@@ -166,7 +170,7 @@
         "image-with-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "text_style": "body"
           }
         }
@@ -198,8 +202,9 @@
           "type": "column",
           "settings": {
             "title": "Free Shipping",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_label": "",
+            "link_label_2": "",
             "link": ""
           }
         },
@@ -207,8 +212,9 @@
           "type": "column",
           "settings": {
             "title": "Hassle-Free Exchanges",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_label": "",
+            "link_label_2": "",
             "link": ""
           }
         }

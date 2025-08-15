@@ -594,73 +594,84 @@
       </div>
     </div>
     {% endfor %}
-    <script>
-      $(document).ready(function () {
-        $(".product-form__submit").on("click", function () {
-          var yourArray = $("._input_selectBox option:selected")
-            .map(function () {
-              if (this.value != -1) {
-                return this.value;
-              }
-            })
-            .toArray();
-          $("._hid_checkbox:checkbox:checked").each(function(){
-              yourArray.push($(this).val());
-          });
-         if (yourArray.length !== 0) {
-            
-            setTimeout(function () {
-              addItemToCart(yourArray);
-            }, 500);
-          }
-        });
+<script>
+$(document).ready(function () {
 
-        $("._input_selectBox").change(function () {
-          var _price_cr = $(this).find(":selected").attr("price_data");
-          var spanElement = $(this)
-            .closest(".parent_cart")
-            .find("._price_data");
-          spanElement.text(_price_cr);
-        });
-      });
-
-      function addItemToCart(variant_id, qty, frequency, unit_type) {
-        setTimeout(function () {
-          var data = []
-          variant_id.forEach(function(v){
-            var temp = {id:v,quantity:1}
-            data.push(temp)
-              console.log(v);
-          })
-          const newData = {
-            items : [...data]
-          }
-
-          jQuery.ajax({
-            type: "POST",
-            url: "/cart/add.js",
-            data: newData,
-            dataType: "json",
-            success: function () {
-              window.location = "/cart"
-              document.documentElement.dispatchEvent(
-                new CustomEvent("cart:refresh", {
-                  bubbles: true, //this code is for prestige theme, is to refresh the cart
-                })
-              );
-            },
-            error: function (textStatus, errorThrown) {
-              alert(textStatus.responseJSON.message)
-            }
-          });
-          document.documentElement.dispatchEvent(
-            new CustomEvent("cart:refresh", {
-              bubbles: true, // same code for prestige theme
-            })
-          );
-        }, 1000);
+  // --- Limit checkboxes to one per .parent_cart group ---
+  $('.parent_cart').each(function () {
+    const $checkboxes = $(this).find('input[type="checkbox"]');
+    $checkboxes.on('change', function () {
+      if (this.checked) {
+        $checkboxes.not(this).prop('checked', false);
       }
-    </script>
+    });
+  });
+
+  // --- Your existing add-to-cart logic ---
+  $(".product-form__submit").on("click", function () {
+    var yourArray = $("._input_selectBox option:selected")
+      .map(function () {
+        if (this.value != -1) {
+          return this.value;
+        }
+      })
+      .toArray();
+
+    $("._hid_checkbox:checkbox:checked").each(function(){
+      yourArray.push($(this).val());
+    });
+
+    if (yourArray.length !== 0) {
+      setTimeout(function () {
+        addItemToCart(yourArray);
+      }, 500);
+    }
+  });
+
+  $("._input_selectBox").change(function () {
+    var _price_cr = $(this).find(":selected").attr("price_data");
+    var spanElement = $(this)
+      .closest(".parent_cart")
+      .find("._price_data");
+    spanElement.text(_price_cr);
+  });
+
+}); // end document.ready
+
+function addItemToCart(variant_id, qty, frequency, unit_type) {
+  setTimeout(function () {
+    var data = [];
+    variant_id.forEach(function(v){
+      var temp = {id:v, quantity:1};
+      data.push(temp);
+      console.log(v);
+    });
+
+    const newData = { items: data };
+
+    jQuery.ajax({
+      type: "POST",
+      url: "/cart/add.js",
+      data: newData,
+      dataType: "json",
+      success: function () {
+        // remove redirect if you only want the drawer
+        // window.location = "/cart";
+        document.documentElement.dispatchEvent(
+          new CustomEvent("cart:refresh", { bubbles: true })
+        );
+      },
+      error: function (xhr) {
+        alert(xhr.responseJSON.message);
+      }
+    });
+
+    document.documentElement.dispatchEvent(
+      new CustomEvent("cart:refresh", { bubbles: true })
+    );
+  }, 1000);
+}
+</script>
 
     <style>
       .main_cart {

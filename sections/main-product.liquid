@@ -573,7 +573,20 @@
 
             
             {% if gid_ref_product.variants.size>1 %}
-      
+            <select id="_input_selectBox" class="_input_selectBox">
+              <option name="pro_id" value="-1">Select Option</option>
+
+              {% for product_varaint in gid_ref_product.variants %}
+              <option
+                price_data="{{ product_varaint.price | money}}"
+                name="pro_id"
+                value="{{ product_varaint.id }}"
+              >
+                {{ product_varaint.title }}
+              </option>
+
+              {% endfor %}
+            </select>
             {% endif %}
           </strong>
         </div>
@@ -1215,18 +1228,6 @@
         }
       ]
     },
-    {
-	"type": "add_product",
-	"name": "Additional Product",
-	"settings": [
-		{
-			"type": "text",
-			"id": "heading_txt",
-			"label": "Heading "
-		}
-	]
-},
-
     {
       "type": "buy_buttons",
       "name": "t:sections.main-product.blocks.buy_buttons.name",

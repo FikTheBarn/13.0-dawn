@@ -41,16 +41,16 @@
           "type": "price",
           "settings": {}
         },
+        "add_product_BwCMWC": {
+          "type": "add_product",
+          "settings": {
+            "heading_txt": ""
+          }
+        },
         "combined_listings_aiRMEj": {
           "type": "combined_listings",
           "settings": {
             "combined_listing_text": "Duration"
-          }
-        },
-        "add_product_VGV4We": {
-          "type": "add_product",
-          "settings": {
-            "heading_txt": ""
           }
         },
         "variant_picker": {
@@ -125,8 +125,8 @@
         "title",
         "caption",
         "price",
+        "add_product_BwCMWC",
         "combined_listings_aiRMEj",
-        "add_product_VGV4We",
         "variant_picker",
         "complementary_FG8RKq",
         "buy_buttons",
